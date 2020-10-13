@@ -1,0 +1,116 @@
+{
+  "data": {
+    "question": {
+      "questionId": "100168",
+      "questionFrontendId": "面试题 02.08",
+      "boundTopicId": 45974,
+      "title": "Linked List Cycle LCCI",
+      "titleSlug": "linked-list-cycle-lcci",
+      "content": "<p>Given a circular linked list, implement an algorithm that returns the node at the beginning of the loop.</p>\r\n\r\n<p>Circular linked list: A (corrupt) linked list in which a node&#39;s next pointer points to an earlier node, so as to make a loop in the linked list.</p>\r\n\r\n<p><strong>Example 1: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>head = [3,2,0,-4], pos = 1\r\n<strong>Output: </strong>tail connects to node index 1</pre>\r\n\r\n<p><strong>Example 2: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>head = [1,2], pos = 0\r\n<strong>Output: </strong>tail connects to node index 0</pre>\r\n\r\n<p><strong>Example 3: </strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>head = [1], pos = -1\r\n<strong>Output: </strong>no cycle</pre>\r\n\r\n<p><strong>Follow Up: </strong><br />\r\nCan you solve it without using additional space?</p>\r\n",
+      "translatedTitle": "环路检测",
+      "translatedContent": "<p>给定一个链表，如果它是有环链表，实现一个算法返回环路的开头节点。<br>\n有环链表的定义：在链表中某个节点的next元素指向在它前面出现过的节点，则表明该链表存在环路。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>head = [3,2,0,-4], pos = 1\n<strong>输出：</strong>tail connects to node index 1\n<strong>解释：</strong>链表中有一个环，其尾部连接到第二个节点。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入：</strong>head = [1,2], pos = 0\n<strong>输出：</strong>tail connects to node index 0\n<strong>解释：</strong>链表中有一个环，其尾部连接到第一个节点。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 3：</strong></p>\n\n<pre><strong>输入：</strong>head = [1], pos = -1\n<strong>输出：</strong>no cycle\n<strong>解释：</strong>链表中没有环。</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>进阶：</strong><br>\n你是否可以不用额外空间解决此题？</p>\n\n<p>&nbsp;</p>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 40,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": true, \"java\": true, \"python\": true, \"python3\": true, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Linked List",
+          "slug": "linked-list",
+          "translatedName": "链表",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "/**\r\n * Definition for singly-linked list.\r\n * struct ListNode {\r\n *     int val;\r\n *     ListNode *next;\r\n *     ListNode(int x) : val(x), next(NULL) {}\r\n * };\r\n */\r\nclass Solution {\r\npublic:\r\n    ListNode *detectCycle(ListNode *head) {\r\n        \r\n    }\r\n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "/**\r\n * Definition for singly-linked list.\r\n * class ListNode {\r\n *     int val;\r\n *     ListNode next;\r\n *     ListNode(int x) {\r\n *         val = x;\r\n *         next = null;\r\n *     }\r\n * }\r\n */\r\npublic class Solution {\r\n    public ListNode detectCycle(ListNode head) {\r\n        \r\n    }\r\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "# Definition for singly-linked list.\r\n# class ListNode(object):\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution(object):\r\n    def detectCycle(self, head):\r\n        \"\"\"\r\n        :type head: ListNode\r\n        :rtype: ListNode\r\n        \"\"\"\r\n        ",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "# Definition for singly-linked list.\r\n# class ListNode:\r\n#     def __init__(self, x):\r\n#         self.val = x\r\n#         self.next = None\r\n\r\nclass Solution:\r\n    def detectCycle(self, head: ListNode) -> ListNode:\r\n        ",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C",
+          "langSlug": "c",
+          "code": "/**\r\n * Definition for singly-linked list.\r\n * struct ListNode {\r\n *     int val;\r\n *     struct ListNode *next;\r\n * };\r\n */\r\nstruct ListNode *detectCycle(struct ListNode *head) {\r\n    \r\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "/**\r\n * Definition for singly-linked list.\r\n * public class ListNode {\r\n *     public int val;\r\n *     public ListNode next;\r\n *     public ListNode(int x) {\r\n *         val = x;\r\n *         next = null;\r\n *     }\r\n * }\r\n */\r\npublic class Solution {\r\n    public ListNode DetectCycle(ListNode head) {\r\n        \r\n    }\r\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "/**\r\n * Definition for singly-linked list.\r\n * function ListNode(val) {\r\n *     this.val = val;\r\n *     this.next = null;\r\n * }\r\n */\r\n\r\n/**\r\n * @param {ListNode} head\r\n * @return {ListNode}\r\n */\r\nvar detectCycle = function(head) {\r\n    \r\n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Go",
+          "langSlug": "golang",
+          "code": "/**\r\n * Definition for singly-linked list.\r\n * type ListNode struct {\r\n *     Val int\r\n *     Next *ListNode\r\n * }\r\n */\r\nfunc detectCycle(head *ListNode) *ListNode {\r\n    \r\n}",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"11.8K\", \"totalSubmission\": \"23.5K\", \"totalAcceptedRaw\": 11847, \"totalSubmissionRaw\": 23540, \"acRate\": \"50.3%\"}",
+      "hints": [
+        "这个问题实际上可以分为两个部分。首先，检测链表是否有循环。第二，找出循环开始的位置。",
+        "要确定是否有一个循环，请尝试“快行指针”方法。让一个指针比另一个指针快。",
+        "你可以使用两个指针，一个指针移动速度是另一个指针的两倍。如果有环，两个指针会碰撞。它们将同时降落在同一地点。它们在哪里相遇？为什么呢？",
+        "如果你还没有确定两个指针的起始位置，请尝试使用链表1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> ?，其中 ? 链接到另一个节点。试着让 ? 成为第一个节点（即9指向1，使得整个链表是一个循环）。然后让 ? 成为节点2，然后成为节点3，然后成为节点4。这一模式是什么？你能解释一下为什么会这样吗？"
+      ],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[3,2,0,-4]\n1",
+      "metaData": "{\r\n  \"name\": \"detectCycle\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\"\r\n    },\r\n    {\r\n      \"name\": \"pos\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\"\r\n  },\r\n  \"languages\": [\r\n    \"cpp\",\r\n    \"java\",\r\n    \"python\",\r\n    \"c\",\r\n    \"csharp\",\r\n    \"javascript\",\r\n    \"golang\",\r\n    \"python3\"\r\n  ],\r\n  \"manual\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"c\":[\"C\",\"<p>\\u7248\\u672c\\uff1a<code>GCC 8.2<\\/code>\\uff0c\\u91c7\\u7528GNU99\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002 <a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a>\\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u5982\\u60f3\\u4f7f\\u7528\\u54c8\\u5e0c\\u8868\\u8fd0\\u7b97, \\u60a8\\u53ef\\u4ee5\\u4f7f\\u7528 <a href=\\\"https:\\/\\/troydhanson.github.io\\/uthash\\/\\\" target=\\\"_blank\\\">uthash<\\/a>\\u3002 \\\"uthash.h\\\"\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5bfc\\u5165\\u3002\\u8bf7\\u770b\\u5982\\u4e0b\\u793a\\u4f8b:<\\/p>\\r\\n\\r\\n<p><b>1. \\u5f80\\u54c8\\u5e0c\\u8868\\u4e2d\\u6dfb\\u52a0\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            \\/* we'll use this field as the key *\\/\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; \\/* makes this structure hashable *\\/\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>2. \\u5728\\u54c8\\u5e0c\\u8868\\u4e2d\\u67e5\\u627e\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>3. \\u4ece\\u54c8\\u5e0c\\u8868\\u4e2d\\u5220\\u9664\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"golang\":[\"Go\",\"<p>\\u7248\\u672c\\uff1a<code>Go 1.15<\\/code><\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"]}",
+      "book": {
+        "id": "2",
+        "bookName": "《程序员面试金典（第 6 版）》",
+        "pressName": "图灵公司",
+        "source": "《程序员面试金典（第 6 版）》独家授权",
+        "shortDescription": "英文版：Cracking the Coding Interview，源自硅谷程序员的面试红宝书",
+        "fullDescription": "本书是原谷歌资深面试官的经验之作，帮助了许多想要加入脸书、苹果、谷歌等 IT 名企的求职者拿到 Dream offer。本专题的 100+ 编程面试题是在原书基础上精心挑选出来的，帮助你轻松应战 IT 名企技术面试。",
+        "bookImgUrl": "https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/09/30/book_2.jpg",
+        "pressImgUrl": "https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/02/11/logo20190828-02.png",
+        "productUrl": "",
+        "__typename": "CategoryInfoNode"
+      },
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

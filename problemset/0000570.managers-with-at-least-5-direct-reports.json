@@ -1,0 +1,58 @@
+{
+  "data": {
+    "question": {
+      "questionId": "570",
+      "questionFrontendId": "570",
+      "boundTopicId": 2652,
+      "title": "Managers with at Least 5 Direct Reports",
+      "titleSlug": "managers-with-at-least-5-direct-reports",
+      "content": null,
+      "translatedTitle": "至少有5名直接下属的经理",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Medium",
+      "likes": 12,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"7.6K\", \"totalAcceptedRaw\": 5125, \"totalSubmissionRaw\": 7559, \"acRate\": \"67.8%\"}",
+      "hints": [
+        "Try to get all the mangerIDs that have count bigger than 5",
+        "Use the last hint's result as a table and do join with origin table at id equals to managerId",
+        "This is a very good example to show the performance of SQL code. Try to work out other solutions and you may be surprised by running time difference.",
+        "If your solution uses 'IN' function and runs more than 5 seconds, try to optimize it by using 'JOIN' instead."
+      ],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Employee\": [\"Id\", \"Name\", \"Department\", \"ManagerId\"]}, \"rows\": {\"Employee\": [[101, \"John\", \"A\", null],[102, \"Dan\", \"A\", 101], [103, \"James\", \"A\", 101], [104, \"Amy\", \"A\", 101], [105, \"Anne\", \"A\", 101], [106, \"Ron\", \"B\", 101]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists Employee (Id int, Name varchar(255), Department varchar(255), ManagerId int)\"\r\n  ],\r\n  \"mssql\": [\r\n    \"Create table Employee (Id int, Name varchar(255), Department varchar(255), ManagerId int)\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"Create table Employee (Id int, Name varchar(255), Department varchar(255), ManagerId int)\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Employee (Id int, Name varchar(255), Department varchar(255), ManagerId int)",
+        "Truncate table Employee",
+        "insert into Employee (Id, Name, Department, ManagerId) values ('101', 'John', 'A', 'None')",
+        "insert into Employee (Id, Name, Department, ManagerId) values ('102', 'Dan', 'A', '101')",
+        "insert into Employee (Id, Name, Department, ManagerId) values ('103', 'James', 'A', '101')",
+        "insert into Employee (Id, Name, Department, ManagerId) values ('104', 'Amy', 'A', '101')",
+        "insert into Employee (Id, Name, Department, ManagerId) values ('105', 'Anne', 'A', '101')",
+        "insert into Employee (Id, Name, Department, ManagerId) values ('106', 'Ron', 'B', '101')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

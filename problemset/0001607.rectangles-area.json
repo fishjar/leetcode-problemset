@@ -1,0 +1,50 @@
+{
+  "data": {
+    "question": {
+      "questionId": "1607",
+      "questionFrontendId": "1459",
+      "boundTopicId": 266481,
+      "title": "Rectangles Area",
+      "titleSlug": "rectangles-area",
+      "content": null,
+      "translatedTitle": "矩形面积",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Medium",
+      "likes": 2,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"700\", \"totalSubmission\": \"1.3K\", \"totalAcceptedRaw\": 700, \"totalSubmissionRaw\": 1251, \"acRate\": \"56.0%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"Points\":[\"id\",\"x_value\",\"y_value\"]},\"rows\":{\"Points\":[[1,2,8],[2,4,7],[3,2,10]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists Points (id int, x_value int, y_value int)\"\n  ],\n  \"mssql\": [\n    \"Create table Points (id int, x_value int, y_value int)\"\n  ],\n  \"oraclesql\": [\n    \"Create table Points (id int, x_value int, y_value int)\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Points (id int, x_value int, y_value int)",
+        "Truncate table Points",
+        "insert into Points (id, x_value, y_value) values ('1', '2', '8')",
+        "insert into Points (id, x_value, y_value) values ('2', '4', '7')",
+        "insert into Points (id, x_value, y_value) values ('3', '2', '10')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

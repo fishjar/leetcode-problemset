@@ -1,0 +1,75 @@
+{
+  "data": {
+    "question": {
+      "questionId": "596",
+      "questionFrontendId": "596",
+      "boundTopicId": 1418,
+      "title": "Classes More Than 5 Students",
+      "titleSlug": "classes-more-than-5-students",
+      "content": "<p>There is a table <code>courses</code> with columns: <b>student</b> and <b>class</b></p>\r\n\r\n<p>Please list out all classes which have more than or equal to 5 students.</p>\r\n\r\n<p>For example, the table:</p>\r\n\r\n<pre>\r\n+---------+------------+\r\n| student | class      |\r\n+---------+------------+\r\n| A       | Math       |\r\n| B       | English    |\r\n| C       | Math       |\r\n| D       | Biology    |\r\n| E       | Math       |\r\n| F       | Computer   |\r\n| G       | Math       |\r\n| H       | Math       |\r\n| I       | Math       |\r\n+---------+------------+\r\n</pre>\r\n\r\n<p>Should output:</p>\r\n\r\n<pre>\r\n+---------+\r\n| class   |\r\n+---------+\r\n| Math    |\r\n+---------+\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>Note:</b><br />\r\nThe students should not be counted duplicate in each course.</p>\r\n",
+      "translatedTitle": "超过5名学生的课",
+      "translatedContent": "<p>有一个<code>courses</code> 表 ，有: <strong>student&nbsp;(学生) </strong>和 <strong>class (课程)</strong>。</p>\n\n<p>请列出所有超过或等于5名学生的课。</p>\n\n<p>例如，表：</p>\n\n<pre>+---------+------------+\n| student | class      |\n+---------+------------+\n| A       | Math       |\n| B       | English    |\n| C       | Math       |\n| D       | Biology    |\n| E       | Math       |\n| F       | Computer   |\n| G       | Math       |\n| H       | Math       |\n| I       | Math       |\n+---------+------------+\n</pre>\n\n<p>应该输出:</p>\n\n<pre>+---------+\n| class   |\n+---------+\n| Math    |\n+---------+\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li>学生在每个课中不应被重复计算。</li>\n</ul>\n",
+      "isPaidOnly": false,
+      "difficulty": "Easy",
+      "likes": 174,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "# Write your MySQL query statement below\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "MS SQL Server",
+          "langSlug": "mssql",
+          "code": "/* Write your T-SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Oracle",
+          "langSlug": "oraclesql",
+          "code": "/* Write your PL/SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"48.5K\", \"totalSubmission\": \"117.1K\", \"totalAcceptedRaw\": 48480, \"totalSubmissionRaw\": 117120, \"acRate\": \"41.4%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"courses\": [\"student\", \"class\"]}, \"rows\": {\"courses\": [[\"A\", \"Math\"], [\"B\", \"English\"], [\"C\", \"Math\"], [\"D\", \"Biology\"], [\"E\", \"Math\"], [\"F\", \"Computer\"], [\"G\", \"Math\"], [\"H\", \"Math\"], [\"I\", \"Math\"]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists courses (student varchar(255), class varchar(255))\"\r\n  ],\r\n  \"mssql\": [\r\n    \"Create table courses (student varchar(255), class varchar(255))\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"Create table courses (student varchar(255), class varchar(255))\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists courses (student varchar(255), class varchar(255))",
+        "Truncate table courses",
+        "insert into courses (student, class) values ('A', 'Math')",
+        "insert into courses (student, class) values ('B', 'English')",
+        "insert into courses (student, class) values ('C', 'Math')",
+        "insert into courses (student, class) values ('D', 'Biology')",
+        "insert into courses (student, class) values ('E', 'Math')",
+        "insert into courses (student, class) values ('F', 'Computer')",
+        "insert into courses (student, class) values ('G', 'Math')",
+        "insert into courses (student, class) values ('H', 'Math')",
+        "insert into courses (student, class) values ('I', 'Math')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

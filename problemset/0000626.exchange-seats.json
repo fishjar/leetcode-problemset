@@ -1,0 +1,71 @@
+{
+  "data": {
+    "question": {
+      "questionId": "626",
+      "questionFrontendId": "626",
+      "boundTopicId": 1521,
+      "title": "Exchange Seats",
+      "titleSlug": "exchange-seats",
+      "content": "<p>Mary is a teacher in a middle school and she has a table <code>seat</code> storing students&#39; names and their corresponding seat ids.</p>\r\nThe column <b>id</b> is continuous increment.\r\n\r\n<p>&nbsp;</p>\r\nMary wants to change seats for the adjacent students.\r\n\r\n<p>&nbsp;</p>\r\nCan you write a SQL query to output the result for Mary?\r\n\r\n<p>&nbsp;</p>\r\n\r\n<pre>\r\n+---------+---------+\r\n|    id   | student |\r\n+---------+---------+\r\n|    1    | Abbot   |\r\n|    2    | Doris   |\r\n|    3    | Emerson |\r\n|    4    | Green   |\r\n|    5    | Jeames  |\r\n+---------+---------+\r\n</pre>\r\nFor the sample input, the output is:\r\n\r\n<p>&nbsp;</p>\r\n\r\n<pre>\r\n+---------+---------+\r\n|    id   | student |\r\n+---------+---------+\r\n|    1    | Doris   |\r\n|    2    | Abbot   |\r\n|    3    | Green   |\r\n|    4    | Emerson |\r\n|    5    | Jeames  |\r\n+---------+---------+\r\n</pre>\r\n\r\n<p><b>Note:</b><br />\r\nIf the number of students is odd, there is no need to change the last one&#39;s seat.</p>\r\n",
+      "translatedTitle": "换座位",
+      "translatedContent": "<p>小美是一所中学的信息科技老师，她有一张 <code>seat</code>&nbsp;座位表，平时用来储存学生名字和与他们相对应的座位 id。</p>\n\n<p>其中纵列的&nbsp;<strong>id&nbsp;</strong>是连续递增的</p>\n\n<p>小美想改变相邻俩学生的座位。</p>\n\n<p>你能不能帮她写一个 SQL query&nbsp;来输出小美想要的结果呢？</p>\n\n<p>&nbsp;</p>\n\n<p><strong>示例：</strong></p>\n\n<pre>\n+---------+---------+\n|    id   | student |\n+---------+---------+\n|    1    | Abbot   |\n|    2    | Doris   |\n|    3    | Emerson |\n|    4    | Green   |\n|    5    | Jeames  |\n+---------+---------+\n</pre>\n\n<p>假如数据输入的是上表，则输出结果如下：</p>\n\n<pre>\n+---------+---------+\n|    id   | student |\n+---------+---------+\n|    1    | Doris   |\n|    2    | Abbot   |\n|    3    | Green   |\n|    4    | Emerson |\n|    5    | Jeames  |\n+---------+---------+</pre>\n\n<p><strong>注意：</strong></p>\n\n<p>如果学生人数是奇数，则不需要改变最后一个同学的座位。</p>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 195,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "# Write your MySQL query statement below\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "MS SQL Server",
+          "langSlug": "mssql",
+          "code": "/* Write your T-SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Oracle",
+          "langSlug": "oraclesql",
+          "code": "/* Write your PL/SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"26.4K\", \"totalSubmission\": \"39.1K\", \"totalAcceptedRaw\": 26403, \"totalSubmissionRaw\": 39144, \"acRate\": \"67.5%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"seat\": [\"id\",\"student\"]}, \"rows\": {\"seat\": [[1,\"Abbot\"],[2,\"Doris\"],[3,\"Emerson\"],[4,\"Green\"],[5,\"Jeames\"]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists seat(id int, student varchar(255))\"\r\n  ],\r\n  \"mssql\": [\r\n    \"Create table seat(id int, student varchar(255))\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"Create table seat(id int, student varchar(255))\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists seat(id int, student varchar(255))",
+        "Truncate table seat",
+        "insert into seat (id, student) values ('1', 'Abbot')",
+        "insert into seat (id, student) values ('2', 'Doris')",
+        "insert into seat (id, student) values ('3', 'Emerson')",
+        "insert into seat (id, student) values ('4', 'Green')",
+        "insert into seat (id, student) values ('5', 'Jeames')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

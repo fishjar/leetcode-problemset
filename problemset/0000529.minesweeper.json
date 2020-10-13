@@ -1,0 +1,148 @@
+{
+  "data": {
+    "question": {
+      "questionId": "529",
+      "questionFrontendId": "529",
+      "boundTopicId": 1896,
+      "title": "Minesweeper",
+      "titleSlug": "minesweeper",
+      "content": "<p>Let&#39;s play the minesweeper game (<a href=\"https://en.wikipedia.org/wiki/Minesweeper_(video_game)\">Wikipedia</a>, <a href=\"http://minesweeperonline.com\">online game</a>)!</p>\r\n\r\n<p>You are given a 2D char matrix representing the game board. <b>&#39;M&#39;</b> represents an <b>unrevealed</b> mine, <b>&#39;E&#39;</b> represents an <b>unrevealed</b> empty square, <b>&#39;B&#39;</b> represents a <b>revealed</b> blank square that has no adjacent (above, below, left, right, and all 4 diagonals) mines, <b>digit</b> (&#39;1&#39; to &#39;8&#39;) represents how many mines are adjacent to this <b>revealed</b> square, and finally <b>&#39;X&#39;</b> represents a <b>revealed</b> mine.</p>\r\n\r\n<p>Now given the next click position (row and column indices) among all the <b>unrevealed</b> squares (&#39;M&#39; or &#39;E&#39;), return the board after revealing this position according to the following rules:</p>\r\n\r\n<ol>\r\n\t<li>If a mine (&#39;M&#39;) is revealed, then the game is over - change it to <b>&#39;X&#39;</b>.</li>\r\n\t<li>If an empty square (&#39;E&#39;) with <b>no adjacent mines</b> is revealed, then change it to revealed blank (&#39;B&#39;) and all of its adjacent <b>unrevealed</b> squares should be revealed recursively.</li>\r\n\t<li>If an empty square (&#39;E&#39;) with <b>at least one adjacent mine</b> is revealed, then change it to a digit (&#39;1&#39; to &#39;8&#39;) representing the number of adjacent mines.</li>\r\n\t<li>Return the board when no more squares will be revealed.</li>\r\n</ol>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> \r\n\r\n[[&#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;],\r\n [&#39;E&#39;, &#39;E&#39;, &#39;M&#39;, &#39;E&#39;, &#39;E&#39;],\r\n [&#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;],\r\n [&#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;]]\r\n\r\nClick : [3,0]\r\n\r\n<b>Output:</b> \r\n\r\n[[&#39;B&#39;, &#39;1&#39;, &#39;E&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;1&#39;, &#39;M&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;]]\r\n\r\n<b>Explanation:</b>\r\n<img src=\"https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_1.png\" style=\"width: 100%; max-width: 400px\" />\r\n</pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> \r\n\r\n[[&#39;B&#39;, &#39;1&#39;, &#39;E&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;1&#39;, &#39;M&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;]]\r\n\r\nClick : [1,2]\r\n\r\n<b>Output:</b> \r\n\r\n[[&#39;B&#39;, &#39;1&#39;, &#39;E&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;1&#39;, &#39;X&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;B&#39;],\r\n [&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;]]\r\n\r\n<b>Explanation:</b>\r\n<img src=\"https://assets.leetcode.com/uploads/2018/10/12/minesweeper_example_2.png\" style=\"width: 100%; max-width: 400px\" />\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>Note:</b></p>\r\n\r\n<ol>\r\n\t<li>The range of the input matrix&#39;s height and width is [1,50].</li>\r\n\t<li>The click position will only be an unrevealed square (&#39;M&#39; or &#39;E&#39;), which also means the input board contains at least one clickable square.</li>\r\n\t<li>The input board won&#39;t be a stage when game is over (some mines have been revealed).</li>\r\n\t<li>For simplicity, not mentioned rules should be ignored in this problem. For example, you <b>don&#39;t</b> need to reveal all the unrevealed mines when the game is over, consider any cases that you will win the game or flag any squares.</li>\r\n</ol>\r\n",
+      "translatedTitle": "扫雷游戏",
+      "translatedContent": "<p>让我们一起来玩扫雷游戏！</p>\n\n<p>给定一个代表游戏板的二维字符矩阵。&nbsp;<strong>&#39;M&#39;</strong>&nbsp;代表一个<strong>未挖出的</strong>地雷，<strong>&#39;E&#39;</strong>&nbsp;代表一个<strong>未挖出的</strong>空方块，<strong>&#39;B&#39;&nbsp;</strong>代表没有相邻（上，下，左，右，和所有4个对角线）地雷的<strong>已挖出的</strong>空白方块，<strong>数字</strong>（&#39;1&#39; 到 &#39;8&#39;）表示有多少地雷与这块<strong>已挖出的</strong>方块相邻，<strong>&#39;X&#39;</strong>&nbsp;则表示一个<strong>已挖出的</strong>地雷。</p>\n\n<p>现在给出在所有<strong>未挖出的</strong>方块中（&#39;M&#39;或者&#39;E&#39;）的下一个点击位置（行和列索引），根据以下规则，返回相应位置被点击后对应的面板：</p>\n\n<ol>\n\t<li>如果一个地雷（&#39;M&#39;）被挖出，游戏就结束了- 把它改为&nbsp;<strong>&#39;X&#39;</strong>。</li>\n\t<li>如果一个<strong>没有相邻地雷</strong>的空方块（&#39;E&#39;）被挖出，修改它为（&#39;B&#39;），并且所有和其相邻的<strong>未挖出</strong>方块都应该被递归地揭露。</li>\n\t<li>如果一个<strong>至少与一个地雷相邻</strong>的空方块（&#39;E&#39;）被挖出，修改它为数字（&#39;1&#39;到&#39;8&#39;），表示相邻地雷的数量。</li>\n\t<li>如果在此次点击中，若无更多方块可被揭露，则返回面板。</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入:</strong> \n\n[[&#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;],\n [&#39;E&#39;, &#39;E&#39;, &#39;M&#39;, &#39;E&#39;, &#39;E&#39;],\n [&#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;],\n [&#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;, &#39;E&#39;]]\n\nClick : [3,0]\n\n<strong>输出:</strong> \n\n[[&#39;B&#39;, &#39;1&#39;, &#39;E&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;1&#39;, &#39;M&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;]]\n\n<strong>解释:</strong>\n<img src=\"https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/minesweeper_example_1.png\" style=\"width: 100%;\">\n</pre>\n\n<p><strong>示例 2：</strong></p>\n\n<pre><strong>输入:</strong> \n\n[[&#39;B&#39;, &#39;1&#39;, &#39;E&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;1&#39;, &#39;M&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;]]\n\nClick : [1,2]\n\n<strong>输出:</strong> \n\n[[&#39;B&#39;, &#39;1&#39;, &#39;E&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;1&#39;, &#39;X&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;1&#39;, &#39;1&#39;, &#39;1&#39;, &#39;B&#39;],\n [&#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;, &#39;B&#39;]]\n\n<strong>解释:</strong>\n<img src=\"https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/minesweeper_example_2.png\" style=\"width: 100%;\">\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>注意：</strong></p>\n\n<ol>\n\t<li>输入矩阵的宽和高的范围为 [1,50]。</li>\n\t<li>点击的位置只能是未被挖出的方块 (&#39;M&#39; 或者 &#39;E&#39;)，这也意味着面板至少包含一个可点击的方块。</li>\n\t<li>输入面板不会是游戏结束的状态（即有地雷已被挖出）。</li>\n\t<li>简单起见，未提及的规则在这个问题中可被忽略。例如，当游戏结束时你不需要挖出所有地雷，考虑所有你可能赢得游戏或标记方块的情况。</li>\n</ol>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 187,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": true, \"python\": true, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Depth-first Search",
+          "slug": "depth-first-search",
+          "translatedName": "深度优先搜索",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "slug": "breadth-first-search",
+          "translatedName": "广度优先搜索",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "class Solution {\npublic:\n    vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {\n\n    }\n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "class Solution {\n    public char[][] updateBoard(char[][] board, int[] click) {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "class Solution(object):\n    def updateBoard(self, board, click):\n        \"\"\"\n        :type board: List[List[str]]\n        :type click: List[int]\n        :rtype: List[List[str]]\n        \"\"\"\n        ",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "class Solution:\n    def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:\n        ",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C",
+          "langSlug": "c",
+          "code": "\n\n/**\n * Return an array of arrays of size *returnSize.\n * The sizes of the arrays are returned as *returnColumnSizes array.\n * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().\n */\nchar** updateBoard(char** board, int boardSize, int* boardColSize, int* click, int clickSize, int* returnSize, int** returnColumnSizes){\n\n}\n\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "public class Solution {\n    public char[][] UpdateBoard(char[][] board, int[] click) {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "/**\n * @param {character[][]} board\n * @param {number[]} click\n * @return {character[][]}\n */\nvar updateBoard = function(board, click) {\n\n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Ruby",
+          "langSlug": "ruby",
+          "code": "# @param {Character[][]} board\n# @param {Integer[]} click\n# @return {Character[][]}\ndef update_board(board, click)\n\nend",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Swift",
+          "langSlug": "swift",
+          "code": "class Solution {\n    func updateBoard(_ board: [[Character]], _ click: [Int]) -> [[Character]] {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Go",
+          "langSlug": "golang",
+          "code": "func updateBoard(board [][]byte, click []int) [][]byte {\n\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Scala",
+          "langSlug": "scala",
+          "code": "object Solution {\n    def updateBoard(board: Array[Array[Char]], click: Array[Int]): Array[Array[Char]] = {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Kotlin",
+          "langSlug": "kotlin",
+          "code": "class Solution {\n    fun updateBoard(board: Array<CharArray>, click: IntArray): Array<CharArray> {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Rust",
+          "langSlug": "rust",
+          "code": "impl Solution {\n    pub fn update_board(board: Vec<Vec<char>>, click: Vec<i32>) -> Vec<Vec<char>> {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "PHP",
+          "langSlug": "php",
+          "code": "class Solution {\n\n    /**\n     * @param String[][] $board\n     * @param Integer[] $click\n     * @return String[][]\n     */\n    function updateBoard($board, $click) {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "TypeScript",
+          "langSlug": "typescript",
+          "code": "function updateBoard(board: string[][], click: number[]): string[][] {\n\n};",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"29.1K\", \"totalSubmission\": \"44.4K\", \"totalAcceptedRaw\": 29092, \"totalSubmissionRaw\": 44415, \"acRate\": \"65.5%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[[\"E\",\"E\",\"E\",\"E\",\"E\"],[\"E\",\"E\",\"M\",\"E\",\"E\"],[\"E\",\"E\",\"E\",\"E\",\"E\"],[\"E\",\"E\",\"E\",\"E\",\"E\"]]\n[3,0]",
+      "metaData": "{\r\n  \"name\": \"updateBoard\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"board\",\r\n      \"type\": \"character[][]\"\r\n    },\r\n    {\r\n        \"name\":\"click\",\r\n        \"type\":\"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"character[][]\"\r\n  }\r\n}\r\n",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"c\":[\"C\",\"<p>\\u7248\\u672c\\uff1a<code>GCC 8.2<\\/code>\\uff0c\\u91c7\\u7528GNU99\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002 <a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a>\\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u5982\\u60f3\\u4f7f\\u7528\\u54c8\\u5e0c\\u8868\\u8fd0\\u7b97, \\u60a8\\u53ef\\u4ee5\\u4f7f\\u7528 <a href=\\\"https:\\/\\/troydhanson.github.io\\/uthash\\/\\\" target=\\\"_blank\\\">uthash<\\/a>\\u3002 \\\"uthash.h\\\"\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5bfc\\u5165\\u3002\\u8bf7\\u770b\\u5982\\u4e0b\\u793a\\u4f8b:<\\/p>\\r\\n\\r\\n<p><b>1. \\u5f80\\u54c8\\u5e0c\\u8868\\u4e2d\\u6dfb\\u52a0\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            \\/* we'll use this field as the key *\\/\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; \\/* makes this structure hashable *\\/\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>2. \\u5728\\u54c8\\u5e0c\\u8868\\u4e2d\\u67e5\\u627e\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>3. \\u4ece\\u54c8\\u5e0c\\u8868\\u4e2d\\u5220\\u9664\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"ruby\":[\"Ruby\",\"<p>\\u4f7f\\u7528<code>Ruby 2.7<\\/code>\\u6267\\u884c<\\/p>\"],\"swift\":[\"Swift\",\"<p>\\u7248\\u672c\\uff1a<code>Swift 5.2.5<\\/code><\\/p>\\r\\n\\r\\n<p>\\u6211\\u4eec\\u901a\\u5e38\\u4fdd\\u8bc1\\u66f4\\u65b0\\u5230 <a href=\\\"https:\\/\\/swift.org\\/download\\/\\\" target=\\\"_blank\\\">Apple\\u653e\\u51fa\\u7684\\u6700\\u65b0\\u7248Swift<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u53d1\\u73b0Swift\\u4e0d\\u662f\\u6700\\u65b0\\u7248\\u7684\\uff0c\\u8bf7\\u8054\\u7cfb\\u6211\\u4eec\\uff01\\u6211\\u4eec\\u5c06\\u5c3d\\u5feb\\u66f4\\u65b0\\u3002<\\/p>\"],\"golang\":[\"Go\",\"<p>\\u7248\\u672c\\uff1a<code>Go 1.15<\\/code><\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"],\"scala\":[\"Scala\",\"<p>\\u7248\\u672c\\uff1a<code>Scala 2.13<\\/code><\\/p>\"],\"kotlin\":[\"Kotlin\",\"<p>\\u7248\\u672c\\uff1a<code>Kotlin 1.3.10<\\/code><\\/p>\"],\"rust\":[\"Rust\",\"<p>\\u7248\\u672c\\uff1a<code>rust 1.46.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u652f\\u6301 crates.io \\u7684 <a href=\\\"https:\\/\\/crates.io\\/crates\\/rand\\\" target=\\\"_blank\\\">rand<\\/a><\\/p>\"],\"php\":[\"PHP\",\"<p>Run with <code>PHP 7.2<\\/code>.<\\/p>\"],\"typescript\":[\"TypeScript\",\"TypeScript 3.8\\r\\n\\r\\nCompile Options: --strict --target ES6\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

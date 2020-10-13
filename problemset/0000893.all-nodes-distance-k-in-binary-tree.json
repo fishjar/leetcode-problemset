@@ -1,0 +1,154 @@
+{
+  "data": {
+    "question": {
+      "questionId": "893",
+      "questionFrontendId": "863",
+      "boundTopicId": 1912,
+      "title": "All Nodes Distance K in Binary Tree",
+      "titleSlug": "all-nodes-distance-k-in-binary-tree",
+      "content": "<p>We are given a binary tree (with root node&nbsp;<code>root</code>), a <code>target</code> node, and an integer value <code>K</code>.</p>\r\n\r\n<p>Return a list of the values of all&nbsp;nodes that have a distance <code>K</code> from the <code>target</code> node.&nbsp; The answer can be returned in any order.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ol>\r\n</ol>\r\n\r\n<div>\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>root = <span id=\"example-input-1-1\">[3,5,1,6,2,0,8,null,null,7,4]</span>, target = <span id=\"example-input-1-2\">5</span>, K = <span id=\"example-input-1-3\">2</span>\r\n\r\n<strong>Output: </strong><span id=\"example-output-1\">[7,4,1]</span>\r\n\r\n<strong>Explanation: </strong>\r\nThe nodes that are a distance 2 from the target node (with value 5)\r\nhave values 7, 4, and 1.\r\n\r\n<img alt=\"\" src=\"https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/28/sketch0.png\" style=\"width: 280px; height: 240px;\" />\r\n\r\nNote that the inputs &quot;root&quot; and &quot;target&quot; are actually TreeNodes.\r\nThe descriptions of the inputs above are just serializations of these objects.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li>The given tree is non-empty.</li>\r\n\t<li>Each node in the tree has unique values&nbsp;<code>0 &lt;= node.val &lt;= 500</code>.</li>\r\n\t<li>The <code>target</code>&nbsp;node is a node in the tree.</li>\r\n\t<li><code>0 &lt;= K &lt;= 1000</code>.</li>\r\n</ol>\r\n</div>\r\n",
+      "translatedTitle": "二叉树中所有距离为 K 的结点",
+      "translatedContent": "<p>给定一个二叉树（具有根结点&nbsp;<code>root</code>），&nbsp;一个目标结点&nbsp;<code>target</code>&nbsp;，和一个整数值 <code>K</code> 。</p>\n\n<p>返回到目标结点 <code>target</code> 距离为 <code>K</code> 的所有结点的值的列表。 答案可以以任何顺序返回。</p>\n\n<p>&nbsp;</p>\n\n<ol>\n</ol>\n\n<p><strong>示例 1：</strong></p>\n\n<pre><strong>输入：</strong>root = [3,5,1,6,2,0,8,null,null,7,4], target = 5, K = 2\n<strong>输出：</strong>[7,4,1]\n<strong>解释：</strong>\n所求结点为与目标结点（值为 5）距离为 2 的结点，\n值分别为 7，4，以及 1\n\n<img alt=\"\" src=\"https://s3-lc-upload.s3.amazonaws.com/uploads/2018/06/28/sketch0.png\" style=\"height: 240px; width: 280px;\">\n\n注意，输入的 &quot;root&quot; 和 &quot;target&quot; 实际上是树上的结点。\n上面的输入仅仅是对这些对象进行了序列化描述。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ol>\n\t<li>给定的树是非空的。</li>\n\t<li>树上的每个结点都具有唯一的值&nbsp;<code>0 &lt;= node.val &lt;= 500</code>&nbsp;。</li>\n\t<li>目标结点&nbsp;<code>target</code>&nbsp;是树上的结点。</li>\n\t<li><code>0 &lt;= K &lt;= 1000</code>.</li>\n</ol>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 181,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": true, \"java\": true, \"python\": true, \"python3\": true, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Tree",
+          "slug": "tree",
+          "translatedName": "树",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Depth-first Search",
+          "slug": "depth-first-search",
+          "translatedName": "深度优先搜索",
+          "__typename": "TopicTagNode"
+        },
+        {
+          "name": "Breadth-first Search",
+          "slug": "breadth-first-search",
+          "translatedName": "广度优先搜索",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     TreeNode *left;\n *     TreeNode *right;\n *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}\n * };\n */\nclass Solution {\npublic:\n    vector<int> distanceK(TreeNode* root, TreeNode* target, int K) {\n        \n    }\n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     int val;\n *     TreeNode left;\n *     TreeNode right;\n *     TreeNode(int x) { val = x; }\n * }\n */\nclass Solution {\n    public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "# Definition for a binary tree node.\n# class TreeNode(object):\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution(object):\n    def distanceK(self, root, target, K):\n        \"\"\"\n        :type root: TreeNode\n        :type target: TreeNode\n        :type K: int\n        :rtype: List[int]\n        \"\"\"\n        ",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def distanceK(self, root: TreeNode, target: TreeNode, K: int) -> List[int]:\n        ",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C",
+          "langSlug": "c",
+          "code": "/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     struct TreeNode *left;\n *     struct TreeNode *right;\n * };\n */\n\n/**\n * Note: The returned array must be malloced, assume caller calls free().\n */\nint* distanceK(struct TreeNode* root, struct TreeNode* target, int K, int* returnSize) {\n    \n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     public int val;\n *     public TreeNode left;\n *     public TreeNode right;\n *     public TreeNode(int x) { val = x; }\n * }\n */\npublic class Solution {\n    public IList<int> DistanceK(TreeNode root, TreeNode target, int K) {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "/**\n * Definition for a binary tree node.\n * function TreeNode(val) {\n *     this.val = val;\n *     this.left = this.right = null;\n * }\n */\n/**\n * @param {TreeNode} root\n * @param {TreeNode} target\n * @param {number} K\n * @return {number[]}\n */\nvar distanceK = function(root, target, K) {\n    \n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Ruby",
+          "langSlug": "ruby",
+          "code": "# Definition for a binary tree node.\n# class TreeNode\n#     attr_accessor :val, :left, :right\n#     def initialize(val)\n#         @val = val\n#         @left, @right = nil, nil\n#     end\n# end\n\n# @param {TreeNode} root\n# @param {TreeNode} target\n# @param {Integer} k\n# @return {Integer[]}\ndef distance_k(root, target, k)\n    \nend",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Swift",
+          "langSlug": "swift",
+          "code": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     public var val: Int\n *     public var left: TreeNode?\n *     public var right: TreeNode?\n *     public init(_ val: Int) {\n *         self.val = val\n *         self.left = nil\n *         self.right = nil\n *     }\n * }\n */\n\nclass Solution {\n    func distanceK(_ root: TreeNode?, _ target: TreeNode?, _ K: Int) -> [Int] {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Go",
+          "langSlug": "golang",
+          "code": "/**\n * Definition for a binary tree node.\n * type TreeNode struct {\n *     Val int\n *     Left *TreeNode\n *     Right *TreeNode\n * }\n */\nfunc distanceK(root *TreeNode, target *TreeNode, K int) []int {\n    \n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Scala",
+          "langSlug": "scala",
+          "code": "/**\n * Definition for a binary tree node.\n * class TreeNode(var _value: Int) {\n *   var value: Int = _value\n *   var left: TreeNode = null\n *   var right: TreeNode = null\n * }\n */\nobject Solution {\n    def distanceK(root: TreeNode, target: TreeNode, K: Int): List[Int] = {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Kotlin",
+          "langSlug": "kotlin",
+          "code": "/**\n * Definition for a binary tree node.\n * class TreeNode(var `val`: Int = 0) {\n *     var left: TreeNode? = null\n *     var right: TreeNode? = null\n * }\n */\nclass Solution {\n    fun distanceK(root: TreeNode?, target: TreeNode?, K: Int): List<Int> {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Rust",
+          "langSlug": "rust",
+          "code": "// Definition for a binary tree node.\n// #[derive(Debug, PartialEq, Eq)]\n// pub struct TreeNode {\n//   pub val: i32,\n//   pub left: Option<Rc<RefCell<TreeNode>>>,\n//   pub right: Option<Rc<RefCell<TreeNode>>>,\n// }\n// \n// impl TreeNode {\n//   #[inline]\n//   pub fn new(val: i32) -> Self {\n//     TreeNode {\n//       val,\n//       left: None,\n//       right: None\n//     }\n//   }\n// }\nuse std::rc::Rc;\nuse std::cell::RefCell;\nimpl Solution {\n    pub fn distance_k(root: Option<Rc<RefCell<TreeNode>>>, p: Option<Rc<RefCell<TreeNode>>>, K: i32) -> Vec<i32> {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "PHP",
+          "langSlug": "php",
+          "code": "/**\n * Definition for a binary tree node.\n * class TreeNode {\n *     public $val = null;\n *     public $left = null;\n *     public $right = null;\n *     function __construct($value) { $this->val = $value; }\n * }\n */\n\nclass Solution {\n    /**\n     * @param TreeNode $root\n     * @param TreeNode $target\n     * @param Integer $K\n     * @return Integer[]\n     */\n    function distanceK($root, $target, $K) {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "TypeScript",
+          "langSlug": "typescript",
+          "code": "/**\n * Definition for a binary tree node.\n * class TreeNode {\n *     val: number\n *     left: TreeNode | null\n *     right: TreeNode | null\n *     constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {\n *         this.val = (val===undefined ? 0 : val)\n *         this.left = (left===undefined ? null : left)\n *         this.right = (right===undefined ? null : right)\n *     }\n * }\n */\n\nfunction distanceK(root: TreeNode | null, target: TreeNode | null, K: number): number[] {\n\t\n};",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"8.1K\", \"totalSubmission\": \"15.4K\", \"totalAcceptedRaw\": 8099, \"totalSubmissionRaw\": 15434, \"acRate\": \"52.5%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[3,5,1,6,2,0,8,null,null,7,4]\n5\n2",
+      "metaData": "{\n  \"name\": \"distanceK\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"name\": \"target\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"K\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<integer>\"\n  },\n  \"manual\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"c\":[\"C\",\"<p>\\u7248\\u672c\\uff1a<code>GCC 8.2<\\/code>\\uff0c\\u91c7\\u7528GNU99\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002 <a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a>\\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u5982\\u60f3\\u4f7f\\u7528\\u54c8\\u5e0c\\u8868\\u8fd0\\u7b97, \\u60a8\\u53ef\\u4ee5\\u4f7f\\u7528 <a href=\\\"https:\\/\\/troydhanson.github.io\\/uthash\\/\\\" target=\\\"_blank\\\">uthash<\\/a>\\u3002 \\\"uthash.h\\\"\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5bfc\\u5165\\u3002\\u8bf7\\u770b\\u5982\\u4e0b\\u793a\\u4f8b:<\\/p>\\r\\n\\r\\n<p><b>1. \\u5f80\\u54c8\\u5e0c\\u8868\\u4e2d\\u6dfb\\u52a0\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            \\/* we'll use this field as the key *\\/\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; \\/* makes this structure hashable *\\/\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>2. \\u5728\\u54c8\\u5e0c\\u8868\\u4e2d\\u67e5\\u627e\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>3. \\u4ece\\u54c8\\u5e0c\\u8868\\u4e2d\\u5220\\u9664\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"ruby\":[\"Ruby\",\"<p>\\u4f7f\\u7528<code>Ruby 2.7<\\/code>\\u6267\\u884c<\\/p>\"],\"swift\":[\"Swift\",\"<p>\\u7248\\u672c\\uff1a<code>Swift 5.2.5<\\/code><\\/p>\\r\\n\\r\\n<p>\\u6211\\u4eec\\u901a\\u5e38\\u4fdd\\u8bc1\\u66f4\\u65b0\\u5230 <a href=\\\"https:\\/\\/swift.org\\/download\\/\\\" target=\\\"_blank\\\">Apple\\u653e\\u51fa\\u7684\\u6700\\u65b0\\u7248Swift<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u53d1\\u73b0Swift\\u4e0d\\u662f\\u6700\\u65b0\\u7248\\u7684\\uff0c\\u8bf7\\u8054\\u7cfb\\u6211\\u4eec\\uff01\\u6211\\u4eec\\u5c06\\u5c3d\\u5feb\\u66f4\\u65b0\\u3002<\\/p>\"],\"golang\":[\"Go\",\"<p>\\u7248\\u672c\\uff1a<code>Go 1.15<\\/code><\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"],\"scala\":[\"Scala\",\"<p>\\u7248\\u672c\\uff1a<code>Scala 2.13<\\/code><\\/p>\"],\"kotlin\":[\"Kotlin\",\"<p>\\u7248\\u672c\\uff1a<code>Kotlin 1.3.10<\\/code><\\/p>\"],\"rust\":[\"Rust\",\"<p>\\u7248\\u672c\\uff1a<code>rust 1.46.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u652f\\u6301 crates.io \\u7684 <a href=\\\"https:\\/\\/crates.io\\/crates\\/rand\\\" target=\\\"_blank\\\">rand<\\/a><\\/p>\"],\"php\":[\"PHP\",\"<p>Run with <code>PHP 7.2<\\/code>.<\\/p>\"],\"typescript\":[\"TypeScript\",\"TypeScript 3.8\\r\\n\\r\\nCompile Options: --strict --target ES6\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

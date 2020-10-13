@@ -1,0 +1,99 @@
+{
+  "data": {
+    "question": {
+      "questionId": "100305",
+      "questionFrontendId": "剑指 Offer 36",
+      "boundTopicId": 87118,
+      "title": "二叉搜索树与双向链表  LCOF",
+      "titleSlug": "er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof",
+      "content": "English description is not available for the problem. Please switch to Chinese.",
+      "translatedTitle": "二叉搜索树与双向链表",
+      "translatedContent": "<p>输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的循环双向链表。要求不能创建任何新的节点，只能调整树中节点指针的指向。</p>\n\n<p>&nbsp;</p>\n\n<p>为了让您更好地理解问题，以下面的二叉搜索树为例：</p>\n\n<p>&nbsp;</p>\n\n<p><img src=\"https://assets.leetcode.com/uploads/2018/10/12/bstdlloriginalbst.png\"></p>\n\n<p>&nbsp;</p>\n\n<p>我们希望将这个二叉搜索树转化为双向循环链表。链表中的每个节点都有一个前驱和后继指针。对于双向循环链表，第一个节点的前驱是最后一个节点，最后一个节点的后继是第一个节点。</p>\n\n<p>下图展示了上面的二叉搜索树转化成的链表。&ldquo;head&rdquo; 表示指向链表中有最小元素的节点。</p>\n\n<p>&nbsp;</p>\n\n<p><img src=\"https://assets.leetcode.com/uploads/2018/10/12/bstdllreturndll.png\"></p>\n\n<p>&nbsp;</p>\n\n<p>特别地，我们希望可以就地完成转换操作。当转化完成以后，树中节点的左指针需要指向前驱，树中节点的右指针需要指向后继。还需要返回链表中的第一个节点的指针。</p>\n\n<p>&nbsp;</p>\n\n<p><strong>注意：</strong>本题与主站 426 题相同：<a href=\"https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/\">https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/</a></p>\n\n<p><strong>注意：</strong>此题对比原题有改动。</p>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 118,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Divide and Conquer",
+          "slug": "divide-and-conquer",
+          "translatedName": "分治算法",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "/*\r\n// Definition for a Node.\r\nclass Node {\r\npublic:\r\n    int val;\r\n    Node* left;\r\n    Node* right;\r\n\r\n    Node() {}\r\n\r\n    Node(int _val) {\r\n        val = _val;\r\n        left = NULL;\r\n        right = NULL;\r\n    }\r\n\r\n    Node(int _val, Node* _left, Node* _right) {\r\n        val = _val;\r\n        left = _left;\r\n        right = _right;\r\n    }\r\n};\r\n*/\r\nclass Solution {\r\npublic:\r\n    Node* treeToDoublyList(Node* root) {\r\n        \r\n    }\r\n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "/*\r\n// Definition for a Node.\r\nclass Node {\r\n    public int val;\r\n    public Node left;\r\n    public Node right;\r\n\r\n    public Node() {}\r\n\r\n    public Node(int _val) {\r\n        val = _val;\r\n    }\r\n\r\n    public Node(int _val,Node _left,Node _right) {\r\n        val = _val;\r\n        left = _left;\r\n        right = _right;\r\n    }\r\n};\r\n*/\r\nclass Solution {\r\n    public Node treeToDoublyList(Node root) {\r\n        \r\n    }\r\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "\"\"\"\r\n# Definition for a Node.\r\nclass Node(object):\r\n    def __init__(self, val, left=None, right=None):\r\n        self.val = val\r\n        self.left = left\r\n        self.right = right\r\n\"\"\"\r\nclass Solution(object):\r\n    def treeToDoublyList(self, root):\r\n        \"\"\"\r\n        :type root: Node\r\n        :rtype: Node\r\n        \"\"\"\r\n        ",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "\"\"\"\r\n# Definition for a Node.\r\nclass Node:\r\n    def __init__(self, val, left=None, right=None):\r\n        self.val = val\r\n        self.left = left\r\n        self.right = right\r\n\"\"\"\r\nclass Solution:\r\n    def treeToDoublyList(self, root: 'Node') -> 'Node':\r\n        ",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "/*\r\n// Definition for a Node.\r\npublic class Node {\r\n    public int val;\r\n    public Node left;\r\n    public Node right;\r\n\r\n    public Node() {}\r\n\r\n    public Node(int _val) {\r\n        val = _val;\r\n        left = null;\r\n        right = null;\r\n    }\r\n\r\n    public Node(int _val,Node _left,Node _right) {\r\n        val = _val;\r\n        left = _left;\r\n        right = _right;\r\n    }\r\n}\r\n*/\r\n\r\npublic class Solution {\r\n    public Node TreeToDoublyList(Node root) {\r\n        \r\n    }\r\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "/**\r\n * // Definition for a Node.\r\n * function Node(val,left,right) {\r\n *    this.val = val;\r\n *    this.left = left;\r\n *    this.right = right;\r\n * };\r\n */\r\n/**\r\n * @param {Node} root\r\n * @return {Node}\r\n */\r\nvar treeToDoublyList = function(root) {\r\n\r\n};",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"34.4K\", \"totalSubmission\": \"53.6K\", \"totalAcceptedRaw\": 34383, \"totalSubmissionRaw\": 53559, \"acRate\": \"64.2%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[4,2,5,1,3]",
+      "metaData": "{\r\n  \"name\": \"treeToDoublyList\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"Node\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"Node\"\r\n  },\r\n  \"structures\": [\r\n    {\r\n      \"name\": \"Node\",\r\n      \"comment\": \"Definition for a Node.\",\r\n      \"members\": [\r\n        {\r\n          \"name\": \"val\",\r\n          \"type\": \"integer\"\r\n        },\r\n        {\r\n          \"name\": \"left\",\r\n          \"type\": \"Node\"\r\n        },\r\n        {\r\n          \"name\": \"right\",\r\n          \"type\": \"Node\"\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"languages\": [\r\n    \"cpp\",\r\n    \"java\",\r\n    \"python\",\r\n    \"csharp\",\r\n    \"javascript\",\r\n    \"python3\"\r\n  ],\r\n  \"manual\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"]}",
+      "book": {
+        "id": "1",
+        "bookName": "《剑指 Offer（第 2 版）》",
+        "pressName": "电子工业出版社",
+        "source": "《剑指 Offer（第 2 版）》官方授权",
+        "shortDescription": "通行全球的程序员经典面试秘籍",
+        "fullDescription": "本书精选谷歌、微软等知名IT企业的典型面试题，系统地总结了如何在面试时写出高质量代码，如何优化代码效率，以及分析、解决难题的常用方法。",
+        "bookImgUrl": "https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/02/11/lcof.png",
+        "pressImgUrl": "https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/02/11/logo-01.png",
+        "productUrl": "",
+        "__typename": "CategoryInfoNode"
+      },
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

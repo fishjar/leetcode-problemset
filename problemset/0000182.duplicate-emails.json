@@ -1,0 +1,73 @@
+{
+  "data": {
+    "question": {
+      "questionId": "182",
+      "questionFrontendId": "182",
+      "boundTopicId": 1357,
+      "title": "Duplicate Emails",
+      "titleSlug": "duplicate-emails",
+      "content": "<p>Write a SQL query to find all duplicate emails in a table named <code>Person</code>.</p>\r\n\r\n<pre>\r\n+----+---------+\r\n| Id | Email   |\r\n+----+---------+\r\n| 1  | a@b.com |\r\n| 2  | c@d.com |\r\n| 3  | a@b.com |\r\n+----+---------+\r\n</pre>\r\n\r\n<p>For example, your query should return the following for the above table:</p>\r\n\r\n<pre>\r\n+---------+\r\n| Email   |\r\n+---------+\r\n| a@b.com |\r\n+---------+\r\n</pre>\r\n\r\n<p><strong>Note</strong>: All emails are in lowercase.</p>\r\n",
+      "translatedTitle": "查找重复的电子邮箱",
+      "translatedContent": "<p>编写一个 SQL 查询，查找&nbsp;<code>Person</code> 表中所有重复的电子邮箱。</p>\n\n<p><strong>示例：</strong></p>\n\n<pre>+----+---------+\n| Id | Email   |\n+----+---------+\n| 1  | a@b.com |\n| 2  | c@d.com |\n| 3  | a@b.com |\n+----+---------+\n</pre>\n\n<p>根据以上输入，你的查询应返回以下结果：</p>\n\n<pre>+---------+\n| Email   |\n+---------+\n| a@b.com |\n+---------+\n</pre>\n\n<p><strong>说明：</strong>所有电子邮箱都是小写字母。</p>\n",
+      "isPaidOnly": false,
+      "difficulty": "Easy",
+      "likes": 234,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "# Write your MySQL query statement below\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "MS SQL Server",
+          "langSlug": "mssql",
+          "code": "/* Write your T-SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Oracle",
+          "langSlug": "oraclesql",
+          "code": "/* Write your PL/SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"110.3K\", \"totalSubmission\": \"138.7K\", \"totalAcceptedRaw\": 110252, \"totalSubmissionRaw\": 138671, \"acRate\": \"79.5%\"}",
+      "hints": [],
+      "solution": {
+        "id": "103",
+        "canSeeDetail": true,
+        "__typename": "ArticleNode"
+      },
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Person\": [\"Id\", \"Email\"]}, \"rows\": {\"Person\": [[1, \"a@b.com\"], [2, \"c@d.com\"], [3, \"a@b.com\"]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists Person (Id int, Email varchar(255))\"\n  ],\n  \"mssql\": [\n    \"create table Person ( Id int, Email varchar(255) )\"\n  ],\n  \"oraclesql\": [\n    \"create table Person ( Id int, Email varchar(255) )\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Person (Id int, Email varchar(255))",
+        "Truncate table Person",
+        "insert into Person (Id, Email) values ('1', 'a@b.com')",
+        "insert into Person (Id, Email) values ('2', 'c@d.com')",
+        "insert into Person (Id, Email) values ('3', 'a@b.com')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

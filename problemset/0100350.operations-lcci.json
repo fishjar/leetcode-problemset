@@ -1,0 +1,158 @@
+{
+  "data": {
+    "question": {
+      "questionId": "100350",
+      "questionFrontendId": "面试题 16.09",
+      "boundTopicId": 91313,
+      "title": "Operations LCCI",
+      "titleSlug": "operations-lcci",
+      "content": "<p>rite methods to implement the multiply, subtract, and divide operations for integers. The results of all of these are integers. Use only the add operator.</p>\r\n\r\n<p>You should implement following methods:</p>\r\n\r\n<ul>\r\n\t<li><code>Operations()</code>&nbsp; constructor</li>\r\n\t<li><code>minus(a, b)</code>&nbsp; Subtraction, returns&nbsp;<code>a - b</code></li>\r\n\t<li><code>multiply(a, b)</code>&nbsp; Multiplication, returns&nbsp;<code>a * b</code></li>\r\n\t<li><code>divide(a, b)</code>&nbsp; Division, returns&nbsp;<code>a / b</code></li>\r\n</ul>\r\n\r\n<p><strong>Example: </strong></p>\r\n\r\n<pre>\r\nOperations operations = new Operations();\r\noperations.minus(1, 2); //returns -1\r\noperations.multiply(3, 4); //returns 12\r\noperations.divide(5, -2); //returns -2\r\n</pre>\r\n\r\n<p><strong>Note: </strong></p>\r\n\r\n<ul>\r\n\t<li>You can assume inputs are always valid, that is, e.g., denominator will not be 0 in division.</li>\r\n\t<li>The number of calls will not exceed 1000.</li>\r\n</ul>\r\n",
+      "translatedTitle": "运算",
+      "translatedContent": "<p>请实现整数数字的乘法、减法和除法运算，运算结果均为整数数字，程序中只允许使用加法运算符和逻辑运算符，允许程序中出现正负常数，不允许使用位运算。</p>\n<p>你的实现应该支持如下操作：</p>\n<ul>\n<li><code>Operations()</code> 构造函数</li>\n<li><code>minus(a, b)</code> 减法，返回<code>a - b</code></li>\n<li><code>multiply(a, b)</code> 乘法，返回<code>a * b</code></li>\n<li><code>divide(a, b)</code> 除法，返回<code>a / b</code></li>\n</ul>\n<p><strong>示例：</strong></p>\n<pre>Operations operations = new Operations();\noperations.minus(1, 2); //返回-1\noperations.multiply(3, 4); //返回12\noperations.divide(5, -2); //返回-2\n</pre>\n<p><strong>提示：</strong></p>\n<ul>\n<li>你可以假设函数输入一定是有效的，例如不会出现除法分母为0的情况</li>\n<li>单个用例的函数调用次数不会超过1000次</li>\n</ul>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 7,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Design",
+          "slug": "design",
+          "translatedName": "设计",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "class Operations {\r\npublic:\r\n    Operations() {\r\n\r\n    }\r\n    \r\n    int minus(int a, int b) {\r\n\r\n    }\r\n    \r\n    int multiply(int a, int b) {\r\n\r\n    }\r\n    \r\n    int divide(int a, int b) {\r\n\r\n    }\r\n};\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * Operations* obj = new Operations();\r\n * int param_1 = obj->minus(a,b);\r\n * int param_2 = obj->multiply(a,b);\r\n * int param_3 = obj->divide(a,b);\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "class Operations {\r\n\r\n    public Operations() {\r\n\r\n    }\r\n    \r\n    public int minus(int a, int b) {\r\n\r\n    }\r\n    \r\n    public int multiply(int a, int b) {\r\n\r\n    }\r\n    \r\n    public int divide(int a, int b) {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * Operations obj = new Operations();\r\n * int param_1 = obj.minus(a,b);\r\n * int param_2 = obj.multiply(a,b);\r\n * int param_3 = obj.divide(a,b);\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "class Operations(object):\r\n\r\n    def __init__(self):\r\n\r\n\r\n    def minus(self, a, b):\r\n        \"\"\"\r\n        :type a: int\r\n        :type b: int\r\n        :rtype: int\r\n        \"\"\"\r\n\r\n\r\n    def multiply(self, a, b):\r\n        \"\"\"\r\n        :type a: int\r\n        :type b: int\r\n        :rtype: int\r\n        \"\"\"\r\n\r\n\r\n    def divide(self, a, b):\r\n        \"\"\"\r\n        :type a: int\r\n        :type b: int\r\n        :rtype: int\r\n        \"\"\"\r\n\r\n\r\n\r\n# Your Operations object will be instantiated and called as such:\r\n# obj = Operations()\r\n# param_1 = obj.minus(a,b)\r\n# param_2 = obj.multiply(a,b)\r\n# param_3 = obj.divide(a,b)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "class Operations:\r\n\r\n    def __init__(self):\r\n\r\n\r\n    def minus(self, a: int, b: int) -> int:\r\n\r\n\r\n    def multiply(self, a: int, b: int) -> int:\r\n\r\n\r\n    def divide(self, a: int, b: int) -> int:\r\n\r\n\r\n\r\n# Your Operations object will be instantiated and called as such:\r\n# obj = Operations()\r\n# param_1 = obj.minus(a,b)\r\n# param_2 = obj.multiply(a,b)\r\n# param_3 = obj.divide(a,b)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C",
+          "langSlug": "c",
+          "code": "\r\n\r\n\r\ntypedef struct {\r\n\r\n} Operations;\r\n\r\n\r\nOperations* operationsCreate() {\r\n\r\n}\r\n\r\nint operationsMinus(Operations* obj, int a, int b) {\r\n\r\n}\r\n\r\nint operationsMultiply(Operations* obj, int a, int b) {\r\n\r\n}\r\n\r\nint operationsDivide(Operations* obj, int a, int b) {\r\n\r\n}\r\n\r\nvoid operationsFree(Operations* obj) {\r\n\r\n}\r\n\r\n/**\r\n * Your Operations struct will be instantiated and called as such:\r\n * Operations* obj = operationsCreate();\r\n * int param_1 = operationsMinus(obj, a, b);\r\n \r\n * int param_2 = operationsMultiply(obj, a, b);\r\n \r\n * int param_3 = operationsDivide(obj, a, b);\r\n \r\n * operationsFree(obj);\r\n*/",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "public class Operations {\r\n\r\n    public Operations() {\r\n\r\n    }\r\n    \r\n    public int Minus(int a, int b) {\r\n\r\n    }\r\n    \r\n    public int Multiply(int a, int b) {\r\n\r\n    }\r\n    \r\n    public int Divide(int a, int b) {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * Operations obj = new Operations();\r\n * int param_1 = obj.Minus(a,b);\r\n * int param_2 = obj.Multiply(a,b);\r\n * int param_3 = obj.Divide(a,b);\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "\r\nvar Operations = function() {\r\n\r\n};\r\n\r\n/** \r\n * @param {number} a \r\n * @param {number} b\r\n * @return {number}\r\n */\r\nOperations.prototype.minus = function(a, b) {\r\n\r\n};\r\n\r\n/** \r\n * @param {number} a \r\n * @param {number} b\r\n * @return {number}\r\n */\r\nOperations.prototype.multiply = function(a, b) {\r\n\r\n};\r\n\r\n/** \r\n * @param {number} a \r\n * @param {number} b\r\n * @return {number}\r\n */\r\nOperations.prototype.divide = function(a, b) {\r\n\r\n};\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * var obj = new Operations()\r\n * var param_1 = obj.minus(a,b)\r\n * var param_2 = obj.multiply(a,b)\r\n * var param_3 = obj.divide(a,b)\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Ruby",
+          "langSlug": "ruby",
+          "code": "class Operations\r\n    def initialize()\r\n\r\n    end\r\n\r\n\r\n=begin\r\n    :type a: Integer\r\n    :type b: Integer\r\n    :rtype: Integer\r\n=end\r\n    def minus(a, b)\r\n\r\n    end\r\n\r\n\r\n=begin\r\n    :type a: Integer\r\n    :type b: Integer\r\n    :rtype: Integer\r\n=end\r\n    def multiply(a, b)\r\n\r\n    end\r\n\r\n\r\n=begin\r\n    :type a: Integer\r\n    :type b: Integer\r\n    :rtype: Integer\r\n=end\r\n    def divide(a, b)\r\n\r\n    end\r\n\r\n\r\nend\r\n\r\n# Your Operations object will be instantiated and called as such:\r\n# obj = Operations.new()\r\n# param_1 = obj.minus(a, b)\r\n# param_2 = obj.multiply(a, b)\r\n# param_3 = obj.divide(a, b)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Swift",
+          "langSlug": "swift",
+          "code": "\r\nclass Operations {\r\n\r\n    init() {\r\n\r\n    }\r\n    \r\n    func minus(_ a: Int, _ b: Int) -> Int {\r\n\r\n    }\r\n    \r\n    func multiply(_ a: Int, _ b: Int) -> Int {\r\n\r\n    }\r\n    \r\n    func divide(_ a: Int, _ b: Int) -> Int {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * let obj = Operations()\r\n * let ret_1: Int = obj.minus(a, b)\r\n * let ret_2: Int = obj.multiply(a, b)\r\n * let ret_3: Int = obj.divide(a, b)\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Go",
+          "langSlug": "golang",
+          "code": "type Operations struct {\r\n\r\n}\r\n\r\n\r\nfunc Constructor() Operations {\r\n\r\n}\r\n\r\n\r\nfunc (this *Operations) Minus(a int, b int) int {\r\n\r\n}\r\n\r\n\r\nfunc (this *Operations) Multiply(a int, b int) int {\r\n\r\n}\r\n\r\n\r\nfunc (this *Operations) Divide(a int, b int) int {\r\n\r\n}\r\n\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * obj := Constructor();\r\n * param_1 := obj.Minus(a,b);\r\n * param_2 := obj.Multiply(a,b);\r\n * param_3 := obj.Divide(a,b);\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Scala",
+          "langSlug": "scala",
+          "code": "class Operations() {\r\n\r\n    def minus(a: Int, b: Int): Int = {\r\n\r\n    }\r\n\r\n    def multiply(a: Int, b: Int): Int = {\r\n\r\n    }\r\n\r\n    def divide(a: Int, b: Int): Int = {\r\n\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * var obj = new Operations()\r\n * var param_1 = obj.minus(a,b)\r\n * var param_2 = obj.multiply(a,b)\r\n * var param_3 = obj.divide(a,b)\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Kotlin",
+          "langSlug": "kotlin",
+          "code": "class Operations() {\r\n\r\n    fun minus(a: Int, b: Int): Int {\r\n\r\n    }\r\n\r\n    fun multiply(a: Int, b: Int): Int {\r\n\r\n    }\r\n\r\n    fun divide(a: Int, b: Int): Int {\r\n\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * var obj = Operations()\r\n * var param_1 = obj.minus(a,b)\r\n * var param_2 = obj.multiply(a,b)\r\n * var param_3 = obj.divide(a,b)\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Rust",
+          "langSlug": "rust",
+          "code": "struct Operations {\r\n\r\n}\r\n\r\n\r\n/**\r\n * `&self` means the method takes an immutable reference.\r\n * If you need a mutable reference, change it to `&mut self` instead.\r\n */\r\nimpl Operations {\r\n\r\n    fn new() -> Self {\r\n\r\n    }\r\n    \r\n    fn minus(&self, a: i32, b: i32) -> i32 {\r\n\r\n    }\r\n    \r\n    fn multiply(&self, a: i32, b: i32) -> i32 {\r\n\r\n    }\r\n    \r\n    fn divide(&self, a: i32, b: i32) -> i32 {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * let obj = Operations::new();\r\n * let ret_1: i32 = obj.minus(a, b);\r\n * let ret_2: i32 = obj.multiply(a, b);\r\n * let ret_3: i32 = obj.divide(a, b);\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "PHP",
+          "langSlug": "php",
+          "code": "class Operations {\r\n    /**\r\n     */\r\n    function __construct() {\r\n\r\n    }\r\n\r\n    /**\r\n     * @param Integer $a\r\n     * @param Integer $b\r\n     * @return Integer\r\n     */\r\n    function minus($a, $b) {\r\n\r\n    }\r\n\r\n    /**\r\n     * @param Integer $a\r\n     * @param Integer $b\r\n     * @return Integer\r\n     */\r\n    function multiply($a, $b) {\r\n\r\n    }\r\n\r\n    /**\r\n     * @param Integer $a\r\n     * @param Integer $b\r\n     * @return Integer\r\n     */\r\n    function divide($a, $b) {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your Operations object will be instantiated and called as such:\r\n * $obj = Operations();\r\n * $ret_1 = $obj->minus($a, $b);\r\n * $ret_2 = $obj->multiply($a, $b);\r\n * $ret_3 = $obj->divide($a, $b);\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "TypeScript",
+          "langSlug": "typescript",
+          "code": "class Operations {\n    constructor() {\n\n    }\n\n    minus(a: number, b: number): number {\n\n    }\n\n    multiply(a: number, b: number): number {\n\n    }\n\n    divide(a: number, b: number): number {\n\n    }\n}\n\n/**\n * Your Operations object will be instantiated and called as such:\n * var obj = new Operations()\n * var param_1 = obj.minus(a,b)\n * var param_2 = obj.multiply(a,b)\n * var param_3 = obj.divide(a,b)\n */",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"975\", \"totalSubmission\": \"2K\", \"totalAcceptedRaw\": 975, \"totalSubmissionRaw\": 2003, \"acRate\": \"48.7%\"}",
+      "hints": [
+        "从减法开始，逐步解决。一旦完成了一个函数，你可以用它来实现其他函数。",
+        "减法：取负函数（将正整数转换为负数）有用吗？你可以使用加法操作符来实现吗?",
+        "当a > b时，a – b > 0。你能得到a – b的符号位吗？",
+        "你考虑过如何处理a – b中的整数溢出吗？"
+      ],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[\"Operations\",\"minus\",\"minus\",\"multiply\",\"multiply\",\"divide\",\"divide\"]\n[[],[0,-2147483647],[-1,2147483647],[-1,-2147483647],[-100,21474836],[2147483647,-1],[-2147483648,1]]",
+      "metaData": "{\"classname\": \"Operations\", \"maxbytesperline\": 200000, \"systemdesign\": true, \"constructor\": {\"params\": []}, \"methods\": [{\"name\": \"minus\", \"params\": [{\"name\": \"a\", \"type\": \"integer\"}, {\"name\": \"b\", \"type\": \"integer\"}], \"return\": {\"type\": \"integer\"}}, {\"name\": \"multiply\", \"params\": [{\"name\": \"a\", \"type\": \"integer\"}, {\"name\": \"b\", \"type\": \"integer\"}], \"return\": {\"type\": \"integer\"}}, {\"name\": \"divide\", \"params\": [{\"name\": \"a\", \"type\": \"integer\"}, {\"name\": \"b\", \"type\": \"integer\"}], \"return\": {\"type\": \"integer\"}}], \"params\": [{\"name\": \"inputs\", \"type\": \"integer[]\"}, {\"name\": \"inputs\", \"type\": \"integer[]\"}], \"return\": {\"type\": \"list<String>\", \"dealloc\": true}}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"c\":[\"C\",\"<p>\\u7248\\u672c\\uff1a<code>GCC 8.2<\\/code>\\uff0c\\u91c7\\u7528GNU99\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002 <a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a>\\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u5982\\u60f3\\u4f7f\\u7528\\u54c8\\u5e0c\\u8868\\u8fd0\\u7b97, \\u60a8\\u53ef\\u4ee5\\u4f7f\\u7528 <a href=\\\"https:\\/\\/troydhanson.github.io\\/uthash\\/\\\" target=\\\"_blank\\\">uthash<\\/a>\\u3002 \\\"uthash.h\\\"\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5bfc\\u5165\\u3002\\u8bf7\\u770b\\u5982\\u4e0b\\u793a\\u4f8b:<\\/p>\\r\\n\\r\\n<p><b>1. \\u5f80\\u54c8\\u5e0c\\u8868\\u4e2d\\u6dfb\\u52a0\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            \\/* we'll use this field as the key *\\/\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; \\/* makes this structure hashable *\\/\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>2. \\u5728\\u54c8\\u5e0c\\u8868\\u4e2d\\u67e5\\u627e\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>3. \\u4ece\\u54c8\\u5e0c\\u8868\\u4e2d\\u5220\\u9664\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"ruby\":[\"Ruby\",\"<p>\\u4f7f\\u7528<code>Ruby 2.7<\\/code>\\u6267\\u884c<\\/p>\"],\"swift\":[\"Swift\",\"<p>\\u7248\\u672c\\uff1a<code>Swift 5.2.5<\\/code><\\/p>\\r\\n\\r\\n<p>\\u6211\\u4eec\\u901a\\u5e38\\u4fdd\\u8bc1\\u66f4\\u65b0\\u5230 <a href=\\\"https:\\/\\/swift.org\\/download\\/\\\" target=\\\"_blank\\\">Apple\\u653e\\u51fa\\u7684\\u6700\\u65b0\\u7248Swift<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u53d1\\u73b0Swift\\u4e0d\\u662f\\u6700\\u65b0\\u7248\\u7684\\uff0c\\u8bf7\\u8054\\u7cfb\\u6211\\u4eec\\uff01\\u6211\\u4eec\\u5c06\\u5c3d\\u5feb\\u66f4\\u65b0\\u3002<\\/p>\"],\"golang\":[\"Go\",\"<p>\\u7248\\u672c\\uff1a<code>Go 1.15<\\/code><\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"],\"scala\":[\"Scala\",\"<p>\\u7248\\u672c\\uff1a<code>Scala 2.13<\\/code><\\/p>\"],\"kotlin\":[\"Kotlin\",\"<p>\\u7248\\u672c\\uff1a<code>Kotlin 1.3.10<\\/code><\\/p>\"],\"rust\":[\"Rust\",\"<p>\\u7248\\u672c\\uff1a<code>rust 1.46.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u652f\\u6301 crates.io \\u7684 <a href=\\\"https:\\/\\/crates.io\\/crates\\/rand\\\" target=\\\"_blank\\\">rand<\\/a><\\/p>\"],\"php\":[\"PHP\",\"<p>Run with <code>PHP 7.2<\\/code>.<\\/p>\"],\"typescript\":[\"TypeScript\",\"TypeScript 3.8\\r\\n\\r\\nCompile Options: --strict --target ES6\"]}",
+      "book": {
+        "id": "2",
+        "bookName": "《程序员面试金典（第 6 版）》",
+        "pressName": "图灵公司",
+        "source": "《程序员面试金典（第 6 版）》独家授权",
+        "shortDescription": "英文版：Cracking the Coding Interview，源自硅谷程序员的面试红宝书",
+        "fullDescription": "本书是原谷歌资深面试官的经验之作，帮助了许多想要加入脸书、苹果、谷歌等 IT 名企的求职者拿到 Dream offer。本专题的 100+ 编程面试题是在原书基础上精心挑选出来的，帮助你轻松应战 IT 名企技术面试。",
+        "bookImgUrl": "https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/09/30/book_2.jpg",
+        "pressImgUrl": "https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/02/11/logo20190828-02.png",
+        "productUrl": "",
+        "__typename": "CategoryInfoNode"
+      },
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

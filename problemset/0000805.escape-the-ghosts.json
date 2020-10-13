@@ -1,0 +1,142 @@
+{
+  "data": {
+    "question": {
+      "questionId": "805",
+      "questionFrontendId": "789",
+      "boundTopicId": 1476,
+      "title": "Escape The Ghosts",
+      "titleSlug": "escape-the-ghosts",
+      "content": "<p>You are playing a simplified PAC-MAN game on an infinite 2-D grid. You start at the point <code>[0, 0]</code>, and you are given a destination point <code>target = [x<sub>target</sub>, y<sub>target</sub>]</code>, which you are trying to get to. There are several ghosts on the map with their starting positions given as an array <code>ghosts</code>, where <code>ghosts[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> represents the starting position of the <code>i<sup>th</sup></code> ghost. All inputs are <strong>integral coordinates</strong>.</p>\n\n<p>Each turn, you and all the ghosts may independently choose to either <strong>move 1 unit</strong> in any of the four cardinal directions: north, east, south, or west or <strong>stay still</strong>. All actions happen <strong>simultaneously</strong>.</p>\n\n<p>You escape if and only if you can reach the target <strong>before</strong> any ghost reaches you. If you reach any square (including the target) at the <strong>same time</strong> as a ghost, it <strong>does not</strong> count as an escape.</p>\n\n<p>Return <code>true</code><em> if it is possible to escape, otherwise return </em><code>false</code><em>.</em></p>\n\n<p>&nbsp;</p>\n<p><strong>Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> ghosts = [[1,0],[0,3]], target = [0,1]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> You can reach the destination (0, 1) after 1 turn, while the ghosts located at (1, 0) and (0, 3) cannot catch up with you.\n</pre>\n\n<p><strong>Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> ghosts = [[1,0]], target = [2,0]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> You need to reach the destination (2, 0), but the ghost at (1, 0) lies between you and the destination.\n</pre>\n\n<p><strong>Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> ghosts = [[2,0]], target = [1,0]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> The ghost can reach the target at the same time as you.\n</pre>\n\n<p><strong>Example 4:</strong></p>\n\n<pre>\n<strong>Input:</strong> ghosts = [[5,0],[-10,-2],[0,-5],[-2,-2],[-7,1]], target = [7,7]\n<strong>Output:</strong> false\n</pre>\n\n<p><strong>Example 5:</strong></p>\n\n<pre>\n<strong>Input:</strong> ghosts = [[-1,0],[0,1],[-1,0],[0,1],[-1,0]], target = [0,0]\n<strong>Output:</strong> true\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= ghosts.length &lt;= 100</code></li>\n\t<li><code>ghosts[i].length == 2</code></li>\n\t<li><code>-10<sup>4</sup> &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 10<sup>4</sup></code></li>\n\t<li>There can be <strong>multiple ghosts</strong> in the same location.</li>\n\t<li><code>target.length == 2</code></li>\n\t<li><code>-10<sup>4</sup> &lt;= x<sub>target</sub>, y<sub>target</sub> &lt;= 10<sup>4</sup></code></li>\n</ul>\n",
+      "translatedTitle": "逃脱阻碍者",
+      "translatedContent": "<p>你在进行一个简化版的吃豆人游戏。你从&nbsp;<code>(0, 0)</code>&nbsp;点开始出发，你的目的地是&nbsp;<code>(target[0], target[1])</code>&nbsp;。地图上有一些阻碍者，第 i 个阻碍者从&nbsp;<code>(ghosts[i][0], ghosts[i][1])</code>&nbsp;出发。</p>\n\n<p>每一回合，你和阻碍者们*可以*同时向东，西，南，北四个方向移动，每次可以移动到距离原位置1个单位的新位置。</p>\n\n<p>如果你可以在任何阻碍者抓住你之前到达目的地（阻碍者可以采取任意行动方式），则被视为逃脱成功。如果你和阻碍者同时到达了一个位置（包括目的地）都不算是逃脱成功。</p>\n\n<p>当且仅当你有可能成功逃脱时，输出 True。</p>\n\n<pre><strong>示例 1:</strong>\n<strong>输入：</strong> \nghosts = [[1, 0], [0, 3]]\ntarget = [0, 1]\n<strong>输出：</strong>true\n<strong>解释：\n</strong>你可以直接一步到达目的地(0,1)，在(1, 0)或者(0, 3)位置的阻碍者都不可能抓住你。 \n</pre>\n\n<pre><strong>示例 2:</strong>\n<strong>输入：</strong> \nghosts = [[1, 0]]\ntarget = [2, 0]\n<strong>输出：</strong>false\n<strong>解释：</strong>\n你需要走到位于(2, 0)的目的地，但是在(1, 0)的阻碍者位于你和目的地之间。 \n</pre>\n\n<pre><strong>示例 3:</strong>\n<strong>输入：</strong> \nghosts = [[2, 0]]\ntarget = [1, 0]\n<strong>输出：</strong>false\n<strong>解释：\n</strong>阻碍者可以和你同时达到目的地。 \n</pre>\n\n<p><strong>说明：</strong></p>\n\n<ul>\n\t<li>所有的点的坐标值的绝对值 &lt;=&nbsp;<code>10000</code>。</li>\n\t<li>阻碍者的数量不会超过&nbsp;<code>100</code>。</li>\n</ul>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 22,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": true, \"python\": true, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Math",
+          "slug": "math",
+          "translatedName": "数学",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "class Solution {\npublic:\n    bool escapeGhosts(vector<vector<int>>& ghosts, vector<int>& target) {\n\n    }\n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "class Solution {\n    public boolean escapeGhosts(int[][] ghosts, int[] target) {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "class Solution(object):\n    def escapeGhosts(self, ghosts, target):\n        \"\"\"\n        :type ghosts: List[List[int]]\n        :type target: List[int]\n        :rtype: bool\n        \"\"\"",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "class Solution:\n    def escapeGhosts(self, ghosts: List[List[int]], target: List[int]) -> bool:",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C",
+          "langSlug": "c",
+          "code": "\n\nbool escapeGhosts(int** ghosts, int ghostsSize, int* ghostsColSize, int* target, int targetSize){\n\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "public class Solution {\n    public bool EscapeGhosts(int[][] ghosts, int[] target) {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "/**\n * @param {number[][]} ghosts\n * @param {number[]} target\n * @return {boolean}\n */\nvar escapeGhosts = function(ghosts, target) {\n\n};",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Ruby",
+          "langSlug": "ruby",
+          "code": "# @param {Integer[][]} ghosts\n# @param {Integer[]} target\n# @return {Boolean}\ndef escape_ghosts(ghosts, target)\n\nend",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Swift",
+          "langSlug": "swift",
+          "code": "class Solution {\n    func escapeGhosts(_ ghosts: [[Int]], _ target: [Int]) -> Bool {\n        \n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Go",
+          "langSlug": "golang",
+          "code": "func escapeGhosts(ghosts [][]int, target []int) bool {\n\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Scala",
+          "langSlug": "scala",
+          "code": "object Solution {\n    def escapeGhosts(ghosts: Array[Array[Int]], target: Array[Int]): Boolean = {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Kotlin",
+          "langSlug": "kotlin",
+          "code": "class Solution {\n    fun escapeGhosts(ghosts: Array<IntArray>, target: IntArray): Boolean {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Rust",
+          "langSlug": "rust",
+          "code": "impl Solution {\n    pub fn escape_ghosts(ghosts: Vec<Vec<i32>>, target: Vec<i32>) -> bool {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "PHP",
+          "langSlug": "php",
+          "code": "class Solution {\n\n    /**\n     * @param Integer[][] $ghosts\n     * @param Integer[] $target\n     * @return Boolean\n     */\n    function escapeGhosts($ghosts, $target) {\n\n    }\n}",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "TypeScript",
+          "langSlug": "typescript",
+          "code": "function escapeGhosts(ghosts: number[][], target: number[]): boolean {\n\n};",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"3K\", \"totalSubmission\": \"4.9K\", \"totalAcceptedRaw\": 2991, \"totalSubmissionRaw\": 4919, \"acRate\": \"60.8%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[[1,0],[0,3]]\n[0,1]",
+      "metaData": "{\r\n  \"name\": \"escapeGhosts\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"ghosts\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"c\":[\"C\",\"<p>\\u7248\\u672c\\uff1a<code>GCC 8.2<\\/code>\\uff0c\\u91c7\\u7528GNU99\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002 <a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a>\\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u5982\\u60f3\\u4f7f\\u7528\\u54c8\\u5e0c\\u8868\\u8fd0\\u7b97, \\u60a8\\u53ef\\u4ee5\\u4f7f\\u7528 <a href=\\\"https:\\/\\/troydhanson.github.io\\/uthash\\/\\\" target=\\\"_blank\\\">uthash<\\/a>\\u3002 \\\"uthash.h\\\"\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5bfc\\u5165\\u3002\\u8bf7\\u770b\\u5982\\u4e0b\\u793a\\u4f8b:<\\/p>\\r\\n\\r\\n<p><b>1. \\u5f80\\u54c8\\u5e0c\\u8868\\u4e2d\\u6dfb\\u52a0\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            \\/* we'll use this field as the key *\\/\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; \\/* makes this structure hashable *\\/\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>2. \\u5728\\u54c8\\u5e0c\\u8868\\u4e2d\\u67e5\\u627e\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>3. \\u4ece\\u54c8\\u5e0c\\u8868\\u4e2d\\u5220\\u9664\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"ruby\":[\"Ruby\",\"<p>\\u4f7f\\u7528<code>Ruby 2.7<\\/code>\\u6267\\u884c<\\/p>\"],\"swift\":[\"Swift\",\"<p>\\u7248\\u672c\\uff1a<code>Swift 5.2.5<\\/code><\\/p>\\r\\n\\r\\n<p>\\u6211\\u4eec\\u901a\\u5e38\\u4fdd\\u8bc1\\u66f4\\u65b0\\u5230 <a href=\\\"https:\\/\\/swift.org\\/download\\/\\\" target=\\\"_blank\\\">Apple\\u653e\\u51fa\\u7684\\u6700\\u65b0\\u7248Swift<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u53d1\\u73b0Swift\\u4e0d\\u662f\\u6700\\u65b0\\u7248\\u7684\\uff0c\\u8bf7\\u8054\\u7cfb\\u6211\\u4eec\\uff01\\u6211\\u4eec\\u5c06\\u5c3d\\u5feb\\u66f4\\u65b0\\u3002<\\/p>\"],\"golang\":[\"Go\",\"<p>\\u7248\\u672c\\uff1a<code>Go 1.15<\\/code><\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"],\"scala\":[\"Scala\",\"<p>\\u7248\\u672c\\uff1a<code>Scala 2.13<\\/code><\\/p>\"],\"kotlin\":[\"Kotlin\",\"<p>\\u7248\\u672c\\uff1a<code>Kotlin 1.3.10<\\/code><\\/p>\"],\"rust\":[\"Rust\",\"<p>\\u7248\\u672c\\uff1a<code>rust 1.46.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u652f\\u6301 crates.io \\u7684 <a href=\\\"https:\\/\\/crates.io\\/crates\\/rand\\\" target=\\\"_blank\\\">rand<\\/a><\\/p>\"],\"php\":[\"PHP\",\"<p>Run with <code>PHP 7.2<\\/code>.<\\/p>\"],\"typescript\":[\"TypeScript\",\"TypeScript 3.8\\r\\n\\r\\nCompile Options: --strict --target ES6\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

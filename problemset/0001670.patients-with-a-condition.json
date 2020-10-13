@@ -1,0 +1,52 @@
+{
+  "data": {
+    "question": {
+      "questionId": "1670",
+      "questionFrontendId": "1527",
+      "boundTopicId": 346927,
+      "title": "Patients With a Condition",
+      "titleSlug": "patients-with-a-condition",
+      "content": null,
+      "translatedTitle": "患某种疾病的患者",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Easy",
+      "likes": 1,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"971\", \"totalSubmission\": \"1.2K\", \"totalAcceptedRaw\": 971, \"totalSubmissionRaw\": 1171, \"acRate\": \"82.9%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Patients\": [\"patient_id\", \"patient_name\", \"conditions\"]}, \"rows\": {\"Patients\": [[1, \"Daniel\", \"YFEV COUGH\"], [2, \"Alice\", \"\"], [3, \"Bob\", \"DIAB100 MYOP\"], [4, \"George\", \"ACNE DIAB100\"], [5, \"Alain\", \"DIAB201\"]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists Patients (patient_id int, patient_name varchar(30), conditions varchar(100))\"\n  ],\n  \"mssql\": [\n    \"Create table Patients (patient_id int, patient_name varchar(30), conditions varchar(100))\"\n  ],\n  \"oraclesql\": [\n    \"Create table Patients (patient_id int, patient_name varchar(30), conditions varchar(100))\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Patients (patient_id int, patient_name varchar(30), conditions varchar(100))",
+        "Truncate table Patients",
+        "insert into Patients (patient_id, patient_name, conditions) values ('1', 'Daniel', 'YFEV COUGH')",
+        "insert into Patients (patient_id, patient_name, conditions) values ('2', 'Alice', '')",
+        "insert into Patients (patient_id, patient_name, conditions) values ('3', 'Bob', 'DIAB100 MYOP')",
+        "insert into Patients (patient_id, patient_name, conditions) values ('4', 'George', 'ACNE DIAB100')",
+        "insert into Patients (patient_id, patient_name, conditions) values ('5', 'Alain', 'DIAB201')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "question": {
+      "questionId": "578",
+      "questionFrontendId": "578",
+      "boundTopicId": 2648,
+      "title": "Get Highest Answer Rate Question",
+      "titleSlug": "get-highest-answer-rate-question",
+      "content": null,
+      "translatedTitle": "查询回答率最高的问题",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Medium",
+      "likes": 8,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"3.9K\", \"totalSubmission\": \"7.5K\", \"totalAcceptedRaw\": 3858, \"totalSubmissionRaw\": 7541, \"acRate\": \"51.2%\"}",
+      "hints": [
+        "Try to find all question ids by group",
+        "Try to find each group answer number and show number.",
+        "Rank all the rates (answer/(answer+show)) and return the max one"
+      ],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"survey_log\": [\"id\", \"action\", \"question_id\", \"answer_id\", \"q_num\", \"timestamp\"]},\"rows\": {\"survey_log\": [[5, \"show\", 285, null, 1, 123], [5, \"answer\", 285, 124124, 1, 124], [5, \"show\", 369, null, 2, 125], [5, \"skip\", 369, null, 2, 126]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists survey_log (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"\n  ],\n  \"mssql\": [\n    \"Create table survey_log (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"\n  ],\n  \"oraclesql\": [\n    \"Create table survey_log (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists survey_log (id int, action varchar(255), question_id int, answer_id int, q_num int, timestamp int)",
+        "Truncate table survey_log",
+        "insert into survey_log (id, action, question_id, answer_id, q_num, timestamp) values ('5', 'show', '285', 'None', '1', '123')",
+        "insert into survey_log (id, action, question_id, answer_id, q_num, timestamp) values ('5', 'answer', '285', '124124', '1', '124')",
+        "insert into survey_log (id, action, question_id, answer_id, q_num, timestamp) values ('5', 'show', '369', 'None', '2', '125')",
+        "insert into survey_log (id, action, question_id, answer_id, q_num, timestamp) values ('5', 'skip', '369', 'None', '2', '126')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

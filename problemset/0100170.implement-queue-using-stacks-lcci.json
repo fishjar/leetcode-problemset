@@ -1,0 +1,156 @@
+{
+  "data": {
+    "question": {
+      "questionId": "100170",
+      "questionFrontendId": "面试题 03.04",
+      "boundTopicId": 45971,
+      "title": "Implement Queue using Stacks LCCI",
+      "titleSlug": "implement-queue-using-stacks-lcci",
+      "content": "<p>Implement a MyQueue class which implements a queue using two stacks.</p>\r\n&nbsp;\r\n\r\n<p><strong>Example: </strong></p>\r\n\r\n<pre>\r\nMyQueue queue = new MyQueue();\r\n\r\nqueue.push(1);\r\nqueue.push(2);\r\nqueue.peek();  // return 1\r\nqueue.pop();   // return 1\r\nqueue.empty(); // return false</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>Notes:</b></p>\r\n\r\n<ul>\r\n\t<li>You must use&nbsp;<i>only</i>&nbsp;standard operations of a stack -- which means only&nbsp;<code>push to top</code>,&nbsp;<code>peek/pop from top</code>,&nbsp;<code>size</code>, and&nbsp;<code>is empty</code>&nbsp;operations are valid.</li>\r\n\t<li>Depending on your language, stack may not be supported natively. You may simulate a stack by using a list or deque (double-ended queue), as long as you use only standard operations of a stack.</li>\r\n\t<li>You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "translatedTitle": "化栈为队",
+      "translatedContent": "<p>实现一个MyQueue类，该类用两个栈来实现一个队列。</p><br><p><strong>示例：</strong><pre>MyQueue queue = new MyQueue();<br><br>queue.push(1);<br>queue.push(2);<br>queue.peek();  // 返回 1<br>queue.pop();   // 返回 1<br>queue.empty(); // 返回 false</pre></p><br><p><strong>说明：</strong><br><ul><li>你只能使用标准的栈操作 -- 也就是只有 <code>push to top</code>, <code>peek/pop from top</code>, <code>size</code> 和 <code>is empty</code> 操作是合法的。</li><li>你所使用的语言也许不支持栈。你可以使用 list 或者 deque（双端队列）来模拟一个栈，只要是标准的栈操作即可。</li><li>假设所有操作都是有效的 （例如，一个空的队列不会调用 pop 或者 peek 操作）。</li></ul></p>",
+      "isPaidOnly": false,
+      "difficulty": "Easy",
+      "likes": 21,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Stack",
+          "slug": "stack",
+          "translatedName": "栈",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "class MyQueue {\r\npublic:\r\n    /** Initialize your data structure here. */\r\n    MyQueue() {\r\n\r\n    }\r\n    \r\n    /** Push element x to the back of queue. */\r\n    void push(int x) {\r\n\r\n    }\r\n    \r\n    /** Removes the element from in front of queue and returns that element. */\r\n    int pop() {\r\n\r\n    }\r\n    \r\n    /** Get the front element. */\r\n    int peek() {\r\n\r\n    }\r\n    \r\n    /** Returns whether the queue is empty. */\r\n    bool empty() {\r\n\r\n    }\r\n};\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * MyQueue* obj = new MyQueue();\r\n * obj->push(x);\r\n * int param_2 = obj->pop();\r\n * int param_3 = obj->peek();\r\n * bool param_4 = obj->empty();\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "class MyQueue {\r\n\r\n    /** Initialize your data structure here. */\r\n    public MyQueue() {\r\n\r\n    }\r\n    \r\n    /** Push element x to the back of queue. */\r\n    public void push(int x) {\r\n\r\n    }\r\n    \r\n    /** Removes the element from in front of queue and returns that element. */\r\n    public int pop() {\r\n\r\n    }\r\n    \r\n    /** Get the front element. */\r\n    public int peek() {\r\n\r\n    }\r\n    \r\n    /** Returns whether the queue is empty. */\r\n    public boolean empty() {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * MyQueue obj = new MyQueue();\r\n * obj.push(x);\r\n * int param_2 = obj.pop();\r\n * int param_3 = obj.peek();\r\n * boolean param_4 = obj.empty();\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "class MyQueue(object):\r\n\r\n    def __init__(self):\r\n        \"\"\"\r\n        Initialize your data structure here.\r\n        \"\"\"\r\n\r\n\r\n    def push(self, x):\r\n        \"\"\"\r\n        Push element x to the back of queue.\r\n        :type x: int\r\n        :rtype: None\r\n        \"\"\"\r\n\r\n\r\n    def pop(self):\r\n        \"\"\"\r\n        Removes the element from in front of queue and returns that element.\r\n        :rtype: int\r\n        \"\"\"\r\n\r\n\r\n    def peek(self):\r\n        \"\"\"\r\n        Get the front element.\r\n        :rtype: int\r\n        \"\"\"\r\n\r\n\r\n    def empty(self):\r\n        \"\"\"\r\n        Returns whether the queue is empty.\r\n        :rtype: bool\r\n        \"\"\"\r\n\r\n\r\n\r\n# Your MyQueue object will be instantiated and called as such:\r\n# obj = MyQueue()\r\n# obj.push(x)\r\n# param_2 = obj.pop()\r\n# param_3 = obj.peek()\r\n# param_4 = obj.empty()",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "class MyQueue:\r\n\r\n    def __init__(self):\r\n        \"\"\"\r\n        Initialize your data structure here.\r\n        \"\"\"\r\n\r\n\r\n    def push(self, x: int) -> None:\r\n        \"\"\"\r\n        Push element x to the back of queue.\r\n        \"\"\"\r\n\r\n\r\n    def pop(self) -> int:\r\n        \"\"\"\r\n        Removes the element from in front of queue and returns that element.\r\n        \"\"\"\r\n\r\n\r\n    def peek(self) -> int:\r\n        \"\"\"\r\n        Get the front element.\r\n        \"\"\"\r\n\r\n\r\n    def empty(self) -> bool:\r\n        \"\"\"\r\n        Returns whether the queue is empty.\r\n        \"\"\"\r\n\r\n\r\n\r\n# Your MyQueue object will be instantiated and called as such:\r\n# obj = MyQueue()\r\n# obj.push(x)\r\n# param_2 = obj.pop()\r\n# param_3 = obj.peek()\r\n# param_4 = obj.empty()",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C",
+          "langSlug": "c",
+          "code": "\r\n\r\n\r\ntypedef struct {\r\n\r\n} MyQueue;\r\n\r\n/** Initialize your data structure here. */\r\n\r\nMyQueue* myQueueCreate() {\r\n\r\n}\r\n\r\n/** Push element x to the back of queue. */\r\nvoid myQueuePush(MyQueue* obj, int x) {\r\n\r\n}\r\n\r\n/** Removes the element from in front of queue and returns that element. */\r\nint myQueuePop(MyQueue* obj) {\r\n\r\n}\r\n\r\n/** Get the front element. */\r\nint myQueuePeek(MyQueue* obj) {\r\n\r\n}\r\n\r\n/** Returns whether the queue is empty. */\r\nbool myQueueEmpty(MyQueue* obj) {\r\n\r\n}\r\n\r\nvoid myQueueFree(MyQueue* obj) {\r\n\r\n}\r\n\r\n/**\r\n * Your MyQueue struct will be instantiated and called as such:\r\n * MyQueue* obj = myQueueCreate();\r\n * myQueuePush(obj, x);\r\n \r\n * int param_2 = myQueuePop(obj);\r\n \r\n * int param_3 = myQueuePeek(obj);\r\n \r\n * bool param_4 = myQueueEmpty(obj);\r\n \r\n * myQueueFree(obj);\r\n*/",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "public class MyQueue {\r\n\r\n    /** Initialize your data structure here. */\r\n    public MyQueue() {\r\n\r\n    }\r\n    \r\n    /** Push element x to the back of queue. */\r\n    public void Push(int x) {\r\n\r\n    }\r\n    \r\n    /** Removes the element from in front of queue and returns that element. */\r\n    public int Pop() {\r\n\r\n    }\r\n    \r\n    /** Get the front element. */\r\n    public int Peek() {\r\n\r\n    }\r\n    \r\n    /** Returns whether the queue is empty. */\r\n    public bool Empty() {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * MyQueue obj = new MyQueue();\r\n * obj.Push(x);\r\n * int param_2 = obj.Pop();\r\n * int param_3 = obj.Peek();\r\n * bool param_4 = obj.Empty();\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "/**\r\n * Initialize your data structure here.\r\n */\r\nvar MyQueue = function() {\r\n\r\n};\r\n\r\n/**\r\n * Push element x to the back of queue. \r\n * @param {number} x\r\n * @return {void}\r\n */\r\nMyQueue.prototype.push = function(x) {\r\n\r\n};\r\n\r\n/**\r\n * Removes the element from in front of queue and returns that element.\r\n * @return {number}\r\n */\r\nMyQueue.prototype.pop = function() {\r\n\r\n};\r\n\r\n/**\r\n * Get the front element.\r\n * @return {number}\r\n */\r\nMyQueue.prototype.peek = function() {\r\n\r\n};\r\n\r\n/**\r\n * Returns whether the queue is empty.\r\n * @return {boolean}\r\n */\r\nMyQueue.prototype.empty = function() {\r\n\r\n};\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * var obj = new MyQueue()\r\n * obj.push(x)\r\n * var param_2 = obj.pop()\r\n * var param_3 = obj.peek()\r\n * var param_4 = obj.empty()\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Ruby",
+          "langSlug": "ruby",
+          "code": "class MyQueue\r\n\r\n=begin\r\n    Initialize your data structure here.\r\n=end\r\n    def initialize()\r\n\r\n    end\r\n\r\n\r\n=begin\r\n    Push element x to the back of queue.\r\n    :type x: Integer\r\n    :rtype: Void\r\n=end\r\n    def push(x)\r\n\r\n    end\r\n\r\n\r\n=begin\r\n    Removes the element from in front of queue and returns that element.\r\n    :rtype: Integer\r\n=end\r\n    def pop()\r\n\r\n    end\r\n\r\n\r\n=begin\r\n    Get the front element.\r\n    :rtype: Integer\r\n=end\r\n    def peek()\r\n\r\n    end\r\n\r\n\r\n=begin\r\n    Returns whether the queue is empty.\r\n    :rtype: Boolean\r\n=end\r\n    def empty()\r\n\r\n    end\r\n\r\n\r\nend\r\n\r\n# Your MyQueue object will be instantiated and called as such:\r\n# obj = MyQueue.new()\r\n# obj.push(x)\r\n# param_2 = obj.pop()\r\n# param_3 = obj.peek()\r\n# param_4 = obj.empty()",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Swift",
+          "langSlug": "swift",
+          "code": "\r\nclass MyQueue {\r\n\r\n    /** Initialize your data structure here. */\r\n    init() {\r\n\r\n    }\r\n    \r\n    /** Push element x to the back of queue. */\r\n    func push(_ x: Int) {\r\n\r\n    }\r\n    \r\n    /** Removes the element from in front of queue and returns that element. */\r\n    func pop() -> Int {\r\n\r\n    }\r\n    \r\n    /** Get the front element. */\r\n    func peek() -> Int {\r\n\r\n    }\r\n    \r\n    /** Returns whether the queue is empty. */\r\n    func empty() -> Bool {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * let obj = MyQueue()\r\n * obj.push(x)\r\n * let ret_2: Int = obj.pop()\r\n * let ret_3: Int = obj.peek()\r\n * let ret_4: Bool = obj.empty()\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Go",
+          "langSlug": "golang",
+          "code": "type MyQueue struct {\r\n\r\n}\r\n\r\n\r\n/** Initialize your data structure here. */\r\nfunc Constructor() MyQueue {\r\n\r\n}\r\n\r\n\r\n/** Push element x to the back of queue. */\r\nfunc (this *MyQueue) Push(x int)  {\r\n\r\n}\r\n\r\n\r\n/** Removes the element from in front of queue and returns that element. */\r\nfunc (this *MyQueue) Pop() int {\r\n\r\n}\r\n\r\n\r\n/** Get the front element. */\r\nfunc (this *MyQueue) Peek() int {\r\n\r\n}\r\n\r\n\r\n/** Returns whether the queue is empty. */\r\nfunc (this *MyQueue) Empty() bool {\r\n\r\n}\r\n\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * obj := Constructor();\r\n * obj.Push(x);\r\n * param_2 := obj.Pop();\r\n * param_3 := obj.Peek();\r\n * param_4 := obj.Empty();\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Scala",
+          "langSlug": "scala",
+          "code": "class MyQueue() {\r\n\r\n    /** Initialize your data structure here. */\r\n\r\n\r\n    /** Push element x to the back of queue. */\r\n    def push(x: Int) {\r\n\r\n    }\r\n\r\n    /** Removes the element from in front of queue and returns that element. */\r\n    def pop(): Int = {\r\n\r\n    }\r\n\r\n    /** Get the front element. */\r\n    def peek(): Int = {\r\n\r\n    }\r\n\r\n    /** Returns whether the queue is empty. */\r\n    def empty(): Boolean = {\r\n\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * var obj = new MyQueue()\r\n * obj.push(x)\r\n * var param_2 = obj.pop()\r\n * var param_3 = obj.peek()\r\n * var param_4 = obj.empty()\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Kotlin",
+          "langSlug": "kotlin",
+          "code": "class MyQueue() {\r\n\r\n    /** Initialize your data structure here. */\r\n\r\n\r\n    /** Push element x to the back of queue. */\r\n    fun push(x: Int) {\r\n\r\n    }\r\n\r\n    /** Removes the element from in front of queue and returns that element. */\r\n    fun pop(): Int {\r\n\r\n    }\r\n\r\n    /** Get the front element. */\r\n    fun peek(): Int {\r\n\r\n    }\r\n\r\n    /** Returns whether the queue is empty. */\r\n    fun empty(): Boolean {\r\n\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * var obj = MyQueue()\r\n * obj.push(x)\r\n * var param_2 = obj.pop()\r\n * var param_3 = obj.peek()\r\n * var param_4 = obj.empty()\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Rust",
+          "langSlug": "rust",
+          "code": "struct MyQueue {\r\n\r\n}\r\n\r\n\r\n/**\r\n * `&self` means the method takes an immutable reference.\r\n * If you need a mutable reference, change it to `&mut self` instead.\r\n */\r\nimpl MyQueue {\r\n\r\n    /** Initialize your data structure here. */\r\n    fn new() -> Self {\r\n\r\n    }\r\n    \r\n    /** Push element x to the back of queue. */\r\n    fn push(&self, x: i32) {\r\n\r\n    }\r\n    \r\n    /** Removes the element from in front of queue and returns that element. */\r\n    fn pop(&self) -> i32 {\r\n\r\n    }\r\n    \r\n    /** Get the front element. */\r\n    fn peek(&self) -> i32 {\r\n\r\n    }\r\n    \r\n    /** Returns whether the queue is empty. */\r\n    fn empty(&self) -> bool {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * let obj = MyQueue::new();\r\n * obj.push(x);\r\n * let ret_2: i32 = obj.pop();\r\n * let ret_3: i32 = obj.peek();\r\n * let ret_4: bool = obj.empty();\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "PHP",
+          "langSlug": "php",
+          "code": "class MyQueue {\r\n    /**\r\n     * Initialize your data structure here.\r\n     */\r\n    function __construct() {\r\n\r\n    }\r\n\r\n    /**\r\n     * Push element x to the back of queue.\r\n     * @param Integer $x\r\n     * @return NULL\r\n     */\r\n    function push($x) {\r\n\r\n    }\r\n\r\n    /**\r\n     * Removes the element from in front of queue and returns that element.\r\n     * @return Integer\r\n     */\r\n    function pop() {\r\n\r\n    }\r\n\r\n    /**\r\n     * Get the front element.\r\n     * @return Integer\r\n     */\r\n    function peek() {\r\n\r\n    }\r\n\r\n    /**\r\n     * Returns whether the queue is empty.\r\n     * @return Boolean\r\n     */\r\n    function empty() {\r\n\r\n    }\r\n}\r\n\r\n/**\r\n * Your MyQueue object will be instantiated and called as such:\r\n * $obj = MyQueue();\r\n * $obj->push($x);\r\n * $ret_2 = $obj->pop();\r\n * $ret_3 = $obj->peek();\r\n * $ret_4 = $obj->empty();\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "TypeScript",
+          "langSlug": "typescript",
+          "code": "class MyQueue {\n    constructor() {\n\n    }\n\n    push(x: number): void {\n\n    }\n\n    pop(): number {\n\n    }\n\n    peek(): number {\n\n    }\n\n    empty(): boolean {\n\n    }\n}\n\n/**\n * Your MyQueue object will be instantiated and called as such:\n * var obj = new MyQueue()\n * obj.push(x)\n * var param_2 = obj.pop()\n * var param_3 = obj.peek()\n * var param_4 = obj.empty()\n */",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"11K\", \"totalSubmission\": \"15.5K\", \"totalAcceptedRaw\": 11007, \"totalSubmissionRaw\": 15511, \"acRate\": \"71.0%\"}",
+      "hints": [
+        "队列和栈的主要区别是元素的顺序。队列删除最旧的项，栈删除最新的项。如果你只访问最新的项，那么如何从栈中删除最旧的项？",
+        "我们可以通过不断地删除最新的项（将这些项插入临时栈中）来删除栈中最老的项，直到得到一个元素为止。然后，在检索到最新项后，将所有元素返回。与此有关的问题是，每次在一行中做几个弹出操作（pop）将需要O(n)的时间。我们可以优化在一行中连续弹出这一场景吗？"
+      ],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[\"MyQueue\",\"push\",\"push\",\"peek\",\"pop\",\"empty\"]\n[[],[1],[2],[],[],[]]",
+      "metaData": "{\r\n    \"classname\": \"MyQueue\",\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"maxSize\",\r\n                \"lang\": \"c\",\r\n                \"value\": \"64000\"\r\n            }\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"push\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"x\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Push element x to the back of queue.\"\r\n        },\r\n        {\r\n            \"name\" : \"pop\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            },\r\n            \"comment\": \"Removes the element from in front of queue and returns that element.\"\r\n        },\r\n        {\r\n            \"name\" : \"peek\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            },\r\n            \"comment\": \"Get the front element.\"\r\n        },\r\n        {\r\n            \"name\" : \"empty\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            },\r\n            \"comment\": \"Returns whether the queue is empty.\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"c\":[\"C\",\"<p>\\u7248\\u672c\\uff1a<code>GCC 8.2<\\/code>\\uff0c\\u91c7\\u7528GNU99\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002 <a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a>\\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u5982\\u60f3\\u4f7f\\u7528\\u54c8\\u5e0c\\u8868\\u8fd0\\u7b97, \\u60a8\\u53ef\\u4ee5\\u4f7f\\u7528 <a href=\\\"https:\\/\\/troydhanson.github.io\\/uthash\\/\\\" target=\\\"_blank\\\">uthash<\\/a>\\u3002 \\\"uthash.h\\\"\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5bfc\\u5165\\u3002\\u8bf7\\u770b\\u5982\\u4e0b\\u793a\\u4f8b:<\\/p>\\r\\n\\r\\n<p><b>1. \\u5f80\\u54c8\\u5e0c\\u8868\\u4e2d\\u6dfb\\u52a0\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            \\/* we'll use this field as the key *\\/\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; \\/* makes this structure hashable *\\/\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>2. \\u5728\\u54c8\\u5e0c\\u8868\\u4e2d\\u67e5\\u627e\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>3. \\u4ece\\u54c8\\u5e0c\\u8868\\u4e2d\\u5220\\u9664\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"ruby\":[\"Ruby\",\"<p>\\u4f7f\\u7528<code>Ruby 2.7<\\/code>\\u6267\\u884c<\\/p>\"],\"swift\":[\"Swift\",\"<p>\\u7248\\u672c\\uff1a<code>Swift 5.2.5<\\/code><\\/p>\\r\\n\\r\\n<p>\\u6211\\u4eec\\u901a\\u5e38\\u4fdd\\u8bc1\\u66f4\\u65b0\\u5230 <a href=\\\"https:\\/\\/swift.org\\/download\\/\\\" target=\\\"_blank\\\">Apple\\u653e\\u51fa\\u7684\\u6700\\u65b0\\u7248Swift<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u53d1\\u73b0Swift\\u4e0d\\u662f\\u6700\\u65b0\\u7248\\u7684\\uff0c\\u8bf7\\u8054\\u7cfb\\u6211\\u4eec\\uff01\\u6211\\u4eec\\u5c06\\u5c3d\\u5feb\\u66f4\\u65b0\\u3002<\\/p>\"],\"golang\":[\"Go\",\"<p>\\u7248\\u672c\\uff1a<code>Go 1.15<\\/code><\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"],\"scala\":[\"Scala\",\"<p>\\u7248\\u672c\\uff1a<code>Scala 2.13<\\/code><\\/p>\"],\"kotlin\":[\"Kotlin\",\"<p>\\u7248\\u672c\\uff1a<code>Kotlin 1.3.10<\\/code><\\/p>\"],\"rust\":[\"Rust\",\"<p>\\u7248\\u672c\\uff1a<code>rust 1.46.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u652f\\u6301 crates.io \\u7684 <a href=\\\"https:\\/\\/crates.io\\/crates\\/rand\\\" target=\\\"_blank\\\">rand<\\/a><\\/p>\"],\"php\":[\"PHP\",\"<p>Run with <code>PHP 7.2<\\/code>.<\\/p>\"],\"typescript\":[\"TypeScript\",\"TypeScript 3.8\\r\\n\\r\\nCompile Options: --strict --target ES6\"]}",
+      "book": {
+        "id": "2",
+        "bookName": "《程序员面试金典（第 6 版）》",
+        "pressName": "图灵公司",
+        "source": "《程序员面试金典（第 6 版）》独家授权",
+        "shortDescription": "英文版：Cracking the Coding Interview，源自硅谷程序员的面试红宝书",
+        "fullDescription": "本书是原谷歌资深面试官的经验之作，帮助了许多想要加入脸书、苹果、谷歌等 IT 名企的求职者拿到 Dream offer。本专题的 100+ 编程面试题是在原书基础上精心挑选出来的，帮助你轻松应战 IT 名企技术面试。",
+        "bookImgUrl": "https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/09/30/book_2.jpg",
+        "pressImgUrl": "https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/02/11/logo20190828-02.png",
+        "productUrl": "",
+        "__typename": "CategoryInfoNode"
+      },
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

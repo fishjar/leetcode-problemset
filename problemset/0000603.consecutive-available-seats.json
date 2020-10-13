@@ -1,0 +1,52 @@
+{
+  "data": {
+    "question": {
+      "questionId": "603",
+      "questionFrontendId": "603",
+      "boundTopicId": 2639,
+      "title": "Consecutive Available Seats",
+      "titleSlug": "consecutive-available-seats",
+      "content": null,
+      "translatedTitle": "连续空余座位",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Easy",
+      "likes": 43,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"5.4K\", \"totalSubmission\": \"7.9K\", \"totalAcceptedRaw\": 5416, \"totalSubmissionRaw\": 7939, \"acRate\": \"68.2%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"cinema\":[\"seat_id\",\"free\"]},\"rows\":{\"cinema\":[[1,1],[2,0],[3,1],[4,1],[5,1]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists cinema (seat_id int primary key auto_increment, free bool)\"\r\n  ],\r\n  \"mssql\": [\r\n    \"Create table cinema (seat_id int primary key, free BIT)\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"Create table cinema (seat_id int primary key, free NUMBER(1))\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists cinema (seat_id int primary key auto_increment, free bool)",
+        "Truncate table cinema",
+        "insert into cinema (seat_id, free) values ('1', '1')",
+        "insert into cinema (seat_id, free) values ('2', '0')",
+        "insert into cinema (seat_id, free) values ('3', '1')",
+        "insert into cinema (seat_id, free) values ('4', '1')",
+        "insert into cinema (seat_id, free) values ('5', '1')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

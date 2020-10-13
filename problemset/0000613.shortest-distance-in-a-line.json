@@ -1,0 +1,50 @@
+{
+  "data": {
+    "question": {
+      "questionId": "613",
+      "questionFrontendId": "613",
+      "boundTopicId": 2634,
+      "title": "Shortest Distance in a Line",
+      "titleSlug": "shortest-distance-in-a-line",
+      "content": null,
+      "translatedTitle": "直线上的最近距离",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Easy",
+      "likes": 20,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"5.5K\", \"totalSubmission\": \"6.7K\", \"totalAcceptedRaw\": 5513, \"totalSubmissionRaw\": 6731, \"acRate\": \"81.9%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"point\":[\"x\"]},\"rows\":{\"point\":[[-1],[0],[2]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"CREATE TABLE If Not Exists point (x INT NOT NULL, UNIQUE INDEX x_UNIQUE (x ASC))\"\r\n  ],\r\n  \"mssql\": [\r\n    \"CREATE TABLE point (x INT NOT NULL)\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"CREATE TABLE point (x INT NOT NULL)\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "CREATE TABLE If Not Exists point (x INT NOT NULL, UNIQUE INDEX x_UNIQUE (x ASC))",
+        "Truncate table point",
+        "insert into point (x) values ('-1')",
+        "insert into point (x) values ('0')",
+        "insert into point (x) values ('2')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

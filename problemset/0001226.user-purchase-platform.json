@@ -1,0 +1,53 @@
+{
+  "data": {
+    "question": {
+      "questionId": "1226",
+      "questionFrontendId": "1127",
+      "boundTopicId": 33151,
+      "title": "User Purchase Platform",
+      "titleSlug": "user-purchase-platform",
+      "content": null,
+      "translatedTitle": "用户购买平台",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Hard",
+      "likes": 27,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"1.3K\", \"totalSubmission\": \"2.9K\", \"totalAcceptedRaw\": 1305, \"totalSubmissionRaw\": 2943, \"acRate\": \"44.3%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"Spending\":[\"user_id\",\"spend_date\",\"platform\",\"amount\"]},\"rows\":{\"Spending\":[[1,\"2019-07-01\",\"mobile\",100],[1,\"2019-07-01\",\"desktop\",100],[2,\"2019-07-01\",\"mobile\",100],[2,\"2019-07-02\",\"mobile\",100],[3,\"2019-07-01\",\"desktop\",100],[3,\"2019-07-02\",\"desktop\",100]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists Spending (user_id int, spend_date date, platform ENUM('desktop', 'mobile'), amount int)\"\n  ],\n  \"mssql\": [\n    \"create table Spending (user_id int, spend_date date, platform VARCHAR(10) NOT NULL CHECK (platform IN ('desktop', 'mobile')), amount int)\"\n  ],\n  \"oraclesql\": [\n    \"create table Spending (user_id int, spend_date date, platform VARCHAR(10) NOT NULL CHECK (platform IN ('desktop', 'mobile')), amount int)\",\n    \"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Spending (user_id int, spend_date date, platform ENUM('desktop', 'mobile'), amount int)",
+        "Truncate table Spending",
+        "insert into Spending (user_id, spend_date, platform, amount) values ('1', '2019-07-01', 'mobile', '100')",
+        "insert into Spending (user_id, spend_date, platform, amount) values ('1', '2019-07-01', 'desktop', '100')",
+        "insert into Spending (user_id, spend_date, platform, amount) values ('2', '2019-07-01', 'mobile', '100')",
+        "insert into Spending (user_id, spend_date, platform, amount) values ('2', '2019-07-02', 'mobile', '100')",
+        "insert into Spending (user_id, spend_date, platform, amount) values ('3', '2019-07-01', 'desktop', '100')",
+        "insert into Spending (user_id, spend_date, platform, amount) values ('3', '2019-07-02', 'desktop', '100')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

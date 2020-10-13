@@ -1,0 +1,50 @@
+{
+  "data": {
+    "question": {
+      "questionId": "612",
+      "questionFrontendId": "612",
+      "boundTopicId": 2635,
+      "title": "Shortest Distance in a Plane",
+      "titleSlug": "shortest-distance-in-a-plane",
+      "content": null,
+      "translatedTitle": "平面上的最近距离",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Medium",
+      "likes": 15,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"3.2K\", \"totalSubmission\": \"4.8K\", \"totalAcceptedRaw\": 3154, \"totalSubmissionRaw\": 4811, \"acRate\": \"65.6%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"point_2d\":[\"x\",\"y\"]},\"rows\":{\"point_2d\":[[-1,-1],[0,0],[-1,-2]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"CREATE TABLE If Not Exists point_2d (x INT NOT NULL, y INT NOT NULL)\"\r\n  ],\r\n  \"mssql\": [\r\n    \"CREATE TABLE point_2d (x INT NOT NULL, y INT NOT NULL)\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"CREATE TABLE point_2d (x INT NOT NULL, y INT NOT NULL)\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "CREATE TABLE If Not Exists point_2d (x INT NOT NULL, y INT NOT NULL)",
+        "Truncate table point_2d",
+        "insert into point_2d (x, y) values ('-1', '-1')",
+        "insert into point_2d (x, y) values ('0', '0')",
+        "insert into point_2d (x, y) values ('-1', '-2')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

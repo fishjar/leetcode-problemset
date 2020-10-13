@@ -1,0 +1,77 @@
+{
+  "data": {
+    "question": {
+      "questionId": "185",
+      "questionFrontendId": "185",
+      "boundTopicId": 1189,
+      "title": "Department Top Three Salaries",
+      "titleSlug": "department-top-three-salaries",
+      "content": "<p>The <code>Employee</code> table holds all employees. Every employee has an Id, and there is also a column for the department Id.</p>\r\n\r\n<pre>\r\n+----+-------+--------+--------------+\r\n| Id | Name  | Salary | DepartmentId |\r\n+----+-------+--------+--------------+\r\n| 1  | Joe   | 85000  | 1            |\r\n| 2  | Henry | 80000  | 2            |\r\n| 3  | Sam   | 60000  | 2            |\r\n| 4  | Max   | 90000  | 1            |\r\n| 5  | Janet | 69000  | 1            |\r\n| 6  | Randy | 85000  | 1            |\r\n| 7  | Will  | 70000  | 1            |\r\n+----+-------+--------+--------------+\r\n</pre>\r\n\r\n<p>The <code>Department</code> table holds all departments of the company.</p>\r\n\r\n<pre>\r\n+----+----------+\r\n| Id | Name     |\r\n+----+----------+\r\n| 1  | IT       |\r\n| 2  | Sales    |\r\n+----+----------+\r\n</pre>\r\n\r\n<p>Write a SQL query to find employees who earn the top three salaries in each of the department. For the above tables, your SQL query should return the following rows (order of rows does not matter).</p>\r\n\r\n<pre>\r\n+------------+----------+--------+\r\n| Department | Employee | Salary |\r\n+------------+----------+--------+\r\n| IT         | Max      | 90000  |\r\n| IT         | Randy    | 85000  |\r\n| IT         | Joe      | 85000  |\r\n| IT         | Will     | 70000  |\r\n| Sales      | Henry    | 80000  |\r\n| Sales      | Sam      | 60000  |\r\n+------------+----------+--------+\r\n</pre>\r\n\r\n<p><strong>Explanation:</strong></p>\r\n\r\n<p>In IT department, Max earns the highest salary, both Randy and Joe earn the second highest salary, and Will earns the third highest salary. There are only two employees in the Sales department, Henry earns the highest salary while Sam earns the second highest salary.</p>\r\n",
+      "translatedTitle": "部门工资前三高的所有员工",
+      "translatedContent": "<p><code>Employee</code> 表包含所有员工信息，每个员工有其对应的工号&nbsp;<code>Id</code>，姓名 <code>Name</code>，工资 <code>Salary</code> 和部门编号 <code>DepartmentId</code> 。</p>\n\n<pre>+----+-------+--------+--------------+\n| Id | Name  | Salary | DepartmentId |\n+----+-------+--------+--------------+\n| 1  | Joe   | 85000  | 1            |\n| 2  | Henry | 80000  | 2            |\n| 3  | Sam   | 60000  | 2            |\n| 4  | Max   | 90000  | 1            |\n| 5  | Janet | 69000  | 1            |\n| 6  | Randy | 85000  | 1            |\n| 7  | Will  | 70000  | 1            |\n+----+-------+--------+--------------+</pre>\n\n<p><code>Department</code> 表包含公司所有部门的信息。</p>\n\n<pre>+----+----------+\n| Id | Name     |\n+----+----------+\n| 1  | IT       |\n| 2  | Sales    |\n+----+----------+</pre>\n\n<p>编写一个&nbsp;SQL 查询，找出每个部门获得前三高工资的所有员工。例如，根据上述给定的表，查询结果应返回：</p>\n\n<pre>+------------+----------+--------+\n| Department | Employee | Salary |\n+------------+----------+--------+\n| IT         | Max      | 90000  |\n| IT         | Randy    | 85000  |\n| IT         | Joe      | 85000  |\n| IT         | Will     | 70000  |\n| Sales      | Henry    | 80000  |\n| Sales      | Sam      | 60000  |\n+------------+----------+--------+</pre>\n\n<p><strong>解释：</strong></p>\n\n<p>IT 部门中，Max 获得了最高的工资，Randy 和 Joe 都拿到了第二高的工资，Will 的工资排第三。销售部门（Sales）只有两名员工，Henry 的工资最高，Sam 的工资排第二。</p>\n",
+      "isPaidOnly": false,
+      "difficulty": "Hard",
+      "likes": 378,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "# Write your MySQL query statement below",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "MS SQL Server",
+          "langSlug": "mssql",
+          "code": "/* Write your T-SQL query statement below */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Oracle",
+          "langSlug": "oraclesql",
+          "code": "/* Write your PL/SQL query statement below */",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"38.2K\", \"totalSubmission\": \"83.3K\", \"totalAcceptedRaw\": 38168, \"totalSubmissionRaw\": 83327, \"acRate\": \"45.8%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Employee\": [\"Id\", \"Name\", \"Salary\", \"DepartmentId\"], \"Department\": [\"Id\", \"Name\"]}, \"rows\": {\"Employee\": [[1, \"Joe\", 85000, 1], [2, \"Henry\", 80000, 2], [3, \"Sam\", 60000, 2], [4, \"Max\", 90000, 1], [5, \"Janet\", 69000, 1], [6, \"Randy\", 85000, 1], [7, \"Will\", 70000, 1]], \"Department\": [[1, \"IT\"], [2, \"Sales\"]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists Employee (Id int, Name varchar(255), Salary int, DepartmentId int)\",\r\n    \"Create table If Not Exists Department (Id int, Name varchar(255))\"\r\n  ],\r\n  \"mssql\": [\r\n    \"create table Employee ( Id int, Name varchar(255), Salary int, DepartmentId int )\",\r\n    \"Create table Department (Id int, Name varchar(255))\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"create table Employee ( Id int, Name varchar(255), Salary int, DepartmentId int )\",\r\n    \"Create table Department (Id int, Name varchar(255))\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Employee (Id int, Name varchar(255), Salary int, DepartmentId int)",
+        "Create table If Not Exists Department (Id int, Name varchar(255))",
+        "Truncate table Employee",
+        "insert into Employee (Id, Name, Salary, DepartmentId) values ('1', 'Joe', '85000', '1')",
+        "insert into Employee (Id, Name, Salary, DepartmentId) values ('2', 'Henry', '80000', '2')",
+        "insert into Employee (Id, Name, Salary, DepartmentId) values ('3', 'Sam', '60000', '2')",
+        "insert into Employee (Id, Name, Salary, DepartmentId) values ('4', 'Max', '90000', '1')",
+        "insert into Employee (Id, Name, Salary, DepartmentId) values ('5', 'Janet', '69000', '1')",
+        "insert into Employee (Id, Name, Salary, DepartmentId) values ('6', 'Randy', '85000', '1')",
+        "insert into Employee (Id, Name, Salary, DepartmentId) values ('7', 'Will', '70000', '1')",
+        "Truncate table Department",
+        "insert into Department (Id, Name) values ('1', 'IT')",
+        "insert into Department (Id, Name) values ('2', 'Sales')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

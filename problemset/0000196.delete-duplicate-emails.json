@@ -1,0 +1,55 @@
+{
+  "data": {
+    "question": {
+      "questionId": "196",
+      "questionFrontendId": "196",
+      "boundTopicId": 1235,
+      "title": "Delete Duplicate Emails",
+      "titleSlug": "delete-duplicate-emails",
+      "content": "<p>Write a SQL query to <strong>delete</strong> all duplicate email entries in a table named <code>Person</code>, keeping only unique emails based on its <i>smallest</i> <b>Id</b>.</p>\r\n\r\n<pre>\r\n+----+------------------+\r\n| Id | Email            |\r\n+----+------------------+\r\n| 1  | john@example.com |\r\n| 2  | bob@example.com  |\r\n| 3  | john@example.com |\r\n+----+------------------+\r\nId is the primary key column for this table.\r\n</pre>\r\n\r\n<p>For example, after running your query, the above <code>Person</code> table should have the following rows:</p>\r\n\r\n<pre>\r\n+----+------------------+\r\n| Id | Email            |\r\n+----+------------------+\r\n| 1  | john@example.com |\r\n| 2  | bob@example.com  |\r\n+----+------------------+\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>Your output is the whole <code>Person</code>&nbsp;table after executing your sql. Use <code>delete</code> statement.</p>\r\n",
+      "translatedTitle": "删除重复的电子邮箱",
+      "translatedContent": "<p>编写一个 SQL 查询，来删除&nbsp;<code>Person</code>&nbsp;表中所有重复的电子邮箱，重复的邮箱里只保留&nbsp;<strong>Id&nbsp;</strong><em>最小&nbsp;</em>的那个。</p>\n\n<pre>+----+------------------+\n| Id | Email            |\n+----+------------------+\n| 1  | john@example.com |\n| 2  | bob@example.com  |\n| 3  | john@example.com |\n+----+------------------+\nId 是这个表的主键。\n</pre>\n\n<p>例如，在运行你的查询语句之后，上面的 <code>Person</code> 表应返回以下几行:</p>\n\n<pre>+----+------------------+\n| Id | Email            |\n+----+------------------+\n| 1  | john@example.com |\n| 2  | bob@example.com  |\n+----+------------------+\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ul>\n\t<li>执行 SQL 之后，输出是整个 <code>Person</code>&nbsp;表。</li>\n\t<li>使用 <code>delete</code> 语句。</li>\n</ul>\n",
+      "isPaidOnly": false,
+      "difficulty": "Easy",
+      "likes": 288,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "# Write your MySQL query statement below\n",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"58K\", \"totalSubmission\": \"90.1K\", \"totalAcceptedRaw\": 58001, \"totalSubmissionRaw\": 90086, \"acRate\": \"64.4%\"}",
+      "hints": [],
+      "solution": {
+        "id": "98",
+        "canSeeDetail": true,
+        "__typename": "ArticleNode"
+      },
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Person\": [\"Id\", \"Email\"]}, \"rows\": {\"Person\": [[1, \"john@example.com\"], [2, \"bob@example.com\"], [3, \"john@example.com\"]]}}",
+      "metaData": "{\n  \"languages\": [\n    \"mysql\",\n    \"mssql\"\n  ],\n  \"manual\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

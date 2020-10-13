@@ -1,0 +1,70 @@
+{
+  "data": {
+    "question": {
+      "questionId": "181",
+      "questionFrontendId": "181",
+      "boundTopicId": 1112,
+      "title": "Employees Earning More Than Their Managers",
+      "titleSlug": "employees-earning-more-than-their-managers",
+      "content": "<p>The <code>Employee</code> table holds all employees including their managers. Every employee has an Id, and there is also a column for the manager Id.</p>\r\n\r\n<pre>\r\n+----+-------+--------+-----------+\r\n| Id | Name  | Salary | ManagerId |\r\n+----+-------+--------+-----------+\r\n| 1  | Joe   | 70000  | 3         |\r\n| 2  | Henry | 80000  | 4         |\r\n| 3  | Sam   | 60000  | NULL      |\r\n| 4  | Max   | 90000  | NULL      |\r\n+----+-------+--------+-----------+\r\n</pre>\r\n\r\n<p>Given the <code>Employee</code> table, write a SQL query that finds out employees who earn more than their managers. For the above table, Joe is the only employee who earns more than his manager.</p>\r\n\r\n<pre>\r\n+----------+\r\n| Employee |\r\n+----------+\r\n| Joe      |\r\n+----------+\r\n</pre>\r\n",
+      "translatedTitle": "超过经理收入的员工",
+      "translatedContent": "<p><code>Employee</code>&nbsp;表包含所有员工，他们的经理也属于员工。每个员工都有一个 Id，此外还有一列对应员工的经理的 Id。</p>\n\n<pre>+----+-------+--------+-----------+\n| Id | Name  | Salary | ManagerId |\n+----+-------+--------+-----------+\n| 1  | Joe   | 70000  | 3         |\n| 2  | Henry | 80000  | 4         |\n| 3  | Sam   | 60000  | NULL      |\n| 4  | Max   | 90000  | NULL      |\n+----+-------+--------+-----------+\n</pre>\n\n<p>给定&nbsp;<code>Employee</code>&nbsp;表，编写一个 SQL 查询，该查询可以获取收入超过他们经理的员工的姓名。在上面的表格中，Joe 是唯一一个收入超过他的经理的员工。</p>\n\n<pre>+----------+\n| Employee |\n+----------+\n| Joe      |\n+----------+\n</pre>\n",
+      "isPaidOnly": false,
+      "difficulty": "Easy",
+      "likes": 314,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "# Write your MySQL query statement below\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "MS SQL Server",
+          "langSlug": "mssql",
+          "code": "/* Write your T-SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Oracle",
+          "langSlug": "oraclesql",
+          "code": "/* Write your PL/SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"94.1K\", \"totalSubmission\": \"134K\", \"totalAcceptedRaw\": 94069, \"totalSubmissionRaw\": 134034, \"acRate\": \"70.2%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Employee\": [\"Id\", \"Name\", \"Salary\", \"ManagerId\"]}, \"rows\": {\"Employee\": [[1, \"Joe\", 70000, 3], [2, \"Henry\", 80000, 4], [3, \"Sam\", 60000, null], [4, \"Max\", 90000, null]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists Employee (Id int, Name varchar(255), Salary int, ManagerId int)\"\r\n  ],\r\n  \"mssql\": [\r\n    \"create table Employee ( Id int, Name varchar(255), Salary int, ManagerId int )\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"create table Employee ( Id int, Name varchar(255), Salary int, ManagerId int )\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Employee (Id int, Name varchar(255), Salary int, ManagerId int)",
+        "Truncate table Employee",
+        "insert into Employee (Id, Name, Salary, ManagerId) values ('1', 'Joe', '70000', '3')",
+        "insert into Employee (Id, Name, Salary, ManagerId) values ('2', 'Henry', '80000', '4')",
+        "insert into Employee (Id, Name, Salary, ManagerId) values ('3', 'Sam', '60000', 'None')",
+        "insert into Employee (Id, Name, Salary, ManagerId) values ('4', 'Max', '90000', 'None')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

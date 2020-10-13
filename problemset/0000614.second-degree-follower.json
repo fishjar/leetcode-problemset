@@ -1,0 +1,51 @@
+{
+  "data": {
+    "question": {
+      "questionId": "614",
+      "questionFrontendId": "614",
+      "boundTopicId": 2633,
+      "title": "Second Degree Follower",
+      "titleSlug": "second-degree-follower",
+      "content": null,
+      "translatedTitle": "二级关注者",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Medium",
+      "likes": 9,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"3.2K\", \"totalSubmission\": \"9.5K\", \"totalAcceptedRaw\": 3225, \"totalSubmissionRaw\": 9487, \"acRate\": \"34.0%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"follow\":[\"followee\",\"follower\"]},\"rows\":{\"follow\":[[\"A\", \"B\"], [\"B\", \"C\"], [\"B\", \"D\"], [\"D\", \"E\"]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists follow (followee varchar(255), follower varchar(255))\"\n  ],\n  \"mssql\": [\n    \"Create table follow (followee varchar(255), follower varchar(255))\"\n  ],\n  \"oraclesql\": [\n    \"Create table follow (followee varchar(255), follower varchar(255))\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists follow (followee varchar(255), follower varchar(255))",
+        "Truncate table follow",
+        "insert into follow (followee, follower) values ('A', 'B')",
+        "insert into follow (followee, follower) values ('B', 'C')",
+        "insert into follow (followee, follower) values ('B', 'D')",
+        "insert into follow (followee, follower) values ('D', 'E')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

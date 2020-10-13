@@ -1,0 +1,144 @@
+{
+  "data": {
+    "question": {
+      "questionId": "729",
+      "questionFrontendId": "729",
+      "boundTopicId": 1828,
+      "title": "My Calendar I",
+      "titleSlug": "my-calendar-i",
+      "content": "<p>Implement a <code>MyCalendar</code> class to store your events. A new event can be added if adding the event will not cause a double booking.</p>\r\n\r\n<p>Your class will have the method, <code>book(int start, int end)</code>. Formally, this represents a booking on the half open interval <code>[start, end)</code>, the range of real numbers <code>x</code> such that <code>start &lt;= x &lt; end</code>.</p>\r\n\r\n<p>A <i>double booking</i> happens when two events have some non-empty intersection (ie., there is some time that is common to both events.)</p>\r\n\r\n<p>For each call to the method <code>MyCalendar.book</code>, return <code>true</code> if the event can be added to the calendar successfully without causing a double booking. Otherwise, return <code>false</code> and do not add the event to the calendar.</p>\r\nYour class will be called like this: <code>MyCalendar cal = new MyCalendar();</code> <code>MyCalendar.book(start, end)</code>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\nMyCalendar();\r\nMyCalendar.book(10, 20); // returns true\r\nMyCalendar.book(15, 25); // returns false\r\nMyCalendar.book(20, 30); // returns true\r\n<b>Explanation:</b> \r\nThe first event can be booked.  The second can&#39;t because time 15 is already booked by another event.\r\nThe third event can be booked, as the first event takes every time less than 20, but not including 20.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><b>Note:</b></p>\r\n\r\n<ul>\r\n\t<li>The number of calls to <code>MyCalendar.book</code> per test case will be at most <code>1000</code>.</li>\r\n\t<li>In calls to <code>MyCalendar.book(start, end)</code>, <code>start</code> and <code>end</code> are integers in the range <code>[0, 10^9]</code>.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "translatedTitle": "我的日程安排表 I",
+      "translatedContent": "<p>实现一个 <code>MyCalendar</code> 类来存放你的日程安排。如果要添加的时间内没有其他安排，则可以存储这个新的日程安排。</p>\n\n<p><code>MyCalendar</code> 有一个 <code>book(int start, int end)</code>方法。它意味着在 start 到 end 时间内增加一个日程安排，注意，这里的时间是半开区间，即 <code>[start, end)</code>, 实数&nbsp;<code>x</code> 的范围为， &nbsp;<code>start &lt;= x &lt; end</code>。</p>\n\n<p>当两个日程安排有一些时间上的交叉时（例如两个日程安排都在同一时间内），就会产生重复预订。</p>\n\n<p>每次调用 <code>MyCalendar.book</code>方法时，如果可以将日程安排成功添加到日历中而不会导致重复预订，返回 <code>true</code>。否则，返回 <code>false</code>&nbsp;并且不要将该日程安排添加到日历中。</p>\n\n<p>请按照以下步骤调用 <code>MyCalendar</code> 类: <code>MyCalendar cal = new MyCalendar();</code> <code>MyCalendar.book(start, end)</code></p>\n\n<p><strong>示例 1:</strong></p>\n\n<pre>MyCalendar();\nMyCalendar.book(10, 20); // returns true\nMyCalendar.book(15, 25); // returns false\nMyCalendar.book(20, 30); // returns true\n<strong>解释:</strong> \n第一个日程安排可以添加到日历中.  第二个日程安排不能添加到日历中，因为时间 15 已经被第一个日程安排预定了。\n第三个日程安排可以添加到日历中，因为第一个日程安排并不包含时间 20 。\n</pre>\n\n<p><strong>说明:</strong></p>\n\n<ul>\n\t<li>每个测试用例，调用&nbsp;<code>MyCalendar.book</code>&nbsp;函数最多不超过&nbsp;<code>100</code>次。</li>\n\t<li>调用函数&nbsp;<code>MyCalendar.book(start, end)</code>时，&nbsp;<code>start</code> 和&nbsp;<code>end</code> 的取值范围为&nbsp;<code>[0, 10^9]</code>。</li>\n</ul>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 55,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[{\"title\": \"My Calendar II\", \"titleSlug\": \"my-calendar-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": \"\\u6211\\u7684\\u65e5\\u7a0b\\u5b89\\u6392\\u8868 II\"}, {\"title\": \"My Calendar III\", \"titleSlug\": \"my-calendar-iii\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u6211\\u7684\\u65e5\\u7a0b\\u5b89\\u6392\\u8868 III\"}]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Array",
+          "slug": "array",
+          "translatedName": "数组",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "class MyCalendar {\npublic:\n    MyCalendar() {\n\n    }\n    \n    bool book(int start, int end) {\n\n    }\n};\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * MyCalendar* obj = new MyCalendar();\n * bool param_1 = obj->book(start,end);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "class MyCalendar {\n\n    public MyCalendar() {\n\n    }\n    \n    public boolean book(int start, int end) {\n\n    }\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * MyCalendar obj = new MyCalendar();\n * boolean param_1 = obj.book(start,end);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "class MyCalendar(object):\n\n    def __init__(self):\n        \n\n    def book(self, start, end):\n        \"\"\"\n        :type start: int\n        :type end: int\n        :rtype: bool\n        \"\"\"\n        \n\n\n# Your MyCalendar object will be instantiated and called as such:\n# obj = MyCalendar()\n# param_1 = obj.book(start,end)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "class MyCalendar:\n\n    def __init__(self):\n        \n\n    def book(self, start: int, end: int) -> bool:\n        \n\n\n# Your MyCalendar object will be instantiated and called as such:\n# obj = MyCalendar()\n# param_1 = obj.book(start,end)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C",
+          "langSlug": "c",
+          "code": "\n\n\ntypedef struct {\n    \n} MyCalendar;\n\n\nMyCalendar* myCalendarCreate() {\n    \n}\n\nbool myCalendarBook(MyCalendar* obj, int start, int end) {\n  \n}\n\nvoid myCalendarFree(MyCalendar* obj) {\n    \n}\n\n/**\n * Your MyCalendar struct will be instantiated and called as such:\n * MyCalendar* obj = myCalendarCreate();\n * bool param_1 = myCalendarBook(obj, start, end);\n \n * myCalendarFree(obj);\n*/",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "public class MyCalendar {\n\n    public MyCalendar() {\n\n    }\n    \n    public bool Book(int start, int end) {\n\n    }\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * MyCalendar obj = new MyCalendar();\n * bool param_1 = obj.Book(start,end);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "\nvar MyCalendar = function() {\n\n};\n\n/** \n * @param {number} start \n * @param {number} end\n * @return {boolean}\n */\nMyCalendar.prototype.book = function(start, end) {\n\n};\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * var obj = new MyCalendar()\n * var param_1 = obj.book(start,end)\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Ruby",
+          "langSlug": "ruby",
+          "code": "class MyCalendar\n    def initialize()\n\n    end\n\n\n=begin\n    :type start: Integer\n    :type end: Integer\n    :rtype: Boolean\n=end\n    def book(start, end)\n\n    end\n\n\nend\n\n# Your MyCalendar object will be instantiated and called as such:\n# obj = MyCalendar.new()\n# param_1 = obj.book(start, end)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Swift",
+          "langSlug": "swift",
+          "code": "\r\nclass MyCalendar {\r\n\r\n    init() {\r\n        \r\n    }\r\n    \r\n    func book(_ start: Int, _ end: Int) -> Bool {\r\n        \r\n    }\r\n}\r\n\r\n/**\r\n * Your MyCalendar object will be instantiated and called as such:\r\n * let obj = MyCalendar()\r\n * let ret_1: Bool = obj.book(start, end)\r\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Go",
+          "langSlug": "golang",
+          "code": "type MyCalendar struct {\n\n}\n\n\nfunc Constructor() MyCalendar {\n\n}\n\n\nfunc (this *MyCalendar) Book(start int, end int) bool {\n\n}\n\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * obj := Constructor();\n * param_1 := obj.Book(start,end);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Scala",
+          "langSlug": "scala",
+          "code": "class MyCalendar() {\n\n    def book(start: Int, end: Int): Boolean = {\n\n    }\n\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * var obj = new MyCalendar()\n * var param_1 = obj.book(start,end)\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Kotlin",
+          "langSlug": "kotlin",
+          "code": "class MyCalendar() {\n\n    fun book(start: Int, end: Int): Boolean {\n\n    }\n\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * var obj = MyCalendar()\n * var param_1 = obj.book(start,end)\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Rust",
+          "langSlug": "rust",
+          "code": "struct MyCalendar {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl MyCalendar {\n\n    fn new() -> Self {\n        \n    }\n    \n    fn book(&self, start: i32, end: i32) -> bool {\n        \n    }\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * let obj = MyCalendar::new();\n * let ret_1: bool = obj.book(start, end);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "PHP",
+          "langSlug": "php",
+          "code": "class MyCalendar {\n    /**\n     */\n    function __construct() {\n        \n    }\n  \n    /**\n     * @param Integer $start\n     * @param Integer $end\n     * @return Boolean\n     */\n    function book($start, $end) {\n        \n    }\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * $obj = MyCalendar();\n * $ret_1 = $obj->book($start, $end);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "TypeScript",
+          "langSlug": "typescript",
+          "code": "class MyCalendar {\n    constructor() {\n\n    }\n\n    book(start: number, end: number): boolean {\n\n    }\n}\n\n/**\n * Your MyCalendar object will be instantiated and called as such:\n * var obj = new MyCalendar()\n * var param_1 = obj.book(start,end)\n */",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"8.9K\", \"totalAcceptedRaw\": 4374, \"totalSubmissionRaw\": 8896, \"acRate\": \"49.2%\"}",
+      "hints": [
+        "Store the events as a sorted list of intervals.  If none of the events conflict, then the new event can be added."
+      ],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[\"MyCalendar\",\"book\",\"book\",\"book\"]\n[[],[10,20],[15,25],[20,30]]",
+      "metaData": "{\r\n    \"classname\": \"MyCalendar\",\r\n    \"constructor\": {\r\n        \"params\": []\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"book\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"start\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"end\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"starts\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"ends\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<boolean>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"c\":[\"C\",\"<p>\\u7248\\u672c\\uff1a<code>GCC 8.2<\\/code>\\uff0c\\u91c7\\u7528GNU99\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002 <a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a>\\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u5982\\u60f3\\u4f7f\\u7528\\u54c8\\u5e0c\\u8868\\u8fd0\\u7b97, \\u60a8\\u53ef\\u4ee5\\u4f7f\\u7528 <a href=\\\"https:\\/\\/troydhanson.github.io\\/uthash\\/\\\" target=\\\"_blank\\\">uthash<\\/a>\\u3002 \\\"uthash.h\\\"\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5bfc\\u5165\\u3002\\u8bf7\\u770b\\u5982\\u4e0b\\u793a\\u4f8b:<\\/p>\\r\\n\\r\\n<p><b>1. \\u5f80\\u54c8\\u5e0c\\u8868\\u4e2d\\u6dfb\\u52a0\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            \\/* we'll use this field as the key *\\/\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; \\/* makes this structure hashable *\\/\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>2. \\u5728\\u54c8\\u5e0c\\u8868\\u4e2d\\u67e5\\u627e\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>3. \\u4ece\\u54c8\\u5e0c\\u8868\\u4e2d\\u5220\\u9664\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"ruby\":[\"Ruby\",\"<p>\\u4f7f\\u7528<code>Ruby 2.7<\\/code>\\u6267\\u884c<\\/p>\"],\"swift\":[\"Swift\",\"<p>\\u7248\\u672c\\uff1a<code>Swift 5.2.5<\\/code><\\/p>\\r\\n\\r\\n<p>\\u6211\\u4eec\\u901a\\u5e38\\u4fdd\\u8bc1\\u66f4\\u65b0\\u5230 <a href=\\\"https:\\/\\/swift.org\\/download\\/\\\" target=\\\"_blank\\\">Apple\\u653e\\u51fa\\u7684\\u6700\\u65b0\\u7248Swift<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u53d1\\u73b0Swift\\u4e0d\\u662f\\u6700\\u65b0\\u7248\\u7684\\uff0c\\u8bf7\\u8054\\u7cfb\\u6211\\u4eec\\uff01\\u6211\\u4eec\\u5c06\\u5c3d\\u5feb\\u66f4\\u65b0\\u3002<\\/p>\"],\"golang\":[\"Go\",\"<p>\\u7248\\u672c\\uff1a<code>Go 1.15<\\/code><\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"],\"scala\":[\"Scala\",\"<p>\\u7248\\u672c\\uff1a<code>Scala 2.13<\\/code><\\/p>\"],\"kotlin\":[\"Kotlin\",\"<p>\\u7248\\u672c\\uff1a<code>Kotlin 1.3.10<\\/code><\\/p>\"],\"rust\":[\"Rust\",\"<p>\\u7248\\u672c\\uff1a<code>rust 1.46.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u652f\\u6301 crates.io \\u7684 <a href=\\\"https:\\/\\/crates.io\\/crates\\/rand\\\" target=\\\"_blank\\\">rand<\\/a><\\/p>\"],\"php\":[\"PHP\",\"<p>Run with <code>PHP 7.2<\\/code>.<\\/p>\"],\"typescript\":[\"TypeScript\",\"TypeScript 3.8\\r\\n\\r\\nCompile Options: --strict --target ES6\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

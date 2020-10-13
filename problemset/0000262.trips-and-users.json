@@ -1,0 +1,86 @@
+{
+  "data": {
+    "question": {
+      "questionId": "262",
+      "questionFrontendId": "262",
+      "boundTopicId": 1331,
+      "title": "Trips and Users",
+      "titleSlug": "trips-and-users",
+      "content": "<p>The <code>Trips</code> table holds all taxi trips. Each trip has a unique Id, while Client_Id and Driver_Id are both foreign keys to the Users_Id at the <code>Users</code> table. Status is an ENUM type of (&lsquo;completed&rsquo;, &lsquo;cancelled_by_driver&rsquo;, &lsquo;cancelled_by_client&rsquo;).</p>\n\n<pre>\n+----+-----------+-----------+---------+--------------------+----------+\n| Id | Client_Id | Driver_Id | City_Id |        Status      |Request_at|\n+----+-----------+-----------+---------+--------------------+----------+\n| 1  |     1     |    10     |    1    |     completed      |2013-10-01|\n| 2  |     2     |    11     |    1    | cancelled_by_driver|2013-10-01|\n| 3  |     3     |    12     |    6    |     completed      |2013-10-01|\n| 4  |     4     |    13     |    6    | cancelled_by_client|2013-10-01|\n| 5  |     1     |    10     |    1    |     completed      |2013-10-02|\n| 6  |     2     |    11     |    6    |     completed      |2013-10-02|\n| 7  |     3     |    12     |    6    |     completed      |2013-10-02|\n| 8  |     2     |    12     |    12   |     completed      |2013-10-03|\n| 9  |     3     |    10     |    12   |     completed      |2013-10-03| \n| 10 |     4     |    13     |    12   | cancelled_by_driver|2013-10-03|\n+----+-----------+-----------+---------+--------------------+----------+\n</pre>\n\n<p>The <code>Users</code> table holds all users. Each user has an unique Users_Id, and Role is an ENUM type of (&lsquo;client&rsquo;, &lsquo;driver&rsquo;, &lsquo;partner&rsquo;).</p>\n\n<pre>\n+----------+--------+--------+\n| Users_Id | Banned |  Role  |\n+----------+--------+--------+\n|    1     |   No   | client |\n|    2     |   Yes  | client |\n|    3     |   No   | client |\n|    4     |   No   | client |\n|    10    |   No   | driver |\n|    11    |   No   | driver |\n|    12    |   No   | driver |\n|    13    |   No   | driver |\n+----------+--------+--------+\n</pre>\n\n<p>Write a SQL query to find the cancellation rate of requests made by unbanned users (both client and driver must be unbanned)&nbsp;between <strong>Oct 1, 2013</strong> and <strong>Oct 3, 2013</strong>. The cancellation rate is computed by dividing the number of canceled (by client or driver) requests&nbsp;made by unbanned users by the total number of requests&nbsp;made by unbanned users.</p>\n\n<p>For the above tables, your SQL query should return the following rows with the cancellation rate being rounded to <em>two</em> decimal places.</p>\n\n<pre>\n+------------+-------------------+\n|     Day    | Cancellation Rate |\n+------------+-------------------+\n| 2013-10-01 |       0.33        |\n| 2013-10-02 |       0.00        |\n| 2013-10-03 |       0.50        |\n+------------+-------------------+\n</pre>\n\n<p><strong>Credits:</strong><br />\nSpecial thanks to <a href=\"https://leetcode.com/discuss/user/cak1erlizhou\">@cak1erlizhou</a> for contributing this question, writing the problem description and adding part of the test cases.</p>\n",
+      "translatedTitle": "行程和用户",
+      "translatedContent": "<p><code>Trips</code>&nbsp;表中存所有出租车的行程信息。每段行程有唯一键 Id，Client_Id 和&nbsp;Driver_Id 是&nbsp;<code>Users</code>&nbsp;表中 Users_Id 的外键。Status 是枚举类型，枚举成员为 (&lsquo;completed&rsquo;, &lsquo;cancelled_by_driver&rsquo;, &lsquo;cancelled_by_client&rsquo;)。</p>\n\n<pre>+----+-----------+-----------+---------+--------------------+----------+\n| Id | Client_Id | Driver_Id | City_Id |        Status      |Request_at|\n+----+-----------+-----------+---------+--------------------+----------+\n| 1  |     1     |    10     |    1    |     completed      |2013-10-01|\n| 2  |     2     |    11     |    1    | cancelled_by_driver|2013-10-01|\n| 3  |     3     |    12     |    6    |     completed      |2013-10-01|\n| 4  |     4     |    13     |    6    | cancelled_by_client|2013-10-01|\n| 5  |     1     |    10     |    1    |     completed      |2013-10-02|\n| 6  |     2     |    11     |    6    |     completed      |2013-10-02|\n| 7  |     3     |    12     |    6    |     completed      |2013-10-02|\n| 8  |     2     |    12     |    12   |     completed      |2013-10-03|\n| 9  |     3     |    10     |    12   |     completed      |2013-10-03| \n| 10 |     4     |    13     |    12   | cancelled_by_driver|2013-10-03|\n+----+-----------+-----------+---------+--------------------+----------+\n</pre>\n\n<p><code>Users</code>&nbsp;表存所有用户。每个用户有唯一键 Users_Id。Banned 表示这个用户是否被禁止，Role 则是一个表示（&lsquo;client&rsquo;, &lsquo;driver&rsquo;, &lsquo;partner&rsquo;）的枚举类型。</p>\n\n<pre>+----------+--------+--------+\n| Users_Id | Banned |  Role  |\n+----------+--------+--------+\n|    1     |   No   | client |\n|    2     |   Yes  | client |\n|    3     |   No   | client |\n|    4     |   No   | client |\n|    10    |   No   | driver |\n|    11    |   No   | driver |\n|    12    |   No   | driver |\n|    13    |   No   | driver |\n+----------+--------+--------+\n</pre>\n\n<p>写一段 SQL 语句查出&nbsp;<strong>2013年10月1日&nbsp;</strong>至&nbsp;<strong>2013年10月3日&nbsp;</strong>期间非禁止用户的取消率。基于上表，你的 SQL 语句应返回如下结果，取消率（Cancellation Rate）保留两位小数。</p>\n\n<p>取消率的计算方式如下：(被司机或乘客取消的非禁止用户生成的订单数量) / (非禁止用户生成的订单总数)</p>\n\n<pre>+------------+-------------------+\n|     Day    | Cancellation Rate |\n+------------+-------------------+\n| 2013-10-01 |       0.33        |\n| 2013-10-02 |       0.00        |\n| 2013-10-03 |       0.50        |\n+------------+-------------------+\n</pre>\n\n<p><strong>致谢:</strong><br>\n非常感谢&nbsp;<a href=\"https://leetcode.com/discuss/user/cak1erlizhou\">@cak1erlizhou</a>&nbsp;详细的提供了这道题和相应的测试用例。</p>\n",
+      "isPaidOnly": false,
+      "difficulty": "Hard",
+      "likes": 167,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "# Write your MySQL query statement below\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "MS SQL Server",
+          "langSlug": "mssql",
+          "code": "/* Write your T-SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Oracle",
+          "langSlug": "oraclesql",
+          "code": "/* Write your PL/SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"21.3K\", \"totalSubmission\": \"45.6K\", \"totalAcceptedRaw\": 21349, \"totalSubmissionRaw\": 45636, \"acRate\": \"46.8%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Trips\": [\"Id\", \"Client_Id\", \"Driver_Id\", \"City_Id\", \"Status\", \"Request_at\"], \"Users\": [\"Users_Id\", \"Banned\", \"Role\"]}, \"rows\": {\"Trips\": [[\"1\", \"1\", \"10\", \"1\", \"completed\", \"2013-10-01\"], [\"2\", \"2\", \"11\", \"1\", \"cancelled_by_driver\", \"2013-10-01\"], [\"3\", \"3\", \"12\", \"6\", \"completed\", \"2013-10-01\"], [\"4\", \"4\", \"13\", \"6\", \"cancelled_by_client\", \"2013-10-01\"], [\"5\", \"1\", \"10\", \"1\", \"completed\", \"2013-10-02\"], [\"6\", \"2\", \"11\", \"6\", \"completed\", \"2013-10-02\"], [\"7\", \"3\", \"12\", \"6\", \"completed\", \"2013-10-02\"], [\"8\", \"2\", \"12\", \"12\", \"completed\", \"2013-10-03\"], [\"9\", \"3\", \"10\", \"12\", \"completed\", \"2013-10-03\"], [\"10\", \"4\", \"13\", \"12\", \"cancelled_by_driver\", \"2013-10-03\"]], \"Users\": [[\"1\", \"No\", \"client\"], [\"2\", \"Yes\", \"client\"], [\"3\", \"No\", \"client\"], [\"4\", \"No\", \"client\"], [\"10\", \"No\", \"driver\"], [\"11\", \"No\", \"driver\"], [\"12\", \"No\", \"driver\"], [\"13\", \"No\", \"driver\"]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists Trips (Id int, Client_Id int, Driver_Id int, City_Id int, Status ENUM('completed', 'cancelled_by_driver', 'cancelled_by_client'), Request_at varchar(50))\",\r\n    \"Create table If Not Exists Users (Users_Id int, Banned varchar(50), Role ENUM('client', 'driver', 'partner'))\"\r\n  ],\r\n  \"mssql\": [\r\n    \"create table Trips ( Id int, Client_Id int, Driver_Id int, City_Id int, Status VARCHAR(20) NOT NULL CHECK (Status IN ('completed', 'cancelled_by_driver', 'cancelled_by_client')), Request_at varchar(50) )\",\r\n    \"Create table Users (Users_Id int, Banned varchar(50), Role VARCHAR(10) NOT NULL CHECK (Role IN ('client', 'driver', 'partner')))\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"create table Trips ( Id int, Client_Id int, Driver_Id int, City_Id int, Status VARCHAR(20) NOT NULL CHECK (Status IN ('completed', 'cancelled_by_driver', 'cancelled_by_client')), Request_at varchar(50) )\",\r\n    \"Create table Users (Users_Id int, Banned varchar(50), Role VARCHAR(10) NOT NULL CHECK (Role IN ('client', 'driver', 'partner')))\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Trips (Id int, Client_Id int, Driver_Id int, City_Id int, Status ENUM('completed', 'cancelled_by_driver', 'cancelled_by_client'), Request_at varchar(50))",
+        "Create table If Not Exists Users (Users_Id int, Banned varchar(50), Role ENUM('client', 'driver', 'partner'))",
+        "Truncate table Trips",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('1', '1', '10', '1', 'completed', '2013-10-01')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('2', '2', '11', '1', 'cancelled_by_driver', '2013-10-01')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('3', '3', '12', '6', 'completed', '2013-10-01')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('4', '4', '13', '6', 'cancelled_by_client', '2013-10-01')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('5', '1', '10', '1', 'completed', '2013-10-02')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('6', '2', '11', '6', 'completed', '2013-10-02')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('7', '3', '12', '6', 'completed', '2013-10-02')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('8', '2', '12', '12', 'completed', '2013-10-03')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('9', '3', '10', '12', 'completed', '2013-10-03')",
+        "insert into Trips (Id, Client_Id, Driver_Id, City_Id, Status, Request_at) values ('10', '4', '13', '12', 'cancelled_by_driver', '2013-10-03')",
+        "Truncate table Users",
+        "insert into Users (Users_Id, Banned, Role) values ('1', 'No', 'client')",
+        "insert into Users (Users_Id, Banned, Role) values ('2', 'Yes', 'client')",
+        "insert into Users (Users_Id, Banned, Role) values ('3', 'No', 'client')",
+        "insert into Users (Users_Id, Banned, Role) values ('4', 'No', 'client')",
+        "insert into Users (Users_Id, Banned, Role) values ('10', 'No', 'driver')",
+        "insert into Users (Users_Id, Banned, Role) values ('11', 'No', 'driver')",
+        "insert into Users (Users_Id, Banned, Role) values ('12', 'No', 'driver')",
+        "insert into Users (Users_Id, Banned, Role) values ('13', 'No', 'driver')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

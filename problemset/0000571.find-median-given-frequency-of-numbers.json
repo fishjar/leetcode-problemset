@@ -1,0 +1,51 @@
+{
+  "data": {
+    "question": {
+      "questionId": "571",
+      "questionFrontendId": "571",
+      "boundTopicId": 2651,
+      "title": "Find Median Given Frequency of Numbers",
+      "titleSlug": "find-median-given-frequency-of-numbers",
+      "content": null,
+      "translatedTitle": "给定数字的频率查询中位数",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Hard",
+      "likes": 21,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[{\"title\": \"Median Employee Salary\", \"titleSlug\": \"median-employee-salary\", \"difficulty\": \"Hard\", \"translatedTitle\": \"\\u5458\\u5de5\\u85aa\\u6c34\\u4e2d\\u4f4d\\u6570\"}]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"4.7K\", \"totalAcceptedRaw\": 2289, \"totalSubmissionRaw\": 4724, \"acRate\": \"48.5%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Numbers\": [\"Number\", \"Frequency\"]}, \"rows\": {\"Numbers\": [[0, 7], [1, 1], [2, 3], [3, 1]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists Numbers (Number int, Frequency int)\"\r\n  ],\r\n  \"mssql\": [\r\n    \"Create table Numbers (Number int, Frequency int)\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"Create table Numbers (Number int, Frequency int)\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Numbers (Number int, Frequency int)",
+        "Truncate table Numbers",
+        "insert into Numbers (Number, Frequency) values ('0', '7')",
+        "insert into Numbers (Number, Frequency) values ('1', '1')",
+        "insert into Numbers (Number, Frequency) values ('2', '3')",
+        "insert into Numbers (Number, Frequency) values ('3', '1')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

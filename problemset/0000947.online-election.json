@@ -1,0 +1,142 @@
+{
+  "data": {
+    "question": {
+      "questionId": "947",
+      "questionFrontendId": "911",
+      "boundTopicId": 1404,
+      "title": "Online Election",
+      "titleSlug": "online-election",
+      "content": "<p>In an election, the <code>i</code>-th&nbsp;vote was cast for <code>persons[i]</code> at time <code>times[i]</code>.</p>\r\n\r\n<p>Now, we would like to implement the following query function: <code>TopVotedCandidate.q(int t)</code> will return the number of the person that was leading the election at time <code>t</code>.&nbsp;&nbsp;</p>\r\n\r\n<p>Votes cast at time <code>t</code> will count towards our query.&nbsp; In the case of a tie, the most recent vote (among tied candidates) wins.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<div>\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><span id=\"example-input-1-1\">[&quot;TopVotedCandidate&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;]</span>, <span id=\"example-input-1-2\">[[[0,1,1,0,0,1,0],[0,5,10,15,20,25,30]],[3],[12],[25],[15],[24],[8]]</span>\r\n<strong>Output: </strong><span id=\"example-output-1\">[null,0,1,1,0,0,1]</span>\r\n<strong>Explanation: </strong>\r\nAt time 3, the votes are [0], and 0 is leading.\r\nAt time 12, the votes are [0,1,1], and 1 is leading.\r\nAt time 25, the votes are [0,1,1,0,0,1], and 1 is leading (as ties go to the most recent vote.)\r\nThis continues for 3 more queries at time 15, 24, and 8.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= persons.length = times.length &lt;= 5000</code></li>\r\n\t<li><code>0 &lt;= persons[i] &lt;= persons.length</code></li>\r\n\t<li><code>times</code>&nbsp;is a strictly increasing array with all elements in <code>[0, 10^9]</code>.</li>\r\n\t<li><code>TopVotedCandidate.q</code> is called at most <code>10000</code> times per test case.</li>\r\n\t<li><code>TopVotedCandidate.q(int t)</code> is always called with <code>t &gt;= times[0]</code>.</li>\r\n</ol>\r\n</div>\r\n",
+      "translatedTitle": "在线选举",
+      "translatedContent": "<p>在选举中，第&nbsp;<code>i</code>&nbsp;张票是在时间为&nbsp;<code>times[i]</code>&nbsp;时投给&nbsp;<code>persons[i]</code>&nbsp;的。</p>\n\n<p>现在，我们想要实现下面的查询函数： <code>TopVotedCandidate.q(int t)</code> 将返回在&nbsp;<code>t</code> 时刻主导选举的候选人的编号。</p>\n\n<p>在&nbsp;<code>t</code> 时刻投出的选票也将被计入我们的查询之中。在平局的情况下，最近获得投票的候选人将会获胜。</p>\n\n<p><strong>示例：</strong></p>\n\n<pre><strong>输入：</strong>[&quot;TopVotedCandidate&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;], [[[0,1,1,0,0,1,0],[0,5,10,15,20,25,30]],[3],[12],[25],[15],[24],[8]]\n<strong>输出：</strong>[null,0,1,1,0,0,1]\n<strong>解释：</strong>\n时间为 3，票数分布情况是 [0]，编号为 0 的候选人领先。\n时间为 12，票数分布情况是 [0,1,1]，编号为 1 的候选人领先。\n时间为 25，票数分布情况是 [0,1,1,0,0,1]，编号为 1 的候选人领先（因为最近的投票结果是平局）。\n在时间 15、24 和 8 处继续执行 3 个查询。\n</pre>\n\n<p>&nbsp;</p>\n\n<p><strong>提示：</strong></p>\n\n<ol>\n\t<li><code>1 &lt;= persons.length = times.length &lt;= 5000</code></li>\n\t<li><code>0 &lt;= persons[i] &lt;= persons.length</code></li>\n\t<li><code>times</code>&nbsp;是严格递增的数组，所有元素都在&nbsp;<code>[0, 10^9]</code>&nbsp;范围中。</li>\n\t<li>每个测试用例最多调用&nbsp;<code>10000</code>&nbsp;次&nbsp;<code>TopVotedCandidate.q</code>。</li>\n\t<li><code>TopVotedCandidate.q(int t)</code>&nbsp;被调用时总是满足&nbsp;<code>t &gt;= times[0]</code>。</li>\n</ol>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 27,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [
+        {
+          "name": "Binary Search",
+          "slug": "binary-search",
+          "translatedName": "二分查找",
+          "__typename": "TopicTagNode"
+        }
+      ],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "C++",
+          "langSlug": "cpp",
+          "code": "class TopVotedCandidate {\npublic:\n    TopVotedCandidate(vector<int>& persons, vector<int>& times) {\n\n    }\n    \n    int q(int t) {\n\n    }\n};\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * TopVotedCandidate* obj = new TopVotedCandidate(persons, times);\n * int param_1 = obj->q(t);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Java",
+          "langSlug": "java",
+          "code": "class TopVotedCandidate {\n\n    public TopVotedCandidate(int[] persons, int[] times) {\n\n    }\n    \n    public int q(int t) {\n\n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * TopVotedCandidate obj = new TopVotedCandidate(persons, times);\n * int param_1 = obj.q(t);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python",
+          "langSlug": "python",
+          "code": "class TopVotedCandidate(object):\n\n    def __init__(self, persons, times):\n        \"\"\"\n        :type persons: List[int]\n        :type times: List[int]\n        \"\"\"\n        \n\n    def q(self, t):\n        \"\"\"\n        :type t: int\n        :rtype: int\n        \"\"\"\n        \n\n\n# Your TopVotedCandidate object will be instantiated and called as such:\n# obj = TopVotedCandidate(persons, times)\n# param_1 = obj.q(t)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Python3",
+          "langSlug": "python3",
+          "code": "class TopVotedCandidate:\n\n    def __init__(self, persons: List[int], times: List[int]):\n        \n\n    def q(self, t: int) -> int:\n        \n\n\n# Your TopVotedCandidate object will be instantiated and called as such:\n# obj = TopVotedCandidate(persons, times)\n# param_1 = obj.q(t)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C",
+          "langSlug": "c",
+          "code": "\n\n\ntypedef struct {\n    \n} TopVotedCandidate;\n\n\nTopVotedCandidate* topVotedCandidateCreate(int* persons, int personsSize, int* times, int timesSize) {\n    \n}\n\nint topVotedCandidateQ(TopVotedCandidate* obj, int t) {\n  \n}\n\nvoid topVotedCandidateFree(TopVotedCandidate* obj) {\n    \n}\n\n/**\n * Your TopVotedCandidate struct will be instantiated and called as such:\n * TopVotedCandidate* obj = topVotedCandidateCreate(persons, personsSize, times, timesSize);\n * int param_1 = topVotedCandidateQ(obj, t);\n \n * topVotedCandidateFree(obj);\n*/",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "C#",
+          "langSlug": "csharp",
+          "code": "public class TopVotedCandidate {\n\n    public TopVotedCandidate(int[] persons, int[] times) {\n\n    }\n    \n    public int Q(int t) {\n\n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * TopVotedCandidate obj = new TopVotedCandidate(persons, times);\n * int param_1 = obj.Q(t);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "JavaScript",
+          "langSlug": "javascript",
+          "code": "/**\n * @param {number[]} persons\n * @param {number[]} times\n */\nvar TopVotedCandidate = function(persons, times) {\n\n};\n\n/** \n * @param {number} t\n * @return {number}\n */\nTopVotedCandidate.prototype.q = function(t) {\n\n};\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * var obj = new TopVotedCandidate(persons, times)\n * var param_1 = obj.q(t)\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Ruby",
+          "langSlug": "ruby",
+          "code": "class TopVotedCandidate\n\n=begin\n    :type persons: Integer[]\n    :type times: Integer[]\n=end\n    def initialize(persons, times)\n\n    end\n\n\n=begin\n    :type t: Integer\n    :rtype: Integer\n=end\n    def q(t)\n\n    end\n\n\nend\n\n# Your TopVotedCandidate object will be instantiated and called as such:\n# obj = TopVotedCandidate.new(persons, times)\n# param_1 = obj.q(t)",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Swift",
+          "langSlug": "swift",
+          "code": "\nclass TopVotedCandidate {\n\n    init(_ persons: [Int], _ times: [Int]) {\n        \n    }\n    \n    func q(_ t: Int) -> Int {\n        \n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * let obj = TopVotedCandidate(persons, times)\n * let ret_1: Int = obj.q(t)\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Go",
+          "langSlug": "golang",
+          "code": "type TopVotedCandidate struct {\n\n}\n\n\nfunc Constructor(persons []int, times []int) TopVotedCandidate {\n\n}\n\n\nfunc (this *TopVotedCandidate) Q(t int) int {\n\n}\n\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * obj := Constructor(persons, times);\n * param_1 := obj.Q(t);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Scala",
+          "langSlug": "scala",
+          "code": "class TopVotedCandidate(_persons: Array[Int], _times: Array[Int]) {\n\n    def q(t: Int): Int = {\n\n    }\n\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * var obj = new TopVotedCandidate(persons, times)\n * var param_1 = obj.q(t)\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Kotlin",
+          "langSlug": "kotlin",
+          "code": "class TopVotedCandidate(persons: IntArray, times: IntArray) {\n\n    fun q(t: Int): Int {\n\n    }\n\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * var obj = TopVotedCandidate(persons, times)\n * var param_1 = obj.q(t)\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Rust",
+          "langSlug": "rust",
+          "code": "struct TopVotedCandidate {\n\n}\n\n\n/** \n * `&self` means the method takes an immutable reference.\n * If you need a mutable reference, change it to `&mut self` instead.\n */\nimpl TopVotedCandidate {\n\n    fn new(persons: Vec<i32>, times: Vec<i32>) -> Self {\n        \n    }\n    \n    fn q(&self, t: i32) -> i32 {\n        \n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * let obj = TopVotedCandidate::new(persons, times);\n * let ret_1: i32 = obj.q(t);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "PHP",
+          "langSlug": "php",
+          "code": "class TopVotedCandidate {\n    /**\n     * @param Integer[] $persons\n     * @param Integer[] $times\n     */\n    function __construct($persons, $times) {\n        \n    }\n  \n    /**\n     * @param Integer $t\n     * @return Integer\n     */\n    function q($t) {\n        \n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * $obj = TopVotedCandidate($persons, $times);\n * $ret_1 = $obj->q($t);\n */",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "TypeScript",
+          "langSlug": "typescript",
+          "code": "class TopVotedCandidate {\n    constructor(persons: number[], times: number[]) {\n\n    }\n\n    q(t: number): number {\n\n    }\n}\n\n/**\n * Your TopVotedCandidate object will be instantiated and called as such:\n * var obj = new TopVotedCandidate(persons, times)\n * var param_1 = obj.q(t)\n */",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"2.6K\", \"totalSubmission\": \"6.1K\", \"totalAcceptedRaw\": 2581, \"totalSubmissionRaw\": 6061, \"acRate\": \"42.6%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "[\"TopVotedCandidate\",\"q\",\"q\",\"q\",\"q\",\"q\",\"q\"]\n[[[0,1,1,0,0,1,0],[0,5,10,15,20,25,30]],[3],[12],[25],[15],[24],[8]]",
+      "metaData": "{\r\n    \"classname\": \"TopVotedCandidate\",\r\n    \"maxbytesperline\": 200000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n            { \"type\": \"integer[]\",\r\n              \"name\": \"persons\"\r\n            },\r\n            { \"type\": \"integer[]\",\r\n              \"name\": \"times\"\r\n            }\r\n            ]\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"q\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"t\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"cpp\":[\"C++\",\"<p>\\u7248\\u672c\\uff1a<code>clang 9<\\/code> \\u91c7\\u7528\\u6700\\u65b0C++ 17\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002<a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a> \\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\"],\"java\":[\"Java\",\"<p>\\u7248\\u672c\\uff1a<code>Java SE 13<\\/code>\\u3002\\u53ef\\u4ee5\\u4f7f\\u7528Java 8\\u7684\\u7279\\u6027\\u4f8b\\u5982\\uff0clambda expressions \\u548c stream API\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u88ab\\u5bfc\\u5165\\u3002<\\/p>\"],\"python\":[\"Python\",\"<p>\\u7248\\u672c\\uff1a <code>Python 2.7.12<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982\\uff1a<a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/2\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u6ce8\\u610f Python 2.7 <a href=\\\"https:\\/\\/www.python.org\\/dev\\/peps\\/pep-0373\\/\\\" target=\\\"_blank\\\">\\u5c06\\u57282020\\u5e74\\u540e\\u4e0d\\u518d\\u7ef4\\u62a4<\\/a>\\u3002 \\u5982\\u60f3\\u4f7f\\u7528\\u6700\\u65b0\\u7248\\u7684Python\\uff0c\\u8bf7\\u9009\\u62e9Python 3\\u3002<\\/p>\"],\"c\":[\"C\",\"<p>\\u7248\\u672c\\uff1a<code>GCC 8.2<\\/code>\\uff0c\\u91c7\\u7528GNU99\\u6807\\u51c6\\u3002<\\/p>\\r\\n\\r\\n<p>\\u7f16\\u8bd1\\u65f6\\uff0c\\u5c06\\u4f1a\\u91c7\\u7528<code>-O1<\\/code>\\u7ea7\\u4f18\\u5316\\u3002 <a href=\\\"https:\\/\\/github.com\\/google\\/sanitizers\\/wiki\\/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer<\\/a>\\u4e5f\\u88ab\\u5f00\\u542f\\u6765\\u68c0\\u6d4b<code>out-of-bounds<\\/code>\\u548c<code>use-after-free<\\/code>\\u9519\\u8bef\\u3002<\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u4f7f\\u7528\\u65b9\\u4fbf\\uff0c\\u5927\\u90e8\\u5206\\u6807\\u51c6\\u5e93\\u7684\\u5934\\u6587\\u4ef6\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8\\u5bfc\\u5165\\u3002<\\/p>\\r\\n\\r\\n<p>\\u5982\\u60f3\\u4f7f\\u7528\\u54c8\\u5e0c\\u8868\\u8fd0\\u7b97, \\u60a8\\u53ef\\u4ee5\\u4f7f\\u7528 <a href=\\\"https:\\/\\/troydhanson.github.io\\/uthash\\/\\\" target=\\\"_blank\\\">uthash<\\/a>\\u3002 \\\"uthash.h\\\"\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5bfc\\u5165\\u3002\\u8bf7\\u770b\\u5982\\u4e0b\\u793a\\u4f8b:<\\/p>\\r\\n\\r\\n<p><b>1. \\u5f80\\u54c8\\u5e0c\\u8868\\u4e2d\\u6dfb\\u52a0\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            \\/* we'll use this field as the key *\\/\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; \\/* makes this structure hashable *\\/\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>2. \\u5728\\u54c8\\u5e0c\\u8868\\u4e2d\\u67e5\\u627e\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\\r\\n\\r\\n<p><b>3. \\u4ece\\u54c8\\u5e0c\\u8868\\u4e2d\\u5220\\u9664\\u4e00\\u4e2a\\u5bf9\\u8c61\\uff1a<\\/b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n<\\/pre>\\r\\n<\\/p>\"],\"csharp\":[\"C#\",\"<p><a href=\\\"https:\\/\\/docs.microsoft.com\\/en-us\\/dotnet\\/csharp\\/whats-new\\/csharp-8\\\" target=\\\"_blank\\\">C# 8.0<\\/a><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u7f16\\u8bd1\\u65f6\\u9ed8\\u8ba4\\u5f00\\u542f\\u4e86debug\\u6807\\u8bb0(<code>\\/debug<\\/code>)\\u3002<\\/p>\"],\"javascript\":[\"JavaScript\",\"<p>\\u7248\\u672c\\uff1a<code>Node.js 14.8.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u60a8\\u7684\\u4ee3\\u7801\\u5728\\u6267\\u884c\\u65f6\\u5c06\\u5e26\\u4e0a <code>--harmony<\\/code> \\u6807\\u8bb0\\u6765\\u5f00\\u542f <a href=\\\"http:\\/\\/node.green\\/\\\" target=\\\"_blank\\\">\\u65b0\\u7248ES6\\u7279\\u6027<\\/a>\\u3002<\\/p>\\r\\n\\r\\n<p><a href=\\\"https:\\/\\/lodash.com\\\" target=\\\"_blank\\\">lodash.js<\\/a> \\u5e93\\u5df2\\u7ecf\\u9ed8\\u8ba4\\u88ab\\u5305\\u542b\\u3002<\\/p>\"],\"ruby\":[\"Ruby\",\"<p>\\u4f7f\\u7528<code>Ruby 2.7<\\/code>\\u6267\\u884c<\\/p>\"],\"swift\":[\"Swift\",\"<p>\\u7248\\u672c\\uff1a<code>Swift 5.2.5<\\/code><\\/p>\\r\\n\\r\\n<p>\\u6211\\u4eec\\u901a\\u5e38\\u4fdd\\u8bc1\\u66f4\\u65b0\\u5230 <a href=\\\"https:\\/\\/swift.org\\/download\\/\\\" target=\\\"_blank\\\">Apple\\u653e\\u51fa\\u7684\\u6700\\u65b0\\u7248Swift<\\/a>\\u3002\\u5982\\u679c\\u60a8\\u53d1\\u73b0Swift\\u4e0d\\u662f\\u6700\\u65b0\\u7248\\u7684\\uff0c\\u8bf7\\u8054\\u7cfb\\u6211\\u4eec\\uff01\\u6211\\u4eec\\u5c06\\u5c3d\\u5feb\\u66f4\\u65b0\\u3002<\\/p>\"],\"golang\":[\"Go\",\"<p>\\u7248\\u672c\\uff1a<code>Go 1.15<\\/code><\\/p>\"],\"python3\":[\"Python3\",\"<p>\\u7248\\u672c\\uff1a<code>Python 3.8<\\/code><\\/p>\\r\\n\\r\\n<p>\\u4e3a\\u4e86\\u65b9\\u4fbf\\u8d77\\u89c1\\uff0c\\u5927\\u90e8\\u5206\\u5e38\\u7528\\u5e93\\u5df2\\u7ecf\\u88ab\\u81ea\\u52a8 \\u5bfc\\u5165\\uff0c\\u5982<a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/array.html\\\" target=\\\"_blank\\\">array<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/bisect.html\\\" target=\\\"_blank\\\">bisect<\\/a>, <a href=\\\"https:\\/\\/docs.python.org\\/3\\/library\\/collections.html\\\" target=\\\"_blank\\\">collections<\\/a>\\u3002 \\u5982\\u679c\\u60a8\\u9700\\u8981\\u4f7f\\u7528\\u5176\\u4ed6\\u5e93\\u51fd\\u6570\\uff0c\\u8bf7\\u81ea\\u884c\\u5bfc\\u5165\\u3002<\\/p>\"],\"scala\":[\"Scala\",\"<p>\\u7248\\u672c\\uff1a<code>Scala 2.13<\\/code><\\/p>\"],\"kotlin\":[\"Kotlin\",\"<p>\\u7248\\u672c\\uff1a<code>Kotlin 1.3.10<\\/code><\\/p>\"],\"rust\":[\"Rust\",\"<p>\\u7248\\u672c\\uff1a<code>rust 1.46.0<\\/code><\\/p>\\r\\n\\r\\n<p>\\u652f\\u6301 crates.io \\u7684 <a href=\\\"https:\\/\\/crates.io\\/crates\\/rand\\\" target=\\\"_blank\\\">rand<\\/a><\\/p>\"],\"php\":[\"PHP\",\"<p>Run with <code>PHP 7.2<\\/code>.<\\/p>\"],\"typescript\":[\"TypeScript\",\"TypeScript 3.8\\r\\n\\r\\nCompile Options: --strict --target ES6\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

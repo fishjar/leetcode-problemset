@@ -1,0 +1,73 @@
+{
+  "data": {
+    "question": {
+      "questionId": "176",
+      "questionFrontendId": "176",
+      "boundTopicId": 1177,
+      "title": "Second Highest Salary",
+      "titleSlug": "second-highest-salary",
+      "content": "<p>Write a SQL query to get the second highest salary from the <code>Employee</code> table.</p>\r\n\r\n<pre>\r\n+----+--------+\r\n| Id | Salary |\r\n+----+--------+\r\n| 1  | 100    |\r\n| 2  | 200    |\r\n| 3  | 300    |\r\n+----+--------+\r\n</pre>\r\n\r\n<p>For example, given the above Employee table, the query should return <code>200</code> as the second highest salary. If there is no second highest salary, then the query should return <code>null</code>.</p>\r\n\r\n<pre>\r\n+---------------------+\r\n| SecondHighestSalary |\r\n+---------------------+\r\n| 200                 |\r\n+---------------------+\r\n</pre>\r\n",
+      "translatedTitle": "第二高的薪水",
+      "translatedContent": "<p>编写一个 SQL 查询，获取 <code>Employee</code>&nbsp;表中第二高的薪水（Salary）&nbsp;。</p>\n\n<pre>+----+--------+\n| Id | Salary |\n+----+--------+\n| 1  | 100    |\n| 2  | 200    |\n| 3  | 300    |\n+----+--------+\n</pre>\n\n<p>例如上述&nbsp;<code>Employee</code>&nbsp;表，SQL查询应该返回&nbsp;<code>200</code> 作为第二高的薪水。如果不存在第二高的薪水，那么查询应返回 <code>null</code>。</p>\n\n<pre>+---------------------+\n| SecondHighestSalary |\n+---------------------+\n| 200                 |\n+---------------------+\n</pre>\n",
+      "isPaidOnly": false,
+      "difficulty": "Easy",
+      "likes": 652,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "# Write your MySQL query statement below\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "MS SQL Server",
+          "langSlug": "mssql",
+          "code": "/* Write your T-SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Oracle",
+          "langSlug": "oraclesql",
+          "code": "/* Write your PL/SQL query statement below */\n",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"144.4K\", \"totalSubmission\": \"406.5K\", \"totalAcceptedRaw\": 144401, \"totalSubmissionRaw\": 406509, \"acRate\": \"35.5%\"}",
+      "hints": [],
+      "solution": {
+        "id": "102",
+        "canSeeDetail": true,
+        "__typename": "ArticleNode"
+      },
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Employee\": [\"Id\", \"Salary\"]}, \"rows\": {\"Employee\": [[1, 100], [2, 200], [3, 300]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists Employee (Id int, Salary int)\"\n  ],\n  \"mssql\": [\n    \"create table Employee ( Id int, Salary int )\"\n  ],\n  \"oraclesql\": [\n    \"create table Employee ( Id int, Salary int )\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Employee (Id int, Salary int)",
+        "Truncate table Employee",
+        "insert into Employee (Id, Salary) values ('1', '100')",
+        "insert into Employee (Id, Salary) values ('2', '200')",
+        "insert into Employee (Id, Salary) values ('3', '300')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

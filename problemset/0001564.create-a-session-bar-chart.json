@@ -1,0 +1,52 @@
+{
+  "data": {
+    "question": {
+      "questionId": "1564",
+      "questionFrontendId": "1435",
+      "boundTopicId": 229874,
+      "title": "Create a Session Bar Chart",
+      "titleSlug": "create-a-session-bar-chart",
+      "content": null,
+      "translatedTitle": "制作会话柱状图",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Easy",
+      "likes": 11,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"1.4K\", \"totalSubmission\": \"2.2K\", \"totalAcceptedRaw\": 1379, \"totalSubmissionRaw\": 2166, \"acRate\": \"63.7%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Sessions\": [\"session_id\", \"duration\"]}, \"rows\": {\"Sessions\": [[1, 30], [2, 199], [3, 299], [4, 580], [5, 1000]]}}\r",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists Sessions (session_id int, duration int)\"\n  ],\n  \"mssql\": [\n    \"Create table Sessions (session_id int, duration int)\"\n  ],\n  \"oraclesql\": [\n    \"Create table Sessions (session_id int, duration int)\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Sessions (session_id int, duration int)",
+        "Truncate table Sessions",
+        "insert into Sessions (session_id, duration) values ('1', '30')",
+        "insert into Sessions (session_id, duration) values ('2', '199')",
+        "insert into Sessions (session_id, duration) values ('3', '299')",
+        "insert into Sessions (session_id, duration) values ('4', '580')",
+        "insert into Sessions (session_id, duration) values ('5', '1000')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

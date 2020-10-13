@@ -1,0 +1,53 @@
+{
+  "data": {
+    "question": {
+      "questionId": "1686",
+      "questionFrontendId": "1543",
+      "boundTopicId": 366675,
+      "title": "Fix Product Name Format",
+      "titleSlug": "fix-product-name-format",
+      "content": null,
+      "translatedTitle": "产品名称格式修复",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Easy",
+      "likes": 2,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"551\", \"totalSubmission\": \"1.1K\", \"totalAcceptedRaw\": 551, \"totalSubmissionRaw\": 1102, \"acRate\": \"50.0%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Sales\": [\"sale_id\", \"product_name\", \"sale_date\"]}, \"rows\": {\"Sales\": [[1, \"LCPHONE\", \"2000-01-16\"], [2, \"LCPhone\", \"2000-01-17\"], [3, \"LcPhOnE\", \"2000-02-18\"], [4, \"LCKeyCHAiN\", \"2000-02-19\"], [5, \"LCKeyChain\", \"2000-02-28\"], [6, \"Matryoshka\", \"2000-03-31\"]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists Sales (sale_id int, product_name varchar(30), sale_date date)\\n\"\n  ],\n  \"mssql\": [\n    \"Create table Sales (sale_id int, product_name varchar(30), sale_date date)\\n\"\n  ],\n  \"oraclesql\": [\n    \"Create table Sales (sale_id int, product_name varchar(30), sale_date date)\\n\",\n    \"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\\n\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Sales (sale_id int, product_name varchar(30), sale_date date)\n",
+        "Truncate table Sales",
+        "insert into Sales (sale_id, product_name, sale_date) values ('1', 'LCPHONE', '2000-01-16')",
+        "insert into Sales (sale_id, product_name, sale_date) values ('2', 'LCPhone', '2000-01-17')",
+        "insert into Sales (sale_id, product_name, sale_date) values ('3', 'LcPhOnE', '2000-02-18')",
+        "insert into Sales (sale_id, product_name, sale_date) values ('4', 'LCKeyCHAiN', '2000-02-19')",
+        "insert into Sales (sale_id, product_name, sale_date) values ('5', 'LCKeyChain', '2000-02-28')",
+        "insert into Sales (sale_id, product_name, sale_date) values ('6', 'Matryoshka', '2000-03-31')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "question": {
+      "questionId": "177",
+      "questionFrontendId": "177",
+      "boundTopicId": 1091,
+      "title": "Nth Highest Salary",
+      "titleSlug": "nth-highest-salary",
+      "content": "<p>Write a SQL query to get the <em>n</em><sup>th</sup> highest salary from the <code>Employee</code> table.</p>\r\n\r\n<pre>\r\n+----+--------+\r\n| Id | Salary |\r\n+----+--------+\r\n| 1  | 100    |\r\n| 2  | 200    |\r\n| 3  | 300    |\r\n+----+--------+\r\n</pre>\r\n\r\n<p>For example, given the above Employee table, the <em>n</em><sup>th</sup> highest salary where <em>n</em> = 2 is <code>200</code>. If there is no <em>n</em><sup>th</sup> highest salary, then the query should return <code>null</code>.</p>\r\n\r\n<pre>\r\n+------------------------+\r\n| getNthHighestSalary(2) |\r\n+------------------------+\r\n| 200                    |\r\n+------------------------+\r\n</pre>\r\n",
+      "translatedTitle": "第N高的薪水",
+      "translatedContent": "<p>编写一个 SQL 查询，获取 <code>Employee</code> 表中第&nbsp;<em>n&nbsp;</em>高的薪水（Salary）。</p>\n\n<pre>+----+--------+\n| Id | Salary |\n+----+--------+\n| 1  | 100    |\n| 2  | 200    |\n| 3  | 300    |\n+----+--------+\n</pre>\n\n<p>例如上述&nbsp;<code>Employee</code>&nbsp;表，<em>n = 2&nbsp;</em>时，应返回第二高的薪水&nbsp;<code>200</code>。如果不存在第&nbsp;<em>n&nbsp;</em>高的薪水，那么查询应返回&nbsp;<code>null</code>。</p>\n\n<pre>+------------------------+\n| getNthHighestSalary(2) |\n+------------------------+\n| 200                    |\n+------------------------+\n</pre>\n",
+      "isPaidOnly": false,
+      "difficulty": "Medium",
+      "likes": 359,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": "{\"cpp\": false, \"java\": false, \"python\": false, \"python3\": false, \"mysql\": false, \"mssql\": false, \"oraclesql\": false, \"c\": false, \"csharp\": false, \"javascript\": false, \"ruby\": false, \"bash\": false, \"swift\": false, \"golang\": false, \"scala\": false, \"html\": false, \"pythonml\": false, \"kotlin\": false, \"rust\": false, \"php\": false, \"typescript\": false}",
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": [
+        {
+          "lang": "MySQL",
+          "langSlug": "mysql",
+          "code": "CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT\r\nBEGIN\r\n  RETURN (\r\n      # Write your MySQL query statement below.\r\n      \r\n  );\r\nEND",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "MS SQL Server",
+          "langSlug": "mssql",
+          "code": "CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS\r\nBEGIN\r\n    RETURN (\r\n        /* Write your T-SQL query statement below. */\r\n        \r\n    );\r\nEND",
+          "__typename": "CodeSnippetNode"
+        },
+        {
+          "lang": "Oracle",
+          "langSlug": "oraclesql",
+          "code": "CREATE FUNCTION getNthHighestSalary(N IN NUMBER) RETURN NUMBER IS\r\nresult NUMBER;\r\nBEGIN\r\n    /* Write your PL/SQL query statement below */\r\n    \r\n    RETURN result;\r\nEND;",
+          "__typename": "CodeSnippetNode"
+        }
+      ],
+      "stats": "{\"totalAccepted\": \"69.7K\", \"totalSubmission\": \"151.6K\", \"totalAcceptedRaw\": 69741, \"totalSubmissionRaw\": 151636, \"acRate\": \"46.0%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Employee\": [\"Id\", \"Salary\"]}, \"argument\": 2, \"rows\": {\"Employee\": [[1, 100], [2, 200], [3, 300]]}}",
+      "metaData": "{\n  \"database\": true,\n  \"manual\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

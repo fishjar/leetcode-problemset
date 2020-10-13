@@ -1,0 +1,50 @@
+{
+  "data": {
+    "question": {
+      "questionId": "1759",
+      "questionFrontendId": "1613",
+      "boundTopicId": 442396,
+      "title": "Find the Missing IDs",
+      "titleSlug": "find-the-missing-ids",
+      "content": null,
+      "translatedTitle": null,
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Medium",
+      "likes": 1,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"23\", \"totalSubmission\": \"52\", \"totalAcceptedRaw\": 23, \"totalSubmissionRaw\": 52, \"acRate\": \"44.2%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\": {\"Customers\": [\"customer_id\", \"customer_name\"]}, \"rows\": {\"Customers\": [[1, \"Alice\"], [4, \"Bob\"], [5, \"Charlie\"]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"Create table If Not Exists Customers (customer_id int, customer_name varchar(20))\"\n  ],\n  \"mssql\": [\n    \"Create table Customers (customer_id int, customer_name varchar(20))\\n\"\n  ],\n  \"oraclesql\": [\n    \"Create table Customers (customer_id int, customer_name varchar(20))\\n\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists Customers (customer_id int, customer_name varchar(20))",
+        "Truncate table Customers",
+        "insert into Customers (customer_id, customer_name) values ('1', 'Alice')",
+        "insert into Customers (customer_id, customer_name) values ('4', 'Bob')",
+        "insert into Customers (customer_id, customer_name) values ('5', 'Charlie')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "question": {
+      "questionId": "610",
+      "questionFrontendId": "610",
+      "boundTopicId": 2636,
+      "title": "Triangle Judgement",
+      "titleSlug": "triangle-judgement",
+      "content": null,
+      "translatedTitle": "判断三角形",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Easy",
+      "likes": 15,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"4.6K\", \"totalSubmission\": \"6.9K\", \"totalAcceptedRaw\": 4596, \"totalSubmissionRaw\": 6914, \"acRate\": \"66.5%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"triangle\":[\"x\",\"y\",\"z\"]},\"rows\":{\"triangle\":[[13,15,30],[10,20,15]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists triangle (x int, y int, z int)\"\r\n  ],\r\n  \"mssql\": [\r\n    \"Create table triangle (x int, y int, z int)\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"Create table triangle (x int, y int, z int)\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists triangle (x int, y int, z int)",
+        "Truncate table triangle",
+        "insert into triangle (x, y, z) values ('13', '15', '30')",
+        "insert into triangle (x, y, z) values ('10', '20', '15')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "question": {
+      "questionId": "602",
+      "questionFrontendId": "602",
+      "boundTopicId": 2640,
+      "title": "Friend Requests II: Who Has the Most Friends",
+      "titleSlug": "friend-requests-ii-who-has-the-most-friends",
+      "content": null,
+      "translatedTitle": "好友申请 II ：谁有最多的好友",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Medium",
+      "likes": 21,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"5.3K\", \"totalAcceptedRaw\": 3307, \"totalSubmissionRaw\": 5284, \"acRate\": \"62.6%\"}",
+      "hints": [
+        "Being friends is bidirectional. If you accept someone's adding friend request, both you and the other person will have one more friend."
+      ],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"request_accepted\":[\"requester_id\",\"accepter_id\",\"accept_date\"]},\"rows\":{\"request_accepted\":[[1,2,\"2016/06/03\"],[1,3,\"2016/06/08\"],[2,3,\"2016/06/08\"],[3,4,\"2016/06/09\"]]}}",
+      "metaData": "{\r\n  \"mysql\": [\r\n    \"Create table If Not Exists request_accepted (        requester_id INT NOT NULL,        accepter_id INT NULL,        accept_date DATE NULL)\"\r\n  ],\r\n  \"mssql\": [\r\n    \"Create table request_accepted (        requester_id INT NOT NULL,        accepter_id INT NULL,        accept_date DATE NULL)\"\r\n  ],\r\n  \"oraclesql\": [\r\n    \"Create table request_accepted (        requester_id INT NOT NULL,        accepter_id INT NULL,        accept_date DATE NULL)\",\r\n    \"alter SESSION set NLS_DATE_FORMAT = 'YYYY/MM/DD'\"\r\n  ],\r\n  \"database\": true\r\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "Create table If Not Exists request_accepted (        requester_id INT NOT NULL,        accepter_id INT NULL,        accept_date DATE NULL)",
+        "Truncate table request_accepted",
+        "insert into request_accepted (requester_id, accepter_id, accept_date) values ('1', '2', '2016/06/03')",
+        "insert into request_accepted (requester_id, accepter_id, accept_date) values ('1', '3', '2016/06/08')",
+        "insert into request_accepted (requester_id, accepter_id, accept_date) values ('2', '3', '2016/06/08')",
+        "insert into request_accepted (requester_id, accepter_id, accept_date) values ('3', '4', '2016/06/09')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}

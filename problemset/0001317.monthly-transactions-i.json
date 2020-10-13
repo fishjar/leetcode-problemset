@@ -1,0 +1,51 @@
+{
+  "data": {
+    "question": {
+      "questionId": "1317",
+      "questionFrontendId": "1193",
+      "boundTopicId": 27992,
+      "title": "Monthly Transactions I",
+      "titleSlug": "monthly-transactions-i",
+      "content": null,
+      "translatedTitle": "每月交易 I",
+      "translatedContent": null,
+      "isPaidOnly": true,
+      "difficulty": "Medium",
+      "likes": 12,
+      "dislikes": 0,
+      "isLiked": null,
+      "similarQuestions": "[]",
+      "contributors": [],
+      "langToValidPlayground": null,
+      "topicTags": [],
+      "companyTagStats": null,
+      "codeSnippets": null,
+      "stats": "{\"totalAccepted\": \"2.4K\", \"totalSubmission\": \"3.9K\", \"totalAcceptedRaw\": 2374, \"totalSubmissionRaw\": 3855, \"acRate\": \"61.6%\"}",
+      "hints": [],
+      "solution": null,
+      "status": null,
+      "sampleTestCase": "{\"headers\":{\"Transactions\":[\"id\",\"country\",\"state\",\"amount\",\"trans_date\"]},\"rows\":{\"Transactions\":[[121,\"US\",\"approved\",1000,\"2018-12-18\"],[122,\"US\",\"declined\",2000,\"2018-12-19\"],[123,\"US\",\"approved\",2000,\"2019-01-01\"],[124,\"DE\",\"approved\",2000,\"2019-01-07\"]]}}",
+      "metaData": "{\n  \"mysql\": [\n    \"create table if not exists Transactions (id int, country varchar(4), state enum('approved', 'declined'), amount int, trans_date date)\"\n  ],\n  \"mssql\": [\n    \"create table Transactions (id int, country varchar(4), state varchar(10) check(state in ('approved', 'declined')), amount int, trans_date date)\"\n  ],\n  \"oraclesql\": [\n    \"create table Transactions (id int, country varchar(4), state varchar(10) check(state in ('approved', 'declined')), amount int, trans_date date)\",\n    \"ALTER SESSION SET nls_date_format='YYYY-MM-DD'\"\n  ],\n  \"database\": true\n}",
+      "judgerAvailable": true,
+      "judgeType": "large",
+      "mysqlSchemas": [
+        "create table if not exists Transactions (id int, country varchar(4), state enum('approved', 'declined'), amount int, trans_date date)",
+        "Truncate table Transactions",
+        "insert into Transactions (id, country, state, amount, trans_date) values ('121', 'US', 'approved', '1000', '2018-12-18')",
+        "insert into Transactions (id, country, state, amount, trans_date) values ('122', 'US', 'declined', '2000', '2018-12-19')",
+        "insert into Transactions (id, country, state, amount, trans_date) values ('123', 'US', 'approved', '2000', '2019-01-01')",
+        "insert into Transactions (id, country, state, amount, trans_date) values ('124', 'DE', 'approved', '2000', '2019-01-07')"
+      ],
+      "enableRunCode": true,
+      "envInfo": "{\"mysql\":[\"MySQL\",\"<p>\\u7248\\u672c\\uff1a<code>MySQL 8.0<\\/code><\\/p>\"],\"mssql\":[\"MS SQL Server\",\"<p>\\u4f7f\\u7528<code>MS SQL Server<\\/code>\\u6267\\u884c\\u3002<\\/p>\"],\"oraclesql\":[\"Oracle\",\"<p>\\u4f7f\\u7528<code>Oracle SQL<\\/code>\\u6267\\u884c\\u3002<\\/p>\"]}",
+      "book": null,
+      "isSubscribed": false,
+      "isDailyQuestion": false,
+      "dailyRecordStatus": null,
+      "editorType": "CKEDITOR",
+      "ugcQuestionId": null,
+      "style": "LEETCODE",
+      "__typename": "QuestionNode"
+    }
+  }
+}
