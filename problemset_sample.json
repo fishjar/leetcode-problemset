@@ -1,0 +1,42 @@
+{
+    "data": {
+        "allQuestionsBeta": [
+            {
+                "title": "Two Sum",
+                "questionId": "1",
+                "isPaidOnly": false,
+                "translatedTitle": "\u4e24\u6570\u4e4b\u548c",
+                "titleSlug": "two-sum",
+                "difficulty": "Easy",
+                "__typename": "QuestionNode",
+                "status": null,
+                "questionFrontendId": "1",
+                "categoryTitle": "Algorithms"
+            },
+            {
+                "title": "Add Two Numbers",
+                "questionId": "2",
+                "isPaidOnly": false,
+                "translatedTitle": "\u4e24\u6570\u76f8\u52a0",
+                "titleSlug": "add-two-numbers",
+                "difficulty": "Medium",
+                "__typename": "QuestionNode",
+                "status": null,
+                "questionFrontendId": "2",
+                "categoryTitle": "Algorithms"
+            },
+            {
+                "title": "Longest Substring Without Repeating Characters",
+                "questionId": "3",
+                "isPaidOnly": false,
+                "translatedTitle": "\u65e0\u91cd\u590d\u5b57\u7b26\u7684\u6700\u957f\u5b50\u4e32",
+                "titleSlug": "longest-substring-without-repeating-characters",
+                "difficulty": "Medium",
+                "__typename": "QuestionNode",
+                "status": null,
+                "questionFrontendId": "3",
+                "categoryTitle": "Algorithms"
+            }
+        ]
+    }
+}
