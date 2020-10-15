@@ -30,7 +30,7 @@ const questionsMap = questions.reduce((obj, item) => {
       item.translatedTitle
     }](./problemset_md/${questionsMap[item.titleSlug].fileName}.md) (${
       item.difficulty
-    })${item.isPaidOnly ? " xxx" : ""}\n`;
+    })${item.isPaidOnly ? " (Plus)" : ""}\n`;
   });
 
   /**
@@ -68,13 +68,13 @@ const jobs = questions.map(({ questionId, titleSlug }) =>
       const res = await api(titleSlug);
       const question = res.data.question;
 
-      /**
-       * 写json文件
-       */
-      fs.writeFileSync(
-        path.join(__dirname, "problemset", `${fileName}.json`),
-        prettier.format(JSON.stringify(res), { parser: "json" }) // 格式化
-      );
+      // /**
+      //  * 写json文件
+      //  */
+      // fs.writeFileSync(
+      //   path.join(__dirname, "problemset", `${fileName}.json`),
+      //   prettier.format(JSON.stringify(res), { parser: "json" }) // 格式化
+      // );
 
       /**
        * 标签
@@ -105,15 +105,17 @@ const jobs = questions.map(({ questionId, titleSlug }) =>
               item.title
             } ${item.translatedTitle}](./${
               questionsMap[item.titleSlug].fileName
-            }.md) (${item.difficulty})${item.isPaidOnly ? " xxx" : ""}\n`;
+            }.md) (${item.difficulty})${
+              questionsMap[item.titleSlug].isPaidOnly ? " (Plus)" : ""
+            }\n`;
           } else {
             similarStr += `- [[${
               questionsMap[item.titleSlug].idPad
             }](https://leetcode-cn.com/problems/${item.titleSlug}/)] - ${
               item.title
-            } ${item.translatedTitle}\n (${item.difficulty})${
-              item.isPaidOnly ? " xxx" : ""
-            }`;
+            } ${item.translatedTitle}\n (${
+              questionsMap[item.titleSlug].difficulty
+            })${item.isPaidOnly ? " (Plus)" : ""}`;
           }
         });
       }
@@ -171,7 +173,9 @@ const jobs = questions.map(({ questionId, titleSlug }) =>
        */
       let mdStr = "";
       mdStr += `# ${question.title} ${question.translatedTitle}\n\n`; // 大标题
-      mdStr += `[${questionsMap[titleSlug].idPad}] ${question.difficulty}\n\n`; // ID及难度
+      mdStr += `[${questionsMap[titleSlug].idPad}] (${question.difficulty}) ${
+        question.isPaidOnly ? " (Plus)" : ""
+      }\n\n`; // ID及难度
       mdStr += `- https://leetcode-cn.com/problems/${question.titleSlug}/\n\n`; // 官方链接
       mdStr += `${tagsStr}\n\n`; // 标签
       mdStr += `${similarStr}\n\n`; // 类似问题

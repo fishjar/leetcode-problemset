@@ -155,21 +155,21 @@
 - [[0000153](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)] - [Find Minimum in Rotated Sorted Array 寻找旋转排序数组中的最小值](./problemset_md/0000153.find-minimum-in-rotated-sorted-array.md) (Medium)
 - [[0000154](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)] - [Find Minimum in Rotated Sorted Array II 寻找旋转排序数组中的最小值 II](./problemset_md/0000154.find-minimum-in-rotated-sorted-array-ii.md) (Hard)
 - [[0000155](https://leetcode-cn.com/problems/min-stack/)] - [Min Stack 最小栈](./problemset_md/0000155.min-stack.md) (Easy)
-- [[0000156](https://leetcode-cn.com/problems/binary-tree-upside-down/)] - [Binary Tree Upside Down 上下翻转二叉树](./problemset_md/0000156.binary-tree-upside-down.md) (Medium) xxx
-- [[0000157](https://leetcode-cn.com/problems/read-n-characters-given-read4/)] - [Read N Characters Given Read4 用 Read4 读取 N 个字符](./problemset_md/0000157.read-n-characters-given-read4.md) (Easy) xxx
-- [[0000158](https://leetcode-cn.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)] - [Read N Characters Given Read4 II - Call multiple times 用 Read4 读取 N 个字符 II](./problemset_md/0000158.read-n-characters-given-read4-ii-call-multiple-times.md) (Hard) xxx
-- [[0000159](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)] - [Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](./problemset_md/0000159.longest-substring-with-at-most-two-distinct-characters.md) (Medium) xxx
+- [[0000156](https://leetcode-cn.com/problems/binary-tree-upside-down/)] - [Binary Tree Upside Down 上下翻转二叉树](./problemset_md/0000156.binary-tree-upside-down.md) (Medium) (Plus)
+- [[0000157](https://leetcode-cn.com/problems/read-n-characters-given-read4/)] - [Read N Characters Given Read4 用 Read4 读取 N 个字符](./problemset_md/0000157.read-n-characters-given-read4.md) (Easy) (Plus)
+- [[0000158](https://leetcode-cn.com/problems/read-n-characters-given-read4-ii-call-multiple-times/)] - [Read N Characters Given Read4 II - Call multiple times 用 Read4 读取 N 个字符 II](./problemset_md/0000158.read-n-characters-given-read4-ii-call-multiple-times.md) (Hard) (Plus)
+- [[0000159](https://leetcode-cn.com/problems/longest-substring-with-at-most-two-distinct-characters/)] - [Longest Substring with At Most Two Distinct Characters 至多包含两个不同字符的最长子串](./problemset_md/0000159.longest-substring-with-at-most-two-distinct-characters.md) (Medium) (Plus)
 - [[0000160](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)] - [Intersection of Two Linked Lists 相交链表](./problemset_md/0000160.intersection-of-two-linked-lists.md) (Easy)
-- [[0000161](https://leetcode-cn.com/problems/one-edit-distance/)] - [One Edit Distance 相隔为 1 的编辑距离](./problemset_md/0000161.one-edit-distance.md) (Medium) xxx
+- [[0000161](https://leetcode-cn.com/problems/one-edit-distance/)] - [One Edit Distance 相隔为 1 的编辑距离](./problemset_md/0000161.one-edit-distance.md) (Medium) (Plus)
 - [[0000162](https://leetcode-cn.com/problems/find-peak-element/)] - [Find Peak Element 寻找峰值](./problemset_md/0000162.find-peak-element.md) (Medium)
-- [[0000163](https://leetcode-cn.com/problems/missing-ranges/)] - [Missing Ranges 缺失的区间](./problemset_md/0000163.missing-ranges.md) (Medium) xxx
+- [[0000163](https://leetcode-cn.com/problems/missing-ranges/)] - [Missing Ranges 缺失的区间](./problemset_md/0000163.missing-ranges.md) (Medium) (Plus)
 - [[0000164](https://leetcode-cn.com/problems/maximum-gap/)] - [Maximum Gap 最大间距](./problemset_md/0000164.maximum-gap.md) (Hard)
 - [[0000165](https://leetcode-cn.com/problems/compare-version-numbers/)] - [Compare Version Numbers 比较版本号](./problemset_md/0000165.compare-version-numbers.md) (Medium)
 - [[0000166](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)] - [Fraction to Recurring Decimal 分数到小数](./problemset_md/0000166.fraction-to-recurring-decimal.md) (Medium)
 - [[0000167](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)] - [Two Sum II - Input array is sorted 两数之和 II - 输入有序数组](./problemset_md/0000167.two-sum-ii-input-array-is-sorted.md) (Easy)
 - [[0000168](https://leetcode-cn.com/problems/excel-sheet-column-title/)] - [Excel Sheet Column Title Excel 表列名称](./problemset_md/0000168.excel-sheet-column-title.md) (Easy)
 - [[0000169](https://leetcode-cn.com/problems/majority-element/)] - [Majority Element 多数元素](./problemset_md/0000169.majority-element.md) (Easy)
-- [[0000170](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/)] - [Two Sum III - Data structure design 两数之和 III - 数据结构设计](./problemset_md/0000170.two-sum-iii-data-structure-design.md) (Easy) xxx
+- [[0000170](https://leetcode-cn.com/problems/two-sum-iii-data-structure-design/)] - [Two Sum III - Data structure design 两数之和 III - 数据结构设计](./problemset_md/0000170.two-sum-iii-data-structure-design.md) (Easy) (Plus)
 - [[0000171](https://leetcode-cn.com/problems/excel-sheet-column-number/)] - [Excel Sheet Column Number Excel 表列序号](./problemset_md/0000171.excel-sheet-column-number.md) (Easy)
 - [[0000172](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)] - [Factorial Trailing Zeroes 阶乘后的零](./problemset_md/0000172.factorial-trailing-zeroes.md) (Easy)
 - [[0000173](https://leetcode-cn.com/problems/binary-search-tree-iterator/)] - [Binary Search Tree Iterator 二叉搜索树迭代器](./problemset_md/0000173.binary-search-tree-iterator.md) (Medium)
@@ -185,7 +185,7 @@
 - [[0000183](https://leetcode-cn.com/problems/customers-who-never-order/)] - [Customers Who Never Order 从不订购的客户](./problemset_md/0000183.customers-who-never-order.md) (Easy)
 - [[0000184](https://leetcode-cn.com/problems/department-highest-salary/)] - [Department Highest Salary 部门工资最高的员工](./problemset_md/0000184.department-highest-salary.md) (Medium)
 - [[0000185](https://leetcode-cn.com/problems/department-top-three-salaries/)] - [Department Top Three Salaries 部门工资前三高的所有员工](./problemset_md/0000185.department-top-three-salaries.md) (Hard)
-- [[0000186](https://leetcode-cn.com/problems/reverse-words-in-a-string-ii/)] - [Reverse Words in a String II 翻转字符串里的单词 II](./problemset_md/0000186.reverse-words-in-a-string-ii.md) (Medium) xxx
+- [[0000186](https://leetcode-cn.com/problems/reverse-words-in-a-string-ii/)] - [Reverse Words in a String II 翻转字符串里的单词 II](./problemset_md/0000186.reverse-words-in-a-string-ii.md) (Medium) (Plus)
 - [[0000187](https://leetcode-cn.com/problems/repeated-dna-sequences/)] - [Repeated DNA Sequences 重复的 DNA 序列](./problemset_md/0000187.repeated-dna-sequences.md) (Medium)
 - [[0000188](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)] - [Best Time to Buy and Sell Stock IV 买卖股票的最佳时机 IV](./problemset_md/0000188.best-time-to-buy-and-sell-stock-iv.md) (Hard)
 - [[0000189](https://leetcode-cn.com/problems/rotate-array/)] - [Rotate Array 旋转数组](./problemset_md/0000189.rotate-array.md) (Medium)
@@ -242,89 +242,89 @@
 - [[0000240](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)] - [Search a 2D Matrix II 搜索二维矩阵 II](./problemset_md/0000240.search-a-2d-matrix-ii.md) (Medium)
 - [[0000241](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/)] - [Different Ways to Add Parentheses 为运算表达式设计优先级](./problemset_md/0000241.different-ways-to-add-parentheses.md) (Medium)
 - [[0000242](https://leetcode-cn.com/problems/valid-anagram/)] - [Valid Anagram 有效的字母异位词](./problemset_md/0000242.valid-anagram.md) (Easy)
-- [[0000243](https://leetcode-cn.com/problems/shortest-word-distance/)] - [Shortest Word Distance 最短单词距离](./problemset_md/0000243.shortest-word-distance.md) (Easy) xxx
-- [[0000244](https://leetcode-cn.com/problems/shortest-word-distance-ii/)] - [Shortest Word Distance II 最短单词距离 II](./problemset_md/0000244.shortest-word-distance-ii.md) (Medium) xxx
-- [[0000245](https://leetcode-cn.com/problems/shortest-word-distance-iii/)] - [Shortest Word Distance III 最短单词距离 III](./problemset_md/0000245.shortest-word-distance-iii.md) (Medium) xxx
-- [[0000246](https://leetcode-cn.com/problems/strobogrammatic-number/)] - [Strobogrammatic Number 中心对称数](./problemset_md/0000246.strobogrammatic-number.md) (Easy) xxx
-- [[0000247](https://leetcode-cn.com/problems/strobogrammatic-number-ii/)] - [Strobogrammatic Number II 中心对称数 II](./problemset_md/0000247.strobogrammatic-number-ii.md) (Medium) xxx
-- [[0000248](https://leetcode-cn.com/problems/strobogrammatic-number-iii/)] - [Strobogrammatic Number III 中心对称数 III](./problemset_md/0000248.strobogrammatic-number-iii.md) (Hard) xxx
-- [[0000249](https://leetcode-cn.com/problems/group-shifted-strings/)] - [Group Shifted Strings 移位字符串分组](./problemset_md/0000249.group-shifted-strings.md) (Medium) xxx
-- [[0000250](https://leetcode-cn.com/problems/count-univalue-subtrees/)] - [Count Univalue Subtrees 统计同值子树](./problemset_md/0000250.count-univalue-subtrees.md) (Medium) xxx
-- [[0000251](https://leetcode-cn.com/problems/flatten-2d-vector/)] - [Flatten 2D Vector 展开二维向量](./problemset_md/0000251.flatten-2d-vector.md) (Medium) xxx
-- [[0000252](https://leetcode-cn.com/problems/meeting-rooms/)] - [Meeting Rooms 会议室](./problemset_md/0000252.meeting-rooms.md) (Easy) xxx
-- [[0000253](https://leetcode-cn.com/problems/meeting-rooms-ii/)] - [Meeting Rooms II 会议室 II](./problemset_md/0000253.meeting-rooms-ii.md) (Medium) xxx
-- [[0000254](https://leetcode-cn.com/problems/factor-combinations/)] - [Factor Combinations 因子的组合](./problemset_md/0000254.factor-combinations.md) (Medium) xxx
-- [[0000255](https://leetcode-cn.com/problems/verify-preorder-sequence-in-binary-search-tree/)] - [Verify Preorder Sequence in Binary Search Tree 验证前序遍历序列二叉搜索树](./problemset_md/0000255.verify-preorder-sequence-in-binary-search-tree.md) (Medium) xxx
-- [[0000256](https://leetcode-cn.com/problems/paint-house/)] - [Paint House 粉刷房子](./problemset_md/0000256.paint-house.md) (Medium) xxx
+- [[0000243](https://leetcode-cn.com/problems/shortest-word-distance/)] - [Shortest Word Distance 最短单词距离](./problemset_md/0000243.shortest-word-distance.md) (Easy) (Plus)
+- [[0000244](https://leetcode-cn.com/problems/shortest-word-distance-ii/)] - [Shortest Word Distance II 最短单词距离 II](./problemset_md/0000244.shortest-word-distance-ii.md) (Medium) (Plus)
+- [[0000245](https://leetcode-cn.com/problems/shortest-word-distance-iii/)] - [Shortest Word Distance III 最短单词距离 III](./problemset_md/0000245.shortest-word-distance-iii.md) (Medium) (Plus)
+- [[0000246](https://leetcode-cn.com/problems/strobogrammatic-number/)] - [Strobogrammatic Number 中心对称数](./problemset_md/0000246.strobogrammatic-number.md) (Easy) (Plus)
+- [[0000247](https://leetcode-cn.com/problems/strobogrammatic-number-ii/)] - [Strobogrammatic Number II 中心对称数 II](./problemset_md/0000247.strobogrammatic-number-ii.md) (Medium) (Plus)
+- [[0000248](https://leetcode-cn.com/problems/strobogrammatic-number-iii/)] - [Strobogrammatic Number III 中心对称数 III](./problemset_md/0000248.strobogrammatic-number-iii.md) (Hard) (Plus)
+- [[0000249](https://leetcode-cn.com/problems/group-shifted-strings/)] - [Group Shifted Strings 移位字符串分组](./problemset_md/0000249.group-shifted-strings.md) (Medium) (Plus)
+- [[0000250](https://leetcode-cn.com/problems/count-univalue-subtrees/)] - [Count Univalue Subtrees 统计同值子树](./problemset_md/0000250.count-univalue-subtrees.md) (Medium) (Plus)
+- [[0000251](https://leetcode-cn.com/problems/flatten-2d-vector/)] - [Flatten 2D Vector 展开二维向量](./problemset_md/0000251.flatten-2d-vector.md) (Medium) (Plus)
+- [[0000252](https://leetcode-cn.com/problems/meeting-rooms/)] - [Meeting Rooms 会议室](./problemset_md/0000252.meeting-rooms.md) (Easy) (Plus)
+- [[0000253](https://leetcode-cn.com/problems/meeting-rooms-ii/)] - [Meeting Rooms II 会议室 II](./problemset_md/0000253.meeting-rooms-ii.md) (Medium) (Plus)
+- [[0000254](https://leetcode-cn.com/problems/factor-combinations/)] - [Factor Combinations 因子的组合](./problemset_md/0000254.factor-combinations.md) (Medium) (Plus)
+- [[0000255](https://leetcode-cn.com/problems/verify-preorder-sequence-in-binary-search-tree/)] - [Verify Preorder Sequence in Binary Search Tree 验证前序遍历序列二叉搜索树](./problemset_md/0000255.verify-preorder-sequence-in-binary-search-tree.md) (Medium) (Plus)
+- [[0000256](https://leetcode-cn.com/problems/paint-house/)] - [Paint House 粉刷房子](./problemset_md/0000256.paint-house.md) (Medium) (Plus)
 - [[0000257](https://leetcode-cn.com/problems/binary-tree-paths/)] - [Binary Tree Paths 二叉树的所有路径](./problemset_md/0000257.binary-tree-paths.md) (Easy)
 - [[0000258](https://leetcode-cn.com/problems/add-digits/)] - [Add Digits 各位相加](./problemset_md/0000258.add-digits.md) (Easy)
-- [[0000259](https://leetcode-cn.com/problems/3sum-smaller/)] - [3Sum Smaller 较小的三数之和](./problemset_md/0000259.3sum-smaller.md) (Medium) xxx
+- [[0000259](https://leetcode-cn.com/problems/3sum-smaller/)] - [3Sum Smaller 较小的三数之和](./problemset_md/0000259.3sum-smaller.md) (Medium) (Plus)
 - [[0000260](https://leetcode-cn.com/problems/single-number-iii/)] - [Single Number III 只出现一次的数字 III](./problemset_md/0000260.single-number-iii.md) (Medium)
-- [[0000261](https://leetcode-cn.com/problems/graph-valid-tree/)] - [Graph Valid Tree 以图判树](./problemset_md/0000261.graph-valid-tree.md) (Medium) xxx
+- [[0000261](https://leetcode-cn.com/problems/graph-valid-tree/)] - [Graph Valid Tree 以图判树](./problemset_md/0000261.graph-valid-tree.md) (Medium) (Plus)
 - [[0000262](https://leetcode-cn.com/problems/trips-and-users/)] - [Trips and Users 行程和用户](./problemset_md/0000262.trips-and-users.md) (Hard)
 - [[0000263](https://leetcode-cn.com/problems/ugly-number/)] - [Ugly Number 丑数](./problemset_md/0000263.ugly-number.md) (Easy)
 - [[0000264](https://leetcode-cn.com/problems/ugly-number-ii/)] - [Ugly Number II 丑数 II](./problemset_md/0000264.ugly-number-ii.md) (Medium)
-- [[0000265](https://leetcode-cn.com/problems/paint-house-ii/)] - [Paint House II 粉刷房子 II](./problemset_md/0000265.paint-house-ii.md) (Hard) xxx
-- [[0000266](https://leetcode-cn.com/problems/palindrome-permutation/)] - [Palindrome Permutation 回文排列](./problemset_md/0000266.palindrome-permutation.md) (Easy) xxx
-- [[0000267](https://leetcode-cn.com/problems/palindrome-permutation-ii/)] - [Palindrome Permutation II 回文排列 II](./problemset_md/0000267.palindrome-permutation-ii.md) (Medium) xxx
+- [[0000265](https://leetcode-cn.com/problems/paint-house-ii/)] - [Paint House II 粉刷房子 II](./problemset_md/0000265.paint-house-ii.md) (Hard) (Plus)
+- [[0000266](https://leetcode-cn.com/problems/palindrome-permutation/)] - [Palindrome Permutation 回文排列](./problemset_md/0000266.palindrome-permutation.md) (Easy) (Plus)
+- [[0000267](https://leetcode-cn.com/problems/palindrome-permutation-ii/)] - [Palindrome Permutation II 回文排列 II](./problemset_md/0000267.palindrome-permutation-ii.md) (Medium) (Plus)
 - [[0000268](https://leetcode-cn.com/problems/missing-number/)] - [Missing Number 缺失数字](./problemset_md/0000268.missing-number.md) (Easy)
-- [[0000269](https://leetcode-cn.com/problems/alien-dictionary/)] - [Alien Dictionary 火星词典](./problemset_md/0000269.alien-dictionary.md) (Hard) xxx
-- [[0000270](https://leetcode-cn.com/problems/closest-binary-search-tree-value/)] - [Closest Binary Search Tree Value 最接近的二叉搜索树值](./problemset_md/0000270.closest-binary-search-tree-value.md) (Easy) xxx
-- [[0000271](https://leetcode-cn.com/problems/encode-and-decode-strings/)] - [Encode and Decode Strings 字符串的编码与解码](./problemset_md/0000271.encode-and-decode-strings.md) (Medium) xxx
-- [[0000272](https://leetcode-cn.com/problems/closest-binary-search-tree-value-ii/)] - [Closest Binary Search Tree Value II 最接近的二叉搜索树值 II](./problemset_md/0000272.closest-binary-search-tree-value-ii.md) (Hard) xxx
+- [[0000269](https://leetcode-cn.com/problems/alien-dictionary/)] - [Alien Dictionary 火星词典](./problemset_md/0000269.alien-dictionary.md) (Hard) (Plus)
+- [[0000270](https://leetcode-cn.com/problems/closest-binary-search-tree-value/)] - [Closest Binary Search Tree Value 最接近的二叉搜索树值](./problemset_md/0000270.closest-binary-search-tree-value.md) (Easy) (Plus)
+- [[0000271](https://leetcode-cn.com/problems/encode-and-decode-strings/)] - [Encode and Decode Strings 字符串的编码与解码](./problemset_md/0000271.encode-and-decode-strings.md) (Medium) (Plus)
+- [[0000272](https://leetcode-cn.com/problems/closest-binary-search-tree-value-ii/)] - [Closest Binary Search Tree Value II 最接近的二叉搜索树值 II](./problemset_md/0000272.closest-binary-search-tree-value-ii.md) (Hard) (Plus)
 - [[0000273](https://leetcode-cn.com/problems/integer-to-english-words/)] - [Integer to English Words 整数转换英文表示](./problemset_md/0000273.integer-to-english-words.md) (Hard)
 - [[0000274](https://leetcode-cn.com/problems/h-index/)] - [H-Index H 指数](./problemset_md/0000274.h-index.md) (Medium)
 - [[0000275](https://leetcode-cn.com/problems/h-index-ii/)] - [H-Index II H 指数 II](./problemset_md/0000275.h-index-ii.md) (Medium)
-- [[0000276](https://leetcode-cn.com/problems/paint-fence/)] - [Paint Fence 栅栏涂色](./problemset_md/0000276.paint-fence.md) (Easy) xxx
-- [[0000277](https://leetcode-cn.com/problems/find-the-celebrity/)] - [Find the Celebrity 搜寻名人](./problemset_md/0000277.find-the-celebrity.md) (Medium) xxx
+- [[0000276](https://leetcode-cn.com/problems/paint-fence/)] - [Paint Fence 栅栏涂色](./problemset_md/0000276.paint-fence.md) (Easy) (Plus)
+- [[0000277](https://leetcode-cn.com/problems/find-the-celebrity/)] - [Find the Celebrity 搜寻名人](./problemset_md/0000277.find-the-celebrity.md) (Medium) (Plus)
 - [[0000278](https://leetcode-cn.com/problems/first-bad-version/)] - [First Bad Version 第一个错误的版本](./problemset_md/0000278.first-bad-version.md) (Easy)
 - [[0000279](https://leetcode-cn.com/problems/perfect-squares/)] - [Perfect Squares 完全平方数](./problemset_md/0000279.perfect-squares.md) (Medium)
-- [[0000280](https://leetcode-cn.com/problems/wiggle-sort/)] - [Wiggle Sort 摆动排序](./problemset_md/0000280.wiggle-sort.md) (Medium) xxx
-- [[0000281](https://leetcode-cn.com/problems/zigzag-iterator/)] - [Zigzag Iterator 锯齿迭代器](./problemset_md/0000281.zigzag-iterator.md) (Medium) xxx
+- [[0000280](https://leetcode-cn.com/problems/wiggle-sort/)] - [Wiggle Sort 摆动排序](./problemset_md/0000280.wiggle-sort.md) (Medium) (Plus)
+- [[0000281](https://leetcode-cn.com/problems/zigzag-iterator/)] - [Zigzag Iterator 锯齿迭代器](./problemset_md/0000281.zigzag-iterator.md) (Medium) (Plus)
 - [[0000282](https://leetcode-cn.com/problems/expression-add-operators/)] - [Expression Add Operators 给表达式添加运算符](./problemset_md/0000282.expression-add-operators.md) (Hard)
 - [[0000283](https://leetcode-cn.com/problems/move-zeroes/)] - [Move Zeroes 移动零](./problemset_md/0000283.move-zeroes.md) (Easy)
 - [[0000284](https://leetcode-cn.com/problems/peeking-iterator/)] - [Peeking Iterator 顶端迭代器](./problemset_md/0000284.peeking-iterator.md) (Medium)
-- [[0000285](https://leetcode-cn.com/problems/inorder-successor-in-bst/)] - [Inorder Successor in BST 二叉搜索树中的顺序后继](./problemset_md/0000285.inorder-successor-in-bst.md) (Medium) xxx
-- [[0000286](https://leetcode-cn.com/problems/walls-and-gates/)] - [Walls and Gates 墙与门](./problemset_md/0000286.walls-and-gates.md) (Medium) xxx
+- [[0000285](https://leetcode-cn.com/problems/inorder-successor-in-bst/)] - [Inorder Successor in BST 二叉搜索树中的顺序后继](./problemset_md/0000285.inorder-successor-in-bst.md) (Medium) (Plus)
+- [[0000286](https://leetcode-cn.com/problems/walls-and-gates/)] - [Walls and Gates 墙与门](./problemset_md/0000286.walls-and-gates.md) (Medium) (Plus)
 - [[0000287](https://leetcode-cn.com/problems/find-the-duplicate-number/)] - [Find the Duplicate Number 寻找重复数](./problemset_md/0000287.find-the-duplicate-number.md) (Medium)
-- [[0000288](https://leetcode-cn.com/problems/unique-word-abbreviation/)] - [Unique Word Abbreviation 单词的唯一缩写](./problemset_md/0000288.unique-word-abbreviation.md) (Medium) xxx
+- [[0000288](https://leetcode-cn.com/problems/unique-word-abbreviation/)] - [Unique Word Abbreviation 单词的唯一缩写](./problemset_md/0000288.unique-word-abbreviation.md) (Medium) (Plus)
 - [[0000289](https://leetcode-cn.com/problems/game-of-life/)] - [Game of Life 生命游戏](./problemset_md/0000289.game-of-life.md) (Medium)
 - [[0000290](https://leetcode-cn.com/problems/word-pattern/)] - [Word Pattern 单词规律](./problemset_md/0000290.word-pattern.md) (Easy)
-- [[0000291](https://leetcode-cn.com/problems/word-pattern-ii/)] - [Word Pattern II 单词规律 II](./problemset_md/0000291.word-pattern-ii.md) (Hard) xxx
+- [[0000291](https://leetcode-cn.com/problems/word-pattern-ii/)] - [Word Pattern II 单词规律 II](./problemset_md/0000291.word-pattern-ii.md) (Hard) (Plus)
 - [[0000292](https://leetcode-cn.com/problems/nim-game/)] - [Nim Game Nim 游戏](./problemset_md/0000292.nim-game.md) (Easy)
-- [[0000293](https://leetcode-cn.com/problems/flip-game/)] - [Flip Game 翻转游戏](./problemset_md/0000293.flip-game.md) (Easy) xxx
-- [[0000294](https://leetcode-cn.com/problems/flip-game-ii/)] - [Flip Game II 翻转游戏 II](./problemset_md/0000294.flip-game-ii.md) (Medium) xxx
+- [[0000293](https://leetcode-cn.com/problems/flip-game/)] - [Flip Game 翻转游戏](./problemset_md/0000293.flip-game.md) (Easy) (Plus)
+- [[0000294](https://leetcode-cn.com/problems/flip-game-ii/)] - [Flip Game II 翻转游戏 II](./problemset_md/0000294.flip-game-ii.md) (Medium) (Plus)
 - [[0000295](https://leetcode-cn.com/problems/find-median-from-data-stream/)] - [Find Median from Data Stream 数据流的中位数](./problemset_md/0000295.find-median-from-data-stream.md) (Hard)
-- [[0000296](https://leetcode-cn.com/problems/best-meeting-point/)] - [Best Meeting Point 最佳的碰头地点](./problemset_md/0000296.best-meeting-point.md) (Hard) xxx
+- [[0000296](https://leetcode-cn.com/problems/best-meeting-point/)] - [Best Meeting Point 最佳的碰头地点](./problemset_md/0000296.best-meeting-point.md) (Hard) (Plus)
 - [[0000297](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)] - [Serialize and Deserialize Binary Tree 二叉树的序列化与反序列化](./problemset_md/0000297.serialize-and-deserialize-binary-tree.md) (Hard)
-- [[0000298](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence/)] - [Binary Tree Longest Consecutive Sequence 二叉树最长连续序列](./problemset_md/0000298.binary-tree-longest-consecutive-sequence.md) (Medium) xxx
+- [[0000298](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence/)] - [Binary Tree Longest Consecutive Sequence 二叉树最长连续序列](./problemset_md/0000298.binary-tree-longest-consecutive-sequence.md) (Medium) (Plus)
 - [[0000299](https://leetcode-cn.com/problems/bulls-and-cows/)] - [Bulls and Cows 猜数字游戏](./problemset_md/0000299.bulls-and-cows.md) (Medium)
 - [[0000300](https://leetcode-cn.com/problems/longest-increasing-subsequence/)] - [Longest Increasing Subsequence 最长上升子序列](./problemset_md/0000300.longest-increasing-subsequence.md) (Medium)
 - [[0000301](https://leetcode-cn.com/problems/remove-invalid-parentheses/)] - [Remove Invalid Parentheses 删除无效的括号](./problemset_md/0000301.remove-invalid-parentheses.md) (Hard)
-- [[0000302](https://leetcode-cn.com/problems/smallest-rectangle-enclosing-black-pixels/)] - [Smallest Rectangle Enclosing Black Pixels 包含全部黑色像素的最小矩形](./problemset_md/0000302.smallest-rectangle-enclosing-black-pixels.md) (Hard) xxx
+- [[0000302](https://leetcode-cn.com/problems/smallest-rectangle-enclosing-black-pixels/)] - [Smallest Rectangle Enclosing Black Pixels 包含全部黑色像素的最小矩形](./problemset_md/0000302.smallest-rectangle-enclosing-black-pixels.md) (Hard) (Plus)
 - [[0000303](https://leetcode-cn.com/problems/range-sum-query-immutable/)] - [Range Sum Query - Immutable 区域和检索 - 数组不可变](./problemset_md/0000303.range-sum-query-immutable.md) (Easy)
 - [[0000304](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)] - [Range Sum Query 2D - Immutable 二维区域和检索 - 矩阵不可变](./problemset_md/0000304.range-sum-query-2d-immutable.md) (Medium)
-- [[0000305](https://leetcode-cn.com/problems/number-of-islands-ii/)] - [Number of Islands II 岛屿数量 II](./problemset_md/0000305.number-of-islands-ii.md) (Hard) xxx
+- [[0000305](https://leetcode-cn.com/problems/number-of-islands-ii/)] - [Number of Islands II 岛屿数量 II](./problemset_md/0000305.number-of-islands-ii.md) (Hard) (Plus)
 - [[0000306](https://leetcode-cn.com/problems/additive-number/)] - [Additive Number 累加数](./problemset_md/0000306.additive-number.md) (Medium)
 - [[0000307](https://leetcode-cn.com/problems/range-sum-query-mutable/)] - [Range Sum Query - Mutable 区域和检索 - 数组可修改](./problemset_md/0000307.range-sum-query-mutable.md) (Medium)
-- [[0000308](https://leetcode-cn.com/problems/range-sum-query-2d-mutable/)] - [Range Sum Query 2D - Mutable 二维区域和检索 - 可变](./problemset_md/0000308.range-sum-query-2d-mutable.md) (Hard) xxx
+- [[0000308](https://leetcode-cn.com/problems/range-sum-query-2d-mutable/)] - [Range Sum Query 2D - Mutable 二维区域和检索 - 可变](./problemset_md/0000308.range-sum-query-2d-mutable.md) (Hard) (Plus)
 - [[0000309](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)] - [Best Time to Buy and Sell Stock with Cooldown 最佳买卖股票时机含冷冻期](./problemset_md/0000309.best-time-to-buy-and-sell-stock-with-cooldown.md) (Medium)
 - [[0000310](https://leetcode-cn.com/problems/minimum-height-trees/)] - [Minimum Height Trees 最小高度树](./problemset_md/0000310.minimum-height-trees.md) (Medium)
-- [[0000311](https://leetcode-cn.com/problems/sparse-matrix-multiplication/)] - [Sparse Matrix Multiplication 稀疏矩阵的乘法](./problemset_md/0000311.sparse-matrix-multiplication.md) (Medium) xxx
+- [[0000311](https://leetcode-cn.com/problems/sparse-matrix-multiplication/)] - [Sparse Matrix Multiplication 稀疏矩阵的乘法](./problemset_md/0000311.sparse-matrix-multiplication.md) (Medium) (Plus)
 - [[0000312](https://leetcode-cn.com/problems/burst-balloons/)] - [Burst Balloons 戳气球](./problemset_md/0000312.burst-balloons.md) (Hard)
 - [[0000313](https://leetcode-cn.com/problems/super-ugly-number/)] - [Super Ugly Number 超级丑数](./problemset_md/0000313.super-ugly-number.md) (Medium)
-- [[0000314](https://leetcode-cn.com/problems/binary-tree-vertical-order-traversal/)] - [Binary Tree Vertical Order Traversal 二叉树的垂直遍历](./problemset_md/0000314.binary-tree-vertical-order-traversal.md) (Medium) xxx
+- [[0000314](https://leetcode-cn.com/problems/binary-tree-vertical-order-traversal/)] - [Binary Tree Vertical Order Traversal 二叉树的垂直遍历](./problemset_md/0000314.binary-tree-vertical-order-traversal.md) (Medium) (Plus)
 - [[0000315](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)] - [Count of Smaller Numbers After Self 计算右侧小于当前元素的个数](./problemset_md/0000315.count-of-smaller-numbers-after-self.md) (Hard)
 - [[0000316](https://leetcode-cn.com/problems/remove-duplicate-letters/)] - [Remove Duplicate Letters 去除重复字母](./problemset_md/0000316.remove-duplicate-letters.md) (Medium)
-- [[0000317](https://leetcode-cn.com/problems/shortest-distance-from-all-buildings/)] - [Shortest Distance from All Buildings 离建筑物最近的距离](./problemset_md/0000317.shortest-distance-from-all-buildings.md) (Hard) xxx
+- [[0000317](https://leetcode-cn.com/problems/shortest-distance-from-all-buildings/)] - [Shortest Distance from All Buildings 离建筑物最近的距离](./problemset_md/0000317.shortest-distance-from-all-buildings.md) (Hard) (Plus)
 - [[0000318](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/)] - [Maximum Product of Word Lengths 最大单词长度乘积](./problemset_md/0000318.maximum-product-of-word-lengths.md) (Medium)
 - [[0000319](https://leetcode-cn.com/problems/bulb-switcher/)] - [Bulb Switcher 灯泡开关](./problemset_md/0000319.bulb-switcher.md) (Medium)
-- [[0000320](https://leetcode-cn.com/problems/generalized-abbreviation/)] - [Generalized Abbreviation 列举单词的全部缩写](./problemset_md/0000320.generalized-abbreviation.md) (Medium) xxx
+- [[0000320](https://leetcode-cn.com/problems/generalized-abbreviation/)] - [Generalized Abbreviation 列举单词的全部缩写](./problemset_md/0000320.generalized-abbreviation.md) (Medium) (Plus)
 - [[0000321](https://leetcode-cn.com/problems/create-maximum-number/)] - [Create Maximum Number 拼接最大数](./problemset_md/0000321.create-maximum-number.md) (Hard)
 - [[0000322](https://leetcode-cn.com/problems/coin-change/)] - [Coin Change 零钱兑换](./problemset_md/0000322.coin-change.md) (Medium)
-- [[0000323](https://leetcode-cn.com/problems/number-of-connected-components-in-an-undirected-graph/)] - [Number of Connected Components in an Undirected Graph 无向图中连通分量的数目](./problemset_md/0000323.number-of-connected-components-in-an-undirected-graph.md) (Medium) xxx
+- [[0000323](https://leetcode-cn.com/problems/number-of-connected-components-in-an-undirected-graph/)] - [Number of Connected Components in an Undirected Graph 无向图中连通分量的数目](./problemset_md/0000323.number-of-connected-components-in-an-undirected-graph.md) (Medium) (Plus)
 - [[0000324](https://leetcode-cn.com/problems/wiggle-sort-ii/)] - [Wiggle Sort II 摆动排序 II](./problemset_md/0000324.wiggle-sort-ii.md) (Medium)
-- [[0000325](https://leetcode-cn.com/problems/maximum-size-subarray-sum-equals-k/)] - [Maximum Size Subarray Sum Equals k 和等于 k 的最长子数组长度](./problemset_md/0000325.maximum-size-subarray-sum-equals-k.md) (Medium) xxx
+- [[0000325](https://leetcode-cn.com/problems/maximum-size-subarray-sum-equals-k/)] - [Maximum Size Subarray Sum Equals k 和等于 k 的最长子数组长度](./problemset_md/0000325.maximum-size-subarray-sum-equals-k.md) (Medium) (Plus)
 - [[0000326](https://leetcode-cn.com/problems/power-of-three/)] - [Power of Three 3 的幂](./problemset_md/0000326.power-of-three.md) (Easy)
 - [[0000327](https://leetcode-cn.com/problems/count-of-range-sum/)] - [Count of Range Sum 区间和的个数](./problemset_md/0000327.count-of-range-sum.md) (Hard)
 - [[0000328](https://leetcode-cn.com/problems/odd-even-linked-list/)] - [Odd Even Linked List 奇偶链表](./problemset_md/0000328.odd-even-linked-list.md) (Medium)
@@ -332,44 +332,44 @@
 - [[0000330](https://leetcode-cn.com/problems/patching-array/)] - [Patching Array 按要求补齐数组](./problemset_md/0000330.patching-array.md) (Hard)
 - [[0000331](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/)] - [Verify Preorder Serialization of a Binary Tree 验证二叉树的前序序列化](./problemset_md/0000331.verify-preorder-serialization-of-a-binary-tree.md) (Medium)
 - [[0000332](https://leetcode-cn.com/problems/reconstruct-itinerary/)] - [Reconstruct Itinerary 重新安排行程](./problemset_md/0000332.reconstruct-itinerary.md) (Medium)
-- [[0000333](https://leetcode-cn.com/problems/largest-bst-subtree/)] - [Largest BST Subtree 最大 BST 子树](./problemset_md/0000333.largest-bst-subtree.md) (Medium) xxx
+- [[0000333](https://leetcode-cn.com/problems/largest-bst-subtree/)] - [Largest BST Subtree 最大 BST 子树](./problemset_md/0000333.largest-bst-subtree.md) (Medium) (Plus)
 - [[0000334](https://leetcode-cn.com/problems/increasing-triplet-subsequence/)] - [Increasing Triplet Subsequence 递增的三元子序列](./problemset_md/0000334.increasing-triplet-subsequence.md) (Medium)
 - [[0000335](https://leetcode-cn.com/problems/self-crossing/)] - [Self Crossing 路径交叉](./problemset_md/0000335.self-crossing.md) (Hard)
 - [[0000336](https://leetcode-cn.com/problems/palindrome-pairs/)] - [Palindrome Pairs 回文对](./problemset_md/0000336.palindrome-pairs.md) (Hard)
 - [[0000337](https://leetcode-cn.com/problems/house-robber-iii/)] - [House Robber III 打家劫舍 III](./problemset_md/0000337.house-robber-iii.md) (Medium)
 - [[0000338](https://leetcode-cn.com/problems/counting-bits/)] - [Counting Bits 比特位计数](./problemset_md/0000338.counting-bits.md) (Medium)
-- [[0000339](https://leetcode-cn.com/problems/nested-list-weight-sum/)] - [Nested List Weight Sum 嵌套列表权重和](./problemset_md/0000339.nested-list-weight-sum.md) (Easy) xxx
-- [[0000340](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)] - [Longest Substring with At Most K Distinct Characters 至多包含 K 个不同字符的最长子串](./problemset_md/0000340.longest-substring-with-at-most-k-distinct-characters.md) (Hard) xxx
+- [[0000339](https://leetcode-cn.com/problems/nested-list-weight-sum/)] - [Nested List Weight Sum 嵌套列表权重和](./problemset_md/0000339.nested-list-weight-sum.md) (Easy) (Plus)
+- [[0000340](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters/)] - [Longest Substring with At Most K Distinct Characters 至多包含 K 个不同字符的最长子串](./problemset_md/0000340.longest-substring-with-at-most-k-distinct-characters.md) (Hard) (Plus)
 - [[0000341](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)] - [Flatten Nested List Iterator 扁平化嵌套列表迭代器](./problemset_md/0000341.flatten-nested-list-iterator.md) (Medium)
 - [[0000342](https://leetcode-cn.com/problems/power-of-four/)] - [Power of Four 4 的幂](./problemset_md/0000342.power-of-four.md) (Easy)
 - [[0000343](https://leetcode-cn.com/problems/integer-break/)] - [Integer Break 整数拆分](./problemset_md/0000343.integer-break.md) (Medium)
 - [[0000344](https://leetcode-cn.com/problems/reverse-string/)] - [Reverse String 反转字符串](./problemset_md/0000344.reverse-string.md) (Easy)
 - [[0000345](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)] - [Reverse Vowels of a String 反转字符串中的元音字母](./problemset_md/0000345.reverse-vowels-of-a-string.md) (Easy)
-- [[0000346](https://leetcode-cn.com/problems/moving-average-from-data-stream/)] - [Moving Average from Data Stream 数据流中的移动平均值](./problemset_md/0000346.moving-average-from-data-stream.md) (Easy) xxx
+- [[0000346](https://leetcode-cn.com/problems/moving-average-from-data-stream/)] - [Moving Average from Data Stream 数据流中的移动平均值](./problemset_md/0000346.moving-average-from-data-stream.md) (Easy) (Plus)
 - [[0000347](https://leetcode-cn.com/problems/top-k-frequent-elements/)] - [Top K Frequent Elements 前 K 个高频元素](./problemset_md/0000347.top-k-frequent-elements.md) (Medium)
-- [[0000348](https://leetcode-cn.com/problems/design-tic-tac-toe/)] - [Design Tic-Tac-Toe 判定井字棋胜负](./problemset_md/0000348.design-tic-tac-toe.md) (Medium) xxx
+- [[0000348](https://leetcode-cn.com/problems/design-tic-tac-toe/)] - [Design Tic-Tac-Toe 判定井字棋胜负](./problemset_md/0000348.design-tic-tac-toe.md) (Medium) (Plus)
 - [[0000349](https://leetcode-cn.com/problems/intersection-of-two-arrays/)] - [Intersection of Two Arrays 两个数组的交集](./problemset_md/0000349.intersection-of-two-arrays.md) (Easy)
 - [[0000350](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)] - [Intersection of Two Arrays II 两个数组的交集 II](./problemset_md/0000350.intersection-of-two-arrays-ii.md) (Easy)
-- [[0000351](https://leetcode-cn.com/problems/android-unlock-patterns/)] - [Android Unlock Patterns 安卓系统手势解锁](./problemset_md/0000351.android-unlock-patterns.md) (Medium) xxx
+- [[0000351](https://leetcode-cn.com/problems/android-unlock-patterns/)] - [Android Unlock Patterns 安卓系统手势解锁](./problemset_md/0000351.android-unlock-patterns.md) (Medium) (Plus)
 - [[0000352](https://leetcode-cn.com/problems/data-stream-as-disjoint-intervals/)] - [Data Stream as Disjoint Intervals 将数据流变为多个不相交区间](./problemset_md/0000352.data-stream-as-disjoint-intervals.md) (Hard)
-- [[0000353](https://leetcode-cn.com/problems/design-snake-game/)] - [Design Snake Game 贪吃蛇](./problemset_md/0000353.design-snake-game.md) (Medium) xxx
+- [[0000353](https://leetcode-cn.com/problems/design-snake-game/)] - [Design Snake Game 贪吃蛇](./problemset_md/0000353.design-snake-game.md) (Medium) (Plus)
 - [[0000354](https://leetcode-cn.com/problems/russian-doll-envelopes/)] - [Russian Doll Envelopes 俄罗斯套娃信封问题](./problemset_md/0000354.russian-doll-envelopes.md) (Hard)
 - [[0000355](https://leetcode-cn.com/problems/design-twitter/)] - [Design Twitter 设计推特](./problemset_md/0000355.design-twitter.md) (Medium)
-- [[0000356](https://leetcode-cn.com/problems/line-reflection/)] - [Line Reflection 直线镜像](./problemset_md/0000356.line-reflection.md) (Medium) xxx
+- [[0000356](https://leetcode-cn.com/problems/line-reflection/)] - [Line Reflection 直线镜像](./problemset_md/0000356.line-reflection.md) (Medium) (Plus)
 - [[0000357](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/)] - [Count Numbers with Unique Digits 计算各个位数不同的数字个数](./problemset_md/0000357.count-numbers-with-unique-digits.md) (Medium)
-- [[0000358](https://leetcode-cn.com/problems/rearrange-string-k-distance-apart/)] - [Rearrange String k Distance Apart K 距离间隔重排字符串](./problemset_md/0000358.rearrange-string-k-distance-apart.md) (Hard) xxx
-- [[0000359](https://leetcode-cn.com/problems/logger-rate-limiter/)] - [Logger Rate Limiter 日志速率限制器](./problemset_md/0000359.logger-rate-limiter.md) (Easy) xxx
-- [[0000360](https://leetcode-cn.com/problems/sort-transformed-array/)] - [Sort Transformed Array 有序转化数组](./problemset_md/0000360.sort-transformed-array.md) (Medium) xxx
-- [[0000361](https://leetcode-cn.com/problems/bomb-enemy/)] - [Bomb Enemy 轰炸敌人](./problemset_md/0000361.bomb-enemy.md) (Medium) xxx
-- [[0000362](https://leetcode-cn.com/problems/design-hit-counter/)] - [Design Hit Counter 敲击计数器](./problemset_md/0000362.design-hit-counter.md) (Medium) xxx
+- [[0000358](https://leetcode-cn.com/problems/rearrange-string-k-distance-apart/)] - [Rearrange String k Distance Apart K 距离间隔重排字符串](./problemset_md/0000358.rearrange-string-k-distance-apart.md) (Hard) (Plus)
+- [[0000359](https://leetcode-cn.com/problems/logger-rate-limiter/)] - [Logger Rate Limiter 日志速率限制器](./problemset_md/0000359.logger-rate-limiter.md) (Easy) (Plus)
+- [[0000360](https://leetcode-cn.com/problems/sort-transformed-array/)] - [Sort Transformed Array 有序转化数组](./problemset_md/0000360.sort-transformed-array.md) (Medium) (Plus)
+- [[0000361](https://leetcode-cn.com/problems/bomb-enemy/)] - [Bomb Enemy 轰炸敌人](./problemset_md/0000361.bomb-enemy.md) (Medium) (Plus)
+- [[0000362](https://leetcode-cn.com/problems/design-hit-counter/)] - [Design Hit Counter 敲击计数器](./problemset_md/0000362.design-hit-counter.md) (Medium) (Plus)
 - [[0000363](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)] - [Max Sum of Rectangle No Larger Than K 矩形区域不超过 K 的最大数值和](./problemset_md/0000363.max-sum-of-rectangle-no-larger-than-k.md) (Hard)
-- [[0000364](https://leetcode-cn.com/problems/nested-list-weight-sum-ii/)] - [Nested List Weight Sum II 加权嵌套序列和 II](./problemset_md/0000364.nested-list-weight-sum-ii.md) (Medium) xxx
+- [[0000364](https://leetcode-cn.com/problems/nested-list-weight-sum-ii/)] - [Nested List Weight Sum II 加权嵌套序列和 II](./problemset_md/0000364.nested-list-weight-sum-ii.md) (Medium) (Plus)
 - [[0000365](https://leetcode-cn.com/problems/water-and-jug-problem/)] - [Water and Jug Problem 水壶问题](./problemset_md/0000365.water-and-jug-problem.md) (Medium)
-- [[0000366](https://leetcode-cn.com/problems/find-leaves-of-binary-tree/)] - [Find Leaves of Binary Tree 寻找二叉树的叶子节点](./problemset_md/0000366.find-leaves-of-binary-tree.md) (Medium) xxx
+- [[0000366](https://leetcode-cn.com/problems/find-leaves-of-binary-tree/)] - [Find Leaves of Binary Tree 寻找二叉树的叶子节点](./problemset_md/0000366.find-leaves-of-binary-tree.md) (Medium) (Plus)
 - [[0000367](https://leetcode-cn.com/problems/valid-perfect-square/)] - [Valid Perfect Square 有效的完全平方数](./problemset_md/0000367.valid-perfect-square.md) (Easy)
 - [[0000368](https://leetcode-cn.com/problems/largest-divisible-subset/)] - [Largest Divisible Subset 最大整除子集](./problemset_md/0000368.largest-divisible-subset.md) (Medium)
-- [[0000369](https://leetcode-cn.com/problems/plus-one-linked-list/)] - [Plus One Linked List 给单链表加一](./problemset_md/0000369.plus-one-linked-list.md) (Medium) xxx
-- [[0000370](https://leetcode-cn.com/problems/range-addition/)] - [Range Addition 区间加法](./problemset_md/0000370.range-addition.md) (Medium) xxx
+- [[0000369](https://leetcode-cn.com/problems/plus-one-linked-list/)] - [Plus One Linked List 给单链表加一](./problemset_md/0000369.plus-one-linked-list.md) (Medium) (Plus)
+- [[0000370](https://leetcode-cn.com/problems/range-addition/)] - [Range Addition 区间加法](./problemset_md/0000370.range-addition.md) (Medium) (Plus)
 - [[0000371](https://leetcode-cn.com/problems/sum-of-two-integers/)] - [Sum of Two Integers 两整数之和](./problemset_md/0000371.sum-of-two-integers.md) (Easy)
 - [[0000372](https://leetcode-cn.com/problems/super-pow/)] - [Super Pow 超级次方](./problemset_md/0000372.super-pow.md) (Medium)
 - [[0000373](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)] - [Find K Pairs with Smallest Sums 查找和最小的 K 对数字](./problemset_md/0000373.find-k-pairs-with-smallest-sums.md) (Medium)
@@ -378,7 +378,7 @@
 - [[0000376](https://leetcode-cn.com/problems/wiggle-subsequence/)] - [Wiggle Subsequence 摆动序列](./problemset_md/0000376.wiggle-subsequence.md) (Medium)
 - [[0000377](https://leetcode-cn.com/problems/combination-sum-iv/)] - [Combination Sum IV 组合总和 Ⅳ](./problemset_md/0000377.combination-sum-iv.md) (Medium)
 - [[0000378](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)] - [Kth Smallest Element in a Sorted Matrix 有序矩阵中第 K 小的元素](./problemset_md/0000378.kth-smallest-element-in-a-sorted-matrix.md) (Medium)
-- [[0000379](https://leetcode-cn.com/problems/design-phone-directory/)] - [Design Phone Directory 电话目录管理系统](./problemset_md/0000379.design-phone-directory.md) (Medium) xxx
+- [[0000379](https://leetcode-cn.com/problems/design-phone-directory/)] - [Design Phone Directory 电话目录管理系统](./problemset_md/0000379.design-phone-directory.md) (Medium) (Plus)
 - [[0000380](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)] - [Insert Delete GetRandom O(1) 常数时间插入、删除和获取随机元素](./problemset_md/0000380.insert-delete-getrandom-o1.md) (Medium)
 - [[0000381](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)] - [Insert Delete GetRandom O(1) - Duplicates allowed O(1) 时间插入、删除和获取随机元素 - 允许重复](./problemset_md/0000381.insert-delete-getrandom-o1-duplicates-allowed.md) (Hard)
 - [[0000382](https://leetcode-cn.com/problems/linked-list-random-node/)] - [Linked List Random Node 链表随机节点](./problemset_md/0000382.linked-list-random-node.md) (Medium)
@@ -407,24 +407,24 @@
 - [[0000405](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal/)] - [Convert a Number to Hexadecimal 数字转换为十六进制数](./problemset_md/0000405.convert-a-number-to-hexadecimal.md) (Easy)
 - [[0000406](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)] - [Queue Reconstruction by Height 根据身高重建队列](./problemset_md/0000406.queue-reconstruction-by-height.md) (Medium)
 - [[0000407](https://leetcode-cn.com/problems/trapping-rain-water-ii/)] - [Trapping Rain Water II 接雨水 II](./problemset_md/0000407.trapping-rain-water-ii.md) (Hard)
-- [[0000408](https://leetcode-cn.com/problems/valid-word-abbreviation/)] - [Valid Word Abbreviation 有效单词缩写](./problemset_md/0000408.valid-word-abbreviation.md) (Easy) xxx
+- [[0000408](https://leetcode-cn.com/problems/valid-word-abbreviation/)] - [Valid Word Abbreviation 有效单词缩写](./problemset_md/0000408.valid-word-abbreviation.md) (Easy) (Plus)
 - [[0000409](https://leetcode-cn.com/problems/longest-palindrome/)] - [Longest Palindrome 最长回文串](./problemset_md/0000409.longest-palindrome.md) (Easy)
 - [[0000410](https://leetcode-cn.com/problems/split-array-largest-sum/)] - [Split Array Largest Sum 分割数组的最大值](./problemset_md/0000410.split-array-largest-sum.md) (Hard)
-- [[0000411](https://leetcode-cn.com/problems/minimum-unique-word-abbreviation/)] - [Minimum Unique Word Abbreviation 最短特异单词缩写](./problemset_md/0000411.minimum-unique-word-abbreviation.md) (Hard) xxx
+- [[0000411](https://leetcode-cn.com/problems/minimum-unique-word-abbreviation/)] - [Minimum Unique Word Abbreviation 最短特异单词缩写](./problemset_md/0000411.minimum-unique-word-abbreviation.md) (Hard) (Plus)
 - [[0000412](https://leetcode-cn.com/problems/fizz-buzz/)] - [Fizz Buzz Fizz Buzz](./problemset_md/0000412.fizz-buzz.md) (Easy)
 - [[0000413](https://leetcode-cn.com/problems/arithmetic-slices/)] - [Arithmetic Slices 等差数列划分](./problemset_md/0000413.arithmetic-slices.md) (Medium)
 - [[0000414](https://leetcode-cn.com/problems/third-maximum-number/)] - [Third Maximum Number 第三大的数](./problemset_md/0000414.third-maximum-number.md) (Easy)
 - [[0000415](https://leetcode-cn.com/problems/add-strings/)] - [Add Strings 字符串相加](./problemset_md/0000415.add-strings.md) (Easy)
 - [[0000416](https://leetcode-cn.com/problems/partition-equal-subset-sum/)] - [Partition Equal Subset Sum 分割等和子集](./problemset_md/0000416.partition-equal-subset-sum.md) (Medium)
 - [[0000417](https://leetcode-cn.com/problems/pacific-atlantic-water-flow/)] - [Pacific Atlantic Water Flow 太平洋大西洋水流问题](./problemset_md/0000417.pacific-atlantic-water-flow.md) (Medium)
-- [[0000418](https://leetcode-cn.com/problems/sentence-screen-fitting/)] - [Sentence Screen Fitting 屏幕可显示句子的数量](./problemset_md/0000418.sentence-screen-fitting.md) (Medium) xxx
+- [[0000418](https://leetcode-cn.com/problems/sentence-screen-fitting/)] - [Sentence Screen Fitting 屏幕可显示句子的数量](./problemset_md/0000418.sentence-screen-fitting.md) (Medium) (Plus)
 - [[0000419](https://leetcode-cn.com/problems/battleships-in-a-board/)] - [Battleships in a Board 甲板上的战舰](./problemset_md/0000419.battleships-in-a-board.md) (Medium)
 - [[0000420](https://leetcode-cn.com/problems/strong-password-checker/)] - [Strong Password Checker 强密码检验器](./problemset_md/0000420.strong-password-checker.md) (Hard)
 - [[0000421](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)] - [Maximum XOR of Two Numbers in an Array 数组中两个数的最大异或值](./problemset_md/0000421.maximum-xor-of-two-numbers-in-an-array.md) (Medium)
-- [[0000422](https://leetcode-cn.com/problems/valid-word-square/)] - [Valid Word Square 有效的单词方块](./problemset_md/0000422.valid-word-square.md) (Easy) xxx
+- [[0000422](https://leetcode-cn.com/problems/valid-word-square/)] - [Valid Word Square 有效的单词方块](./problemset_md/0000422.valid-word-square.md) (Easy) (Plus)
 - [[0000423](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/)] - [Reconstruct Original Digits from English 从英文中重建数字](./problemset_md/0000423.reconstruct-original-digits-from-english.md) (Medium)
 - [[0000424](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)] - [Longest Repeating Character Replacement 替换后的最长重复字符](./problemset_md/0000424.longest-repeating-character-replacement.md) (Medium)
-- [[0000425](https://leetcode-cn.com/problems/word-squares/)] - [Word Squares 单词方块](./problemset_md/0000425.word-squares.md) (Hard) xxx
+- [[0000425](https://leetcode-cn.com/problems/word-squares/)] - [Word Squares 单词方块](./problemset_md/0000425.word-squares.md) (Hard) (Plus)
 - [[0000432](https://leetcode-cn.com/problems/all-oone-data-structure/)] - [All O`one Data Structure 全 O(1) 的数据结构](./problemset_md/0000432.all-oone-data-structure.md) (Hard)
 - [[0000433](https://leetcode-cn.com/problems/minimum-genetic-mutation/)] - [Minimum Genetic Mutation 最小基因变化](./problemset_md/0000433.minimum-genetic-mutation.md) (Medium)
 - [[0000434](https://leetcode-cn.com/problems/number-of-segments-in-a-string/)] - [Number of Segments in a String 字符串中的单词数](./problemset_md/0000434.number-of-segments-in-a-string.md) (Easy)
@@ -432,12 +432,12 @@
 - [[0000436](https://leetcode-cn.com/problems/find-right-interval/)] - [Find Right Interval 寻找右区间](./problemset_md/0000436.find-right-interval.md) (Medium)
 - [[0000437](https://leetcode-cn.com/problems/path-sum-iii/)] - [Path Sum III 路径总和 III](./problemset_md/0000437.path-sum-iii.md) (Medium)
 - [[0000438](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)] - [Find All Anagrams in a String 找到字符串中所有字母异位词](./problemset_md/0000438.find-all-anagrams-in-a-string.md) (Medium)
-- [[0000439](https://leetcode-cn.com/problems/ternary-expression-parser/)] - [Ternary Expression Parser 三元表达式解析器](./problemset_md/0000439.ternary-expression-parser.md) (Medium) xxx
+- [[0000439](https://leetcode-cn.com/problems/ternary-expression-parser/)] - [Ternary Expression Parser 三元表达式解析器](./problemset_md/0000439.ternary-expression-parser.md) (Medium) (Plus)
 - [[0000440](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/)] - [K-th Smallest in Lexicographical Order 字典序的第 K 小数字](./problemset_md/0000440.k-th-smallest-in-lexicographical-order.md) (Hard)
 - [[0000441](https://leetcode-cn.com/problems/arranging-coins/)] - [Arranging Coins 排列硬币](./problemset_md/0000441.arranging-coins.md) (Easy)
 - [[0000442](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)] - [Find All Duplicates in an Array 数组中重复的数据](./problemset_md/0000442.find-all-duplicates-in-an-array.md) (Medium)
 - [[0000443](https://leetcode-cn.com/problems/string-compression/)] - [String Compression 压缩字符串](./problemset_md/0000443.string-compression.md) (Medium)
-- [[0000444](https://leetcode-cn.com/problems/sequence-reconstruction/)] - [Sequence Reconstruction 序列重建](./problemset_md/0000444.sequence-reconstruction.md) (Medium) xxx
+- [[0000444](https://leetcode-cn.com/problems/sequence-reconstruction/)] - [Sequence Reconstruction 序列重建](./problemset_md/0000444.sequence-reconstruction.md) (Medium) (Plus)
 - [[0000445](https://leetcode-cn.com/problems/add-two-numbers-ii/)] - [Add Two Numbers II 两数相加 II](./problemset_md/0000445.add-two-numbers-ii.md) (Medium)
 - [[0000446](https://leetcode-cn.com/problems/arithmetic-slices-ii-subsequence/)] - [Arithmetic Slices II - Subsequence 等差数列划分 II - 子序列](./problemset_md/0000446.arithmetic-slices-ii-subsequence.md) (Hard)
 - [[0000447](https://leetcode-cn.com/problems/number-of-boomerangs/)] - [Number of Boomerangs 回旋镖的数量](./problemset_md/0000447.number-of-boomerangs.md) (Easy)
@@ -458,12 +458,12 @@
 - [[0000462](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements-ii/)] - [Minimum Moves to Equal Array Elements II 最少移动次数使数组元素相等 II](./problemset_md/0000462.minimum-moves-to-equal-array-elements-ii.md) (Medium)
 - [[0000463](https://leetcode-cn.com/problems/island-perimeter/)] - [Island Perimeter 岛屿的周长](./problemset_md/0000463.island-perimeter.md) (Easy)
 - [[0000464](https://leetcode-cn.com/problems/can-i-win/)] - [Can I Win 我能赢吗](./problemset_md/0000464.can-i-win.md) (Medium)
-- [[0000465](https://leetcode-cn.com/problems/optimal-account-balancing/)] - [Optimal Account Balancing 最优账单平衡](./problemset_md/0000465.optimal-account-balancing.md) (Hard) xxx
+- [[0000465](https://leetcode-cn.com/problems/optimal-account-balancing/)] - [Optimal Account Balancing 最优账单平衡](./problemset_md/0000465.optimal-account-balancing.md) (Hard) (Plus)
 - [[0000466](https://leetcode-cn.com/problems/count-the-repetitions/)] - [Count The Repetitions 统计重复个数](./problemset_md/0000466.count-the-repetitions.md) (Hard)
 - [[0000467](https://leetcode-cn.com/problems/unique-substrings-in-wraparound-string/)] - [Unique Substrings in Wraparound String 环绕字符串中唯一的子字符串](./problemset_md/0000467.unique-substrings-in-wraparound-string.md) (Medium)
 - [[0000468](https://leetcode-cn.com/problems/validate-ip-address/)] - [Validate IP Address 验证 IP 地址](./problemset_md/0000468.validate-ip-address.md) (Medium)
-- [[0000469](https://leetcode-cn.com/problems/convex-polygon/)] - [Convex Polygon 凸多边形](./problemset_md/0000469.convex-polygon.md) (Medium) xxx
-- [[0000471](https://leetcode-cn.com/problems/encode-string-with-shortest-length/)] - [Encode String with Shortest Length 编码最短长度的字符串](./problemset_md/0000471.encode-string-with-shortest-length.md) (Hard) xxx
+- [[0000469](https://leetcode-cn.com/problems/convex-polygon/)] - [Convex Polygon 凸多边形](./problemset_md/0000469.convex-polygon.md) (Medium) (Plus)
+- [[0000471](https://leetcode-cn.com/problems/encode-string-with-shortest-length/)] - [Encode String with Shortest Length 编码最短长度的字符串](./problemset_md/0000471.encode-string-with-shortest-length.md) (Hard) (Plus)
 - [[0000472](https://leetcode-cn.com/problems/concatenated-words/)] - [Concatenated Words 连接词](./problemset_md/0000472.concatenated-words.md) (Hard)
 - [[0000473](https://leetcode-cn.com/problems/matchsticks-to-square/)] - [Matchsticks to Square 火柴拼正方形](./problemset_md/0000473.matchsticks-to-square.md) (Medium)
 - [[0000474](https://leetcode-cn.com/problems/ones-and-zeroes/)] - [Ones and Zeroes 一和零](./problemset_md/0000474.ones-and-zeroes.md) (Medium)
@@ -475,12 +475,12 @@
 - [[0000481](https://leetcode-cn.com/problems/magical-string/)] - [Magical String 神奇字符串](./problemset_md/0000481.magical-string.md) (Medium)
 - [[0000482](https://leetcode-cn.com/problems/license-key-formatting/)] - [License Key Formatting 密钥格式化](./problemset_md/0000482.license-key-formatting.md) (Easy)
 - [[0000483](https://leetcode-cn.com/problems/smallest-good-base/)] - [Smallest Good Base 最小好进制](./problemset_md/0000483.smallest-good-base.md) (Hard)
-- [[0000484](https://leetcode-cn.com/problems/find-permutation/)] - [Find Permutation 寻找排列](./problemset_md/0000484.find-permutation.md) (Medium) xxx
+- [[0000484](https://leetcode-cn.com/problems/find-permutation/)] - [Find Permutation 寻找排列](./problemset_md/0000484.find-permutation.md) (Medium) (Plus)
 - [[0000485](https://leetcode-cn.com/problems/max-consecutive-ones/)] - [Max Consecutive Ones 最大连续 1 的个数](./problemset_md/0000485.max-consecutive-ones.md) (Easy)
 - [[0000486](https://leetcode-cn.com/problems/predict-the-winner/)] - [Predict the Winner 预测赢家](./problemset_md/0000486.predict-the-winner.md) (Medium)
-- [[0000487](https://leetcode-cn.com/problems/max-consecutive-ones-ii/)] - [Max Consecutive Ones II 最大连续 1 的个数 II](./problemset_md/0000487.max-consecutive-ones-ii.md) (Medium) xxx
+- [[0000487](https://leetcode-cn.com/problems/max-consecutive-ones-ii/)] - [Max Consecutive Ones II 最大连续 1 的个数 II](./problemset_md/0000487.max-consecutive-ones-ii.md) (Medium) (Plus)
 - [[0000488](https://leetcode-cn.com/problems/zuma-game/)] - [Zuma Game 祖玛游戏](./problemset_md/0000488.zuma-game.md) (Hard)
-- [[0000490](https://leetcode-cn.com/problems/the-maze/)] - [The Maze 迷宫](./problemset_md/0000490.the-maze.md) (Medium) xxx
+- [[0000490](https://leetcode-cn.com/problems/the-maze/)] - [The Maze 迷宫](./problemset_md/0000490.the-maze.md) (Medium) (Plus)
 - [[0000491](https://leetcode-cn.com/problems/increasing-subsequences/)] - [Increasing Subsequences 递增子序列](./problemset_md/0000491.increasing-subsequences.md) (Medium)
 - [[0000492](https://leetcode-cn.com/problems/construct-the-rectangle/)] - [Construct the Rectangle 构造矩形](./problemset_md/0000492.construct-the-rectangle.md) (Easy)
 - [[0000493](https://leetcode-cn.com/problems/reverse-pairs/)] - [Reverse Pairs 翻转对](./problemset_md/0000493.reverse-pairs.md) (Hard)
@@ -488,18 +488,18 @@
 - [[0000495](https://leetcode-cn.com/problems/teemo-attacking/)] - [Teemo Attacking 提莫攻击](./problemset_md/0000495.teemo-attacking.md) (Medium)
 - [[0000496](https://leetcode-cn.com/problems/next-greater-element-i/)] - [Next Greater Element I 下一个更大元素 I](./problemset_md/0000496.next-greater-element-i.md) (Easy)
 - [[0000498](https://leetcode-cn.com/problems/diagonal-traverse/)] - [Diagonal Traverse 对角线遍历](./problemset_md/0000498.diagonal-traverse.md) (Medium)
-- [[0000499](https://leetcode-cn.com/problems/the-maze-iii/)] - [The Maze III 迷宫 III](./problemset_md/0000499.the-maze-iii.md) (Hard) xxx
+- [[0000499](https://leetcode-cn.com/problems/the-maze-iii/)] - [The Maze III 迷宫 III](./problemset_md/0000499.the-maze-iii.md) (Hard) (Plus)
 - [[0000500](https://leetcode-cn.com/problems/keyboard-row/)] - [Keyboard Row 键盘行](./problemset_md/0000500.keyboard-row.md) (Easy)
 - [[0000501](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)] - [Find Mode in Binary Search Tree 二叉搜索树中的众数](./problemset_md/0000501.find-mode-in-binary-search-tree.md) (Easy)
 - [[0000502](https://leetcode-cn.com/problems/ipo/)] - [IPO IPO](./problemset_md/0000502.ipo.md) (Hard)
 - [[0000503](https://leetcode-cn.com/problems/next-greater-element-ii/)] - [Next Greater Element II 下一个更大元素 II](./problemset_md/0000503.next-greater-element-ii.md) (Medium)
 - [[0000504](https://leetcode-cn.com/problems/base-7/)] - [Base 7 七进制数](./problemset_md/0000504.base-7.md) (Easy)
-- [[0000505](https://leetcode-cn.com/problems/the-maze-ii/)] - [The Maze II 迷宫 II](./problemset_md/0000505.the-maze-ii.md) (Medium) xxx
+- [[0000505](https://leetcode-cn.com/problems/the-maze-ii/)] - [The Maze II 迷宫 II](./problemset_md/0000505.the-maze-ii.md) (Medium) (Plus)
 - [[0000506](https://leetcode-cn.com/problems/relative-ranks/)] - [Relative Ranks 相对名次](./problemset_md/0000506.relative-ranks.md) (Easy)
 - [[0000507](https://leetcode-cn.com/problems/perfect-number/)] - [Perfect Number 完美数](./problemset_md/0000507.perfect-number.md) (Easy)
 - [[0000508](https://leetcode-cn.com/problems/most-frequent-subtree-sum/)] - [Most Frequent Subtree Sum 出现次数最多的子树元素和](./problemset_md/0000508.most-frequent-subtree-sum.md) (Medium)
-- [[0000509](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii/)] - [Inorder Successor in BST II 二叉搜索树中的中序后继 II](./problemset_md/0000509.inorder-successor-in-bst-ii.md) (Medium) xxx
-- [[0000511](https://leetcode-cn.com/problems/all-paths-from-source-lead-to-destination/)] - [All Paths from Source Lead to Destination 从始点到终点的所有路径](./problemset_md/0000511.all-paths-from-source-lead-to-destination.md) (Medium) xxx
+- [[0000509](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii/)] - [Inorder Successor in BST II 二叉搜索树中的中序后继 II](./problemset_md/0000509.inorder-successor-in-bst-ii.md) (Medium) (Plus)
+- [[0000511](https://leetcode-cn.com/problems/all-paths-from-source-lead-to-destination/)] - [All Paths from Source Lead to Destination 从始点到终点的所有路径](./problemset_md/0000511.all-paths-from-source-lead-to-destination.md) (Medium) (Plus)
 - [[0000513](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)] - [Find Bottom Left Tree Value 找树左下角的值](./problemset_md/0000513.find-bottom-left-tree-value.md) (Medium)
 - [[0000514](https://leetcode-cn.com/problems/freedom-trail/)] - [Freedom Trail 自由之路](./problemset_md/0000514.freedom-trail.md) (Hard)
 - [[0000515](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)] - [Find Largest Value in Each Tree Row 在每个树行中找最大值](./problemset_md/0000515.find-largest-value-in-each-tree-row.md) (Medium)
@@ -513,14 +513,14 @@
 - [[0000524](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)] - [Longest Word in Dictionary through Deleting 通过删除字母匹配到字典里最长单词](./problemset_md/0000524.longest-word-in-dictionary-through-deleting.md) (Medium)
 - [[0000525](https://leetcode-cn.com/problems/contiguous-array/)] - [Contiguous Array 连续数组](./problemset_md/0000525.contiguous-array.md) (Medium)
 - [[0000526](https://leetcode-cn.com/problems/beautiful-arrangement/)] - [Beautiful Arrangement 优美的排列](./problemset_md/0000526.beautiful-arrangement.md) (Medium)
-- [[0000527](https://leetcode-cn.com/problems/word-abbreviation/)] - [Word Abbreviation 单词缩写](./problemset_md/0000527.word-abbreviation.md) (Hard) xxx
+- [[0000527](https://leetcode-cn.com/problems/word-abbreviation/)] - [Word Abbreviation 单词缩写](./problemset_md/0000527.word-abbreviation.md) (Hard) (Plus)
 - [[0000529](https://leetcode-cn.com/problems/minesweeper/)] - [Minesweeper 扫雷游戏](./problemset_md/0000529.minesweeper.md) (Medium)
 - [[0000530](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)] - [Minimum Absolute Difference in BST 二叉搜索树的最小绝对差](./problemset_md/0000530.minimum-absolute-difference-in-bst.md) (Easy)
-- [[0000531](https://leetcode-cn.com/problems/lonely-pixel-i/)] - [Lonely Pixel I 孤独像素 I](./problemset_md/0000531.lonely-pixel-i.md) (Medium) xxx
+- [[0000531](https://leetcode-cn.com/problems/lonely-pixel-i/)] - [Lonely Pixel I 孤独像素 I](./problemset_md/0000531.lonely-pixel-i.md) (Medium) (Plus)
 - [[0000532](https://leetcode-cn.com/problems/k-diff-pairs-in-an-array/)] - [K-diff Pairs in an Array 数组中的 k-diff 数对](./problemset_md/0000532.k-diff-pairs-in-an-array.md) (Medium)
-- [[0000533](https://leetcode-cn.com/problems/lonely-pixel-ii/)] - [Lonely Pixel II 孤独像素 II](./problemset_md/0000533.lonely-pixel-ii.md) (Medium) xxx
+- [[0000533](https://leetcode-cn.com/problems/lonely-pixel-ii/)] - [Lonely Pixel II 孤独像素 II](./problemset_md/0000533.lonely-pixel-ii.md) (Medium) (Plus)
 - [[0000535](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/)] - [Encode and Decode TinyURL TinyURL 的加密与解密](./problemset_md/0000535.encode-and-decode-tinyurl.md) (Medium)
-- [[0000536](https://leetcode-cn.com/problems/construct-binary-tree-from-string/)] - [Construct Binary Tree from String 从字符串生成二叉树](./problemset_md/0000536.construct-binary-tree-from-string.md) (Medium) xxx
+- [[0000536](https://leetcode-cn.com/problems/construct-binary-tree-from-string/)] - [Construct Binary Tree from String 从字符串生成二叉树](./problemset_md/0000536.construct-binary-tree-from-string.md) (Medium) (Plus)
 - [[0000537](https://leetcode-cn.com/problems/complex-number-multiplication/)] - [Complex Number Multiplication 复数乘法](./problemset_md/0000537.complex-number-multiplication.md) (Medium)
 - [[0000538](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)] - [Convert BST to Greater Tree 把二叉搜索树转换为累加树](./problemset_md/0000538.convert-bst-to-greater-tree.md) (Medium)
 - [[0000539](https://leetcode-cn.com/problems/minimum-time-difference/)] - [Minimum Time Difference 最小时间差](./problemset_md/0000539.minimum-time-difference.md) (Medium)
@@ -528,122 +528,122 @@
 - [[0000541](https://leetcode-cn.com/problems/reverse-string-ii/)] - [Reverse String II 反转字符串 II](./problemset_md/0000541.reverse-string-ii.md) (Easy)
 - [[0000542](https://leetcode-cn.com/problems/01-matrix/)] - [01 Matrix 01 矩阵](./problemset_md/0000542.01-matrix.md) (Medium)
 - [[0000543](https://leetcode-cn.com/problems/diameter-of-binary-tree/)] - [Diameter of Binary Tree 二叉树的直径](./problemset_md/0000543.diameter-of-binary-tree.md) (Easy)
-- [[0000544](https://leetcode-cn.com/problems/output-contest-matches/)] - [Output Contest Matches 输出比赛匹配对](./problemset_md/0000544.output-contest-matches.md) (Medium) xxx
-- [[0000545](https://leetcode-cn.com/problems/boundary-of-binary-tree/)] - [Boundary of Binary Tree 二叉树的边界](./problemset_md/0000545.boundary-of-binary-tree.md) (Medium) xxx
+- [[0000544](https://leetcode-cn.com/problems/output-contest-matches/)] - [Output Contest Matches 输出比赛匹配对](./problemset_md/0000544.output-contest-matches.md) (Medium) (Plus)
+- [[0000545](https://leetcode-cn.com/problems/boundary-of-binary-tree/)] - [Boundary of Binary Tree 二叉树的边界](./problemset_md/0000545.boundary-of-binary-tree.md) (Medium) (Plus)
 - [[0000546](https://leetcode-cn.com/problems/remove-boxes/)] - [Remove Boxes 移除盒子](./problemset_md/0000546.remove-boxes.md) (Hard)
 - [[0000547](https://leetcode-cn.com/problems/friend-circles/)] - [Friend Circles 朋友圈](./problemset_md/0000547.friend-circles.md) (Medium)
-- [[0000548](https://leetcode-cn.com/problems/split-array-with-equal-sum/)] - [Split Array with Equal Sum 将数组分割成和相等的子数组](./problemset_md/0000548.split-array-with-equal-sum.md) (Medium) xxx
-- [[0000549](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence-ii/)] - [Binary Tree Longest Consecutive Sequence II 二叉树中最长的连续序列](./problemset_md/0000549.binary-tree-longest-consecutive-sequence-ii.md) (Medium) xxx
+- [[0000548](https://leetcode-cn.com/problems/split-array-with-equal-sum/)] - [Split Array with Equal Sum 将数组分割成和相等的子数组](./problemset_md/0000548.split-array-with-equal-sum.md) (Medium) (Plus)
+- [[0000549](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence-ii/)] - [Binary Tree Longest Consecutive Sequence II 二叉树中最长的连续序列](./problemset_md/0000549.binary-tree-longest-consecutive-sequence-ii.md) (Medium) (Plus)
 - [[0000551](https://leetcode-cn.com/problems/student-attendance-record-i/)] - [Student Attendance Record I 学生出勤记录 I](./problemset_md/0000551.student-attendance-record-i.md) (Easy)
 - [[0000552](https://leetcode-cn.com/problems/student-attendance-record-ii/)] - [Student Attendance Record II 学生出勤记录 II](./problemset_md/0000552.student-attendance-record-ii.md) (Hard)
 - [[0000553](https://leetcode-cn.com/problems/optimal-division/)] - [Optimal Division 最优除法](./problemset_md/0000553.optimal-division.md) (Medium)
 - [[0000554](https://leetcode-cn.com/problems/brick-wall/)] - [Brick Wall 砖墙](./problemset_md/0000554.brick-wall.md) (Medium)
-- [[0000555](https://leetcode-cn.com/problems/split-concatenated-strings/)] - [Split Concatenated Strings 分割连接字符串](./problemset_md/0000555.split-concatenated-strings.md) (Medium) xxx
+- [[0000555](https://leetcode-cn.com/problems/split-concatenated-strings/)] - [Split Concatenated Strings 分割连接字符串](./problemset_md/0000555.split-concatenated-strings.md) (Medium) (Plus)
 - [[0000556](https://leetcode-cn.com/problems/next-greater-element-iii/)] - [Next Greater Element III 下一个更大元素 III](./problemset_md/0000556.next-greater-element-iii.md) (Medium)
 - [[0000557](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)] - [Reverse Words in a String III 反转字符串中的单词 III](./problemset_md/0000557.reverse-words-in-a-string-iii.md) (Easy)
 - [[0000560](https://leetcode-cn.com/problems/subarray-sum-equals-k/)] - [Subarray Sum Equals K 和为 K 的子数组](./problemset_md/0000560.subarray-sum-equals-k.md) (Medium)
 - [[0000561](https://leetcode-cn.com/problems/array-partition-i/)] - [Array Partition I 数组拆分 I](./problemset_md/0000561.array-partition-i.md) (Easy)
-- [[0000562](https://leetcode-cn.com/problems/longest-line-of-consecutive-one-in-matrix/)] - [Longest Line of Consecutive One in Matrix 矩阵中最长的连续 1 线段](./problemset_md/0000562.longest-line-of-consecutive-one-in-matrix.md) (Medium) xxx
+- [[0000562](https://leetcode-cn.com/problems/longest-line-of-consecutive-one-in-matrix/)] - [Longest Line of Consecutive One in Matrix 矩阵中最长的连续 1 线段](./problemset_md/0000562.longest-line-of-consecutive-one-in-matrix.md) (Medium) (Plus)
 - [[0000563](https://leetcode-cn.com/problems/binary-tree-tilt/)] - [Binary Tree Tilt 二叉树的坡度](./problemset_md/0000563.binary-tree-tilt.md) (Easy)
 - [[0000564](https://leetcode-cn.com/problems/find-the-closest-palindrome/)] - [Find the Closest Palindrome 寻找最近的回文数](./problemset_md/0000564.find-the-closest-palindrome.md) (Hard)
 - [[0000565](https://leetcode-cn.com/problems/array-nesting/)] - [Array Nesting 数组嵌套](./problemset_md/0000565.array-nesting.md) (Medium)
 - [[0000566](https://leetcode-cn.com/problems/reshape-the-matrix/)] - [Reshape the Matrix 重塑矩阵](./problemset_md/0000566.reshape-the-matrix.md) (Easy)
 - [[0000567](https://leetcode-cn.com/problems/permutation-in-string/)] - [Permutation in String 字符串的排列](./problemset_md/0000567.permutation-in-string.md) (Medium)
-- [[0000568](https://leetcode-cn.com/problems/maximum-vacation-days/)] - [Maximum Vacation Days 最大休假天数](./problemset_md/0000568.maximum-vacation-days.md) (Hard) xxx
-- [[0000569](https://leetcode-cn.com/problems/median-employee-salary/)] - [Median Employee Salary 员工薪水中位数](./problemset_md/0000569.median-employee-salary.md) (Hard) xxx
-- [[0000570](https://leetcode-cn.com/problems/managers-with-at-least-5-direct-reports/)] - [Managers with at Least 5 Direct Reports 至少有 5 名直接下属的经理](./problemset_md/0000570.managers-with-at-least-5-direct-reports.md) (Medium) xxx
-- [[0000571](https://leetcode-cn.com/problems/find-median-given-frequency-of-numbers/)] - [Find Median Given Frequency of Numbers 给定数字的频率查询中位数](./problemset_md/0000571.find-median-given-frequency-of-numbers.md) (Hard) xxx
+- [[0000568](https://leetcode-cn.com/problems/maximum-vacation-days/)] - [Maximum Vacation Days 最大休假天数](./problemset_md/0000568.maximum-vacation-days.md) (Hard) (Plus)
+- [[0000569](https://leetcode-cn.com/problems/median-employee-salary/)] - [Median Employee Salary 员工薪水中位数](./problemset_md/0000569.median-employee-salary.md) (Hard) (Plus)
+- [[0000570](https://leetcode-cn.com/problems/managers-with-at-least-5-direct-reports/)] - [Managers with at Least 5 Direct Reports 至少有 5 名直接下属的经理](./problemset_md/0000570.managers-with-at-least-5-direct-reports.md) (Medium) (Plus)
+- [[0000571](https://leetcode-cn.com/problems/find-median-given-frequency-of-numbers/)] - [Find Median Given Frequency of Numbers 给定数字的频率查询中位数](./problemset_md/0000571.find-median-given-frequency-of-numbers.md) (Hard) (Plus)
 - [[0000572](https://leetcode-cn.com/problems/subtree-of-another-tree/)] - [Subtree of Another Tree 另一个树的子树](./problemset_md/0000572.subtree-of-another-tree.md) (Easy)
-- [[0000573](https://leetcode-cn.com/problems/squirrel-simulation/)] - [Squirrel Simulation 松鼠模拟](./problemset_md/0000573.squirrel-simulation.md) (Medium) xxx
-- [[0000574](https://leetcode-cn.com/problems/winning-candidate/)] - [Winning Candidate 当选者](./problemset_md/0000574.winning-candidate.md) (Medium) xxx
+- [[0000573](https://leetcode-cn.com/problems/squirrel-simulation/)] - [Squirrel Simulation 松鼠模拟](./problemset_md/0000573.squirrel-simulation.md) (Medium) (Plus)
+- [[0000574](https://leetcode-cn.com/problems/winning-candidate/)] - [Winning Candidate 当选者](./problemset_md/0000574.winning-candidate.md) (Medium) (Plus)
 - [[0000575](https://leetcode-cn.com/problems/distribute-candies/)] - [Distribute Candies 分糖果](./problemset_md/0000575.distribute-candies.md) (Easy)
 - [[0000576](https://leetcode-cn.com/problems/out-of-boundary-paths/)] - [Out of Boundary Paths 出界的路径数](./problemset_md/0000576.out-of-boundary-paths.md) (Medium)
-- [[0000577](https://leetcode-cn.com/problems/employee-bonus/)] - [Employee Bonus 员工奖金](./problemset_md/0000577.employee-bonus.md) (Easy) xxx
-- [[0000578](https://leetcode-cn.com/problems/get-highest-answer-rate-question/)] - [Get Highest Answer Rate Question 查询回答率最高的问题](./problemset_md/0000578.get-highest-answer-rate-question.md) (Medium) xxx
-- [[0000579](https://leetcode-cn.com/problems/find-cumulative-salary-of-an-employee/)] - [Find Cumulative Salary of an Employee 查询员工的累计薪水](./problemset_md/0000579.find-cumulative-salary-of-an-employee.md) (Hard) xxx
-- [[0000580](https://leetcode-cn.com/problems/count-student-number-in-departments/)] - [Count Student Number in Departments 统计各专业学生人数](./problemset_md/0000580.count-student-number-in-departments.md) (Medium) xxx
+- [[0000577](https://leetcode-cn.com/problems/employee-bonus/)] - [Employee Bonus 员工奖金](./problemset_md/0000577.employee-bonus.md) (Easy) (Plus)
+- [[0000578](https://leetcode-cn.com/problems/get-highest-answer-rate-question/)] - [Get Highest Answer Rate Question 查询回答率最高的问题](./problemset_md/0000578.get-highest-answer-rate-question.md) (Medium) (Plus)
+- [[0000579](https://leetcode-cn.com/problems/find-cumulative-salary-of-an-employee/)] - [Find Cumulative Salary of an Employee 查询员工的累计薪水](./problemset_md/0000579.find-cumulative-salary-of-an-employee.md) (Hard) (Plus)
+- [[0000580](https://leetcode-cn.com/problems/count-student-number-in-departments/)] - [Count Student Number in Departments 统计各专业学生人数](./problemset_md/0000580.count-student-number-in-departments.md) (Medium) (Plus)
 - [[0000581](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)] - [Shortest Unsorted Continuous Subarray 最短无序连续子数组](./problemset_md/0000581.shortest-unsorted-continuous-subarray.md) (Medium)
-- [[0000582](https://leetcode-cn.com/problems/kill-process/)] - [Kill Process 杀死进程](./problemset_md/0000582.kill-process.md) (Medium) xxx
+- [[0000582](https://leetcode-cn.com/problems/kill-process/)] - [Kill Process 杀死进程](./problemset_md/0000582.kill-process.md) (Medium) (Plus)
 - [[0000583](https://leetcode-cn.com/problems/delete-operation-for-two-strings/)] - [Delete Operation for Two Strings 两个字符串的删除操作](./problemset_md/0000583.delete-operation-for-two-strings.md) (Medium)
-- [[0000584](https://leetcode-cn.com/problems/find-customer-referee/)] - [Find Customer Referee 寻找用户推荐人](./problemset_md/0000584.find-customer-referee.md) (Easy) xxx
-- [[0000585](https://leetcode-cn.com/problems/investments-in-2016/)] - [Investments in 2016 2016 年的投资](./problemset_md/0000585.investments-in-2016.md) (Medium) xxx
-- [[0000586](https://leetcode-cn.com/problems/customer-placing-the-largest-number-of-orders/)] - [Customer Placing the Largest Number of Orders 订单最多的客户](./problemset_md/0000586.customer-placing-the-largest-number-of-orders.md) (Easy) xxx
+- [[0000584](https://leetcode-cn.com/problems/find-customer-referee/)] - [Find Customer Referee 寻找用户推荐人](./problemset_md/0000584.find-customer-referee.md) (Easy) (Plus)
+- [[0000585](https://leetcode-cn.com/problems/investments-in-2016/)] - [Investments in 2016 2016 年的投资](./problemset_md/0000585.investments-in-2016.md) (Medium) (Plus)
+- [[0000586](https://leetcode-cn.com/problems/customer-placing-the-largest-number-of-orders/)] - [Customer Placing the Largest Number of Orders 订单最多的客户](./problemset_md/0000586.customer-placing-the-largest-number-of-orders.md) (Easy) (Plus)
 - [[0000587](https://leetcode-cn.com/problems/erect-the-fence/)] - [Erect the Fence 安装栅栏](./problemset_md/0000587.erect-the-fence.md) (Hard)
-- [[0000588](https://leetcode-cn.com/problems/design-in-memory-file-system/)] - [Design In-Memory File System 设计内存文件系统](./problemset_md/0000588.design-in-memory-file-system.md) (Hard) xxx
+- [[0000588](https://leetcode-cn.com/problems/design-in-memory-file-system/)] - [Design In-Memory File System 设计内存文件系统](./problemset_md/0000588.design-in-memory-file-system.md) (Hard) (Plus)
 - [[0000591](https://leetcode-cn.com/problems/tag-validator/)] - [Tag Validator 标签验证器](./problemset_md/0000591.tag-validator.md) (Hard)
 - [[0000592](https://leetcode-cn.com/problems/fraction-addition-and-subtraction/)] - [Fraction Addition and Subtraction 分数加减运算](./problemset_md/0000592.fraction-addition-and-subtraction.md) (Medium)
 - [[0000593](https://leetcode-cn.com/problems/valid-square/)] - [Valid Square 有效的正方形](./problemset_md/0000593.valid-square.md) (Medium)
 - [[0000594](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)] - [Longest Harmonious Subsequence 最长和谐子序列](./problemset_md/0000594.longest-harmonious-subsequence.md) (Easy)
 - [[0000595](https://leetcode-cn.com/problems/big-countries/)] - [Big Countries 大的国家](./problemset_md/0000595.big-countries.md) (Easy)
 - [[0000596](https://leetcode-cn.com/problems/classes-more-than-5-students/)] - [Classes More Than 5 Students 超过 5 名学生的课](./problemset_md/0000596.classes-more-than-5-students.md) (Easy)
-- [[0000597](https://leetcode-cn.com/problems/friend-requests-i-overall-acceptance-rate/)] - [Friend Requests I: Overall Acceptance Rate 好友申请 I ：总体通过率](./problemset_md/0000597.friend-requests-i-overall-acceptance-rate.md) (Easy) xxx
+- [[0000597](https://leetcode-cn.com/problems/friend-requests-i-overall-acceptance-rate/)] - [Friend Requests I: Overall Acceptance Rate 好友申请 I ：总体通过率](./problemset_md/0000597.friend-requests-i-overall-acceptance-rate.md) (Easy) (Plus)
 - [[0000598](https://leetcode-cn.com/problems/range-addition-ii/)] - [Range Addition II 范围求和 II](./problemset_md/0000598.range-addition-ii.md) (Easy)
 - [[0000599](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)] - [Minimum Index Sum of Two Lists 两个列表的最小索引总和](./problemset_md/0000599.minimum-index-sum-of-two-lists.md) (Easy)
 - [[0000600](https://leetcode-cn.com/problems/non-negative-integers-without-consecutive-ones/)] - [Non-negative Integers without Consecutive Ones 不含连续 1 的非负整数](./problemset_md/0000600.non-negative-integers-without-consecutive-ones.md) (Hard)
 - [[0000601](https://leetcode-cn.com/problems/human-traffic-of-stadium/)] - [Human Traffic of Stadium 体育馆的人流量](./problemset_md/0000601.human-traffic-of-stadium.md) (Hard)
-- [[0000602](https://leetcode-cn.com/problems/friend-requests-ii-who-has-the-most-friends/)] - [Friend Requests II: Who Has the Most Friends 好友申请 II ：谁有最多的好友](./problemset_md/0000602.friend-requests-ii-who-has-the-most-friends.md) (Medium) xxx
-- [[0000603](https://leetcode-cn.com/problems/consecutive-available-seats/)] - [Consecutive Available Seats 连续空余座位](./problemset_md/0000603.consecutive-available-seats.md) (Easy) xxx
-- [[0000604](https://leetcode-cn.com/problems/design-compressed-string-iterator/)] - [Design Compressed String Iterator 迭代压缩字符串](./problemset_md/0000604.design-compressed-string-iterator.md) (Easy) xxx
+- [[0000602](https://leetcode-cn.com/problems/friend-requests-ii-who-has-the-most-friends/)] - [Friend Requests II: Who Has the Most Friends 好友申请 II ：谁有最多的好友](./problemset_md/0000602.friend-requests-ii-who-has-the-most-friends.md) (Medium) (Plus)
+- [[0000603](https://leetcode-cn.com/problems/consecutive-available-seats/)] - [Consecutive Available Seats 连续空余座位](./problemset_md/0000603.consecutive-available-seats.md) (Easy) (Plus)
+- [[0000604](https://leetcode-cn.com/problems/design-compressed-string-iterator/)] - [Design Compressed String Iterator 迭代压缩字符串](./problemset_md/0000604.design-compressed-string-iterator.md) (Easy) (Plus)
 - [[0000605](https://leetcode-cn.com/problems/can-place-flowers/)] - [Can Place Flowers 种花问题](./problemset_md/0000605.can-place-flowers.md) (Easy)
 - [[0000606](https://leetcode-cn.com/problems/construct-string-from-binary-tree/)] - [Construct String from Binary Tree 根据二叉树创建字符串](./problemset_md/0000606.construct-string-from-binary-tree.md) (Easy)
-- [[0000607](https://leetcode-cn.com/problems/sales-person/)] - [Sales Person 销售员](./problemset_md/0000607.sales-person.md) (Easy) xxx
-- [[0000608](https://leetcode-cn.com/problems/tree-node/)] - [Tree Node 树节点](./problemset_md/0000608.tree-node.md) (Medium) xxx
+- [[0000607](https://leetcode-cn.com/problems/sales-person/)] - [Sales Person 销售员](./problemset_md/0000607.sales-person.md) (Easy) (Plus)
+- [[0000608](https://leetcode-cn.com/problems/tree-node/)] - [Tree Node 树节点](./problemset_md/0000608.tree-node.md) (Medium) (Plus)
 - [[0000609](https://leetcode-cn.com/problems/find-duplicate-file-in-system/)] - [Find Duplicate File in System 在系统中查找重复文件](./problemset_md/0000609.find-duplicate-file-in-system.md) (Medium)
-- [[0000610](https://leetcode-cn.com/problems/triangle-judgement/)] - [Triangle Judgement 判断三角形](./problemset_md/0000610.triangle-judgement.md) (Easy) xxx
+- [[0000610](https://leetcode-cn.com/problems/triangle-judgement/)] - [Triangle Judgement 判断三角形](./problemset_md/0000610.triangle-judgement.md) (Easy) (Plus)
 - [[0000611](https://leetcode-cn.com/problems/valid-triangle-number/)] - [Valid Triangle Number 有效三角形的个数](./problemset_md/0000611.valid-triangle-number.md) (Medium)
-- [[0000612](https://leetcode-cn.com/problems/shortest-distance-in-a-plane/)] - [Shortest Distance in a Plane 平面上的最近距离](./problemset_md/0000612.shortest-distance-in-a-plane.md) (Medium) xxx
-- [[0000613](https://leetcode-cn.com/problems/shortest-distance-in-a-line/)] - [Shortest Distance in a Line 直线上的最近距离](./problemset_md/0000613.shortest-distance-in-a-line.md) (Easy) xxx
-- [[0000614](https://leetcode-cn.com/problems/second-degree-follower/)] - [Second Degree Follower 二级关注者](./problemset_md/0000614.second-degree-follower.md) (Medium) xxx
-- [[0000615](https://leetcode-cn.com/problems/average-salary-departments-vs-company/)] - [Average Salary: Departments VS Company 平均工资：部门与公司比较](./problemset_md/0000615.average-salary-departments-vs-company.md) (Hard) xxx
-- [[0000616](https://leetcode-cn.com/problems/add-bold-tag-in-string/)] - [Add Bold Tag in String 给字符串添加加粗标签](./problemset_md/0000616.add-bold-tag-in-string.md) (Medium) xxx
+- [[0000612](https://leetcode-cn.com/problems/shortest-distance-in-a-plane/)] - [Shortest Distance in a Plane 平面上的最近距离](./problemset_md/0000612.shortest-distance-in-a-plane.md) (Medium) (Plus)
+- [[0000613](https://leetcode-cn.com/problems/shortest-distance-in-a-line/)] - [Shortest Distance in a Line 直线上的最近距离](./problemset_md/0000613.shortest-distance-in-a-line.md) (Easy) (Plus)
+- [[0000614](https://leetcode-cn.com/problems/second-degree-follower/)] - [Second Degree Follower 二级关注者](./problemset_md/0000614.second-degree-follower.md) (Medium) (Plus)
+- [[0000615](https://leetcode-cn.com/problems/average-salary-departments-vs-company/)] - [Average Salary: Departments VS Company 平均工资：部门与公司比较](./problemset_md/0000615.average-salary-departments-vs-company.md) (Hard) (Plus)
+- [[0000616](https://leetcode-cn.com/problems/add-bold-tag-in-string/)] - [Add Bold Tag in String 给字符串添加加粗标签](./problemset_md/0000616.add-bold-tag-in-string.md) (Medium) (Plus)
 - [[0000617](https://leetcode-cn.com/problems/merge-two-binary-trees/)] - [Merge Two Binary Trees 合并二叉树](./problemset_md/0000617.merge-two-binary-trees.md) (Easy)
-- [[0000618](https://leetcode-cn.com/problems/students-report-by-geography/)] - [Students Report By Geography 学生地理信息报告](./problemset_md/0000618.students-report-by-geography.md) (Hard) xxx
-- [[0000619](https://leetcode-cn.com/problems/biggest-single-number/)] - [Biggest Single Number 只出现一次的最大数字](./problemset_md/0000619.biggest-single-number.md) (Easy) xxx
+- [[0000618](https://leetcode-cn.com/problems/students-report-by-geography/)] - [Students Report By Geography 学生地理信息报告](./problemset_md/0000618.students-report-by-geography.md) (Hard) (Plus)
+- [[0000619](https://leetcode-cn.com/problems/biggest-single-number/)] - [Biggest Single Number 只出现一次的最大数字](./problemset_md/0000619.biggest-single-number.md) (Easy) (Plus)
 - [[0000620](https://leetcode-cn.com/problems/not-boring-movies/)] - [Not Boring Movies 有趣的电影](./problemset_md/0000620.not-boring-movies.md) (Easy)
 - [[0000621](https://leetcode-cn.com/problems/task-scheduler/)] - [Task Scheduler 任务调度器](./problemset_md/0000621.task-scheduler.md) (Medium)
 - [[0000623](https://leetcode-cn.com/problems/add-one-row-to-tree/)] - [Add One Row to Tree 在二叉树中增加一行](./problemset_md/0000623.add-one-row-to-tree.md) (Medium)
-- [[0000624](https://leetcode-cn.com/problems/maximum-distance-in-arrays/)] - [Maximum Distance in Arrays 数组列表中的最大距离](./problemset_md/0000624.maximum-distance-in-arrays.md) (Medium) xxx
-- [[0000625](https://leetcode-cn.com/problems/minimum-factorization/)] - [Minimum Factorization 最小因式分解](./problemset_md/0000625.minimum-factorization.md) (Medium) xxx
+- [[0000624](https://leetcode-cn.com/problems/maximum-distance-in-arrays/)] - [Maximum Distance in Arrays 数组列表中的最大距离](./problemset_md/0000624.maximum-distance-in-arrays.md) (Medium) (Plus)
+- [[0000625](https://leetcode-cn.com/problems/minimum-factorization/)] - [Minimum Factorization 最小因式分解](./problemset_md/0000625.minimum-factorization.md) (Medium) (Plus)
 - [[0000626](https://leetcode-cn.com/problems/exchange-seats/)] - [Exchange Seats 换座位](./problemset_md/0000626.exchange-seats.md) (Medium)
 - [[0000627](https://leetcode-cn.com/problems/swap-salary/)] - [Swap Salary 交换工资](./problemset_md/0000627.swap-salary.md) (Easy)
 - [[0000628](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/)] - [Maximum Product of Three Numbers 三个数的最大乘积](./problemset_md/0000628.maximum-product-of-three-numbers.md) (Easy)
 - [[0000629](https://leetcode-cn.com/problems/k-inverse-pairs-array/)] - [K Inverse Pairs Array K 个逆序对数组](./problemset_md/0000629.k-inverse-pairs-array.md) (Hard)
 - [[0000630](https://leetcode-cn.com/problems/course-schedule-iii/)] - [Course Schedule III 课程表 III](./problemset_md/0000630.course-schedule-iii.md) (Hard)
-- [[0000631](https://leetcode-cn.com/problems/design-excel-sum-formula/)] - [Design Excel Sum Formula 设计 Excel 求和公式](./problemset_md/0000631.design-excel-sum-formula.md) (Hard) xxx
+- [[0000631](https://leetcode-cn.com/problems/design-excel-sum-formula/)] - [Design Excel Sum Formula 设计 Excel 求和公式](./problemset_md/0000631.design-excel-sum-formula.md) (Hard) (Plus)
 - [[0000632](https://leetcode-cn.com/problems/smallest-range-covering-elements-from-k-lists/)] - [Smallest Range Covering Elements from K Lists 最小区间](./problemset_md/0000632.smallest-range-covering-elements-from-k-lists.md) (Hard)
 - [[0000633](https://leetcode-cn.com/problems/sum-of-square-numbers/)] - [Sum of Square Numbers 平方数之和](./problemset_md/0000633.sum-of-square-numbers.md) (Medium)
-- [[0000634](https://leetcode-cn.com/problems/find-the-derangement-of-an-array/)] - [Find the Derangement of An Array 寻找数组的错位排列](./problemset_md/0000634.find-the-derangement-of-an-array.md) (Medium) xxx
-- [[0000635](https://leetcode-cn.com/problems/design-log-storage-system/)] - [Design Log Storage System 设计日志存储系统](./problemset_md/0000635.design-log-storage-system.md) (Medium) xxx
+- [[0000634](https://leetcode-cn.com/problems/find-the-derangement-of-an-array/)] - [Find the Derangement of An Array 寻找数组的错位排列](./problemset_md/0000634.find-the-derangement-of-an-array.md) (Medium) (Plus)
+- [[0000635](https://leetcode-cn.com/problems/design-log-storage-system/)] - [Design Log Storage System 设计日志存储系统](./problemset_md/0000635.design-log-storage-system.md) (Medium) (Plus)
 - [[0000636](https://leetcode-cn.com/problems/exclusive-time-of-functions/)] - [Exclusive Time of Functions 函数的独占时间](./problemset_md/0000636.exclusive-time-of-functions.md) (Medium)
 - [[0000637](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)] - [Average of Levels in Binary Tree 二叉树的层平均值](./problemset_md/0000637.average-of-levels-in-binary-tree.md) (Easy)
 - [[0000638](https://leetcode-cn.com/problems/shopping-offers/)] - [Shopping Offers 大礼包](./problemset_md/0000638.shopping-offers.md) (Medium)
 - [[0000639](https://leetcode-cn.com/problems/decode-ways-ii/)] - [Decode Ways II 解码方法 2](./problemset_md/0000639.decode-ways-ii.md) (Hard)
 - [[0000640](https://leetcode-cn.com/problems/solve-the-equation/)] - [Solve the Equation 求解方程](./problemset_md/0000640.solve-the-equation.md) (Medium)
-- [[0000642](https://leetcode-cn.com/problems/design-search-autocomplete-system/)] - [Design Search Autocomplete System 设计搜索自动补全系统](./problemset_md/0000642.design-search-autocomplete-system.md) (Hard) xxx
+- [[0000642](https://leetcode-cn.com/problems/design-search-autocomplete-system/)] - [Design Search Autocomplete System 设计搜索自动补全系统](./problemset_md/0000642.design-search-autocomplete-system.md) (Hard) (Plus)
 - [[0000643](https://leetcode-cn.com/problems/maximum-average-subarray-i/)] - [Maximum Average Subarray I 子数组最大平均数 I](./problemset_md/0000643.maximum-average-subarray-i.md) (Easy)
-- [[0000644](https://leetcode-cn.com/problems/maximum-average-subarray-ii/)] - [Maximum Average Subarray II 最大平均子段和 II](./problemset_md/0000644.maximum-average-subarray-ii.md) (Hard) xxx
+- [[0000644](https://leetcode-cn.com/problems/maximum-average-subarray-ii/)] - [Maximum Average Subarray II 最大平均子段和 II](./problemset_md/0000644.maximum-average-subarray-ii.md) (Hard) (Plus)
 - [[0000645](https://leetcode-cn.com/problems/set-mismatch/)] - [Set Mismatch 错误的集合](./problemset_md/0000645.set-mismatch.md) (Easy)
 - [[0000646](https://leetcode-cn.com/problems/maximum-length-of-pair-chain/)] - [Maximum Length of Pair Chain 最长数对链](./problemset_md/0000646.maximum-length-of-pair-chain.md) (Medium)
 - [[0000647](https://leetcode-cn.com/problems/palindromic-substrings/)] - [Palindromic Substrings 回文子串](./problemset_md/0000647.palindromic-substrings.md) (Medium)
 - [[0000648](https://leetcode-cn.com/problems/replace-words/)] - [Replace Words 单词替换](./problemset_md/0000648.replace-words.md) (Medium)
 - [[0000649](https://leetcode-cn.com/problems/dota2-senate/)] - [Dota2 Senate Dota2 参议院](./problemset_md/0000649.dota2-senate.md) (Medium)
 - [[0000650](https://leetcode-cn.com/problems/2-keys-keyboard/)] - [2 Keys Keyboard 只有两个键的键盘](./problemset_md/0000650.2-keys-keyboard.md) (Medium)
-- [[0000651](https://leetcode-cn.com/problems/4-keys-keyboard/)] - [4 Keys Keyboard 4 键键盘](./problemset_md/0000651.4-keys-keyboard.md) (Medium) xxx
+- [[0000651](https://leetcode-cn.com/problems/4-keys-keyboard/)] - [4 Keys Keyboard 4 键键盘](./problemset_md/0000651.4-keys-keyboard.md) (Medium) (Plus)
 - [[0000652](https://leetcode-cn.com/problems/find-duplicate-subtrees/)] - [Find Duplicate Subtrees 寻找重复的子树](./problemset_md/0000652.find-duplicate-subtrees.md) (Medium)
 - [[0000653](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)] - [Two Sum IV - Input is a BST 两数之和 IV - 输入 BST](./problemset_md/0000653.two-sum-iv-input-is-a-bst.md) (Easy)
 - [[0000654](https://leetcode-cn.com/problems/maximum-binary-tree/)] - [Maximum Binary Tree 最大二叉树](./problemset_md/0000654.maximum-binary-tree.md) (Medium)
 - [[0000655](https://leetcode-cn.com/problems/print-binary-tree/)] - [Print Binary Tree 输出二叉树](./problemset_md/0000655.print-binary-tree.md) (Medium)
-- [[0000656](https://leetcode-cn.com/problems/coin-path/)] - [Coin Path 金币路径](./problemset_md/0000656.coin-path.md) (Hard) xxx
+- [[0000656](https://leetcode-cn.com/problems/coin-path/)] - [Coin Path 金币路径](./problemset_md/0000656.coin-path.md) (Hard) (Plus)
 - [[0000657](https://leetcode-cn.com/problems/robot-return-to-origin/)] - [Robot Return to Origin 机器人能否返回原点](./problemset_md/0000657.robot-return-to-origin.md) (Easy)
 - [[0000658](https://leetcode-cn.com/problems/find-k-closest-elements/)] - [Find K Closest Elements 找到 K 个最接近的元素](./problemset_md/0000658.find-k-closest-elements.md) (Medium)
 - [[0000659](https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences/)] - [Split Array into Consecutive Subsequences 分割数组为连续子序列](./problemset_md/0000659.split-array-into-consecutive-subsequences.md) (Medium)
-- [[0000660](https://leetcode-cn.com/problems/remove-9/)] - [Remove 9 移除 9](./problemset_md/0000660.remove-9.md) (Hard) xxx
+- [[0000660](https://leetcode-cn.com/problems/remove-9/)] - [Remove 9 移除 9](./problemset_md/0000660.remove-9.md) (Hard) (Plus)
 - [[0000661](https://leetcode-cn.com/problems/image-smoother/)] - [Image Smoother 图片平滑器](./problemset_md/0000661.image-smoother.md) (Easy)
 - [[0000662](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)] - [Maximum Width of Binary Tree 二叉树最大宽度](./problemset_md/0000662.maximum-width-of-binary-tree.md) (Medium)
-- [[0000663](https://leetcode-cn.com/problems/equal-tree-partition/)] - [Equal Tree Partition 均匀树划分](./problemset_md/0000663.equal-tree-partition.md) (Medium) xxx
+- [[0000663](https://leetcode-cn.com/problems/equal-tree-partition/)] - [Equal Tree Partition 均匀树划分](./problemset_md/0000663.equal-tree-partition.md) (Medium) (Plus)
 - [[0000664](https://leetcode-cn.com/problems/strange-printer/)] - [Strange Printer 奇怪的打印机](./problemset_md/0000664.strange-printer.md) (Hard)
 - [[0000665](https://leetcode-cn.com/problems/non-decreasing-array/)] - [Non-decreasing Array 非递减数列](./problemset_md/0000665.non-decreasing-array.md) (Easy)
-- [[0000666](https://leetcode-cn.com/problems/path-sum-iv/)] - [Path Sum IV 路径和 IV](./problemset_md/0000666.path-sum-iv.md) (Medium) xxx
+- [[0000666](https://leetcode-cn.com/problems/path-sum-iv/)] - [Path Sum IV 路径和 IV](./problemset_md/0000666.path-sum-iv.md) (Medium) (Plus)
 - [[0000667](https://leetcode-cn.com/problems/beautiful-arrangement-ii/)] - [Beautiful Arrangement II 优美的排列 II](./problemset_md/0000667.beautiful-arrangement-ii.md) (Medium)
 - [[0000668](https://leetcode-cn.com/problems/kth-smallest-number-in-multiplication-table/)] - [Kth Smallest Number in Multiplication Table 乘法表中第 k 小的数](./problemset_md/0000668.kth-smallest-number-in-multiplication-table.md) (Hard)
 - [[0000669](https://leetcode-cn.com/problems/trim-a-binary-search-tree/)] - [Trim a Binary Search Tree 修剪二叉搜索树](./problemset_md/0000669.trim-a-binary-search-tree.md) (Easy)
@@ -658,9 +658,9 @@
 - [[0000678](https://leetcode-cn.com/problems/valid-parenthesis-string/)] - [Valid Parenthesis String 有效的括号字符串](./problemset_md/0000678.valid-parenthesis-string.md) (Medium)
 - [[0000679](https://leetcode-cn.com/problems/24-game/)] - [24 Game 24 点游戏](./problemset_md/0000679.24-game.md) (Hard)
 - [[0000680](https://leetcode-cn.com/problems/valid-palindrome-ii/)] - [Valid Palindrome II 验证回文字符串 Ⅱ](./problemset_md/0000680.valid-palindrome-ii.md) (Easy)
-- [[0000681](https://leetcode-cn.com/problems/next-closest-time/)] - [Next Closest Time 最近时刻](./problemset_md/0000681.next-closest-time.md) (Medium) xxx
+- [[0000681](https://leetcode-cn.com/problems/next-closest-time/)] - [Next Closest Time 最近时刻](./problemset_md/0000681.next-closest-time.md) (Medium) (Plus)
 - [[0000682](https://leetcode-cn.com/problems/baseball-game/)] - [Baseball Game 棒球比赛](./problemset_md/0000682.baseball-game.md) (Easy)
-- [[0000683](https://leetcode-cn.com/problems/k-empty-slots/)] - [K Empty Slots K 个空花盆](./problemset_md/0000683.k-empty-slots.md) (Hard) xxx
+- [[0000683](https://leetcode-cn.com/problems/k-empty-slots/)] - [K Empty Slots K 个空花盆](./problemset_md/0000683.k-empty-slots.md) (Hard) (Plus)
 - [[0000684](https://leetcode-cn.com/problems/redundant-connection/)] - [Redundant Connection 冗余连接](./problemset_md/0000684.redundant-connection.md) (Medium)
 - [[0000685](https://leetcode-cn.com/problems/redundant-connection-ii/)] - [Redundant Connection II 冗余连接 II](./problemset_md/0000685.redundant-connection-ii.md) (Hard)
 - [[0000686](https://leetcode-cn.com/problems/repeated-string-match/)] - [Repeated String Match 重复叠加字符串匹配](./problemset_md/0000686.repeated-string-match.md) (Medium)
@@ -671,45 +671,45 @@
 - [[0000691](https://leetcode-cn.com/problems/stickers-to-spell-word/)] - [Stickers to Spell Word 贴纸拼词](./problemset_md/0000691.stickers-to-spell-word.md) (Hard)
 - [[0000692](https://leetcode-cn.com/problems/top-k-frequent-words/)] - [Top K Frequent Words 前 K 个高频单词](./problemset_md/0000692.top-k-frequent-words.md) (Medium)
 - [[0000693](https://leetcode-cn.com/problems/binary-number-with-alternating-bits/)] - [Binary Number with Alternating Bits 交替位二进制数](./problemset_md/0000693.binary-number-with-alternating-bits.md) (Easy)
-- [[0000694](https://leetcode-cn.com/problems/number-of-distinct-islands/)] - [Number of Distinct Islands 不同岛屿的数量](./problemset_md/0000694.number-of-distinct-islands.md) (Medium) xxx
+- [[0000694](https://leetcode-cn.com/problems/number-of-distinct-islands/)] - [Number of Distinct Islands 不同岛屿的数量](./problemset_md/0000694.number-of-distinct-islands.md) (Medium) (Plus)
 - [[0000695](https://leetcode-cn.com/problems/max-area-of-island/)] - [Max Area of Island 岛屿的最大面积](./problemset_md/0000695.max-area-of-island.md) (Medium)
 - [[0000696](https://leetcode-cn.com/problems/count-binary-substrings/)] - [Count Binary Substrings 计数二进制子串](./problemset_md/0000696.count-binary-substrings.md) (Easy)
 - [[0000697](https://leetcode-cn.com/problems/degree-of-an-array/)] - [Degree of an Array 数组的度](./problemset_md/0000697.degree-of-an-array.md) (Easy)
 - [[0000698](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)] - [Partition to K Equal Sum Subsets 划分为 k 个相等的子集](./problemset_md/0000698.partition-to-k-equal-sum-subsets.md) (Medium)
 - [[0000699](https://leetcode-cn.com/problems/falling-squares/)] - [Falling Squares 掉落的方块](./problemset_md/0000699.falling-squares.md) (Hard)
-- [[0000711](https://leetcode-cn.com/problems/number-of-distinct-islands-ii/)] - [Number of Distinct Islands II 不同岛屿的数量 II](./problemset_md/0000711.number-of-distinct-islands-ii.md) (Hard) xxx
+- [[0000711](https://leetcode-cn.com/problems/number-of-distinct-islands-ii/)] - [Number of Distinct Islands II 不同岛屿的数量 II](./problemset_md/0000711.number-of-distinct-islands-ii.md) (Hard) (Plus)
 - [[0000712](https://leetcode-cn.com/problems/minimum-ascii-delete-sum-for-two-strings/)] - [Minimum ASCII Delete Sum for Two Strings 两个字符串的最小 ASCII 删除和](./problemset_md/0000712.minimum-ascii-delete-sum-for-two-strings.md) (Medium)
 - [[0000713](https://leetcode-cn.com/problems/subarray-product-less-than-k/)] - [Subarray Product Less Than K 乘积小于 K 的子数组](./problemset_md/0000713.subarray-product-less-than-k.md) (Medium)
 - [[0000714](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)] - [Best Time to Buy and Sell Stock with Transaction Fee 买卖股票的最佳时机含手续费](./problemset_md/0000714.best-time-to-buy-and-sell-stock-with-transaction-fee.md) (Medium)
 - [[0000715](https://leetcode-cn.com/problems/range-module/)] - [Range Module Range 模块](./problemset_md/0000715.range-module.md) (Hard)
-- [[0000716](https://leetcode-cn.com/problems/max-stack/)] - [Max Stack 最大栈](./problemset_md/0000716.max-stack.md) (Easy) xxx
+- [[0000716](https://leetcode-cn.com/problems/max-stack/)] - [Max Stack 最大栈](./problemset_md/0000716.max-stack.md) (Easy) (Plus)
 - [[0000717](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)] - [1-bit and 2-bit Characters 1 比特与 2 比特字符](./problemset_md/0000717.1-bit-and-2-bit-characters.md) (Easy)
 - [[0000718](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)] - [Maximum Length of Repeated Subarray 最长重复子数组](./problemset_md/0000718.maximum-length-of-repeated-subarray.md) (Medium)
 - [[0000719](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/)] - [Find K-th Smallest Pair Distance 找出第 k 小的距离对](./problemset_md/0000719.find-k-th-smallest-pair-distance.md) (Hard)
 - [[0000720](https://leetcode-cn.com/problems/longest-word-in-dictionary/)] - [Longest Word in Dictionary 词典中最长的单词](./problemset_md/0000720.longest-word-in-dictionary.md) (Easy)
 - [[0000721](https://leetcode-cn.com/problems/accounts-merge/)] - [Accounts Merge 账户合并](./problemset_md/0000721.accounts-merge.md) (Medium)
 - [[0000722](https://leetcode-cn.com/problems/remove-comments/)] - [Remove Comments 删除注释](./problemset_md/0000722.remove-comments.md) (Medium)
-- [[0000723](https://leetcode-cn.com/problems/candy-crush/)] - [Candy Crush 粉碎糖果](./problemset_md/0000723.candy-crush.md) (Medium) xxx
+- [[0000723](https://leetcode-cn.com/problems/candy-crush/)] - [Candy Crush 粉碎糖果](./problemset_md/0000723.candy-crush.md) (Medium) (Plus)
 - [[0000724](https://leetcode-cn.com/problems/find-pivot-index/)] - [Find Pivot Index 寻找数组的中心索引](./problemset_md/0000724.find-pivot-index.md) (Easy)
 - [[0000725](https://leetcode-cn.com/problems/split-linked-list-in-parts/)] - [Split Linked List in Parts 分隔链表](./problemset_md/0000725.split-linked-list-in-parts.md) (Medium)
 - [[0000726](https://leetcode-cn.com/problems/number-of-atoms/)] - [Number of Atoms 原子的数量](./problemset_md/0000726.number-of-atoms.md) (Hard)
-- [[0000727](https://leetcode-cn.com/problems/minimum-window-subsequence/)] - [Minimum Window Subsequence 最小窗口子序列](./problemset_md/0000727.minimum-window-subsequence.md) (Hard) xxx
+- [[0000727](https://leetcode-cn.com/problems/minimum-window-subsequence/)] - [Minimum Window Subsequence 最小窗口子序列](./problemset_md/0000727.minimum-window-subsequence.md) (Hard) (Plus)
 - [[0000728](https://leetcode-cn.com/problems/self-dividing-numbers/)] - [Self Dividing Numbers 自除数](./problemset_md/0000728.self-dividing-numbers.md) (Easy)
 - [[0000729](https://leetcode-cn.com/problems/my-calendar-i/)] - [My Calendar I 我的日程安排表 I](./problemset_md/0000729.my-calendar-i.md) (Medium)
 - [[0000730](https://leetcode-cn.com/problems/count-different-palindromic-subsequences/)] - [Count Different Palindromic Subsequences 统计不同回文子序列](./problemset_md/0000730.count-different-palindromic-subsequences.md) (Hard)
 - [[0000731](https://leetcode-cn.com/problems/my-calendar-ii/)] - [My Calendar II 我的日程安排表 II](./problemset_md/0000731.my-calendar-ii.md) (Medium)
 - [[0000732](https://leetcode-cn.com/problems/my-calendar-iii/)] - [My Calendar III 我的日程安排表 III](./problemset_md/0000732.my-calendar-iii.md) (Hard)
 - [[0000733](https://leetcode-cn.com/problems/flood-fill/)] - [Flood Fill 图像渲染](./problemset_md/0000733.flood-fill.md) (Easy)
-- [[0000734](https://leetcode-cn.com/problems/sentence-similarity/)] - [Sentence Similarity 句子相似性](./problemset_md/0000734.sentence-similarity.md) (Easy) xxx
+- [[0000734](https://leetcode-cn.com/problems/sentence-similarity/)] - [Sentence Similarity 句子相似性](./problemset_md/0000734.sentence-similarity.md) (Easy) (Plus)
 - [[0000735](https://leetcode-cn.com/problems/asteroid-collision/)] - [Asteroid Collision 行星碰撞](./problemset_md/0000735.asteroid-collision.md) (Medium)
 - [[0000736](https://leetcode-cn.com/problems/parse-lisp-expression/)] - [Parse Lisp Expression Lisp 语法解析](./problemset_md/0000736.parse-lisp-expression.md) (Hard)
-- [[0000737](https://leetcode-cn.com/problems/sentence-similarity-ii/)] - [Sentence Similarity II 句子相似性 II](./problemset_md/0000737.sentence-similarity-ii.md) (Medium) xxx
+- [[0000737](https://leetcode-cn.com/problems/sentence-similarity-ii/)] - [Sentence Similarity II 句子相似性 II](./problemset_md/0000737.sentence-similarity-ii.md) (Medium) (Plus)
 - [[0000738](https://leetcode-cn.com/problems/monotone-increasing-digits/)] - [Monotone Increasing Digits 单调递增的数字](./problemset_md/0000738.monotone-increasing-digits.md) (Medium)
 - [[0000739](https://leetcode-cn.com/problems/daily-temperatures/)] - [Daily Temperatures 每日温度](./problemset_md/0000739.daily-temperatures.md) (Medium)
 - [[0000740](https://leetcode-cn.com/problems/delete-and-earn/)] - [Delete and Earn 删除与获得点数](./problemset_md/0000740.delete-and-earn.md) (Medium)
 - [[0000741](https://leetcode-cn.com/problems/cherry-pickup/)] - [Cherry Pickup 摘樱桃](./problemset_md/0000741.cherry-pickup.md) (Hard)
 - [[0000742](https://leetcode-cn.com/problems/to-lower-case/)] - [To Lower Case 转换成小写字母](./problemset_md/0000742.to-lower-case.md) (Easy)
-- [[0000743](https://leetcode-cn.com/problems/closest-leaf-in-a-binary-tree/)] - [Closest Leaf in a Binary Tree 二叉树最近的叶节点](./problemset_md/0000743.closest-leaf-in-a-binary-tree.md) (Medium) xxx
+- [[0000743](https://leetcode-cn.com/problems/closest-leaf-in-a-binary-tree/)] - [Closest Leaf in a Binary Tree 二叉树最近的叶节点](./problemset_md/0000743.closest-leaf-in-a-binary-tree.md) (Medium) (Plus)
 - [[0000744](https://leetcode-cn.com/problems/network-delay-time/)] - [Network Delay Time 网络延迟时间](./problemset_md/0000744.network-delay-time.md) (Medium)
 - [[0000745](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)] - [Find Smallest Letter Greater Than Target 寻找比目标字母大的最小字母](./problemset_md/0000745.find-smallest-letter-greater-than-target.md) (Easy)
 - [[0000746](https://leetcode-cn.com/problems/prefix-and-suffix-search/)] - [Prefix and Suffix Search 前缀和后缀搜索](./problemset_md/0000746.prefix-and-suffix-search.md) (Hard)
@@ -717,27 +717,27 @@
 - [[0000748](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)] - [Largest Number At Least Twice of Others 至少是其他数字两倍的最大数](./problemset_md/0000748.largest-number-at-least-twice-of-others.md) (Easy)
 - [[0000749](https://leetcode-cn.com/problems/shortest-completing-word/)] - [Shortest Completing Word 最短补全词](./problemset_md/0000749.shortest-completing-word.md) (Easy)
 - [[0000750](https://leetcode-cn.com/problems/contain-virus/)] - [Contain Virus 隔离病毒](./problemset_md/0000750.contain-virus.md) (Hard)
-- [[0000751](https://leetcode-cn.com/problems/number-of-corner-rectangles/)] - [Number Of Corner Rectangles 角矩形的数量](./problemset_md/0000751.number-of-corner-rectangles.md) (Medium) xxx
-- [[0000752](https://leetcode-cn.com/problems/ip-to-cidr/)] - [IP to CIDR IP 到 CIDR](./problemset_md/0000752.ip-to-cidr.md) (Easy) xxx
+- [[0000751](https://leetcode-cn.com/problems/number-of-corner-rectangles/)] - [Number Of Corner Rectangles 角矩形的数量](./problemset_md/0000751.number-of-corner-rectangles.md) (Medium) (Plus)
+- [[0000752](https://leetcode-cn.com/problems/ip-to-cidr/)] - [IP to CIDR IP 到 CIDR](./problemset_md/0000752.ip-to-cidr.md) (Easy) (Plus)
 - [[0000753](https://leetcode-cn.com/problems/open-the-lock/)] - [Open the Lock 打开转盘锁](./problemset_md/0000753.open-the-lock.md) (Medium)
 - [[0000754](https://leetcode-cn.com/problems/cracking-the-safe/)] - [Cracking the Safe 破解保险箱](./problemset_md/0000754.cracking-the-safe.md) (Hard)
 - [[0000755](https://leetcode-cn.com/problems/reach-a-number/)] - [Reach a Number 到达终点数字](./problemset_md/0000755.reach-a-number.md) (Medium)
-- [[0000756](https://leetcode-cn.com/problems/pour-water/)] - [Pour Water 倒水](./problemset_md/0000756.pour-water.md) (Medium) xxx
+- [[0000756](https://leetcode-cn.com/problems/pour-water/)] - [Pour Water 倒水](./problemset_md/0000756.pour-water.md) (Medium) (Plus)
 - [[0000757](https://leetcode-cn.com/problems/pyramid-transition-matrix/)] - [Pyramid Transition Matrix 金字塔转换矩阵](./problemset_md/0000757.pyramid-transition-matrix.md) (Medium)
-- [[0000758](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)] - [Convert Binary Search Tree to Sorted Doubly Linked List 将二叉搜索树转化为排序的双向链表](./problemset_md/0000758.convert-binary-search-tree-to-sorted-doubly-linked-list.md) (Medium) xxx
+- [[0000758](https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)] - [Convert Binary Search Tree to Sorted Doubly Linked List 将二叉搜索树转化为排序的双向链表](./problemset_md/0000758.convert-binary-search-tree-to-sorted-doubly-linked-list.md) (Medium) (Plus)
 - [[0000759](https://leetcode-cn.com/problems/set-intersection-size-at-least-two/)] - [Set Intersection Size At Least Two 设置交集大小至少为 2](./problemset_md/0000759.set-intersection-size-at-least-two.md) (Hard)
-- [[0000760](https://leetcode-cn.com/problems/bold-words-in-string/)] - [Bold Words in String 字符串中的加粗单词](./problemset_md/0000760.bold-words-in-string.md) (Easy) xxx
-- [[0000761](https://leetcode-cn.com/problems/employee-free-time/)] - [Employee Free Time 员工空闲时间](./problemset_md/0000761.employee-free-time.md) (Hard) xxx
-- [[0000762](https://leetcode-cn.com/problems/find-anagram-mappings/)] - [Find Anagram Mappings 找出变位映射](./problemset_md/0000762.find-anagram-mappings.md) (Easy) xxx
+- [[0000760](https://leetcode-cn.com/problems/bold-words-in-string/)] - [Bold Words in String 字符串中的加粗单词](./problemset_md/0000760.bold-words-in-string.md) (Easy) (Plus)
+- [[0000761](https://leetcode-cn.com/problems/employee-free-time/)] - [Employee Free Time 员工空闲时间](./problemset_md/0000761.employee-free-time.md) (Hard) (Plus)
+- [[0000762](https://leetcode-cn.com/problems/find-anagram-mappings/)] - [Find Anagram Mappings 找出变位映射](./problemset_md/0000762.find-anagram-mappings.md) (Easy) (Plus)
 - [[0000763](https://leetcode-cn.com/problems/special-binary-string/)] - [Special Binary String 特殊的二进制序列](./problemset_md/0000763.special-binary-string.md) (Hard)
 - [[0000764](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)] - [N-ary Tree Level Order Traversal N 叉树的层序遍历](./problemset_md/0000764.n-ary-tree-level-order-traversal.md) (Medium)
-- [[0000765](https://leetcode-cn.com/problems/serialize-and-deserialize-n-ary-tree/)] - [Serialize and Deserialize N-ary Tree 序列化和反序列化 N 叉树](./problemset_md/0000765.serialize-and-deserialize-n-ary-tree.md) (Hard) xxx
+- [[0000765](https://leetcode-cn.com/problems/serialize-and-deserialize-n-ary-tree/)] - [Serialize and Deserialize N-ary Tree 序列化和反序列化 N 叉树](./problemset_md/0000765.serialize-and-deserialize-n-ary-tree.md) (Hard) (Plus)
 - [[0000766](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)] - [Flatten a Multilevel Doubly Linked List 扁平化多级双向链表](./problemset_md/0000766.flatten-a-multilevel-doubly-linked-list.md) (Medium)
 - [[0000767](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/)] - [Prime Number of Set Bits in Binary Representation 二进制表示中质数个计算置位](./problemset_md/0000767.prime-number-of-set-bits-in-binary-representation.md) (Easy)
 - [[0000768](https://leetcode-cn.com/problems/partition-labels/)] - [Partition Labels 划分字母区间](./problemset_md/0000768.partition-labels.md) (Medium)
 - [[0000769](https://leetcode-cn.com/problems/largest-plus-sign/)] - [Largest Plus Sign 最大加号标志](./problemset_md/0000769.largest-plus-sign.md) (Medium)
 - [[0000770](https://leetcode-cn.com/problems/couples-holding-hands/)] - [Couples Holding Hands 情侣牵手](./problemset_md/0000770.couples-holding-hands.md) (Hard)
-- [[0000771](https://leetcode-cn.com/problems/encode-n-ary-tree-to-binary-tree/)] - [Encode N-ary Tree to Binary Tree 将 N 叉树编码为二叉树](./problemset_md/0000771.encode-n-ary-tree-to-binary-tree.md) (Hard) xxx
+- [[0000771](https://leetcode-cn.com/problems/encode-n-ary-tree-to-binary-tree/)] - [Encode N-ary Tree to Binary Tree 将 N 叉树编码为二叉树](./problemset_md/0000771.encode-n-ary-tree-to-binary-tree.md) (Hard) (Plus)
 - [[0000772](https://leetcode-cn.com/problems/construct-quad-tree/)] - [Construct Quad Tree 建立四叉树](./problemset_md/0000772.construct-quad-tree.md) (Medium)
 - [[0000773](https://leetcode-cn.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)] - [Logical OR of Two Binary Grids Represented as Quad-Trees 四叉树交集](./problemset_md/0000773.logical-or-of-two-binary-grids-represented-as-quad-trees.md) (Medium)
 - [[0000774](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)] - [Maximum Depth of N-ary Tree N 叉树的最大深度](./problemset_md/0000774.maximum-depth-of-n-ary-tree.md) (Easy)
@@ -751,13 +751,13 @@
 - [[0000782](https://leetcode-cn.com/problems/jewels-and-stones/)] - [Jewels and Stones 宝石与石头](./problemset_md/0000782.jewels-and-stones.md) (Easy)
 - [[0000783](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)] - [Search in a Binary Search Tree 二叉搜索树中的搜索](./problemset_md/0000783.search-in-a-binary-search-tree.md) (Easy)
 - [[0000784](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)] - [Insert into a Binary Search Tree 二叉搜索树中的插入操作](./problemset_md/0000784.insert-into-a-binary-search-tree.md) (Medium)
-- [[0000785](https://leetcode-cn.com/problems/basic-calculator-iii/)] - [Basic Calculator III 基本计算器 III](./problemset_md/0000785.basic-calculator-iii.md) (Hard) xxx
-- [[0000786](https://leetcode-cn.com/problems/search-in-a-sorted-array-of-unknown-size/)] - [Search in a Sorted Array of Unknown Size 搜索长度未知的有序数组](./problemset_md/0000786.search-in-a-sorted-array-of-unknown-size.md) (Medium) xxx
+- [[0000785](https://leetcode-cn.com/problems/basic-calculator-iii/)] - [Basic Calculator III 基本计算器 III](./problemset_md/0000785.basic-calculator-iii.md) (Hard) (Plus)
+- [[0000786](https://leetcode-cn.com/problems/search-in-a-sorted-array-of-unknown-size/)] - [Search in a Sorted Array of Unknown Size 搜索长度未知的有序数组](./problemset_md/0000786.search-in-a-sorted-array-of-unknown-size.md) (Medium) (Plus)
 - [[0000787](https://leetcode-cn.com/problems/sliding-puzzle/)] - [Sliding Puzzle 滑动谜题](./problemset_md/0000787.sliding-puzzle.md) (Hard)
-- [[0000788](https://leetcode-cn.com/problems/minimize-max-distance-to-gas-station/)] - [Minimize Max Distance to Gas Station 最小化去加油站的最大距离](./problemset_md/0000788.minimize-max-distance-to-gas-station.md) (Hard) xxx
+- [[0000788](https://leetcode-cn.com/problems/minimize-max-distance-to-gas-station/)] - [Minimize Max Distance to Gas Station 最小化去加油站的最大距离](./problemset_md/0000788.minimize-max-distance-to-gas-station.md) (Hard) (Plus)
 - [[0000789](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)] - [Kth Largest Element in a Stream 数据流中的第 K 大元素](./problemset_md/0000789.kth-largest-element-in-a-stream.md) (Easy)
 - [[0000790](https://leetcode-cn.com/problems/global-and-local-inversions/)] - [Global and Local Inversions 全局倒置与局部倒置](./problemset_md/0000790.global-and-local-inversions.md) (Medium)
-- [[0000791](https://leetcode-cn.com/problems/split-bst/)] - [Split BST 拆分二叉搜索树](./problemset_md/0000791.split-bst.md) (Medium) xxx
+- [[0000791](https://leetcode-cn.com/problems/split-bst/)] - [Split BST 拆分二叉搜索树](./problemset_md/0000791.split-bst.md) (Medium) (Plus)
 - [[0000792](https://leetcode-cn.com/problems/binary-search/)] - [Binary Search 二分查找](./problemset_md/0000792.binary-search.md) (Easy)
 - [[0000793](https://leetcode-cn.com/problems/swap-adjacent-in-lr-string/)] - [Swap Adjacent in LR String 在 LR 字符串中交换相邻字符](./problemset_md/0000793.swap-adjacent-in-lr-string.md) (Medium)
 - [[0000794](https://leetcode-cn.com/problems/swim-in-rising-water/)] - [Swim in Rising Water 水位上升的泳池中游泳](./problemset_md/0000794.swim-in-rising-water.md) (Hard)
@@ -784,7 +784,7 @@
 - [[0000815](https://leetcode-cn.com/problems/champagne-tower/)] - [Champagne Tower 香槟塔](./problemset_md/0000815.champagne-tower.md) (Medium)
 - [[0000816](https://leetcode-cn.com/problems/design-hashset/)] - [Design HashSet 设计哈希集合](./problemset_md/0000816.design-hashset.md) (Easy)
 - [[0000817](https://leetcode-cn.com/problems/design-hashmap/)] - [Design HashMap 设计哈希映射](./problemset_md/0000817.design-hashmap.md) (Easy)
-- [[0000818](https://leetcode-cn.com/problems/similar-rgb-color/)] - [Similar RGB Color 相似 RGB 颜色](./problemset_md/0000818.similar-rgb-color.md) (Easy) xxx
+- [[0000818](https://leetcode-cn.com/problems/similar-rgb-color/)] - [Similar RGB Color 相似 RGB 颜色](./problemset_md/0000818.similar-rgb-color.md) (Easy) (Plus)
 - [[0000819](https://leetcode-cn.com/problems/minimum-swaps-to-make-sequences-increasing/)] - [Minimum Swaps To Make Sequences Increasing 使序列递增的最小交换次数](./problemset_md/0000819.minimum-swaps-to-make-sequences-increasing.md) (Medium)
 - [[0000820](https://leetcode-cn.com/problems/find-eventual-safe-states/)] - [Find Eventual Safe States 找到最终的安全状态](./problemset_md/0000820.find-eventual-safe-states.md) (Medium)
 - [[0000821](https://leetcode-cn.com/problems/bricks-falling-when-hit/)] - [Bricks Falling When Hit 打砖块](./problemset_md/0000821.bricks-falling-when-hit.md) (Hard)
@@ -809,7 +809,7 @@
 - [[0000841](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)] - [Shortest Distance to a Character 字符的最短距离](./problemset_md/0000841.shortest-distance-to-a-character.md) (Easy)
 - [[0000842](https://leetcode-cn.com/problems/card-flipping-game/)] - [Card Flipping Game 翻转卡片游戏](./problemset_md/0000842.card-flipping-game.md) (Medium)
 - [[0000843](https://leetcode-cn.com/problems/binary-trees-with-factors/)] - [Binary Trees With Factors 带因子的二叉树](./problemset_md/0000843.binary-trees-with-factors.md) (Medium)
-- [[0000850](https://leetcode-cn.com/problems/insert-into-a-sorted-circular-linked-list/)] - [Insert into a Sorted Circular Linked List 循环有序列表的插入](./problemset_md/0000850.insert-into-a-sorted-circular-linked-list.md) (Medium) xxx
+- [[0000850](https://leetcode-cn.com/problems/insert-into-a-sorted-circular-linked-list/)] - [Insert into a Sorted Circular Linked List 循环有序列表的插入](./problemset_md/0000850.insert-into-a-sorted-circular-linked-list.md) (Medium) (Plus)
 - [[0000851](https://leetcode-cn.com/problems/goat-latin/)] - [Goat Latin 山羊拉丁文](./problemset_md/0000851.goat-latin.md) (Easy)
 - [[0000852](https://leetcode-cn.com/problems/friends-of-appropriate-ages/)] - [Friends Of Appropriate Ages 适龄的朋友](./problemset_md/0000852.friends-of-appropriate-ages.md) (Medium)
 - [[0000853](https://leetcode-cn.com/problems/most-profit-assigning-work/)] - [Most Profit Assigning Work 安排工作以达到最大收益](./problemset_md/0000853.most-profit-assigning-work.md) (Medium)
@@ -824,7 +824,7 @@
 - [[0000862](https://leetcode-cn.com/problems/find-and-replace-in-string/)] - [Find And Replace in String 字符串中的查找与替换](./problemset_md/0000862.find-and-replace-in-string.md) (Medium)
 - [[0000863](https://leetcode-cn.com/problems/sum-of-distances-in-tree/)] - [Sum of Distances in Tree 树中距离之和](./problemset_md/0000863.sum-of-distances-in-tree.md) (Hard)
 - [[0000864](https://leetcode-cn.com/problems/image-overlap/)] - [Image Overlap 图像重叠](./problemset_md/0000864.image-overlap.md) (Medium)
-- [[0000865](https://leetcode-cn.com/problems/robot-room-cleaner/)] - [Robot Room Cleaner 扫地机器人](./problemset_md/0000865.robot-room-cleaner.md) (Hard) xxx
+- [[0000865](https://leetcode-cn.com/problems/robot-room-cleaner/)] - [Robot Room Cleaner 扫地机器人](./problemset_md/0000865.robot-room-cleaner.md) (Hard) (Plus)
 - [[0000866](https://leetcode-cn.com/problems/rectangle-overlap/)] - [Rectangle Overlap 矩形重叠](./problemset_md/0000866.rectangle-overlap.md) (Easy)
 - [[0000867](https://leetcode-cn.com/problems/new-21-game/)] - [New 21 Game 新 21 点](./problemset_md/0000867.new-21-game.md) (Medium)
 - [[0000868](https://leetcode-cn.com/problems/push-dominoes/)] - [Push Dominoes 推多米诺](./problemset_md/0000868.push-dominoes.md) (Medium)
@@ -1005,64 +1005,64 @@
 - [[0001048](https://leetcode-cn.com/problems/clumsy-factorial/)] - [Clumsy Factorial 笨阶乘](./problemset_md/0001048.clumsy-factorial.md) (Medium)
 - [[0001049](https://leetcode-cn.com/problems/minimum-domino-rotations-for-equal-row/)] - [Minimum Domino Rotations For Equal Row 行相等的最少多米诺旋转](./problemset_md/0001049.minimum-domino-rotations-for-equal-row.md) (Medium)
 - [[0001050](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)] - [Construct Binary Search Tree from Preorder Traversal 前序遍历构造二叉搜索树](./problemset_md/0001050.construct-binary-search-tree-from-preorder-traversal.md) (Medium)
-- [[0001051](https://leetcode-cn.com/problems/shortest-way-to-form-string/)] - [Shortest Way to Form String 形成字符串的最短路径](./problemset_md/0001051.shortest-way-to-form-string.md) (Medium) xxx
-- [[0001052](https://leetcode-cn.com/problems/campus-bikes/)] - [Campus Bikes 校园自行车分配](./problemset_md/0001052.campus-bikes.md) (Medium) xxx
-- [[0001053](https://leetcode-cn.com/problems/minimize-rounding-error-to-meet-target/)] - [Minimize Rounding Error to Meet Target 最小化舍入误差以满足目标](./problemset_md/0001053.minimize-rounding-error-to-meet-target.md) (Medium) xxx
+- [[0001051](https://leetcode-cn.com/problems/shortest-way-to-form-string/)] - [Shortest Way to Form String 形成字符串的最短路径](./problemset_md/0001051.shortest-way-to-form-string.md) (Medium) (Plus)
+- [[0001052](https://leetcode-cn.com/problems/campus-bikes/)] - [Campus Bikes 校园自行车分配](./problemset_md/0001052.campus-bikes.md) (Medium) (Plus)
+- [[0001053](https://leetcode-cn.com/problems/minimize-rounding-error-to-meet-target/)] - [Minimize Rounding Error to Meet Target 最小化舍入误差以满足目标](./problemset_md/0001053.minimize-rounding-error-to-meet-target.md) (Medium) (Plus)
 - [[0001054](https://leetcode-cn.com/problems/complement-of-base-10-integer/)] - [Complement of Base 10 Integer 十进制整数的反码](./problemset_md/0001054.complement-of-base-10-integer.md) (Easy)
 - [[0001055](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)] - [Pairs of Songs With Total Durations Divisible by 60 总持续时间可被 60 整除的歌曲](./problemset_md/0001055.pairs-of-songs-with-total-durations-divisible-by-60.md) (Easy)
 - [[0001056](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)] - [Capacity To Ship Packages Within D Days 在 D 天内送达包裹的能力](./problemset_md/0001056.capacity-to-ship-packages-within-d-days.md) (Medium)
 - [[0001057](https://leetcode-cn.com/problems/numbers-with-repeated-digits/)] - [Numbers With Repeated Digits 至少有 1 位重复的数字](./problemset_md/0001057.numbers-with-repeated-digits.md) (Hard)
-- [[0001058](https://leetcode-cn.com/problems/lexicographically-smallest-equivalent-string/)] - [Lexicographically Smallest Equivalent String 按字典序排列最小的等效字符串](./problemset_md/0001058.lexicographically-smallest-equivalent-string.md) (Medium) xxx
-- [[0001059](https://leetcode-cn.com/problems/missing-element-in-sorted-array/)] - [Missing Element in Sorted Array 有序数组中的缺失元素](./problemset_md/0001059.missing-element-in-sorted-array.md) (Medium) xxx
-- [[0001060](https://leetcode-cn.com/problems/longest-repeating-substring/)] - [Longest Repeating Substring 最长重复子串](./problemset_md/0001060.longest-repeating-substring.md) (Medium) xxx
-- [[0001061](https://leetcode-cn.com/problems/number-of-valid-subarrays/)] - [Number of Valid Subarrays 有效子数组的数目](./problemset_md/0001061.number-of-valid-subarrays.md) (Hard) xxx
+- [[0001058](https://leetcode-cn.com/problems/lexicographically-smallest-equivalent-string/)] - [Lexicographically Smallest Equivalent String 按字典序排列最小的等效字符串](./problemset_md/0001058.lexicographically-smallest-equivalent-string.md) (Medium) (Plus)
+- [[0001059](https://leetcode-cn.com/problems/missing-element-in-sorted-array/)] - [Missing Element in Sorted Array 有序数组中的缺失元素](./problemset_md/0001059.missing-element-in-sorted-array.md) (Medium) (Plus)
+- [[0001060](https://leetcode-cn.com/problems/longest-repeating-substring/)] - [Longest Repeating Substring 最长重复子串](./problemset_md/0001060.longest-repeating-substring.md) (Medium) (Plus)
+- [[0001061](https://leetcode-cn.com/problems/number-of-valid-subarrays/)] - [Number of Valid Subarrays 有效子数组的数目](./problemset_md/0001061.number-of-valid-subarrays.md) (Hard) (Plus)
 - [[0001062](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/)] - [Partition Array Into Three Parts With Equal Sum 将数组分成和相等的三个部分](./problemset_md/0001062.partition-array-into-three-parts-with-equal-sum.md) (Easy)
 - [[0001063](https://leetcode-cn.com/problems/best-sightseeing-pair/)] - [Best Sightseeing Pair 最佳观光组合](./problemset_md/0001063.best-sightseeing-pair.md) (Medium)
 - [[0001064](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)] - [Smallest Integer Divisible by K 可被 K 整除的最小整数](./problemset_md/0001064.smallest-integer-divisible-by-k.md) (Medium)
 - [[0001065](https://leetcode-cn.com/problems/binary-string-with-substrings-representing-1-to-n/)] - [Binary String With Substrings Representing 1 To N 子串能表示从 1 到 N 数字的二进制串](./problemset_md/0001065.binary-string-with-substrings-representing-1-to-n.md) (Medium)
-- [[0001066](https://leetcode-cn.com/problems/fixed-point/)] - [Fixed Point 不动点](./problemset_md/0001066.fixed-point.md) (Easy) xxx
-- [[0001067](https://leetcode-cn.com/problems/campus-bikes-ii/)] - [Campus Bikes II 校园自行车分配 II](./problemset_md/0001067.campus-bikes-ii.md) (Medium) xxx
-- [[0001068](https://leetcode-cn.com/problems/digit-count-in-range/)] - [Digit Count in Range 范围内的数字计数](./problemset_md/0001068.digit-count-in-range.md) (Hard) xxx
-- [[0001069](https://leetcode-cn.com/problems/confusing-number/)] - [Confusing Number 易混淆数](./problemset_md/0001069.confusing-number.md) (Easy) xxx
+- [[0001066](https://leetcode-cn.com/problems/fixed-point/)] - [Fixed Point 不动点](./problemset_md/0001066.fixed-point.md) (Easy) (Plus)
+- [[0001067](https://leetcode-cn.com/problems/campus-bikes-ii/)] - [Campus Bikes II 校园自行车分配 II](./problemset_md/0001067.campus-bikes-ii.md) (Medium) (Plus)
+- [[0001068](https://leetcode-cn.com/problems/digit-count-in-range/)] - [Digit Count in Range 范围内的数字计数](./problemset_md/0001068.digit-count-in-range.md) (Hard) (Plus)
+- [[0001069](https://leetcode-cn.com/problems/confusing-number/)] - [Confusing Number 易混淆数](./problemset_md/0001069.confusing-number.md) (Easy) (Plus)
 - [[0001070](https://leetcode-cn.com/problems/convert-to-base-2/)] - [Convert to Base -2 负二进制转换](./problemset_md/0001070.convert-to-base-2.md) (Medium)
 - [[0001071](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/)] - [Binary Prefix Divisible By 5 可被 5 整除的二进制前缀](./problemset_md/0001071.binary-prefix-divisible-by-5.md) (Easy)
 - [[0001072](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)] - [Next Greater Node In Linked List 链表中的下一个更大节点](./problemset_md/0001072.next-greater-node-in-linked-list.md) (Medium)
 - [[0001073](https://leetcode-cn.com/problems/number-of-enclaves/)] - [Number of Enclaves 飞地的数量](./problemset_md/0001073.number-of-enclaves.md) (Medium)
-- [[0001074](https://leetcode-cn.com/problems/high-five/)] - [High Five 前五科的均分](./problemset_md/0001074.high-five.md) (Easy) xxx
-- [[0001075](https://leetcode-cn.com/problems/index-pairs-of-a-string/)] - [Index Pairs of a String 字符串的索引对](./problemset_md/0001075.index-pairs-of-a-string.md) (Easy) xxx
-- [[0001076](https://leetcode-cn.com/problems/brace-expansion/)] - [Brace Expansion 字母切换](./problemset_md/0001076.brace-expansion.md) (Medium) xxx
-- [[0001077](https://leetcode-cn.com/problems/confusing-number-ii/)] - [Confusing Number II 易混淆数 II](./problemset_md/0001077.confusing-number-ii.md) (Hard) xxx
+- [[0001074](https://leetcode-cn.com/problems/high-five/)] - [High Five 前五科的均分](./problemset_md/0001074.high-five.md) (Easy) (Plus)
+- [[0001075](https://leetcode-cn.com/problems/index-pairs-of-a-string/)] - [Index Pairs of a String 字符串的索引对](./problemset_md/0001075.index-pairs-of-a-string.md) (Easy) (Plus)
+- [[0001076](https://leetcode-cn.com/problems/brace-expansion/)] - [Brace Expansion 字母切换](./problemset_md/0001076.brace-expansion.md) (Medium) (Plus)
+- [[0001077](https://leetcode-cn.com/problems/confusing-number-ii/)] - [Confusing Number II 易混淆数 II](./problemset_md/0001077.confusing-number-ii.md) (Hard) (Plus)
 - [[0001078](https://leetcode-cn.com/problems/remove-outermost-parentheses/)] - [Remove Outermost Parentheses 删除最外层的括号](./problemset_md/0001078.remove-outermost-parentheses.md) (Easy)
 - [[0001079](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/)] - [Sum of Root To Leaf Binary Numbers 从根到叶的二进制数之和](./problemset_md/0001079.sum-of-root-to-leaf-binary-numbers.md) (Easy)
 - [[0001080](https://leetcode-cn.com/problems/camelcase-matching/)] - [Camelcase Matching 驼峰式匹配](./problemset_md/0001080.camelcase-matching.md) (Medium)
 - [[0001081](https://leetcode-cn.com/problems/video-stitching/)] - [Video Stitching 视频拼接](./problemset_md/0001081.video-stitching.md) (Medium)
-- [[0001082](https://leetcode-cn.com/problems/sum-of-digits-in-the-minimum-number/)] - [Sum of Digits in the Minimum Number 最小元素各数位之和](./problemset_md/0001082.sum-of-digits-in-the-minimum-number.md) (Easy) xxx
-- [[0001083](https://leetcode-cn.com/problems/two-sum-less-than-k/)] - [Two Sum Less Than K 小于 K 的两数之和](./problemset_md/0001083.two-sum-less-than-k.md) (Easy) xxx
-- [[0001084](https://leetcode-cn.com/problems/find-k-length-substrings-with-no-repeated-characters/)] - [Find K-Length Substrings With No Repeated Characters 长度为 K 的无重复字符子串](./problemset_md/0001084.find-k-length-substrings-with-no-repeated-characters.md) (Medium) xxx
-- [[0001085](https://leetcode-cn.com/problems/the-earliest-moment-when-everyone-become-friends/)] - [The Earliest Moment When Everyone Become Friends 彼此熟识的最早时间](./problemset_md/0001085.the-earliest-moment-when-everyone-become-friends.md) (Medium) xxx
+- [[0001082](https://leetcode-cn.com/problems/sum-of-digits-in-the-minimum-number/)] - [Sum of Digits in the Minimum Number 最小元素各数位之和](./problemset_md/0001082.sum-of-digits-in-the-minimum-number.md) (Easy) (Plus)
+- [[0001083](https://leetcode-cn.com/problems/two-sum-less-than-k/)] - [Two Sum Less Than K 小于 K 的两数之和](./problemset_md/0001083.two-sum-less-than-k.md) (Easy) (Plus)
+- [[0001084](https://leetcode-cn.com/problems/find-k-length-substrings-with-no-repeated-characters/)] - [Find K-Length Substrings With No Repeated Characters 长度为 K 的无重复字符子串](./problemset_md/0001084.find-k-length-substrings-with-no-repeated-characters.md) (Medium) (Plus)
+- [[0001085](https://leetcode-cn.com/problems/the-earliest-moment-when-everyone-become-friends/)] - [The Earliest Moment When Everyone Become Friends 彼此熟识的最早时间](./problemset_md/0001085.the-earliest-moment-when-everyone-become-friends.md) (Medium) (Plus)
 - [[0001086](https://leetcode-cn.com/problems/divisor-game/)] - [Divisor Game 除数博弈](./problemset_md/0001086.divisor-game.md) (Easy)
 - [[0001087](https://leetcode-cn.com/problems/longest-arithmetic-subsequence/)] - [Longest Arithmetic Subsequence 最长等差数列](./problemset_md/0001087.longest-arithmetic-subsequence.md) (Medium)
-- [[0001088](https://leetcode-cn.com/problems/number-of-days-in-a-month/)] - [Number of Days in a Month 一月有多少天](./problemset_md/0001088.number-of-days-in-a-month.md) (Easy) xxx
-- [[0001089](https://leetcode-cn.com/problems/remove-vowels-from-a-string/)] - [Remove Vowels from a String 删去字符串中的元音](./problemset_md/0001089.remove-vowels-from-a-string.md) (Easy) xxx
-- [[0001090](https://leetcode-cn.com/problems/armstrong-number/)] - [Armstrong Number 阿姆斯特朗数](./problemset_md/0001090.armstrong-number.md) (Easy) xxx
-- [[0001091](https://leetcode-cn.com/problems/maximum-average-subtree/)] - [Maximum Average Subtree 子树的最大平均值](./problemset_md/0001091.maximum-average-subtree.md) (Medium) xxx
+- [[0001088](https://leetcode-cn.com/problems/number-of-days-in-a-month/)] - [Number of Days in a Month 一月有多少天](./problemset_md/0001088.number-of-days-in-a-month.md) (Easy) (Plus)
+- [[0001089](https://leetcode-cn.com/problems/remove-vowels-from-a-string/)] - [Remove Vowels from a String 删去字符串中的元音](./problemset_md/0001089.remove-vowels-from-a-string.md) (Easy) (Plus)
+- [[0001090](https://leetcode-cn.com/problems/armstrong-number/)] - [Armstrong Number 阿姆斯特朗数](./problemset_md/0001090.armstrong-number.md) (Easy) (Plus)
+- [[0001091](https://leetcode-cn.com/problems/maximum-average-subtree/)] - [Maximum Average Subtree 子树的最大平均值](./problemset_md/0001091.maximum-average-subtree.md) (Medium) (Plus)
 - [[0001092](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/)] - [Maximum Difference Between Node and Ancestor 节点与其祖先之间的最大差值](./problemset_md/0001092.maximum-difference-between-node-and-ancestor.md) (Medium)
 - [[0001093](https://leetcode-cn.com/problems/recover-a-tree-from-preorder-traversal/)] - [Recover a Tree From Preorder Traversal 从先序遍历还原二叉树](./problemset_md/0001093.recover-a-tree-from-preorder-traversal.md) (Hard)
 - [[0001094](https://leetcode-cn.com/problems/matrix-cells-in-distance-order/)] - [Matrix Cells in Distance Order 距离顺序排列矩阵单元格](./problemset_md/0001094.matrix-cells-in-distance-order.md) (Easy)
 - [[0001095](https://leetcode-cn.com/problems/two-city-scheduling/)] - [Two City Scheduling 两地调度](./problemset_md/0001095.two-city-scheduling.md) (Medium)
 - [[0001096](https://leetcode-cn.com/problems/maximum-sum-of-two-non-overlapping-subarrays/)] - [Maximum Sum of Two Non-Overlapping Subarrays 两个非重叠子数组的最大和](./problemset_md/0001096.maximum-sum-of-two-non-overlapping-subarrays.md) (Medium)
 - [[0001097](https://leetcode-cn.com/problems/stream-of-characters/)] - [Stream of Characters 字符流](./problemset_md/0001097.stream-of-characters.md) (Hard)
-- [[0001098](https://leetcode-cn.com/problems/largest-unique-number/)] - [Largest Unique Number 最大唯一数](./problemset_md/0001098.largest-unique-number.md) (Easy) xxx
-- [[0001099](https://leetcode-cn.com/problems/path-with-maximum-minimum-value/)] - [Path With Maximum Minimum Value 得分最高的路径](./problemset_md/0001099.path-with-maximum-minimum-value.md) (Medium) xxx
-- [[0001100](https://leetcode-cn.com/problems/connecting-cities-with-minimum-cost/)] - [Connecting Cities With Minimum Cost 最低成本联通所有城市](./problemset_md/0001100.connecting-cities-with-minimum-cost.md) (Medium) xxx
-- [[0001101](https://leetcode-cn.com/problems/parallel-courses/)] - [Parallel Courses 平行课程](./problemset_md/0001101.parallel-courses.md) (Hard) xxx
-- [[0001102](https://leetcode-cn.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)] - [Check If a Number Is Majority Element in a Sorted Array 检查一个数是否在数组中占绝大多数](./problemset_md/0001102.check-if-a-number-is-majority-element-in-a-sorted-array.md) (Easy) xxx
+- [[0001098](https://leetcode-cn.com/problems/largest-unique-number/)] - [Largest Unique Number 最大唯一数](./problemset_md/0001098.largest-unique-number.md) (Easy) (Plus)
+- [[0001099](https://leetcode-cn.com/problems/path-with-maximum-minimum-value/)] - [Path With Maximum Minimum Value 得分最高的路径](./problemset_md/0001099.path-with-maximum-minimum-value.md) (Medium) (Plus)
+- [[0001100](https://leetcode-cn.com/problems/connecting-cities-with-minimum-cost/)] - [Connecting Cities With Minimum Cost 最低成本联通所有城市](./problemset_md/0001100.connecting-cities-with-minimum-cost.md) (Medium) (Plus)
+- [[0001101](https://leetcode-cn.com/problems/parallel-courses/)] - [Parallel Courses 平行课程](./problemset_md/0001101.parallel-courses.md) (Hard) (Plus)
+- [[0001102](https://leetcode-cn.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/)] - [Check If a Number Is Majority Element in a Sorted Array 检查一个数是否在数组中占绝大多数](./problemset_md/0001102.check-if-a-number-is-majority-element-in-a-sorted-array.md) (Easy) (Plus)
 - [[0001103](https://leetcode-cn.com/problems/moving-stones-until-consecutive/)] - [Moving Stones Until Consecutive 移动石子直到连续](./problemset_md/0001103.moving-stones-until-consecutive.md) (Easy)
 - [[0001104](https://leetcode-cn.com/problems/coloring-a-border/)] - [Coloring A Border 边框着色](./problemset_md/0001104.coloring-a-border.md) (Medium)
 - [[0001105](https://leetcode-cn.com/problems/uncrossed-lines/)] - [Uncrossed Lines 不相交的线](./problemset_md/0001105.uncrossed-lines.md) (Medium)
 - [[0001106](https://leetcode-cn.com/problems/escape-a-large-maze/)] - [Escape a Large Maze 逃离大迷宫](./problemset_md/0001106.escape-a-large-maze.md) (Hard)
-- [[0001107](https://leetcode-cn.com/problems/minimum-swaps-to-group-all-1s-together/)] - [Minimum Swaps to Group All 1's Together 最少交换次数来组合所有的 1](./problemset_md/0001107.minimum-swaps-to-group-all-1s-together.md) (Medium) xxx
-- [[0001108](https://leetcode-cn.com/problems/analyze-user-website-visit-pattern/)] - [Analyze User Website Visit Pattern 用户网站访问行为分析](./problemset_md/0001108.analyze-user-website-visit-pattern.md) (Medium) xxx
+- [[0001107](https://leetcode-cn.com/problems/minimum-swaps-to-group-all-1s-together/)] - [Minimum Swaps to Group All 1's Together 最少交换次数来组合所有的 1](./problemset_md/0001107.minimum-swaps-to-group-all-1s-together.md) (Medium) (Plus)
+- [[0001108](https://leetcode-cn.com/problems/analyze-user-website-visit-pattern/)] - [Analyze User Website Visit Pattern 用户网站访问行为分析](./problemset_md/0001108.analyze-user-website-visit-pattern.md) (Medium) (Plus)
 - [[0001111](https://leetcode-cn.com/problems/minimum-score-triangulation-of-polygon/)] - [Minimum Score Triangulation of Polygon 多边形三角剖分的最低得分](./problemset_md/0001111.minimum-score-triangulation-of-polygon.md) (Medium)
 - [[0001112](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/)] - [Find Words That Can Be Formed by Characters 拼写单词](./problemset_md/0001112.find-words-that-can-be-formed-by-characters.md) (Easy)
 - [[0001113](https://leetcode-cn.com/problems/moving-stones-until-consecutive-ii/)] - [Moving Stones Until Consecutive II 移动石子直到连续 II](./problemset_md/0001113.moving-stones-until-consecutive-ii.md) (Medium)
@@ -1070,102 +1070,102 @@
 - [[0001115](https://leetcode-cn.com/problems/valid-boomerang/)] - [Valid Boomerang 有效的回旋镖](./problemset_md/0001115.valid-boomerang.md) (Easy)
 - [[0001116](https://leetcode-cn.com/problems/maximum-level-sum-of-a-binary-tree/)] - [Maximum Level Sum of a Binary Tree 最大层内元素和](./problemset_md/0001116.maximum-level-sum-of-a-binary-tree.md) (Medium)
 - [[0001117](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)] - [As Far from Land as Possible 地图分析](./problemset_md/0001117.as-far-from-land-as-possible.md) (Medium)
-- [[0001118](https://leetcode-cn.com/problems/divide-array-into-increasing-sequences/)] - [Divide Array Into Increasing Sequences 将数组分成几个递增序列](./problemset_md/0001118.divide-array-into-increasing-sequences.md) (Hard) xxx
+- [[0001118](https://leetcode-cn.com/problems/divide-array-into-increasing-sequences/)] - [Divide Array Into Increasing Sequences 将数组分成几个递增序列](./problemset_md/0001118.divide-array-into-increasing-sequences.md) (Hard) (Plus)
 - [[0001119](https://leetcode-cn.com/problems/robot-bounded-in-circle/)] - [Robot Bounded In Circle 困于环中的机器人](./problemset_md/0001119.robot-bounded-in-circle.md) (Medium)
 - [[0001120](https://leetcode-cn.com/problems/flower-planting-with-no-adjacent/)] - [Flower Planting With No Adjacent 不邻接植花](./problemset_md/0001120.flower-planting-with-no-adjacent.md) (Easy)
 - [[0001121](https://leetcode-cn.com/problems/partition-array-for-maximum-sum/)] - [Partition Array for Maximum Sum 分隔数组以得到最大和](./problemset_md/0001121.partition-array-for-maximum-sum.md) (Medium)
 - [[0001122](https://leetcode-cn.com/problems/longest-duplicate-substring/)] - [Longest Duplicate Substring 最长重复子串](./problemset_md/0001122.longest-duplicate-substring.md) (Hard)
-- [[0001123](https://leetcode-cn.com/problems/single-row-keyboard/)] - [Single-Row Keyboard 单行键盘](./problemset_md/0001123.single-row-keyboard.md) (Easy) xxx
-- [[0001124](https://leetcode-cn.com/problems/string-transforms-into-another-string/)] - [String Transforms Into Another String 字符串转化](./problemset_md/0001124.string-transforms-into-another-string.md) (Hard) xxx
-- [[0001125](https://leetcode-cn.com/problems/design-file-system/)] - [Design File System 设计文件系统](./problemset_md/0001125.design-file-system.md) (Medium) xxx
-- [[0001126](https://leetcode-cn.com/problems/minimum-cost-to-connect-sticks/)] - [Minimum Cost to Connect Sticks 连接棒材的最低费用](./problemset_md/0001126.minimum-cost-to-connect-sticks.md) (Medium) xxx
+- [[0001123](https://leetcode-cn.com/problems/single-row-keyboard/)] - [Single-Row Keyboard 单行键盘](./problemset_md/0001123.single-row-keyboard.md) (Easy) (Plus)
+- [[0001124](https://leetcode-cn.com/problems/string-transforms-into-another-string/)] - [String Transforms Into Another String 字符串转化](./problemset_md/0001124.string-transforms-into-another-string.md) (Hard) (Plus)
+- [[0001125](https://leetcode-cn.com/problems/design-file-system/)] - [Design File System 设计文件系统](./problemset_md/0001125.design-file-system.md) (Medium) (Plus)
+- [[0001126](https://leetcode-cn.com/problems/minimum-cost-to-connect-sticks/)] - [Minimum Cost to Connect Sticks 连接棒材的最低费用](./problemset_md/0001126.minimum-cost-to-connect-sticks.md) (Medium) (Plus)
 - [[0001127](https://leetcode-cn.com/problems/last-stone-weight/)] - [Last Stone Weight 最后一块石头的重量](./problemset_md/0001127.last-stone-weight.md) (Easy)
 - [[0001128](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)] - [Remove All Adjacent Duplicates In String 删除字符串中的所有相邻重复项](./problemset_md/0001128.remove-all-adjacent-duplicates-in-string.md) (Easy)
 - [[0001129](https://leetcode-cn.com/problems/longest-string-chain/)] - [Longest String Chain 最长字符串链](./problemset_md/0001129.longest-string-chain.md) (Medium)
 - [[0001130](https://leetcode-cn.com/problems/last-stone-weight-ii/)] - [Last Stone Weight II 最后一块石头的重量 II](./problemset_md/0001130.last-stone-weight-ii.md) (Medium)
-- [[0001131](https://leetcode-cn.com/problems/count-substrings-with-only-one-distinct-letter/)] - [Count Substrings with Only One Distinct Letter 统计只含单一字母的子串](./problemset_md/0001131.count-substrings-with-only-one-distinct-letter.md) (Easy) xxx
-- [[0001132](https://leetcode-cn.com/problems/before-and-after-puzzle/)] - [Before and After Puzzle 前后拼接](./problemset_md/0001132.before-and-after-puzzle.md) (Medium) xxx
+- [[0001131](https://leetcode-cn.com/problems/count-substrings-with-only-one-distinct-letter/)] - [Count Substrings with Only One Distinct Letter 统计只含单一字母的子串](./problemset_md/0001131.count-substrings-with-only-one-distinct-letter.md) (Easy) (Plus)
+- [[0001132](https://leetcode-cn.com/problems/before-and-after-puzzle/)] - [Before and After Puzzle 前后拼接](./problemset_md/0001132.before-and-after-puzzle.md) (Medium) (Plus)
 - [[0001133](https://leetcode-cn.com/problems/last-substring-in-lexicographical-order/)] - [Last Substring in Lexicographical Order 按字典序排在最后的子串](./problemset_md/0001133.last-substring-in-lexicographical-order.md) (Hard)
-- [[0001134](https://leetcode-cn.com/problems/shortest-distance-to-target-color/)] - [Shortest Distance to Target Color 与目标颜色间的最短距离](./problemset_md/0001134.shortest-distance-to-target-color.md) (Medium) xxx
-- [[0001135](https://leetcode-cn.com/problems/customers-who-bought-all-products/)] - [Customers Who Bought All Products 买下所有产品的客户](./problemset_md/0001135.customers-who-bought-all-products.md) (Medium) xxx
-- [[0001136](https://leetcode-cn.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)] - [Actors and Directors Who Cooperated At Least Three Times 合作过至少三次的演员和导演](./problemset_md/0001136.actors-and-directors-who-cooperated-at-least-three-times.md) (Easy) xxx
+- [[0001134](https://leetcode-cn.com/problems/shortest-distance-to-target-color/)] - [Shortest Distance to Target Color 与目标颜色间的最短距离](./problemset_md/0001134.shortest-distance-to-target-color.md) (Medium) (Plus)
+- [[0001135](https://leetcode-cn.com/problems/customers-who-bought-all-products/)] - [Customers Who Bought All Products 买下所有产品的客户](./problemset_md/0001135.customers-who-bought-all-products.md) (Medium) (Plus)
+- [[0001136](https://leetcode-cn.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)] - [Actors and Directors Who Cooperated At Least Three Times 合作过至少三次的演员和导演](./problemset_md/0001136.actors-and-directors-who-cooperated-at-least-three-times.md) (Easy) (Plus)
 - [[0001137](https://leetcode-cn.com/problems/height-checker/)] - [Height Checker 高度检查器](./problemset_md/0001137.height-checker.md) (Easy)
 - [[0001138](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)] - [Grumpy Bookstore Owner 爱生气的书店老板](./problemset_md/0001138.grumpy-bookstore-owner.md) (Medium)
 - [[0001139](https://leetcode-cn.com/problems/previous-permutation-with-one-swap/)] - [Previous Permutation With One Swap 交换一次的先前排列](./problemset_md/0001139.previous-permutation-with-one-swap.md) (Medium)
 - [[0001140](https://leetcode-cn.com/problems/distant-barcodes/)] - [Distant Barcodes 距离相等的条形码](./problemset_md/0001140.distant-barcodes.md) (Medium)
-- [[0001141](https://leetcode-cn.com/problems/how-many-apples-can-you-put-into-the-basket/)] - [How Many Apples Can You Put into the Basket 最多可以买到的苹果数量](./problemset_md/0001141.how-many-apples-can-you-put-into-the-basket.md) (Easy) xxx
-- [[0001142](https://leetcode-cn.com/problems/minimum-knight-moves/)] - [Minimum Knight Moves 进击的骑士](./problemset_md/0001142.minimum-knight-moves.md) (Medium) xxx
-- [[0001143](https://leetcode-cn.com/problems/find-smallest-common-element-in-all-rows/)] - [Find Smallest Common Element in All Rows 找出所有行中最小公共元素](./problemset_md/0001143.find-smallest-common-element-in-all-rows.md) (Medium) xxx
-- [[0001144](https://leetcode-cn.com/problems/optimize-water-distribution-in-a-village/)] - [Optimize Water Distribution in a Village 水资源分配优化](./problemset_md/0001144.optimize-water-distribution-in-a-village.md) (Hard) xxx
+- [[0001141](https://leetcode-cn.com/problems/how-many-apples-can-you-put-into-the-basket/)] - [How Many Apples Can You Put into the Basket 最多可以买到的苹果数量](./problemset_md/0001141.how-many-apples-can-you-put-into-the-basket.md) (Easy) (Plus)
+- [[0001142](https://leetcode-cn.com/problems/minimum-knight-moves/)] - [Minimum Knight Moves 进击的骑士](./problemset_md/0001142.minimum-knight-moves.md) (Medium) (Plus)
+- [[0001143](https://leetcode-cn.com/problems/find-smallest-common-element-in-all-rows/)] - [Find Smallest Common Element in All Rows 找出所有行中最小公共元素](./problemset_md/0001143.find-smallest-common-element-in-all-rows.md) (Medium) (Plus)
+- [[0001144](https://leetcode-cn.com/problems/optimize-water-distribution-in-a-village/)] - [Optimize Water Distribution in a Village 水资源分配优化](./problemset_md/0001144.optimize-water-distribution-in-a-village.md) (Hard) (Plus)
 - [[0001145](https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target/)] - [Number of Submatrices That Sum to Target 元素和为目标值的子矩阵数量](./problemset_md/0001145.number-of-submatrices-that-sum-to-target.md) (Hard)
 - [[0001146](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/)] - [Greatest Common Divisor of Strings 字符串的最大公因子](./problemset_md/0001146.greatest-common-divisor-of-strings.md) (Easy)
 - [[0001147](https://leetcode-cn.com/problems/flip-columns-for-maximum-number-of-equal-rows/)] - [Flip Columns For Maximum Number of Equal Rows 按列翻转得到最大值等行数](./problemset_md/0001147.flip-columns-for-maximum-number-of-equal-rows.md) (Medium)
 - [[0001148](https://leetcode-cn.com/problems/adding-two-negabinary-numbers/)] - [Adding Two Negabinary Numbers 负二进制数相加](./problemset_md/0001148.adding-two-negabinary-numbers.md) (Medium)
-- [[0001149](https://leetcode-cn.com/problems/intersection-of-three-sorted-arrays/)] - [Intersection of Three Sorted Arrays 三个有序数组的交集](./problemset_md/0001149.intersection-of-three-sorted-arrays.md) (Easy) xxx
-- [[0001150](https://leetcode-cn.com/problems/two-sum-bsts/)] - [Two Sum BSTs 查找两棵二叉搜索树之和](./problemset_md/0001150.two-sum-bsts.md) (Medium) xxx
-- [[0001151](https://leetcode-cn.com/problems/stepping-numbers/)] - [Stepping Numbers 步进数](./problemset_md/0001151.stepping-numbers.md) (Medium) xxx
-- [[0001152](https://leetcode-cn.com/problems/maximum-number-of-ones/)] - [Maximum Number of Ones 矩阵中 1 的最大数量](./problemset_md/0001152.maximum-number-of-ones.md) (Hard) xxx
-- [[0001153](https://leetcode-cn.com/problems/product-sales-analysis-i/)] - [Product Sales Analysis I 产品销售分析 I](./problemset_md/0001153.product-sales-analysis-i.md) (Easy) xxx
-- [[0001154](https://leetcode-cn.com/problems/product-sales-analysis-ii/)] - [Product Sales Analysis II 产品销售分析 II](./problemset_md/0001154.product-sales-analysis-ii.md) (Easy) xxx
-- [[0001155](https://leetcode-cn.com/problems/product-sales-analysis-iii/)] - [Product Sales Analysis III 产品销售分析 III](./problemset_md/0001155.product-sales-analysis-iii.md) (Medium) xxx
+- [[0001149](https://leetcode-cn.com/problems/intersection-of-three-sorted-arrays/)] - [Intersection of Three Sorted Arrays 三个有序数组的交集](./problemset_md/0001149.intersection-of-three-sorted-arrays.md) (Easy) (Plus)
+- [[0001150](https://leetcode-cn.com/problems/two-sum-bsts/)] - [Two Sum BSTs 查找两棵二叉搜索树之和](./problemset_md/0001150.two-sum-bsts.md) (Medium) (Plus)
+- [[0001151](https://leetcode-cn.com/problems/stepping-numbers/)] - [Stepping Numbers 步进数](./problemset_md/0001151.stepping-numbers.md) (Medium) (Plus)
+- [[0001152](https://leetcode-cn.com/problems/maximum-number-of-ones/)] - [Maximum Number of Ones 矩阵中 1 的最大数量](./problemset_md/0001152.maximum-number-of-ones.md) (Hard) (Plus)
+- [[0001153](https://leetcode-cn.com/problems/product-sales-analysis-i/)] - [Product Sales Analysis I 产品销售分析 I](./problemset_md/0001153.product-sales-analysis-i.md) (Easy) (Plus)
+- [[0001154](https://leetcode-cn.com/problems/product-sales-analysis-ii/)] - [Product Sales Analysis II 产品销售分析 II](./problemset_md/0001154.product-sales-analysis-ii.md) (Easy) (Plus)
+- [[0001155](https://leetcode-cn.com/problems/product-sales-analysis-iii/)] - [Product Sales Analysis III 产品销售分析 III](./problemset_md/0001155.product-sales-analysis-iii.md) (Medium) (Plus)
 - [[0001156](https://leetcode-cn.com/problems/occurrences-after-bigram/)] - [Occurrences After Bigram Bigram 分词](./problemset_md/0001156.occurrences-after-bigram.md) (Easy)
 - [[0001157](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/)] - [Insufficient Nodes in Root to Leaf Paths 根到叶路径上的不足节点](./problemset_md/0001157.insufficient-nodes-in-root-to-leaf-paths.md) (Medium)
 - [[0001159](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/)] - [Smallest Subsequence of Distinct Characters 不同字符的最小子序列](./problemset_md/0001159.smallest-subsequence-of-distinct-characters.md) (Medium)
 - [[0001160](https://leetcode-cn.com/problems/letter-tile-possibilities/)] - [Letter Tile Possibilities 活字印刷](./problemset_md/0001160.letter-tile-possibilities.md) (Medium)
-- [[0001161](https://leetcode-cn.com/problems/project-employees-i/)] - [Project Employees I 项目员工 I](./problemset_md/0001161.project-employees-i.md) (Easy) xxx
-- [[0001162](https://leetcode-cn.com/problems/project-employees-ii/)] - [Project Employees II 项目员工 II](./problemset_md/0001162.project-employees-ii.md) (Easy) xxx
-- [[0001163](https://leetcode-cn.com/problems/project-employees-iii/)] - [Project Employees III 项目员工 III](./problemset_md/0001163.project-employees-iii.md) (Medium) xxx
-- [[0001164](https://leetcode-cn.com/problems/missing-number-in-arithmetic-progression/)] - [Missing Number In Arithmetic Progression 等差数列中缺失的数字](./problemset_md/0001164.missing-number-in-arithmetic-progression.md) (Easy) xxx
-- [[0001165](https://leetcode-cn.com/problems/meeting-scheduler/)] - [Meeting Scheduler 安排会议日程](./problemset_md/0001165.meeting-scheduler.md) (Medium) xxx
-- [[0001166](https://leetcode-cn.com/problems/toss-strange-coins/)] - [Toss Strange Coins 抛掷硬币](./problemset_md/0001166.toss-strange-coins.md) (Medium) xxx
-- [[0001167](https://leetcode-cn.com/problems/minimum-time-to-build-blocks/)] - [Minimum Time to Build Blocks 建造街区的最短时间](./problemset_md/0001167.minimum-time-to-build-blocks.md) (Hard) xxx
+- [[0001161](https://leetcode-cn.com/problems/project-employees-i/)] - [Project Employees I 项目员工 I](./problemset_md/0001161.project-employees-i.md) (Easy) (Plus)
+- [[0001162](https://leetcode-cn.com/problems/project-employees-ii/)] - [Project Employees II 项目员工 II](./problemset_md/0001162.project-employees-ii.md) (Easy) (Plus)
+- [[0001163](https://leetcode-cn.com/problems/project-employees-iii/)] - [Project Employees III 项目员工 III](./problemset_md/0001163.project-employees-iii.md) (Medium) (Plus)
+- [[0001164](https://leetcode-cn.com/problems/missing-number-in-arithmetic-progression/)] - [Missing Number In Arithmetic Progression 等差数列中缺失的数字](./problemset_md/0001164.missing-number-in-arithmetic-progression.md) (Easy) (Plus)
+- [[0001165](https://leetcode-cn.com/problems/meeting-scheduler/)] - [Meeting Scheduler 安排会议日程](./problemset_md/0001165.meeting-scheduler.md) (Medium) (Plus)
+- [[0001166](https://leetcode-cn.com/problems/toss-strange-coins/)] - [Toss Strange Coins 抛掷硬币](./problemset_md/0001166.toss-strange-coins.md) (Medium) (Plus)
+- [[0001167](https://leetcode-cn.com/problems/minimum-time-to-build-blocks/)] - [Minimum Time to Build Blocks 建造街区的最短时间](./problemset_md/0001167.minimum-time-to-build-blocks.md) (Hard) (Plus)
 - [[0001168](https://leetcode-cn.com/problems/duplicate-zeros/)] - [Duplicate Zeros 复写零](./problemset_md/0001168.duplicate-zeros.md) (Easy)
 - [[0001169](https://leetcode-cn.com/problems/largest-values-from-labels/)] - [Largest Values From Labels 受标签影响的最大值](./problemset_md/0001169.largest-values-from-labels.md) (Medium)
 - [[0001170](https://leetcode-cn.com/problems/shortest-common-supersequence/)] - [Shortest Common Supersequence 最短公共超序列](./problemset_md/0001170.shortest-common-supersequence.md) (Hard)
 - [[0001171](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/)] - [Shortest Path in Binary Matrix 二进制矩阵中的最短路径](./problemset_md/0001171.shortest-path-in-binary-matrix.md) (Medium)
-- [[0001172](https://leetcode-cn.com/problems/sales-analysis-i/)] - [Sales Analysis I 销售分析 I ](./problemset_md/0001172.sales-analysis-i.md) (Easy) xxx
-- [[0001173](https://leetcode-cn.com/problems/sales-analysis-ii/)] - [Sales Analysis II 销售分析 II](./problemset_md/0001173.sales-analysis-ii.md) (Easy) xxx
-- [[0001174](https://leetcode-cn.com/problems/sales-analysis-iii/)] - [Sales Analysis III 销售分析 III](./problemset_md/0001174.sales-analysis-iii.md) (Easy) xxx
-- [[0001175](https://leetcode-cn.com/problems/array-transformation/)] - [Array Transformation 数组变换](./problemset_md/0001175.array-transformation.md) (Easy) xxx
-- [[0001176](https://leetcode-cn.com/problems/design-a-leaderboard/)] - [Design A Leaderboard 力扣排行榜](./problemset_md/0001176.design-a-leaderboard.md) (Medium) xxx
-- [[0001177](https://leetcode-cn.com/problems/tree-diameter/)] - [Tree Diameter 树的直径](./problemset_md/0001177.tree-diameter.md) (Medium) xxx
-- [[0001178](https://leetcode-cn.com/problems/valid-palindrome-iii/)] - [Valid Palindrome III 验证回文字符串 III](./problemset_md/0001178.valid-palindrome-iii.md) (Hard) xxx
-- [[0001179](https://leetcode-cn.com/problems/game-play-analysis-i/)] - [Game Play Analysis I 游戏玩法分析 I](./problemset_md/0001179.game-play-analysis-i.md) (Easy) xxx
-- [[0001180](https://leetcode-cn.com/problems/game-play-analysis-ii/)] - [Game Play Analysis II 游戏玩法分析 II](./problemset_md/0001180.game-play-analysis-ii.md) (Easy) xxx
-- [[0001181](https://leetcode-cn.com/problems/game-play-analysis-iii/)] - [Game Play Analysis III 游戏玩法分析 III](./problemset_md/0001181.game-play-analysis-iii.md) (Medium) xxx
-- [[0001182](https://leetcode-cn.com/problems/game-play-analysis-iv/)] - [Game Play Analysis IV 游戏玩法分析 IV](./problemset_md/0001182.game-play-analysis-iv.md) (Medium) xxx
+- [[0001172](https://leetcode-cn.com/problems/sales-analysis-i/)] - [Sales Analysis I 销售分析 I ](./problemset_md/0001172.sales-analysis-i.md) (Easy) (Plus)
+- [[0001173](https://leetcode-cn.com/problems/sales-analysis-ii/)] - [Sales Analysis II 销售分析 II](./problemset_md/0001173.sales-analysis-ii.md) (Easy) (Plus)
+- [[0001174](https://leetcode-cn.com/problems/sales-analysis-iii/)] - [Sales Analysis III 销售分析 III](./problemset_md/0001174.sales-analysis-iii.md) (Easy) (Plus)
+- [[0001175](https://leetcode-cn.com/problems/array-transformation/)] - [Array Transformation 数组变换](./problemset_md/0001175.array-transformation.md) (Easy) (Plus)
+- [[0001176](https://leetcode-cn.com/problems/design-a-leaderboard/)] - [Design A Leaderboard 力扣排行榜](./problemset_md/0001176.design-a-leaderboard.md) (Medium) (Plus)
+- [[0001177](https://leetcode-cn.com/problems/tree-diameter/)] - [Tree Diameter 树的直径](./problemset_md/0001177.tree-diameter.md) (Medium) (Plus)
+- [[0001178](https://leetcode-cn.com/problems/valid-palindrome-iii/)] - [Valid Palindrome III 验证回文字符串 III](./problemset_md/0001178.valid-palindrome-iii.md) (Hard) (Plus)
+- [[0001179](https://leetcode-cn.com/problems/game-play-analysis-i/)] - [Game Play Analysis I 游戏玩法分析 I](./problemset_md/0001179.game-play-analysis-i.md) (Easy) (Plus)
+- [[0001180](https://leetcode-cn.com/problems/game-play-analysis-ii/)] - [Game Play Analysis II 游戏玩法分析 II](./problemset_md/0001180.game-play-analysis-ii.md) (Easy) (Plus)
+- [[0001181](https://leetcode-cn.com/problems/game-play-analysis-iii/)] - [Game Play Analysis III 游戏玩法分析 III](./problemset_md/0001181.game-play-analysis-iii.md) (Medium) (Plus)
+- [[0001182](https://leetcode-cn.com/problems/game-play-analysis-iv/)] - [Game Play Analysis IV 游戏玩法分析 IV](./problemset_md/0001182.game-play-analysis-iv.md) (Medium) (Plus)
 - [[0001183](https://leetcode-cn.com/problems/statistics-from-a-large-sample/)] - [Statistics from a Large Sample 大样本统计](./problemset_md/0001183.statistics-from-a-large-sample.md) (Medium)
 - [[0001184](https://leetcode-cn.com/problems/car-pooling/)] - [Car Pooling 拼车](./problemset_md/0001184.car-pooling.md) (Medium)
 - [[0001185](https://leetcode-cn.com/problems/find-in-mountain-array/)] - [Find in Mountain Array 山脉数组中查找目标值](./problemset_md/0001185.find-in-mountain-array.md) (Hard)
 - [[0001186](https://leetcode-cn.com/problems/building-h2o/)] - [Building H2O H2O 生成](./problemset_md/0001186.building-h2o.md) (Medium)
 - [[0001187](https://leetcode-cn.com/problems/print-foobar-alternately/)] - [Print FooBar Alternately 交替打印 FooBar](./problemset_md/0001187.print-foobar-alternately.md) (Medium)
 - [[0001188](https://leetcode-cn.com/problems/brace-expansion-ii/)] - [Brace Expansion II 花括号展开 II](./problemset_md/0001188.brace-expansion-ii.md) (Hard)
-- [[0001189](https://leetcode-cn.com/problems/encode-number/)] - [Encode Number 加密数字](./problemset_md/0001189.encode-number.md) (Medium) xxx
-- [[0001190](https://leetcode-cn.com/problems/smallest-common-region/)] - [Smallest Common Region 最小公共区域](./problemset_md/0001190.smallest-common-region.md) (Medium) xxx
-- [[0001191](https://leetcode-cn.com/problems/synonymous-sentences/)] - [Synonymous Sentences 近义词句子](./problemset_md/0001191.synonymous-sentences.md) (Medium) xxx
-- [[0001192](https://leetcode-cn.com/problems/divide-chocolate/)] - [Divide Chocolate 分享巧克力](./problemset_md/0001192.divide-chocolate.md) (Hard) xxx
-- [[0001193](https://leetcode-cn.com/problems/game-play-analysis-v/)] - [Game Play Analysis V 游戏玩法分析 V](./problemset_md/0001193.game-play-analysis-v.md) (Hard) xxx
+- [[0001189](https://leetcode-cn.com/problems/encode-number/)] - [Encode Number 加密数字](./problemset_md/0001189.encode-number.md) (Medium) (Plus)
+- [[0001190](https://leetcode-cn.com/problems/smallest-common-region/)] - [Smallest Common Region 最小公共区域](./problemset_md/0001190.smallest-common-region.md) (Medium) (Plus)
+- [[0001191](https://leetcode-cn.com/problems/synonymous-sentences/)] - [Synonymous Sentences 近义词句子](./problemset_md/0001191.synonymous-sentences.md) (Medium) (Plus)
+- [[0001192](https://leetcode-cn.com/problems/divide-chocolate/)] - [Divide Chocolate 分享巧克力](./problemset_md/0001192.divide-chocolate.md) (Hard) (Plus)
+- [[0001193](https://leetcode-cn.com/problems/game-play-analysis-v/)] - [Game Play Analysis V 游戏玩法分析 V](./problemset_md/0001193.game-play-analysis-v.md) (Hard) (Plus)
 - [[0001194](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree/)] - [Path In Zigzag Labelled Binary Tree 二叉树寻路](./problemset_md/0001194.path-in-zigzag-labelled-binary-tree.md) (Medium)
 - [[0001195](https://leetcode-cn.com/problems/distribute-candies-to-people/)] - [Distribute Candies to People 分糖果 II](./problemset_md/0001195.distribute-candies-to-people.md) (Easy)
 - [[0001196](https://leetcode-cn.com/problems/filling-bookcase-shelves/)] - [Filling Bookcase Shelves 填充书架](./problemset_md/0001196.filling-bookcase-shelves.md) (Medium)
 - [[0001197](https://leetcode-cn.com/problems/parsing-a-boolean-expression/)] - [Parsing A Boolean Expression 解析布尔表达式](./problemset_md/0001197.parsing-a-boolean-expression.md) (Hard)
-- [[0001198](https://leetcode-cn.com/problems/unpopular-books/)] - [Unpopular Books 小众书籍](./problemset_md/0001198.unpopular-books.md) (Medium) xxx
-- [[0001199](https://leetcode-cn.com/problems/hexspeak/)] - [Hexspeak 十六进制魔术数字](./problemset_md/0001199.hexspeak.md) (Easy) xxx
-- [[0001200](https://leetcode-cn.com/problems/remove-interval/)] - [Remove Interval 删除区间](./problemset_md/0001200.remove-interval.md) (Medium) xxx
-- [[0001201](https://leetcode-cn.com/problems/delete-tree-nodes/)] - [Delete Tree Nodes 删除树节点](./problemset_md/0001201.delete-tree-nodes.md) (Medium) xxx
-- [[0001202](https://leetcode-cn.com/problems/palindrome-removal/)] - [Palindrome Removal 删除回文子数组](./problemset_md/0001202.palindrome-removal.md) (Hard) xxx
+- [[0001198](https://leetcode-cn.com/problems/unpopular-books/)] - [Unpopular Books 小众书籍](./problemset_md/0001198.unpopular-books.md) (Medium) (Plus)
+- [[0001199](https://leetcode-cn.com/problems/hexspeak/)] - [Hexspeak 十六进制魔术数字](./problemset_md/0001199.hexspeak.md) (Easy) (Plus)
+- [[0001200](https://leetcode-cn.com/problems/remove-interval/)] - [Remove Interval 删除区间](./problemset_md/0001200.remove-interval.md) (Medium) (Plus)
+- [[0001201](https://leetcode-cn.com/problems/delete-tree-nodes/)] - [Delete Tree Nodes 删除树节点](./problemset_md/0001201.delete-tree-nodes.md) (Medium) (Plus)
+- [[0001202](https://leetcode-cn.com/problems/palindrome-removal/)] - [Palindrome Removal 删除回文子数组](./problemset_md/0001202.palindrome-removal.md) (Hard) (Plus)
 - [[0001203](https://leetcode-cn.com/problems/print-in-order/)] - [Print in Order 按序打印](./problemset_md/0001203.print-in-order.md) (Easy)
-- [[0001204](https://leetcode-cn.com/problems/new-users-daily-count/)] - [New Users Daily Count 每日新用户统计](./problemset_md/0001204.new-users-daily-count.md) (Medium) xxx
+- [[0001204](https://leetcode-cn.com/problems/new-users-daily-count/)] - [New Users Daily Count 每日新用户统计](./problemset_md/0001204.new-users-daily-count.md) (Medium) (Plus)
 - [[0001205](https://leetcode-cn.com/problems/defanging-an-ip-address/)] - [Defanging an IP Address IP 地址无效化](./problemset_md/0001205.defanging-an-ip-address.md) (Easy)
 - [[0001206](https://leetcode-cn.com/problems/corporate-flight-bookings/)] - [Corporate Flight Bookings 航班预订统计](./problemset_md/0001206.corporate-flight-bookings.md) (Medium)
 - [[0001207](https://leetcode-cn.com/problems/delete-nodes-and-return-forest/)] - [Delete Nodes And Return Forest 删点成林](./problemset_md/0001207.delete-nodes-and-return-forest.md) (Medium)
 - [[0001208](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)] - [Maximum Nesting Depth of Two Valid Parentheses Strings 有效括号的嵌套深度](./problemset_md/0001208.maximum-nesting-depth-of-two-valid-parentheses-strings.md) (Medium)
-- [[0001209](https://leetcode-cn.com/problems/design-bounded-blocking-queue/)] - [Design Bounded Blocking Queue 设计有限阻塞队列](./problemset_md/0001209.design-bounded-blocking-queue.md) (Medium) xxx
+- [[0001209](https://leetcode-cn.com/problems/design-bounded-blocking-queue/)] - [Design Bounded Blocking Queue 设计有限阻塞队列](./problemset_md/0001209.design-bounded-blocking-queue.md) (Medium) (Plus)
 - [[0001211](https://leetcode-cn.com/problems/iterator-for-combination/)] - [Iterator for Combination 字母组合迭代器](./problemset_md/0001211.iterator-for-combination.md) (Medium)
 - [[0001212](https://leetcode-cn.com/problems/sequential-digits/)] - [Sequential Digits 顺次数](./problemset_md/0001212.sequential-digits.md) (Medium)
-- [[0001213](https://leetcode-cn.com/problems/handshakes-that-dont-cross/)] - [Handshakes That Don't Cross 不相交的握手](./problemset_md/0001213.handshakes-that-dont-cross.md) (Hard) xxx
-- [[0001214](https://leetcode-cn.com/problems/highest-grade-for-each-student/)] - [Highest Grade For Each Student 每位学生的最高成绩](./problemset_md/0001214.highest-grade-for-each-student.md) (Medium) xxx
-- [[0001215](https://leetcode-cn.com/problems/reported-posts/)] - [Reported Posts 报告的记录](./problemset_md/0001215.reported-posts.md) (Easy) xxx
+- [[0001213](https://leetcode-cn.com/problems/handshakes-that-dont-cross/)] - [Handshakes That Don't Cross 不相交的握手](./problemset_md/0001213.handshakes-that-dont-cross.md) (Hard) (Plus)
+- [[0001214](https://leetcode-cn.com/problems/highest-grade-for-each-student/)] - [Highest Grade For Each Student 每位学生的最高成绩](./problemset_md/0001214.highest-grade-for-each-student.md) (Medium) (Plus)
+- [[0001215](https://leetcode-cn.com/problems/reported-posts/)] - [Reported Posts 报告的记录](./problemset_md/0001215.reported-posts.md) (Easy) (Plus)
 - [[0001216](https://leetcode-cn.com/problems/print-zero-even-odd/)] - [Print Zero Even Odd 打印零与奇偶数](./problemset_md/0001216.print-zero-even-odd.md) (Medium)
 - [[0001217](https://leetcode-cn.com/problems/relative-sort-array/)] - [Relative Sort Array 数组的相对排序](./problemset_md/0001217.relative-sort-array.md) (Easy)
 - [[0001218](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/)] - [Lowest Common Ancestor of Deepest Leaves 最深叶节点的最近公共祖先](./problemset_md/0001218.lowest-common-ancestor-of-deepest-leaves.md) (Medium)
@@ -1174,18 +1174,18 @@
 - [[0001221](https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/)] - [Element Appearing More Than 25% In Sorted Array 有序数组中出现次数超过 25%的元素](./problemset_md/0001221.element-appearing-more-than-25-in-sorted-array.md) (Easy)
 - [[0001222](https://leetcode-cn.com/problems/remove-covered-intervals/)] - [Remove Covered Intervals 删除被覆盖区间](./problemset_md/0001222.remove-covered-intervals.md) (Medium)
 - [[0001224](https://leetcode-cn.com/problems/minimum-falling-path-sum-ii/)] - [Minimum Falling Path Sum II 下降路径最小和 II](./problemset_md/0001224.minimum-falling-path-sum-ii.md) (Hard)
-- [[0001225](https://leetcode-cn.com/problems/active-businesses/)] - [Active Businesses 查询活跃业务](./problemset_md/0001225.active-businesses.md) (Medium) xxx
-- [[0001226](https://leetcode-cn.com/problems/user-purchase-platform/)] - [User Purchase Platform 用户购买平台](./problemset_md/0001226.user-purchase-platform.md) (Hard) xxx
+- [[0001225](https://leetcode-cn.com/problems/active-businesses/)] - [Active Businesses 查询活跃业务](./problemset_md/0001225.active-businesses.md) (Medium) (Plus)
+- [[0001226](https://leetcode-cn.com/problems/user-purchase-platform/)] - [User Purchase Platform 用户购买平台](./problemset_md/0001226.user-purchase-platform.md) (Hard) (Plus)
 - [[0001227](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs/)] - [Number of Equivalent Domino Pairs 等价多米诺骨牌对的数量](./problemset_md/0001227.number-of-equivalent-domino-pairs.md) (Easy)
 - [[0001228](https://leetcode-cn.com/problems/minimum-cost-tree-from-leaf-values/)] - [Minimum Cost Tree From Leaf Values 叶值的最小代价生成树](./problemset_md/0001228.minimum-cost-tree-from-leaf-values.md) (Medium)
 - [[0001229](https://leetcode-cn.com/problems/shortest-path-with-alternating-colors/)] - [Shortest Path with Alternating Colors 颜色交替的最短路径](./problemset_md/0001229.shortest-path-with-alternating-colors.md) (Medium)
 - [[0001230](https://leetcode-cn.com/problems/maximum-of-absolute-value-expression/)] - [Maximum of Absolute Value Expression 绝对值表达式的最大值](./problemset_md/0001230.maximum-of-absolute-value-expression.md) (Medium)
 - [[0001231](https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/)] - [Replace Elements with Greatest Element on Right Side 将每个元素替换为右侧最大元素](./problemset_md/0001231.replace-elements-with-greatest-element-on-right-side.md) (Easy)
 - [[0001232](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/)] - [Sum of Mutated Array Closest to Target 转变数组后最接近目标值的数组和](./problemset_md/0001232.sum-of-mutated-array-closest-to-target.md) (Medium)
-- [[0001233](https://leetcode-cn.com/problems/number-of-ships-in-a-rectangle/)] - [Number of Ships in a Rectangle 矩形内船只的数目](./problemset_md/0001233.number-of-ships-in-a-rectangle.md) (Hard) xxx
+- [[0001233](https://leetcode-cn.com/problems/number-of-ships-in-a-rectangle/)] - [Number of Ships in a Rectangle 矩形内船只的数目](./problemset_md/0001233.number-of-ships-in-a-rectangle.md) (Hard) (Plus)
 - [[0001234](https://leetcode-cn.com/problems/number-of-paths-with-max-score/)] - [Number of Paths with Max Score 最大得分的路径数目](./problemset_md/0001234.number-of-paths-with-max-score.md) (Hard)
 - [[0001236](https://leetcode-cn.com/problems/n-th-tribonacci-number/)] - [N-th Tribonacci Number 第 N 个泰波那契数](./problemset_md/0001236.n-th-tribonacci-number.md) (Easy)
-- [[0001237](https://leetcode-cn.com/problems/reported-posts-ii/)] - [Reported Posts II 报告的记录 II](./problemset_md/0001237.reported-posts-ii.md) (Medium) xxx
+- [[0001237](https://leetcode-cn.com/problems/reported-posts-ii/)] - [Reported Posts II 报告的记录 II](./problemset_md/0001237.reported-posts-ii.md) (Medium) (Plus)
 - [[0001238](https://leetcode-cn.com/problems/alphabet-board-path/)] - [Alphabet Board Path 字母板上的路径](./problemset_md/0001238.alphabet-board-path.md) (Medium)
 - [[0001239](https://leetcode-cn.com/problems/largest-1-bordered-square/)] - [Largest 1-Bordered Square 最大的以 1 为边界的正方形](./problemset_md/0001239.largest-1-bordered-square.md) (Medium)
 - [[0001240](https://leetcode-cn.com/problems/stone-game-ii/)] - [Stone Game II 石子游戏 II](./problemset_md/0001240.stone-game-ii.md) (Medium)
@@ -1193,8 +1193,8 @@
 - [[0001242](https://leetcode-cn.com/problems/matrix-block-sum/)] - [Matrix Block Sum 矩阵区域和](./problemset_md/0001242.matrix-block-sum.md) (Medium)
 - [[0001243](https://leetcode-cn.com/problems/sum-of-nodes-with-even-valued-grandparent/)] - [Sum of Nodes with Even-Valued Grandparent 祖父节点值为偶数的节点和](./problemset_md/0001243.sum-of-nodes-with-even-valued-grandparent.md) (Medium)
 - [[0001244](https://leetcode-cn.com/problems/distinct-echo-substrings/)] - [Distinct Echo Substrings 不同的循环子字符串](./problemset_md/0001244.distinct-echo-substrings.md) (Hard)
-- [[0001245](https://leetcode-cn.com/problems/user-activity-for-the-past-30-days-i/)] - [User Activity for the Past 30 Days I 查询近 30 天活跃用户数](./problemset_md/0001245.user-activity-for-the-past-30-days-i.md) (Easy) xxx
-- [[0001246](https://leetcode-cn.com/problems/user-activity-for-the-past-30-days-ii/)] - [User Activity for the Past 30 Days II 过去 30 天的用户活动 II](./problemset_md/0001246.user-activity-for-the-past-30-days-ii.md) (Easy) xxx
+- [[0001245](https://leetcode-cn.com/problems/user-activity-for-the-past-30-days-i/)] - [User Activity for the Past 30 Days I 查询近 30 天活跃用户数](./problemset_md/0001245.user-activity-for-the-past-30-days-i.md) (Easy) (Plus)
+- [[0001246](https://leetcode-cn.com/problems/user-activity-for-the-past-30-days-ii/)] - [User Activity for the Past 30 Days II 过去 30 天的用户活动 II](./problemset_md/0001246.user-activity-for-the-past-30-days-ii.md) (Easy) (Plus)
 - [[0001247](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag/)] - [Decrease Elements To Make Array Zigzag 递减元素使数组呈锯齿状](./problemset_md/0001247.decrease-elements-to-make-array-zigzag.md) (Medium)
 - [[0001248](https://leetcode-cn.com/problems/binary-tree-coloring-game/)] - [Binary Tree Coloring Game 二叉树着色游戏](./problemset_md/0001248.binary-tree-coloring-game.md) (Medium)
 - [[0001249](https://leetcode-cn.com/problems/snapshot-array/)] - [Snapshot Array 快照数组](./problemset_md/0001249.snapshot-array.md) (Medium)
@@ -1205,26 +1205,26 @@
 - [[0001254](https://leetcode-cn.com/problems/deepest-leaves-sum/)] - [Deepest Leaves Sum 层数最深叶子节点的和](./problemset_md/0001254.deepest-leaves-sum.md) (Medium)
 - [[0001255](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value/)] - [Reverse Subarray To Maximize Array Value 翻转子数组得到最大的数组值](./problemset_md/0001255.reverse-subarray-to-maximize-array-value.md) (Hard)
 - [[0001256](https://leetcode-cn.com/problems/rank-transform-of-an-array/)] - [Rank Transform of an Array 数组序号转换](./problemset_md/0001256.rank-transform-of-an-array.md) (Easy)
-- [[0001258](https://leetcode-cn.com/problems/article-views-i/)] - [Article Views I 文章浏览 I](./problemset_md/0001258.article-views-i.md) (Easy) xxx
-- [[0001259](https://leetcode-cn.com/problems/article-views-ii/)] - [Article Views II 文章浏览 II](./problemset_md/0001259.article-views-ii.md) (Medium) xxx
+- [[0001258](https://leetcode-cn.com/problems/article-views-i/)] - [Article Views I 文章浏览 I](./problemset_md/0001258.article-views-i.md) (Easy) (Plus)
+- [[0001259](https://leetcode-cn.com/problems/article-views-ii/)] - [Article Views II 文章浏览 II](./problemset_md/0001259.article-views-ii.md) (Medium) (Plus)
 - [[0001260](https://leetcode-cn.com/problems/day-of-the-year/)] - [Day of the Year 一年中的第几天](./problemset_md/0001260.day-of-the-year.md) (Easy)
 - [[0001261](https://leetcode-cn.com/problems/swap-for-longest-repeated-character-substring/)] - [Swap For Longest Repeated Character Substring 单字符重复子串的最大长度](./problemset_md/0001261.swap-for-longest-repeated-character-substring.md) (Medium)
 - [[0001262](https://leetcode-cn.com/problems/online-majority-element-in-subarray/)] - [Online Majority Element In Subarray 子数组中占绝大多数的元素](./problemset_md/0001262.online-majority-element-in-subarray.md) (Hard)
 - [[0001263](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/)] - [Number of Dice Rolls With Target Sum 掷骰子的 N 种方法](./problemset_md/0001263.number-of-dice-rolls-with-target-sum.md) (Medium)
 - [[0001267](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)] - [Remove Zero Sum Consecutive Nodes from Linked List 从链表中删去总和值为零的连续节点](./problemset_md/0001267.remove-zero-sum-consecutive-nodes-from-linked-list.md) (Medium)
-- [[0001268](https://leetcode-cn.com/problems/market-analysis-i/)] - [Market Analysis I 市场分析 I](./problemset_md/0001268.market-analysis-i.md) (Medium) xxx
-- [[0001269](https://leetcode-cn.com/problems/market-analysis-ii/)] - [Market Analysis II 市场分析 II](./problemset_md/0001269.market-analysis-ii.md) (Hard) xxx
+- [[0001268](https://leetcode-cn.com/problems/market-analysis-i/)] - [Market Analysis I 市场分析 I](./problemset_md/0001268.market-analysis-i.md) (Medium) (Plus)
+- [[0001269](https://leetcode-cn.com/problems/market-analysis-ii/)] - [Market Analysis II 市场分析 II](./problemset_md/0001269.market-analysis-ii.md) (Hard) (Plus)
 - [[0001270](https://leetcode-cn.com/problems/dinner-plate-stacks/)] - [Dinner Plate Stacks 餐盘栈](./problemset_md/0001270.dinner-plate-stacks.md) (Hard)
-- [[0001271](https://leetcode-cn.com/problems/web-crawler/)] - [Web Crawler 网络爬虫](./problemset_md/0001271.web-crawler.md) (Medium) xxx
+- [[0001271](https://leetcode-cn.com/problems/web-crawler/)] - [Web Crawler 网络爬虫](./problemset_md/0001271.web-crawler.md) (Medium) (Plus)
 - [[0001272](https://leetcode-cn.com/problems/invalid-transactions/)] - [Invalid Transactions 查询无效交易](./problemset_md/0001272.invalid-transactions.md) (Medium)
 - [[0001273](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/)] - [Compare Strings by Frequency of the Smallest Character 比较字符串最小字母出现频次](./problemset_md/0001273.compare-strings-by-frequency-of-the-smallest-character.md) (Easy)
 - [[0001274](https://leetcode-cn.com/problems/number-of-days-between-two-dates/)] - [Number of Days Between Two Dates 日期之间隔几天](./problemset_md/0001274.number-of-days-between-two-dates.md) (Easy)
 - [[0001275](https://leetcode-cn.com/problems/validate-binary-tree-nodes/)] - [Validate Binary Tree Nodes 验证二叉树](./problemset_md/0001275.validate-binary-tree-nodes.md) (Medium)
 - [[0001276](https://leetcode-cn.com/problems/closest-divisors/)] - [Closest Divisors 最接近的因数](./problemset_md/0001276.closest-divisors.md) (Medium)
 - [[0001277](https://leetcode-cn.com/problems/largest-multiple-of-three/)] - [Largest Multiple of Three 形成三的最大倍数](./problemset_md/0001277.largest-multiple-of-three.md) (Hard)
-- [[0001278](https://leetcode-cn.com/problems/product-price-at-a-given-date/)] - [Product Price at a Given Date 指定日期的产品价格](./problemset_md/0001278.product-price-at-a-given-date.md) (Medium) xxx
+- [[0001278](https://leetcode-cn.com/problems/product-price-at-a-given-date/)] - [Product Price at a Given Date 指定日期的产品价格](./problemset_md/0001278.product-price-at-a-given-date.md) (Medium) (Plus)
 - [[0001279](https://leetcode-cn.com/problems/prime-arrangements/)] - [Prime Arrangements 质数排列](./problemset_md/0001279.prime-arrangements.md) (Easy)
-- [[0001280](https://leetcode-cn.com/problems/diet-plan-performance/)] - [Diet Plan Performance 健身计划评估](./problemset_md/0001280.diet-plan-performance.md) (Easy) xxx
+- [[0001280](https://leetcode-cn.com/problems/diet-plan-performance/)] - [Diet Plan Performance 健身计划评估](./problemset_md/0001280.diet-plan-performance.md) (Easy) (Plus)
 - [[0001281](https://leetcode-cn.com/problems/can-make-palindrome-from-substring/)] - [Can Make Palindrome from Substring 构建回文串检测](./problemset_md/0001281.can-make-palindrome-from-substring.md) (Medium)
 - [[0001282](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)] - [Number of Valid Words for Each Puzzle 猜字谜](./problemset_md/0001282.number-of-valid-words-for-each-puzzle.md) (Hard)
 - [[0001283](https://leetcode-cn.com/problems/reformat-date/)] - [Reformat Date 转变日期格式](./problemset_md/0001283.reformat-date.md) (Easy)
@@ -1235,8 +1235,8 @@
 - [[0001288](https://leetcode-cn.com/problems/maximum-subarray-sum-with-one-deletion/)] - [Maximum Subarray Sum with One Deletion 删除一次得到子数组最大和](./problemset_md/0001288.maximum-subarray-sum-with-one-deletion.md) (Medium)
 - [[0001289](https://leetcode-cn.com/problems/day-of-the-week/)] - [Day of the Week 一周中的第几天](./problemset_md/0001289.day-of-the-week.md) (Easy)
 - [[0001290](https://leetcode-cn.com/problems/make-array-strictly-increasing/)] - [Make Array Strictly Increasing 使数组严格递增](./problemset_md/0001290.make-array-strictly-increasing.md) (Hard)
-- [[0001291](https://leetcode-cn.com/problems/immediate-food-delivery-i/)] - [Immediate Food Delivery I 即时食物配送 I](./problemset_md/0001291.immediate-food-delivery-i.md) (Easy) xxx
-- [[0001292](https://leetcode-cn.com/problems/immediate-food-delivery-ii/)] - [Immediate Food Delivery II 即时食物配送 II](./problemset_md/0001292.immediate-food-delivery-ii.md) (Medium) xxx
+- [[0001291](https://leetcode-cn.com/problems/immediate-food-delivery-i/)] - [Immediate Food Delivery I 即时食物配送 I](./problemset_md/0001291.immediate-food-delivery-i.md) (Easy) (Plus)
+- [[0001292](https://leetcode-cn.com/problems/immediate-food-delivery-ii/)] - [Immediate Food Delivery II 即时食物配送 II](./problemset_md/0001292.immediate-food-delivery-ii.md) (Medium) (Plus)
 - [[0001293](https://leetcode-cn.com/problems/three-consecutive-odds/)] - [Three Consecutive Odds 存在连续三个奇数的数组](./problemset_md/0001293.three-consecutive-odds.md) (Easy)
 - [[0001296](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/)] - [Kth Ancestor of a Tree Node 树节点的第 K 个祖先](./problemset_md/0001296.kth-ancestor-of-a-tree-node.md) (Hard)
 - [[0001297](https://leetcode-cn.com/problems/maximum-number-of-balloons/)] - [Maximum Number of Balloons “气球” 的最大数量](./problemset_md/0001297.maximum-number-of-balloons.md) (Easy)
@@ -1250,46 +1250,46 @@
 - [[0001308](https://leetcode-cn.com/problems/smallest-string-with-swaps/)] - [Smallest String With Swaps 交换字符串中的元素](./problemset_md/0001308.smallest-string-with-swaps.md) (Medium)
 - [[0001309](https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies/)] - [Sort Items by Groups Respecting Dependencies 项目管理](./problemset_md/0001309.sort-items-by-groups-respecting-dependencies.md) (Hard)
 - [[0001316](https://leetcode-cn.com/problems/fizz-buzz-multithreaded/)] - [Fizz Buzz Multithreaded 交替打印字符串](./problemset_md/0001316.fizz-buzz-multithreaded.md) (Medium)
-- [[0001317](https://leetcode-cn.com/problems/monthly-transactions-i/)] - [Monthly Transactions I 每月交易 I](./problemset_md/0001317.monthly-transactions-i.md) (Medium) xxx
-- [[0001318](https://leetcode-cn.com/problems/tournament-winners/)] - [Tournament Winners 锦标赛优胜者](./problemset_md/0001318.tournament-winners.md) (Hard) xxx
+- [[0001317](https://leetcode-cn.com/problems/monthly-transactions-i/)] - [Monthly Transactions I 每月交易 I](./problemset_md/0001317.monthly-transactions-i.md) (Medium) (Plus)
+- [[0001318](https://leetcode-cn.com/problems/tournament-winners/)] - [Tournament Winners 锦标赛优胜者](./problemset_md/0001318.tournament-winners.md) (Hard) (Plus)
 - [[0001319](https://leetcode-cn.com/problems/unique-number-of-occurrences/)] - [Unique Number of Occurrences 独一无二的出现次数](./problemset_md/0001319.unique-number-of-occurrences.md) (Easy)
 - [[0001320](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/)] - [Remove All Adjacent Duplicates in String II 删除字符串中的所有相邻重复项 II](./problemset_md/0001320.remove-all-adjacent-duplicates-in-string-ii.md) (Medium)
 - [[0001321](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)] - [Get Equal Substrings Within Budget 尽可能使字符串相等](./problemset_md/0001321.get-equal-substrings-within-budget.md) (Medium)
 - [[0001322](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-with-rotations/)] - [Minimum Moves to Reach Target with Rotations 穿过迷宫的最少移动次数](./problemset_md/0001322.minimum-moves-to-reach-target-with-rotations.md) (Hard)
 - [[0001325](https://leetcode-cn.com/problems/path-with-maximum-probability/)] - [Path with Maximum Probability 概率最大的路径](./problemset_md/0001325.path-with-maximum-probability.md) (Medium)
-- [[0001327](https://leetcode-cn.com/problems/last-person-to-fit-in-the-elevator/)] - [Last Person to Fit in the Elevator 最后一个能进入电梯的人](./problemset_md/0001327.last-person-to-fit-in-the-elevator.md) (Medium) xxx
-- [[0001328](https://leetcode-cn.com/problems/monthly-transactions-ii/)] - [Monthly Transactions II 每月交易 II](./problemset_md/0001328.monthly-transactions-ii.md) (Medium) xxx
+- [[0001327](https://leetcode-cn.com/problems/last-person-to-fit-in-the-elevator/)] - [Last Person to Fit in the Elevator 最后一个能进入电梯的人](./problemset_md/0001327.last-person-to-fit-in-the-elevator.md) (Medium) (Plus)
+- [[0001328](https://leetcode-cn.com/problems/monthly-transactions-ii/)] - [Monthly Transactions II 每月交易 II](./problemset_md/0001328.monthly-transactions-ii.md) (Medium) (Plus)
 - [[0001329](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/)] - [Minimum Cost to Move Chips to The Same Position 玩筹码](./problemset_md/0001329.minimum-cost-to-move-chips-to-the-same-position.md) (Easy)
 - [[0001330](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)] - [Longest Arithmetic Subsequence of Given Difference 最长定差子序列](./problemset_md/0001330.longest-arithmetic-subsequence-of-given-difference.md) (Medium)
 - [[0001331](https://leetcode-cn.com/problems/path-with-maximum-gold/)] - [Path with Maximum Gold 黄金矿工](./problemset_md/0001331.path-with-maximum-gold.md) (Medium)
 - [[0001332](https://leetcode-cn.com/problems/count-vowels-permutation/)] - [Count Vowels Permutation 统计元音字母序列的数目](./problemset_md/0001332.count-vowels-permutation.md) (Hard)
 - [[0001337](https://leetcode-cn.com/problems/design-skiplist/)] - [Design Skiplist 设计跳表](./problemset_md/0001337.design-skiplist.md) (Hard)
-- [[0001338](https://leetcode-cn.com/problems/queries-quality-and-percentage/)] - [Queries Quality and Percentage 查询结果的质量和占比](./problemset_md/0001338.queries-quality-and-percentage.md) (Easy) xxx
-- [[0001339](https://leetcode-cn.com/problems/team-scores-in-football-tournament/)] - [Team Scores in Football Tournament 查询球队积分](./problemset_md/0001339.team-scores-in-football-tournament.md) (Medium) xxx
+- [[0001338](https://leetcode-cn.com/problems/queries-quality-and-percentage/)] - [Queries Quality and Percentage 查询结果的质量和占比](./problemset_md/0001338.queries-quality-and-percentage.md) (Easy) (Plus)
+- [[0001339](https://leetcode-cn.com/problems/team-scores-in-football-tournament/)] - [Team Scores in Football Tournament 查询球队积分](./problemset_md/0001339.team-scores-in-football-tournament.md) (Medium) (Plus)
 - [[0001340](https://leetcode-cn.com/problems/the-dining-philosophers/)] - [The Dining Philosophers 哲学家进餐](./problemset_md/0001340.the-dining-philosophers.md) (Medium)
 - [[0001341](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)] - [Split a String in Balanced Strings 分割平衡字符串](./problemset_md/0001341.split-a-string-in-balanced-strings.md) (Easy)
 - [[0001342](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/)] - [Queens That Can Attack the King 可以攻击国王的皇后](./problemset_md/0001342.queens-that-can-attack-the-king.md) (Medium)
 - [[0001343](https://leetcode-cn.com/problems/dice-roll-simulation/)] - [Dice Roll Simulation 掷骰子模拟](./problemset_md/0001343.dice-roll-simulation.md) (Medium)
 - [[0001344](https://leetcode-cn.com/problems/maximum-equal-frequency/)] - [Maximum Equal Frequency 最大相等频率](./problemset_md/0001344.maximum-equal-frequency.md) (Hard)
-- [[0001345](https://leetcode-cn.com/problems/perform-string-shifts/)] - [Perform String Shifts 字符串的左右移](./problemset_md/0001345.perform-string-shifts.md) (Easy) xxx
+- [[0001345](https://leetcode-cn.com/problems/perform-string-shifts/)] - [Perform String Shifts 字符串的左右移](./problemset_md/0001345.perform-string-shifts.md) (Easy) (Plus)
 - [[0001349](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line/)] - [Check If It Is a Straight Line 缀点成线](./problemset_md/0001349.check-if-it-is-a-straight-line.md) (Easy)
 - [[0001350](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem/)] - [Remove Sub-Folders from the Filesystem 删除子文件夹](./problemset_md/0001350.remove-sub-folders-from-the-filesystem.md) (Medium)
 - [[0001351](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string/)] - [Replace the Substring for Balanced String 替换子串得到平衡字符串](./problemset_md/0001351.replace-the-substring-for-balanced-string.md) (Medium)
 - [[0001352](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling/)] - [Maximum Profit in Job Scheduling 规划兼职工作](./problemset_md/0001352.maximum-profit-in-job-scheduling.md) (Hard)
-- [[0001357](https://leetcode-cn.com/problems/report-contiguous-dates/)] - [Report Contiguous Dates 报告系统状态的连续日期](./problemset_md/0001357.report-contiguous-dates.md) (Hard) xxx
+- [[0001357](https://leetcode-cn.com/problems/report-contiguous-dates/)] - [Report Contiguous Dates 报告系统状态的连续日期](./problemset_md/0001357.report-contiguous-dates.md) (Hard) (Plus)
 - [[0001358](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)] - [Find Positive Integer Solution for a Given Equation 找出给定方程的正整数解](./problemset_md/0001358.find-positive-integer-solution-for-a-given-equation.md) (Easy)
 - [[0001359](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation/)] - [Circular Permutation in Binary Representation 循环码排列](./problemset_md/0001359.circular-permutation-in-binary-representation.md) (Medium)
 - [[0001360](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)] - [Maximum Length of a Concatenated String with Unique Characters 串联字符串的最大长度](./problemset_md/0001360.maximum-length-of-a-concatenated-string-with-unique-characters.md) (Medium)
 - [[0001361](https://leetcode-cn.com/problems/tiling-a-rectangle-with-the-fewest-squares/)] - [Tiling a Rectangle with the Fewest Squares 铺瓷砖](./problemset_md/0001361.tiling-a-rectangle-with-the-fewest-squares.md) (Hard)
 - [[0001362](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/)] - [Airplane Seat Assignment Probability 飞机座位分配概率](./problemset_md/0001362.airplane-seat-assignment-probability.md) (Medium)
-- [[0001366](https://leetcode-cn.com/problems/first-unique-number/)] - [First Unique Number 第一个唯一数字](./problemset_md/0001366.first-unique-number.md) (Medium) xxx
-- [[0001368](https://leetcode-cn.com/problems/web-crawler-multithreaded/)] - [Web Crawler Multithreaded 多线程网页爬虫](./problemset_md/0001368.web-crawler-multithreaded.md) (Medium) xxx
+- [[0001366](https://leetcode-cn.com/problems/first-unique-number/)] - [First Unique Number 第一个唯一数字](./problemset_md/0001366.first-unique-number.md) (Medium) (Plus)
+- [[0001368](https://leetcode-cn.com/problems/web-crawler-multithreaded/)] - [Web Crawler Multithreaded 多线程网页爬虫](./problemset_md/0001368.web-crawler-multithreaded.md) (Medium) (Plus)
 - [[0001369](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal/)] - [Minimum Swaps to Make Strings Equal 交换字符使得字符串相同](./problemset_md/0001369.minimum-swaps-to-make-strings-equal.md) (Medium)
 - [[0001370](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/)] - [Count Number of Nice Subarrays 统计「优美子数组」](./problemset_md/0001370.count-number-of-nice-subarrays.md) (Medium)
 - [[0001371](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/)] - [Minimum Remove to Make Valid Parentheses 移除无效的括号](./problemset_md/0001371.minimum-remove-to-make-valid-parentheses.md) (Medium)
 - [[0001372](https://leetcode-cn.com/problems/check-if-it-is-a-good-array/)] - [Check If It Is a Good Array 检查「好数组」](./problemset_md/0001372.check-if-it-is-a-good-array.md) (Hard)
-- [[0001374](https://leetcode-cn.com/problems/leftmost-column-with-at-least-a-one/)] - [Leftmost Column with at Least a One 至少有一个 1 的最左端列](./problemset_md/0001374.leftmost-column-with-at-least-a-one.md) (Medium) xxx
-- [[0001377](https://leetcode-cn.com/problems/number-of-comments-per-post/)] - [Number of Comments per Post 每个帖子的评论数](./problemset_md/0001377.number-of-comments-per-post.md) (Easy) xxx
+- [[0001374](https://leetcode-cn.com/problems/leftmost-column-with-at-least-a-one/)] - [Leftmost Column with at Least a One 至少有一个 1 的最左端列](./problemset_md/0001374.leftmost-column-with-at-least-a-one.md) (Medium) (Plus)
+- [[0001377](https://leetcode-cn.com/problems/number-of-comments-per-post/)] - [Number of Comments per Post 每个帖子的评论数](./problemset_md/0001377.number-of-comments-per-post.md) (Easy) (Plus)
 - [[0001378](https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix/)] - [Cells with Odd Values in a Matrix 奇数值单元格的数目](./problemset_md/0001378.cells-with-odd-values-in-a-matrix.md) (Easy)
 - [[0001379](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)] - [Reconstruct a 2-Row Binary Matrix 重构 2 行二进制矩阵](./problemset_md/0001379.reconstruct-a-2-row-binary-matrix.md) (Medium)
 - [[0001380](https://leetcode-cn.com/problems/number-of-closed-islands/)] - [Number of Closed Islands 统计封闭岛屿的数目](./problemset_md/0001380.number-of-closed-islands.md) (Medium)
@@ -1298,45 +1298,45 @@
 - [[0001387](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/)] - [Find Elements in a Contaminated Binary Tree 在受污染的二叉树中查找元素](./problemset_md/0001387.find-elements-in-a-contaminated-binary-tree.md) (Medium)
 - [[0001388](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/)] - [Greatest Sum Divisible by Three 可被三整除的最大和](./problemset_md/0001388.greatest-sum-divisible-by-three.md) (Medium)
 - [[0001389](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/)] - [Minimum Moves to Move a Box to Their Target Location 推箱子](./problemset_md/0001389.minimum-moves-to-move-a-box-to-their-target-location.md) (Hard)
-- [[0001390](https://leetcode-cn.com/problems/average-selling-price/)] - [Average Selling Price 平均售价](./problemset_md/0001390.average-selling-price.md) (Easy) xxx
-- [[0001391](https://leetcode-cn.com/problems/counting-elements/)] - [Counting Elements 数元素](./problemset_md/0001391.counting-elements.md) (Easy) xxx
+- [[0001390](https://leetcode-cn.com/problems/average-selling-price/)] - [Average Selling Price 平均售价](./problemset_md/0001390.average-selling-price.md) (Easy) (Plus)
+- [[0001391](https://leetcode-cn.com/problems/counting-elements/)] - [Counting Elements 数元素](./problemset_md/0001391.counting-elements.md) (Easy) (Plus)
 - [[0001395](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)] - [Minimum Time Visiting All Points 访问所有点的最小时间](./problemset_md/0001395.minimum-time-visiting-all-points.md) (Easy)
 - [[0001396](https://leetcode-cn.com/problems/count-servers-that-communicate/)] - [Count Servers that Communicate 统计参与通信的服务器](./problemset_md/0001396.count-servers-that-communicate.md) (Medium)
 - [[0001397](https://leetcode-cn.com/problems/search-suggestions-system/)] - [Search Suggestions System 搜索推荐系统](./problemset_md/0001397.search-suggestions-system.md) (Medium)
 - [[0001398](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)] - [Number of Ways to Stay in the Same Place After Some Steps 停在原地的方案数](./problemset_md/0001398.number-of-ways-to-stay-in-the-same-place-after-some-steps.md) (Hard)
-- [[0001399](https://leetcode-cn.com/problems/page-recommendations/)] - [Page Recommendations 页面推荐](./problemset_md/0001399.page-recommendations.md) (Medium) xxx
+- [[0001399](https://leetcode-cn.com/problems/page-recommendations/)] - [Page Recommendations 页面推荐](./problemset_md/0001399.page-recommendations.md) (Medium) (Plus)
 - [[0001400](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/)] - [Find Winner on a Tic Tac Toe Game 找出井字棋的获胜者](./problemset_md/0001400.find-winner-on-a-tic-tac-toe-game.md) (Easy)
 - [[0001401](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/)] - [Number of Burgers with No Waste of Ingredients 不浪费原料的汉堡制作方案](./problemset_md/0001401.number-of-burgers-with-no-waste-of-ingredients.md) (Medium)
 - [[0001402](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)] - [Count Square Submatrices with All Ones 统计全为 1 的正方形子矩阵](./problemset_md/0001402.count-square-submatrices-with-all-ones.md) (Medium)
 - [[0001403](https://leetcode-cn.com/problems/palindrome-partitioning-iii/)] - [Palindrome Partitioning III 分割回文串 III](./problemset_md/0001403.palindrome-partitioning-iii.md) (Hard)
-- [[0001404](https://leetcode-cn.com/problems/print-immutable-linked-list-in-reverse/)] - [Print Immutable Linked List in Reverse 逆序打印不可变链表](./problemset_md/0001404.print-immutable-linked-list-in-reverse.md) (Medium) xxx
-- [[0001405](https://leetcode-cn.com/problems/all-people-report-to-the-given-manager/)] - [All People Report to the Given Manager 向公司 CEO 汇报工作的所有人](./problemset_md/0001405.all-people-report-to-the-given-manager.md) (Medium) xxx
+- [[0001404](https://leetcode-cn.com/problems/print-immutable-linked-list-in-reverse/)] - [Print Immutable Linked List in Reverse 逆序打印不可变链表](./problemset_md/0001404.print-immutable-linked-list-in-reverse.md) (Medium) (Plus)
+- [[0001405](https://leetcode-cn.com/problems/all-people-report-to-the-given-manager/)] - [All People Report to the Given Manager 向公司 CEO 汇报工作的所有人](./problemset_md/0001405.all-people-report-to-the-given-manager.md) (Medium) (Plus)
 - [[0001406](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)] - [Subtract the Product and Sum of Digits of an Integer 整数的各位积和之差](./problemset_md/0001406.subtract-the-product-and-sum-of-digits-of-an-integer.md) (Easy)
 - [[0001407](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/)] - [Group the People Given the Group Size They Belong To 用户分组](./problemset_md/0001407.group-the-people-given-the-group-size-they-belong-to.md) (Medium)
 - [[0001408](https://leetcode-cn.com/problems/find-the-smallest-divisor-given-a-threshold/)] - [Find the Smallest Divisor Given a Threshold 使结果不超过阈值的最小除数](./problemset_md/0001408.find-the-smallest-divisor-given-a-threshold.md) (Medium)
 - [[0001409](https://leetcode-cn.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)] - [Minimum Number of Flips to Convert Binary Matrix to Zero Matrix 转化为全零矩阵的最少反转次数](./problemset_md/0001409.minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.md) (Hard)
-- [[0001410](https://leetcode-cn.com/problems/traffic-light-controlled-intersection/)] - [Traffic Light Controlled Intersection 红绿灯路口](./problemset_md/0001410.traffic-light-controlled-intersection.md) (Easy) xxx
+- [[0001410](https://leetcode-cn.com/problems/traffic-light-controlled-intersection/)] - [Traffic Light Controlled Intersection 红绿灯路口](./problemset_md/0001410.traffic-light-controlled-intersection.md) (Easy) (Plus)
 - [[0001411](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)] - [Convert Binary Number in a Linked List to Integer 二进制链表转整数](./problemset_md/0001411.convert-binary-number-in-a-linked-list-to-integer.md) (Easy)
 - [[0001413](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)] - [Maximum Side Length of a Square with Sum Less than or Equal to Threshold 元素和小于等于阈值的正方形的最大边长](./problemset_md/0001413.maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.md) (Medium)
 - [[0001414](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)] - [Shortest Path in a Grid with Obstacles Elimination 网格中的最短路径](./problemset_md/0001414.shortest-path-in-a-grid-with-obstacles-elimination.md) (Hard)
-- [[0001415](https://leetcode-cn.com/problems/students-and-examinations/)] - [Students and Examinations 学生们参加各科测试的次数](./problemset_md/0001415.students-and-examinations.md) (Easy) xxx
-- [[0001420](https://leetcode-cn.com/problems/find-the-start-and-end-number-of-continuous-ranges/)] - [Find the Start and End Number of Continuous Ranges 找到连续区间的开始和结束数字](./problemset_md/0001420.find-the-start-and-end-number-of-continuous-ranges.md) (Medium) xxx
+- [[0001415](https://leetcode-cn.com/problems/students-and-examinations/)] - [Students and Examinations 学生们参加各科测试的次数](./problemset_md/0001415.students-and-examinations.md) (Easy) (Plus)
+- [[0001420](https://leetcode-cn.com/problems/find-the-start-and-end-number-of-continuous-ranges/)] - [Find the Start and End Number of Continuous Ranges 找到连续区间的开始和结束数字](./problemset_md/0001420.find-the-start-and-end-number-of-continuous-ranges.md) (Medium) (Plus)
 - [[0001421](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits/)] - [Find Numbers with Even Number of Digits 统计位数为偶数的数字](./problemset_md/0001421.find-numbers-with-even-number-of-digits.md) (Easy)
 - [[0001422](https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)] - [Divide Array in Sets of K Consecutive Numbers 划分数组为连续数字的集合](./problemset_md/0001422.divide-array-in-sets-of-k-consecutive-numbers.md) (Medium)
 - [[0001423](https://leetcode-cn.com/problems/maximum-number-of-occurrences-of-a-substring/)] - [Maximum Number of Occurrences of a Substring 子串的最大出现次数](./problemset_md/0001423.maximum-number-of-occurrences-of-a-substring.md) (Medium)
 - [[0001424](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes/)] - [Maximum Candies You Can Get from Boxes 你能从盒子里获得的最大糖果数](./problemset_md/0001424.maximum-candies-you-can-get-from-boxes.md) (Hard)
-- [[0001425](https://leetcode-cn.com/problems/weather-type-in-each-country/)] - [Weather Type in Each Country 不同国家的天气类型](./problemset_md/0001425.weather-type-in-each-country.md) (Easy) xxx
+- [[0001425](https://leetcode-cn.com/problems/weather-type-in-each-country/)] - [Weather Type in Each Country 不同国家的天气类型](./problemset_md/0001425.weather-type-in-each-country.md) (Easy) (Plus)
 - [[0001426](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/)] - [Find N Unique Integers Sum up to Zero 和为零的 N 个唯一整数](./problemset_md/0001426.find-n-unique-integers-sum-up-to-zero.md) (Easy)
 - [[0001427](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)] - [All Elements in Two Binary Search Trees 两棵二叉搜索树中的所有元素](./problemset_md/0001427.all-elements-in-two-binary-search-trees.md) (Medium)
 - [[0001428](https://leetcode-cn.com/problems/jump-game-iii/)] - [Jump Game III 跳跃游戏 III](./problemset_md/0001428.jump-game-iii.md) (Medium)
 - [[0001429](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/)] - [Verbal Arithmetic Puzzle 口算难题](./problemset_md/0001429.verbal-arithmetic-puzzle.md) (Hard)
-- [[0001432](https://leetcode-cn.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/)] - [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree 判断给定的序列是否是二叉树从根到叶的路径](./problemset_md/0001432.check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.md) (Medium) xxx
+- [[0001432](https://leetcode-cn.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/)] - [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree 判断给定的序列是否是二叉树从根到叶的路径](./problemset_md/0001432.check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree.md) (Medium) (Plus)
 - [[0001434](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)] - [Decrypt String from Alphabet to Integer Mapping 解码字母到整数映射](./problemset_md/0001434.decrypt-string-from-alphabet-to-integer-mapping.md) (Easy)
 - [[0001435](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)] - [XOR Queries of a Subarray 子数组异或查询](./problemset_md/0001435.xor-queries-of-a-subarray.md) (Medium)
 - [[0001436](https://leetcode-cn.com/problems/get-watched-videos-by-your-friends/)] - [Get Watched Videos by Your Friends 获取你好友已观看的视频](./problemset_md/0001436.get-watched-videos-by-your-friends.md) (Medium)
 - [[0001437](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)] - [Minimum Insertion Steps to Make a String Palindrome 让字符串成为回文串的最少插入次数](./problemset_md/0001437.minimum-insertion-steps-to-make-a-string-palindrome.md) (Hard)
-- [[0001438](https://leetcode-cn.com/problems/find-the-team-size/)] - [Find the Team Size 求团队人数](./problemset_md/0001438.find-the-team-size.md) (Easy) xxx
-- [[0001439](https://leetcode-cn.com/problems/running-total-for-different-genders/)] - [Running Total for Different Genders 不同性别每日分数总计](./problemset_md/0001439.running-total-for-different-genders.md) (Medium) xxx
+- [[0001438](https://leetcode-cn.com/problems/find-the-team-size/)] - [Find the Team Size 求团队人数](./problemset_md/0001438.find-the-team-size.md) (Easy) (Plus)
+- [[0001439](https://leetcode-cn.com/problems/running-total-for-different-genders/)] - [Running Total for Different Genders 不同性别每日分数总计](./problemset_md/0001439.running-total-for-different-genders.md) (Medium) (Plus)
 - [[0001440](https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)] - [Convert Integer to the Sum of Two No-Zero Integers 将整数转换为两个无零整数的和](./problemset_md/0001440.convert-integer-to-the-sum-of-two-no-zero-integers.md) (Easy)
 - [[0001441](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)] - [Minimum Flips to Make a OR b Equal to c 或运算的最小翻转次数](./problemset_md/0001441.minimum-flips-to-make-a-or-b-equal-to-c.md) (Medium)
 - [[0001442](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/)] - [Number of Operations to Make Network Connected 连通网络的操作次数](./problemset_md/0001442.number-of-operations-to-make-network-connected.md) (Medium)
@@ -1349,8 +1349,8 @@
 - [[0001449](https://leetcode-cn.com/problems/print-words-vertically/)] - [Print Words Vertically 竖直打印单词](./problemset_md/0001449.print-words-vertically.md) (Medium)
 - [[0001450](https://leetcode-cn.com/problems/delete-leaves-with-a-given-value/)] - [Delete Leaves With a Given Value 删除给定值的叶子节点](./problemset_md/0001450.delete-leaves-with-a-given-value.md) (Medium)
 - [[0001451](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)] - [Minimum Number of Taps to Open to Water a Garden 灌溉花园的最少水龙头数目](./problemset_md/0001451.minimum-number-of-taps-to-open-to-water-a-garden.md) (Hard)
-- [[0001452](https://leetcode-cn.com/problems/restaurant-growth/)] - [Restaurant Growth 餐馆营业额变化增长](./problemset_md/0001452.restaurant-growth.md) (Medium) xxx
-- [[0001453](https://leetcode-cn.com/problems/ads-performance/)] - [Ads Performance 广告效果](./problemset_md/0001453.ads-performance.md) (Easy) xxx
+- [[0001452](https://leetcode-cn.com/problems/restaurant-growth/)] - [Restaurant Growth 餐馆营业额变化增长](./problemset_md/0001452.restaurant-growth.md) (Medium) (Plus)
+- [[0001453](https://leetcode-cn.com/problems/ads-performance/)] - [Ads Performance 广告效果](./problemset_md/0001453.ads-performance.md) (Easy) (Plus)
 - [[0001454](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)] - [Remove Palindromic Subsequences 删除回文子序列](./problemset_md/0001454.remove-palindromic-subsequences.md) (Easy)
 - [[0001455](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)] - [Filter Restaurants by Vegan-Friendly, Price and Distance 餐厅过滤器](./problemset_md/0001455.filter-restaurants-by-vegan-friendly-price-and-distance.md) (Medium)
 - [[0001456](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)] - [Find the City With the Smallest Number of Neighbors at a Threshold Distance 阈值距离内邻居最少的城市](./problemset_md/0001456.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md) (Medium)
@@ -1359,12 +1359,12 @@
 - [[0001459](https://leetcode-cn.com/problems/apply-discount-every-n-orders/)] - [Apply Discount Every n Orders 每隔 n 个顾客打折](./problemset_md/0001459.apply-discount-every-n-orders.md) (Medium)
 - [[0001460](https://leetcode-cn.com/problems/number-of-substrings-containing-all-three-characters/)] - [Number of Substrings Containing All Three Characters 包含所有三种字符的子字符串数目](./problemset_md/0001460.number-of-substrings-containing-all-three-characters.md) (Medium)
 - [[0001461](https://leetcode-cn.com/problems/count-all-valid-pickup-and-delivery-options/)] - [Count All Valid Pickup and Delivery Options 有效的快递序列数目](./problemset_md/0001461.count-all-valid-pickup-and-delivery-options.md) (Hard)
-- [[0001462](https://leetcode-cn.com/problems/list-the-products-ordered-in-a-period/)] - [List the Products Ordered in a Period 列出指定时间段内所有的下单产品](./problemset_md/0001462.list-the-products-ordered-in-a-period.md) (Easy) xxx
+- [[0001462](https://leetcode-cn.com/problems/list-the-products-ordered-in-a-period/)] - [List the Products Ordered in a Period 列出指定时间段内所有的下单产品](./problemset_md/0001462.list-the-products-ordered-in-a-period.md) (Easy) (Plus)
 - [[0001463](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)] - [The K Weakest Rows in a Matrix 方阵中战斗力最弱的 K 行](./problemset_md/0001463.the-k-weakest-rows-in-a-matrix.md) (Easy)
 - [[0001464](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/)] - [Reduce Array Size to The Half 数组大小减半](./problemset_md/0001464.reduce-array-size-to-the-half.md) (Medium)
 - [[0001465](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/)] - [Maximum Product of Splitted Binary Tree 分裂二叉树的最大乘积](./problemset_md/0001465.maximum-product-of-splitted-binary-tree.md) (Medium)
 - [[0001466](https://leetcode-cn.com/problems/jump-game-v/)] - [Jump Game V 跳跃游戏 V](./problemset_md/0001466.jump-game-v.md) (Hard)
-- [[0001467](https://leetcode-cn.com/problems/number-of-transactions-per-visit/)] - [Number of Transactions per Visit 每次访问的交易次数](./problemset_md/0001467.number-of-transactions-per-visit.md) (Hard) xxx
+- [[0001467](https://leetcode-cn.com/problems/number-of-transactions-per-visit/)] - [Number of Transactions per Visit 每次访问的交易次数](./problemset_md/0001467.number-of-transactions-per-visit.md) (Hard) (Plus)
 - [[0001468](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)] - [Check If N and Its Double Exist 检查整数及其两倍数是否存在](./problemset_md/0001468.check-if-n-and-its-double-exist.md) (Easy)
 - [[0001469](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)] - [Minimum Number of Steps to Make Two Strings Anagram 制造字母异位词的最小步骤数](./problemset_md/0001469.minimum-number-of-steps-to-make-two-strings-anagram.md) (Medium)
 - [[0001470](https://leetcode-cn.com/problems/tweet-counts-per-frequency/)] - [Tweet Counts Per Frequency 推文计数](./problemset_md/0001470.tweet-counts-per-frequency.md) (Medium)
@@ -1377,8 +1377,8 @@
 - [[0001477](https://leetcode-cn.com/problems/product-of-the-last-k-numbers/)] - [Product of the Last K Numbers 最后 K 个数的乘积](./problemset_md/0001477.product-of-the-last-k-numbers.md) (Medium)
 - [[0001478](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/)] - [Maximum Number of Events That Can Be Attended 最多可以参加的会议数目](./problemset_md/0001478.maximum-number-of-events-that-can-be-attended.md) (Medium)
 - [[0001479](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/)] - [Construct Target Array With Multiple Sums 多次求和构造目标数组](./problemset_md/0001479.construct-target-array-with-multiple-sums.md) (Hard)
-- [[0001480](https://leetcode-cn.com/problems/movie-rating/)] - [Movie Rating 电影评分](./problemset_md/0001480.movie-rating.md) (Medium) xxx
-- [[0001481](https://leetcode-cn.com/problems/students-with-invalid-departments/)] - [Students With Invalid Departments 院系无效的学生](./problemset_md/0001481.students-with-invalid-departments.md) (Easy) xxx
+- [[0001480](https://leetcode-cn.com/problems/movie-rating/)] - [Movie Rating 电影评分](./problemset_md/0001480.movie-rating.md) (Medium) (Plus)
+- [[0001481](https://leetcode-cn.com/problems/students-with-invalid-departments/)] - [Students With Invalid Departments 院系无效的学生](./problemset_md/0001481.students-with-invalid-departments.md) (Easy) (Plus)
 - [[0001482](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)] - [How Many Numbers Are Smaller Than the Current Number 有多少小于当前数字的数字](./problemset_md/0001482.how-many-numbers-are-smaller-than-the-current-number.md) (Easy)
 - [[0001483](https://leetcode-cn.com/problems/rank-teams-by-votes/)] - [Rank Teams by Votes 通过投票对团队排名](./problemset_md/0001483.rank-teams-by-votes.md) (Medium)
 - [[0001484](https://leetcode-cn.com/problems/linked-list-in-binary-tree/)] - [Linked List in Binary Tree 二叉树中的列表](./problemset_md/0001484.linked-list-in-binary-tree.md) (Medium)
@@ -1391,8 +1391,8 @@
 - [[0001491](https://leetcode-cn.com/problems/bulb-switcher-iii/)] - [Bulb Switcher III 灯泡开关 III](./problemset_md/0001491.bulb-switcher-iii.md) (Medium)
 - [[0001492](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees/)] - [Time Needed to Inform All Employees 通知所有员工所需的时间](./problemset_md/0001492.time-needed-to-inform-all-employees.md) (Medium)
 - [[0001493](https://leetcode-cn.com/problems/frog-position-after-t-seconds/)] - [Frog Position After T Seconds T 秒后青蛙的位置](./problemset_md/0001493.frog-position-after-t-seconds.md) (Hard)
-- [[0001494](https://leetcode-cn.com/problems/activity-participants/)] - [Activity Participants 活动参与者](./problemset_md/0001494.activity-participants.md) (Medium) xxx
-- [[0001495](https://leetcode-cn.com/problems/number-of-trusted-contacts-of-a-customer/)] - [Number of Trusted Contacts of a Customer 顾客的可信联系人数量](./problemset_md/0001495.number-of-trusted-contacts-of-a-customer.md) (Medium) xxx
+- [[0001494](https://leetcode-cn.com/problems/activity-participants/)] - [Activity Participants 活动参与者](./problemset_md/0001494.activity-participants.md) (Medium) (Plus)
+- [[0001495](https://leetcode-cn.com/problems/number-of-trusted-contacts-of-a-customer/)] - [Number of Trusted Contacts of a Customer 顾客的可信联系人数量](./problemset_md/0001495.number-of-trusted-contacts-of-a-customer.md) (Medium) (Plus)
 - [[0001496](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)] - [Lucky Numbers in a Matrix 矩阵中的幸运数](./problemset_md/0001496.lucky-numbers-in-a-matrix.md) (Easy)
 - [[0001497](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/)] - [Design a Stack With Increment Operation 设计一个支持增量操作的栈](./problemset_md/0001497.design-a-stack-with-increment-operation.md) (Medium)
 - [[0001498](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)] - [Find a Corresponding Node of a Binary Tree in a Clone of That Tree 找出克隆二叉树中的相同节点](./problemset_md/0001498.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.md) (Medium)
@@ -1401,11 +1401,11 @@
 - [[0001501](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/)] - [Circle and Rectangle Overlapping 圆和矩形是否有重叠](./problemset_md/0001501.circle-and-rectangle-overlapping.md) (Medium)
 - [[0001502](https://leetcode-cn.com/problems/construct-k-palindrome-strings/)] - [Construct K Palindrome Strings 构造 K 个回文字符串](./problemset_md/0001502.construct-k-palindrome-strings.md) (Medium)
 - [[0001503](https://leetcode-cn.com/problems/reducing-dishes/)] - [Reducing Dishes 做菜顺序](./problemset_md/0001503.reducing-dishes.md) (Hard)
-- [[0001504](https://leetcode-cn.com/problems/get-the-second-most-recent-activity/)] - [Get the Second Most Recent Activity 获取最近第二次的活动](./problemset_md/0001504.get-the-second-most-recent-activity.md) (Hard) xxx
+- [[0001504](https://leetcode-cn.com/problems/get-the-second-most-recent-activity/)] - [Get the Second Most Recent Activity 获取最近第二次的活动](./problemset_md/0001504.get-the-second-most-recent-activity.md) (Hard) (Plus)
 - [[0001505](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/)] - [Create Target Array in the Given Order 按既定顺序创建目标数组](./problemset_md/0001505.create-target-array-in-the-given-order.md) (Easy)
 - [[0001507](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/)] - [Check if There is a Valid Path in a Grid 检查网格中是否存在有效路径](./problemset_md/0001507.check-if-there-is-a-valid-path-in-a-grid.md) (Medium)
 - [[0001508](https://leetcode-cn.com/problems/longest-happy-prefix/)] - [Longest Happy Prefix 最长快乐前缀](./problemset_md/0001508.longest-happy-prefix.md) (Hard)
-- [[0001509](https://leetcode-cn.com/problems/replace-employee-id-with-the-unique-identifier/)] - [Replace Employee ID With The Unique Identifier 使用唯一标识码替换员工 ID](./problemset_md/0001509.replace-employee-id-with-the-unique-identifier.md) (Easy) xxx
+- [[0001509](https://leetcode-cn.com/problems/replace-employee-id-with-the-unique-identifier/)] - [Replace Employee ID With The Unique Identifier 使用唯一标识码替换员工 ID](./problemset_md/0001509.replace-employee-id-with-the-unique-identifier.md) (Easy) (Plus)
 - [[0001510](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)] - [Find Lucky Integer in an Array 找出数组中的幸运数](./problemset_md/0001510.find-lucky-integer-in-an-array.md) (Easy)
 - [[0001511](https://leetcode-cn.com/problems/count-number-of-teams/)] - [Count Number of Teams 统计作战单位数](./problemset_md/0001511.count-number-of-teams.md) (Medium)
 - [[0001512](https://leetcode-cn.com/problems/design-underground-system/)] - [Design Underground System 设计地铁系统](./problemset_md/0001512.design-underground-system.md) (Medium)
@@ -1414,11 +1414,11 @@
 - [[0001515](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)] - [Find the Minimum Number of Fibonacci Numbers Whose Sum Is K 和为 K 的最少斐波那契数字数目](./problemset_md/0001515.find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k.md) (Medium)
 - [[0001516](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)] - [The k-th Lexicographical String of All Happy Strings of Length n 长度为 n 的开心字符串中字典序第 k 小的字符串](./problemset_md/0001516.the-k-th-lexicographical-string-of-all-happy-strings-of-length-n.md) (Medium)
 - [[0001517](https://leetcode-cn.com/problems/restore-the-array/)] - [Restore The Array 恢复数组](./problemset_md/0001517.restore-the-array.md) (Hard)
-- [[0001518](https://leetcode-cn.com/problems/total-sales-amount-by-year/)] - [Total Sales Amount by Year 按年度列出销售总额](./problemset_md/0001518.total-sales-amount-by-year.md) (Hard) xxx
+- [[0001518](https://leetcode-cn.com/problems/total-sales-amount-by-year/)] - [Total Sales Amount by Year 按年度列出销售总额](./problemset_md/0001518.total-sales-amount-by-year.md) (Hard) (Plus)
 - [[0001519](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)] - [Minimum Subsequence in Non-Increasing Order 非递增顺序的最小子序列](./problemset_md/0001519.minimum-subsequence-in-non-increasing-order.md) (Easy)
 - [[0001520](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)] - [Number of Steps to Reduce a Number in Binary Representation to One 将二进制表示减到 1 的步骤数](./problemset_md/0001520.number-of-steps-to-reduce-a-number-in-binary-representation-to-one.md) (Medium)
 - [[0001522](https://leetcode-cn.com/problems/stone-game-iii/)] - [Stone Game III 石子游戏 III](./problemset_md/0001522.stone-game-iii.md) (Hard)
-- [[0001523](https://leetcode-cn.com/problems/capital-gainloss/)] - [Capital Gain/Loss 股票的资本损益](./problemset_md/0001523.capital-gainloss.md) (Medium) xxx
+- [[0001523](https://leetcode-cn.com/problems/capital-gainloss/)] - [Capital Gain/Loss 股票的资本损益](./problemset_md/0001523.capital-gainloss.md) (Medium) (Plus)
 - [[0001524](https://leetcode-cn.com/problems/string-matching-in-an-array/)] - [String Matching in an Array 数组中的字符串匹配](./problemset_md/0001524.string-matching-in-an-array.md) (Easy)
 - [[0001525](https://leetcode-cn.com/problems/queries-on-a-permutation-with-key/)] - [Queries on a Permutation With Key 查询带键的排列](./problemset_md/0001525.queries-on-a-permutation-with-key.md) (Medium)
 - [[0001526](https://leetcode-cn.com/problems/html-entity-parser/)] - [HTML Entity Parser HTML 实体解析器](./problemset_md/0001526.html-entity-parser.md) (Medium)
@@ -1431,21 +1431,21 @@
 - [[0001533](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/)] - [Display Table of Food Orders in a Restaurant 点菜展示表](./problemset_md/0001533.display-table-of-food-orders-in-a-restaurant.md) (Medium)
 - [[0001534](https://leetcode-cn.com/problems/minimum-number-of-frogs-croaking/)] - [Minimum Number of Frogs Croaking 数青蛙](./problemset_md/0001534.minimum-number-of-frogs-croaking.md) (Medium)
 - [[0001535](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)] - [Build Array Where You Can Find The Maximum Exactly K Comparisons 生成数组](./problemset_md/0001535.build-array-where-you-can-find-the-maximum-exactly-k-comparisons.md) (Hard)
-- [[0001536](https://leetcode-cn.com/problems/customers-who-bought-products-a-and-b-but-not-c/)] - [Customers Who Bought Products A and B but Not C 购买了产品 A 和产品 B 却没有购买产品 C 的顾客](./problemset_md/0001536.customers-who-bought-products-a-and-b-but-not-c.md) (Medium) xxx
+- [[0001536](https://leetcode-cn.com/problems/customers-who-bought-products-a-and-b-but-not-c/)] - [Customers Who Bought Products A and B but Not C 购买了产品 A 和产品 B 却没有购买产品 C 的顾客](./problemset_md/0001536.customers-who-bought-products-a-and-b-but-not-c.md) (Medium) (Plus)
 - [[0001537](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/)] - [Maximum Score After Splitting a String 分割字符串的最大得分](./problemset_md/0001537.maximum-score-after-splitting-a-string.md) (Easy)
 - [[0001538](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)] - [Maximum Points You Can Obtain from Cards 可获得的最大点数](./problemset_md/0001538.maximum-points-you-can-obtain-from-cards.md) (Medium)
 - [[0001539](https://leetcode-cn.com/problems/diagonal-traverse-ii/)] - [Diagonal Traverse II 对角线遍历 II](./problemset_md/0001539.diagonal-traverse-ii.md) (Medium)
-- [[0001541](https://leetcode-cn.com/problems/top-travellers/)] - [Top Travellers 排名靠前的旅行者](./problemset_md/0001541.top-travellers.md) (Easy) xxx
+- [[0001541](https://leetcode-cn.com/problems/top-travellers/)] - [Top Travellers 排名靠前的旅行者](./problemset_md/0001541.top-travellers.md) (Easy) (Plus)
 - [[0001542](https://leetcode-cn.com/problems/consecutive-characters/)] - [Consecutive Characters 连续字符](./problemset_md/0001542.consecutive-characters.md) (Easy)
 - [[0001543](https://leetcode-cn.com/problems/simplified-fractions/)] - [Simplified Fractions 最简分数](./problemset_md/0001543.simplified-fractions.md) (Medium)
 - [[0001544](https://leetcode-cn.com/problems/count-good-nodes-in-binary-tree/)] - [Count Good Nodes in Binary Tree 统计二叉树中好节点的数目](./problemset_md/0001544.count-good-nodes-in-binary-tree.md) (Medium)
 - [[0001545](https://leetcode-cn.com/problems/form-largest-integer-with-digits-that-add-up-to-target/)] - [Form Largest Integer With Digits That Add up to Target 数位成本和为目标值的最大数字](./problemset_md/0001545.form-largest-integer-with-digits-that-add-up-to-target.md) (Hard)
-- [[0001546](https://leetcode-cn.com/problems/find-the-quiet-students-in-all-exams/)] - [Find the Quiet Students in All Exams 查找成绩处于中游的学生](./problemset_md/0001546.find-the-quiet-students-in-all-exams.md) (Hard) xxx
+- [[0001546](https://leetcode-cn.com/problems/find-the-quiet-students-in-all-exams/)] - [Find the Quiet Students in All Exams 查找成绩处于中游的学生](./problemset_md/0001546.find-the-quiet-students-in-all-exams.md) (Hard) (Plus)
 - [[0001547](https://leetcode-cn.com/problems/destination-city/)] - [Destination City 旅行终点站](./problemset_md/0001547.destination-city.md) (Easy)
 - [[0001548](https://leetcode-cn.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)] - [Check If All 1's Are at Least Length K Places Away 是否所有 1 都至少相隔 k 个元素](./problemset_md/0001548.check-if-all-1s-are-at-least-length-k-places-away.md) (Medium)
 - [[0001549](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)] - [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit 绝对差不超过限制的最长连续子数组](./problemset_md/0001549.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.md) (Medium)
 - [[0001550](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)] - [Find the Kth Smallest Sum of a Matrix With Sorted Rows 有序矩阵中的第 k 个最小数组和](./problemset_md/0001550.find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows.md) (Hard)
-- [[0001551](https://leetcode-cn.com/problems/npv-queries/)] - [NPV Queries 净现值查询](./problemset_md/0001551.npv-queries.md) (Medium) xxx
+- [[0001551](https://leetcode-cn.com/problems/npv-queries/)] - [NPV Queries 净现值查询](./problemset_md/0001551.npv-queries.md) (Medium) (Plus)
 - [[0001552](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)] - [Build an Array With Stack Operations 用栈操作构建数组](./problemset_md/0001552.build-an-array-with-stack-operations.md) (Easy)
 - [[0001553](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)] - [Count Triplets That Can Form Two Arrays of Equal XOR 形成两个异或相等数组的三元组数目](./problemset_md/0001553.count-triplets-that-can-form-two-arrays-of-equal-xor.md) (Medium)
 - [[0001554](https://leetcode-cn.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)] - [Minimum Time to Collect All Apples in a Tree 收集树上所有苹果的最少时间](./problemset_md/0001554.minimum-time-to-collect-all-apples-in-a-tree.md) (Medium)
@@ -1458,8 +1458,8 @@
 - [[0001561](https://leetcode-cn.com/problems/rearrange-words-in-a-sentence/)] - [Rearrange Words in a Sentence 重新排列句子中的单词](./problemset_md/0001561.rearrange-words-in-a-sentence.md) (Medium)
 - [[0001562](https://leetcode-cn.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)] - [People Whose List of Favorite Companies Is Not a Subset of Another List 收藏清单](./problemset_md/0001562.people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list.md) (Medium)
 - [[0001563](https://leetcode-cn.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard/)] - [Maximum Number of Darts Inside of a Circular Dartboard 圆形靶内的最大飞镖数量](./problemset_md/0001563.maximum-number-of-darts-inside-of-a-circular-dartboard.md) (Hard)
-- [[0001564](https://leetcode-cn.com/problems/create-a-session-bar-chart/)] - [Create a Session Bar Chart 制作会话柱状图](./problemset_md/0001564.create-a-session-bar-chart.md) (Easy) xxx
-- [[0001565](https://leetcode-cn.com/problems/evaluate-boolean-expression/)] - [Evaluate Boolean Expression 计算布尔表达式的值](./problemset_md/0001565.evaluate-boolean-expression.md) (Medium) xxx
+- [[0001564](https://leetcode-cn.com/problems/create-a-session-bar-chart/)] - [Create a Session Bar Chart 制作会话柱状图](./problemset_md/0001564.create-a-session-bar-chart.md) (Easy) (Plus)
+- [[0001565](https://leetcode-cn.com/problems/evaluate-boolean-expression/)] - [Evaluate Boolean Expression 计算布尔表达式的值](./problemset_md/0001565.evaluate-boolean-expression.md) (Medium) (Plus)
 - [[0001566](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)] - [Check If a Word Occurs As a Prefix of Any Word in a Sentence 检查单词是否为句中其他单词的前缀](./problemset_md/0001566.check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.md) (Easy)
 - [[0001567](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)] - [Maximum Number of Vowels in a Substring of Given Length 定长子串中元音的最大数目](./problemset_md/0001567.maximum-number-of-vowels-in-a-substring-of-given-length.md) (Medium)
 - [[0001568](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)] - [Pseudo-Palindromic Paths in a Binary Tree 二叉树中的伪回文路径](./problemset_md/0001568.pseudo-palindromic-paths-in-a-binary-tree.md) (Medium)
@@ -1472,8 +1472,8 @@
 - [[0001575](https://leetcode-cn.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)] - [Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts 切割后面积最大的蛋糕](./problemset_md/0001575.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts.md) (Medium)
 - [[0001576](https://leetcode-cn.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)] - [Reorder Routes to Make All Paths Lead to the City Zero 重新规划路线](./problemset_md/0001576.reorder-routes-to-make-all-paths-lead-to-the-city-zero.md) (Medium)
 - [[0001577](https://leetcode-cn.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)] - [Probability of a Two Boxes Having The Same Number of Distinct Balls 两个盒子中球的颜色数相同的概率](./problemset_md/0001577.probability-of-a-two-boxes-having-the-same-number-of-distinct-balls.md) (Hard)
-- [[0001578](https://leetcode-cn.com/problems/apples-oranges/)] - [Apples & Oranges 苹果和桔子](./problemset_md/0001578.apples-oranges.md) (Medium) xxx
-- [[0001579](https://leetcode-cn.com/problems/active-users/)] - [Active Users 活跃用户](./problemset_md/0001579.active-users.md) (Medium) xxx
+- [[0001578](https://leetcode-cn.com/problems/apples-oranges/)] - [Apples & Oranges 苹果和桔子](./problemset_md/0001578.apples-oranges.md) (Medium) (Plus)
+- [[0001579](https://leetcode-cn.com/problems/active-users/)] - [Active Users 活跃用户](./problemset_md/0001579.active-users.md) (Medium) (Plus)
 - [[0001580](https://leetcode-cn.com/problems/shuffle-the-array/)] - [Shuffle the Array 重新排列数组](./problemset_md/0001580.shuffle-the-array.md) (Easy)
 - [[0001581](https://leetcode-cn.com/problems/the-k-strongest-values-in-an-array/)] - [The k Strongest Values in an Array 数组中的 k 个最强值](./problemset_md/0001581.the-k-strongest-values-in-an-array.md) (Medium)
 - [[0001582](https://leetcode-cn.com/problems/design-browser-history/)] - [Design Browser History 设计浏览器历史记录](./problemset_md/0001582.design-browser-history.md) (Medium)
@@ -1485,9 +1485,9 @@
 - [[0001603](https://leetcode-cn.com/problems/running-sum-of-1d-array/)] - [Running Sum of 1d Array 一维数组的动态和](./problemset_md/0001603.running-sum-of-1d-array.md) (Easy)
 - [[0001604](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)] - [Least Number of Unique Integers after K Removals 不同整数的最少数目](./problemset_md/0001604.least-number-of-unique-integers-after-k-removals.md) (Medium)
 - [[0001605](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)] - [Minimum Number of Days to Make m Bouquets 制作 m 束花所需的最少天数](./problemset_md/0001605.minimum-number-of-days-to-make-m-bouquets.md) (Medium)
-- [[0001607](https://leetcode-cn.com/problems/rectangles-area/)] - [Rectangles Area 矩形面积](./problemset_md/0001607.rectangles-area.md) (Medium) xxx
-- [[0001608](https://leetcode-cn.com/problems/calculate-salaries/)] - [Calculate Salaries 计算税后工资](./problemset_md/0001608.calculate-salaries.md) (Medium) xxx
-- [[0001609](https://leetcode-cn.com/problems/find-all-the-lonely-nodes/)] - [Find All The Lonely Nodes 寻找所有的独生节点](./problemset_md/0001609.find-all-the-lonely-nodes.md) (Easy) xxx
+- [[0001607](https://leetcode-cn.com/problems/rectangles-area/)] - [Rectangles Area 矩形面积](./problemset_md/0001607.rectangles-area.md) (Medium) (Plus)
+- [[0001608](https://leetcode-cn.com/problems/calculate-salaries/)] - [Calculate Salaries 计算税后工资](./problemset_md/0001608.calculate-salaries.md) (Medium) (Plus)
+- [[0001609](https://leetcode-cn.com/problems/find-all-the-lonely-nodes/)] - [Find All The Lonely Nodes 寻找所有的独生节点](./problemset_md/0001609.find-all-the-lonely-nodes.md) (Easy) (Plus)
 - [[0001610](https://leetcode-cn.com/problems/xor-operation-in-an-array/)] - [XOR Operation in an Array 数组异或操作](./problemset_md/0001610.xor-operation-in-an-array.md) (Easy)
 - [[0001611](https://leetcode-cn.com/problems/making-file-names-unique/)] - [Making File Names Unique 保证文件名唯一](./problemset_md/0001611.making-file-names-unique.md) (Medium)
 - [[0001612](https://leetcode-cn.com/problems/avoid-flood-in-the-city/)] - [Avoid Flood in The City 避免洪水泛滥](./problemset_md/0001612.avoid-flood-in-the-city.md) (Medium)
@@ -1495,14 +1495,14 @@
 - [[0001615](https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/)] - [Range Sum of Sorted Subarray Sums 子数组和排序后的区间和](./problemset_md/0001615.range-sum-of-sorted-subarray-sums.md) (Medium)
 - [[0001616](https://leetcode-cn.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)] - [Minimum Difference Between Largest and Smallest Value in Three Moves 三次操作后最大值与最小值的最小差](./problemset_md/0001616.minimum-difference-between-largest-and-smallest-value-in-three-moves.md) (Medium)
 - [[0001617](https://leetcode-cn.com/problems/stone-game-iv/)] - [Stone Game IV 石子游戏 IV](./problemset_md/0001617.stone-game-iv.md) (Hard)
-- [[0001618](https://leetcode-cn.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)] - [Delete N Nodes After M Nodes of a Linked List 删除链表 M 个节点之后的 N 个节点](./problemset_md/0001618.delete-n-nodes-after-m-nodes-of-a-linked-list.md) (Easy) xxx
+- [[0001618](https://leetcode-cn.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)] - [Delete N Nodes After M Nodes of a Linked List 删除链表 M 个节点之后的 N 个节点](./problemset_md/0001618.delete-n-nodes-after-m-nodes-of-a-linked-list.md) (Easy) (Plus)
 - [[0001619](https://leetcode-cn.com/problems/path-crossing/)] - [Path Crossing 判断路径是否相交](./problemset_md/0001619.path-crossing.md) (Easy)
 - [[0001620](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/)] - [Check If Array Pairs Are Divisible by k 检查数组对是否可以被 k 整除](./problemset_md/0001620.check-if-array-pairs-are-divisible-by-k.md) (Medium)
 - [[0001621](https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)] - [Number of Subsequences That Satisfy the Given Sum Condition 满足条件的子序列数目](./problemset_md/0001621.number-of-subsequences-that-satisfy-the-given-sum-condition.md) (Medium)
 - [[0001622](https://leetcode-cn.com/problems/max-value-of-equation/)] - [Max Value of Equation 满足不等式的最大值](./problemset_md/0001622.max-value-of-equation.md) (Hard)
-- [[0001623](https://leetcode-cn.com/problems/sales-by-day-of-the-week/)] - [Sales by Day of the Week 周内每天的销售情况](./problemset_md/0001623.sales-by-day-of-the-week.md) (Hard) xxx
-- [[0001624](https://leetcode-cn.com/problems/clone-binary-tree-with-random-pointer/)] - [Clone Binary Tree With Random Pointer 克隆含随机指针的二叉树](./problemset_md/0001624.clone-binary-tree-with-random-pointer.md) (Medium) xxx
-- [[0001625](https://leetcode-cn.com/problems/group-sold-products-by-the-date/)] - [Group Sold Products By The Date 按日期分组销售产品](./problemset_md/0001625.group-sold-products-by-the-date.md) (Easy) xxx
+- [[0001623](https://leetcode-cn.com/problems/sales-by-day-of-the-week/)] - [Sales by Day of the Week 周内每天的销售情况](./problemset_md/0001623.sales-by-day-of-the-week.md) (Hard) (Plus)
+- [[0001624](https://leetcode-cn.com/problems/clone-binary-tree-with-random-pointer/)] - [Clone Binary Tree With Random Pointer 克隆含随机指针的二叉树](./problemset_md/0001624.clone-binary-tree-with-random-pointer.md) (Medium) (Plus)
+- [[0001625](https://leetcode-cn.com/problems/group-sold-products-by-the-date/)] - [Group Sold Products By The Date 按日期分组销售产品](./problemset_md/0001625.group-sold-products-by-the-date.md) (Easy) (Plus)
 - [[0001626](https://leetcode-cn.com/problems/can-make-arithmetic-progression-from-sequence/)] - [Can Make Arithmetic Progression From Sequence 判断能否形成等差数列](./problemset_md/0001626.can-make-arithmetic-progression-from-sequence.md) (Easy)
 - [[0001627](https://leetcode-cn.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)] - [Last Moment Before All Ants Fall Out of a Plank 所有蚂蚁掉下来前的最后一刻](./problemset_md/0001627.last-moment-before-all-ants-fall-out-of-a-plank.md) (Medium)
 - [[0001628](https://leetcode-cn.com/problems/count-submatrices-with-all-ones/)] - [Count Submatrices With All Ones 统计全 1 子矩形](./problemset_md/0001628.count-submatrices-with-all-ones.md) (Medium)
@@ -1511,14 +1511,14 @@
 - [[0001631](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/)] - [Number of Sub-arrays With Odd Sum 和为奇数的子数组数目](./problemset_md/0001631.number-of-sub-arrays-with-odd-sum.md) (Medium)
 - [[0001632](https://leetcode-cn.com/problems/number-of-good-ways-to-split-a-string/)] - [Number of Good Ways to Split a String 字符串的好分割数目](./problemset_md/0001632.number-of-good-ways-to-split-a-string.md) (Medium)
 - [[0001633](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)] - [Minimum Number of Increments on Subarrays to Form a Target Array 形成目标数组的子数组最少增加次数](./problemset_md/0001633.minimum-number-of-increments-on-subarrays-to-form-a-target-array.md) (Hard)
-- [[0001634](https://leetcode-cn.com/problems/clone-n-ary-tree/)] - [Clone N-ary Tree 克隆 N 叉树](./problemset_md/0001634.clone-n-ary-tree.md) (Medium) xxx
+- [[0001634](https://leetcode-cn.com/problems/clone-n-ary-tree/)] - [Clone N-ary Tree 克隆 N 叉树](./problemset_md/0001634.clone-n-ary-tree.md) (Medium) (Plus)
 - [[0001635](https://leetcode-cn.com/problems/number-of-good-pairs/)] - [Number of Good Pairs 好数对的数目](./problemset_md/0001635.number-of-good-pairs.md) (Easy)
 - [[0001636](https://leetcode-cn.com/problems/number-of-substrings-with-only-1s/)] - [Number of Substrings With Only 1s 仅含 1 的子串数](./problemset_md/0001636.number-of-substrings-with-only-1s.md) (Medium)
 - [[0001637](https://leetcode-cn.com/problems/string-compression-ii/)] - [String Compression II 压缩字符串 II](./problemset_md/0001637.string-compression-ii.md) (Hard)
 - [[0001638](https://leetcode-cn.com/problems/best-position-for-a-service-centre/)] - [Best Position for a Service Centre 服务中心的最佳位置](./problemset_md/0001638.best-position-for-a-service-centre.md) (Hard)
-- [[0001639](https://leetcode-cn.com/problems/friendly-movies-streamed-last-month/)] - [Friendly Movies Streamed Last Month 上月播放的儿童适宜电影](./problemset_md/0001639.friendly-movies-streamed-last-month.md) (Easy) xxx
-- [[0001640](https://leetcode-cn.com/problems/design-a-file-sharing-system/)] - [Design a File Sharing System 设计文件分享系统](./problemset_md/0001640.design-a-file-sharing-system.md) (Medium) xxx
-- [[0001641](https://leetcode-cn.com/problems/countries-you-can-safely-invest-in/)] - [Countries You Can Safely Invest In 可以放心投资的国家](./problemset_md/0001641.countries-you-can-safely-invest-in.md) (Medium) xxx
+- [[0001639](https://leetcode-cn.com/problems/friendly-movies-streamed-last-month/)] - [Friendly Movies Streamed Last Month 上月播放的儿童适宜电影](./problemset_md/0001639.friendly-movies-streamed-last-month.md) (Easy) (Plus)
+- [[0001640](https://leetcode-cn.com/problems/design-a-file-sharing-system/)] - [Design a File Sharing System 设计文件分享系统](./problemset_md/0001640.design-a-file-sharing-system.md) (Medium) (Plus)
+- [[0001641](https://leetcode-cn.com/problems/countries-you-can-safely-invest-in/)] - [Countries You Can Safely Invest In 可以放心投资的国家](./problemset_md/0001641.countries-you-can-safely-invest-in.md) (Medium) (Plus)
 - [[0001642](https://leetcode-cn.com/problems/water-bottles/)] - [Water Bottles 换酒问题](./problemset_md/0001642.water-bottles.md) (Easy)
 - [[0001643](https://leetcode-cn.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)] - [Number of Nodes in the Sub-Tree With the Same Label 子树中标签相同的节点数](./problemset_md/0001643.number-of-nodes-in-the-sub-tree-with-the-same-label.md) (Medium)
 - [[0001644](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-substrings/)] - [Maximum Number of Non-Overlapping Substrings 最多的不重叠子字符串](./problemset_md/0001644.maximum-number-of-non-overlapping-substrings.md) (Hard)
@@ -1527,12 +1527,12 @@
 - [[0001647](https://leetcode-cn.com/problems/can-convert-string-in-k-moves/)] - [Can Convert String in K Moves K 次操作转变字符串](./problemset_md/0001647.can-convert-string-in-k-moves.md) (Medium)
 - [[0001648](https://leetcode-cn.com/problems/minimum-insertions-to-balance-a-parentheses-string/)] - [Minimum Insertions to Balance a Parentheses String 平衡括号字符串的最少插入次数](./problemset_md/0001648.minimum-insertions-to-balance-a-parentheses-string.md) (Medium)
 - [[0001649](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)] - [Maximum Number of Non-Overlapping Subarrays With Sum Equals Target 和为目标值的最大数目不重叠非空子数组数目](./problemset_md/0001649.maximum-number-of-non-overlapping-subarrays-with-sum-equals-target.md) (Medium)
-- [[0001650](https://leetcode-cn.com/problems/find-root-of-n-ary-tree/)] - [Find Root of N-Ary Tree 找到 N 叉树的根节点](./problemset_md/0001650.find-root-of-n-ary-tree.md) (Medium) xxx
+- [[0001650](https://leetcode-cn.com/problems/find-root-of-n-ary-tree/)] - [Find Root of N-Ary Tree 找到 N 叉树的根节点](./problemset_md/0001650.find-root-of-n-ary-tree.md) (Medium) (Plus)
 - [[0001651](https://leetcode-cn.com/problems/shuffle-string/)] - [Shuffle String 重新排列字符串](./problemset_md/0001651.shuffle-string.md) (Easy)
 - [[0001652](https://leetcode-cn.com/problems/bulb-switcher-iv/)] - [Bulb Switcher IV 灯泡开关 IV](./problemset_md/0001652.bulb-switcher-iv.md) (Medium)
 - [[0001653](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/)] - [Number of Good Leaf Nodes Pairs 好叶子节点对的数量](./problemset_md/0001653.number-of-good-leaf-nodes-pairs.md) (Medium)
-- [[0001654](https://leetcode-cn.com/problems/customer-order-frequency/)] - [Customer Order Frequency 消费者下单频率](./problemset_md/0001654.customer-order-frequency.md) (Easy) xxx
-- [[0001655](https://leetcode-cn.com/problems/move-sub-tree-of-n-ary-tree/)] - [Move Sub-Tree of N-Ary Tree 移动 N 叉树的子树](./problemset_md/0001655.move-sub-tree-of-n-ary-tree.md) (Hard) xxx
+- [[0001654](https://leetcode-cn.com/problems/customer-order-frequency/)] - [Customer Order Frequency 消费者下单频率](./problemset_md/0001654.customer-order-frequency.md) (Easy) (Plus)
+- [[0001655](https://leetcode-cn.com/problems/move-sub-tree-of-n-ary-tree/)] - [Move Sub-Tree of N-Ary Tree 移动 N 叉树的子树](./problemset_md/0001655.move-sub-tree-of-n-ary-tree.md) (Hard) (Plus)
 - [[0001656](https://leetcode-cn.com/problems/count-good-triplets/)] - [Count Good Triplets 统计好三元组](./problemset_md/0001656.count-good-triplets.md) (Easy)
 - [[0001657](https://leetcode-cn.com/problems/find-the-winner-of-an-array-game/)] - [Find the Winner of an Array Game 找出数组游戏的赢家](./problemset_md/0001657.find-the-winner-of-an-array-game.md) (Medium)
 - [[0001658](https://leetcode-cn.com/problems/minimum-swaps-to-arrange-a-binary-grid/)] - [Minimum Swaps to Arrange a Binary Grid 排布二进制网格的最少交换次数](./problemset_md/0001658.minimum-swaps-to-arrange-a-binary-grid.md) (Medium)
@@ -1541,15 +1541,15 @@
 - [[0001661](https://leetcode-cn.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)] - [Minimum Number of Vertices to Reach All Nodes 可以到达所有点的最少点数目](./problemset_md/0001661.minimum-number-of-vertices-to-reach-all-nodes.md) (Medium)
 - [[0001662](https://leetcode-cn.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)] - [Minimum Numbers of Function Calls to Make Target Array 得到目标数组的最少函数调用次数](./problemset_md/0001662.minimum-numbers-of-function-calls-to-make-target-array.md) (Medium)
 - [[0001663](https://leetcode-cn.com/problems/detect-cycles-in-2d-grid/)] - [Detect Cycles in 2D Grid 二维网格图中探测环](./problemset_md/0001663.detect-cycles-in-2d-grid.md) (Hard)
-- [[0001664](https://leetcode-cn.com/problems/find-users-with-valid-e-mails/)] - [Find Users With Valid E-Mails 查找拥有有效邮箱的用户](./problemset_md/0001664.find-users-with-valid-e-mails.md) (Easy) xxx
-- [[0001665](https://leetcode-cn.com/problems/diameter-of-n-ary-tree/)] - [Diameter of N-Ary Tree N 叉树的直径](./problemset_md/0001665.diameter-of-n-ary-tree.md) (Medium) xxx
+- [[0001664](https://leetcode-cn.com/problems/find-users-with-valid-e-mails/)] - [Find Users With Valid E-Mails 查找拥有有效邮箱的用户](./problemset_md/0001664.find-users-with-valid-e-mails.md) (Easy) (Plus)
+- [[0001665](https://leetcode-cn.com/problems/diameter-of-n-ary-tree/)] - [Diameter of N-Ary Tree N 叉树的直径](./problemset_md/0001665.diameter-of-n-ary-tree.md) (Medium) (Plus)
 - [[0001666](https://leetcode-cn.com/problems/make-the-string-great/)] - [Make The String Great 整理字符串](./problemset_md/0001666.make-the-string-great.md) (Easy)
 - [[0001667](https://leetcode-cn.com/problems/find-kth-bit-in-nth-binary-string/)] - [Find Kth Bit in Nth Binary String 找出第 N 个二进制字符串中的第 K 位](./problemset_md/0001667.find-kth-bit-in-nth-binary-string.md) (Medium)
 - [[0001668](https://leetcode-cn.com/problems/find-longest-awesome-substring/)] - [Find Longest Awesome Substring 找出最长的超赞子字符串](./problemset_md/0001668.find-longest-awesome-substring.md) (Hard)
 - [[0001669](https://leetcode-cn.com/problems/minimum-cost-to-cut-a-stick/)] - [Minimum Cost to Cut a Stick 切棍子的最小成本](./problemset_md/0001669.minimum-cost-to-cut-a-stick.md) (Hard)
-- [[0001670](https://leetcode-cn.com/problems/patients-with-a-condition/)] - [Patients With a Condition 患某种疾病的患者](./problemset_md/0001670.patients-with-a-condition.md) (Easy) xxx
-- [[0001671](https://leetcode-cn.com/problems/the-most-recent-three-orders/)] - [The Most Recent Three Orders 最近的三笔订单](./problemset_md/0001671.the-most-recent-three-orders.md) (Medium) xxx
-- [[0001672](https://leetcode-cn.com/problems/find-the-index-of-the-large-integer/)] - [Find the Index of the Large Integer 找到最大整数的索引](./problemset_md/0001672.find-the-index-of-the-large-integer.md) (Medium) xxx
+- [[0001670](https://leetcode-cn.com/problems/patients-with-a-condition/)] - [Patients With a Condition 患某种疾病的患者](./problemset_md/0001670.patients-with-a-condition.md) (Easy) (Plus)
+- [[0001671](https://leetcode-cn.com/problems/the-most-recent-three-orders/)] - [The Most Recent Three Orders 最近的三笔订单](./problemset_md/0001671.the-most-recent-three-orders.md) (Medium) (Plus)
+- [[0001672](https://leetcode-cn.com/problems/find-the-index-of-the-large-integer/)] - [Find the Index of the Large Integer 找到最大整数的索引](./problemset_md/0001672.find-the-index-of-the-large-integer.md) (Medium) (Plus)
 - [[0001674](https://leetcode-cn.com/problems/minimum-operations-to-make-array-equal/)] - [Minimum Operations to Make Array Equal 使数组中所有元素相等的最小操作数](./problemset_md/0001674.minimum-operations-to-make-array-equal.md) (Medium)
 - [[0001675](https://leetcode-cn.com/problems/magnetic-force-between-two-balls/)] - [Magnetic Force Between Two Balls 两球之间的磁力](./problemset_md/0001675.magnetic-force-between-two-balls.md) (Medium)
 - [[0001676](https://leetcode-cn.com/problems/minimum-number-of-days-to-eat-n-oranges/)] - [Minimum Number of Days to Eat N Oranges 吃掉 N 个橘子的最少天数](./problemset_md/0001676.minimum-number-of-days-to-eat-n-oranges.md) (Hard)
@@ -1557,14 +1557,14 @@
 - [[0001678](https://leetcode-cn.com/problems/number-of-ways-to-split-a-string/)] - [Number of Ways to Split a String 分割字符串的方案数](./problemset_md/0001678.number-of-ways-to-split-a-string.md) (Medium)
 - [[0001679](https://leetcode-cn.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)] - [Shortest Subarray to be Removed to Make Array Sorted 删除最短的子数组使剩余数组有序](./problemset_md/0001679.shortest-subarray-to-be-removed-to-make-array-sorted.md) (Medium)
 - [[0001680](https://leetcode-cn.com/problems/count-all-possible-routes/)] - [Count All Possible Routes 统计所有可行路径](./problemset_md/0001680.count-all-possible-routes.md) (Hard)
-- [[0001681](https://leetcode-cn.com/problems/guess-the-majority-in-a-hidden-array/)] - [Guess the Majority in a Hidden Array 找出隐藏数组中出现次数最多的元素](./problemset_md/0001681.guess-the-majority-in-a-hidden-array.md) (Medium) xxx
+- [[0001681](https://leetcode-cn.com/problems/guess-the-majority-in-a-hidden-array/)] - [Guess the Majority in a Hidden Array 找出隐藏数组中出现次数最多的元素](./problemset_md/0001681.guess-the-majority-in-a-hidden-array.md) (Medium) (Plus)
 - [[0001682](https://leetcode-cn.com/problems/most-visited-sector-in-a-circular-track/)] - [Most Visited Sector in a Circular Track 圆形赛道上经过次数最多的扇区](./problemset_md/0001682.most-visited-sector-in-a-circular-track.md) (Easy)
 - [[0001683](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)] - [Maximum Number of Coins You Can Get 你可以获得的最大硬币数目](./problemset_md/0001683.maximum-number-of-coins-you-can-get.md) (Medium)
 - [[0001684](https://leetcode-cn.com/problems/find-latest-group-of-size-m/)] - [Find Latest Group of Size M 查找大小为 M 的最新分组](./problemset_md/0001684.find-latest-group-of-size-m.md) (Medium)
 - [[0001685](https://leetcode-cn.com/problems/stone-game-v/)] - [Stone Game V 石子游戏 V](./problemset_md/0001685.stone-game-v.md) (Hard)
-- [[0001686](https://leetcode-cn.com/problems/fix-product-name-format/)] - [Fix Product Name Format 产品名称格式修复](./problemset_md/0001686.fix-product-name-format.md) (Easy) xxx
-- [[0001687](https://leetcode-cn.com/problems/the-most-similar-path-in-a-graph/)] - [The Most Similar Path in a Graph 图中最相似的路径](./problemset_md/0001687.the-most-similar-path-in-a-graph.md) (Hard) xxx
-- [[0001688](https://leetcode-cn.com/problems/the-most-recent-orders-for-each-product/)] - [The Most Recent Orders for Each Product 每件商品的最新订单](./problemset_md/0001688.the-most-recent-orders-for-each-product.md) (Medium) xxx
+- [[0001686](https://leetcode-cn.com/problems/fix-product-name-format/)] - [Fix Product Name Format 产品名称格式修复](./problemset_md/0001686.fix-product-name-format.md) (Easy) (Plus)
+- [[0001687](https://leetcode-cn.com/problems/the-most-similar-path-in-a-graph/)] - [The Most Similar Path in a Graph 图中最相似的路径](./problemset_md/0001687.the-most-similar-path-in-a-graph.md) (Hard) (Plus)
+- [[0001688](https://leetcode-cn.com/problems/the-most-recent-orders-for-each-product/)] - [The Most Recent Orders for Each Product 每件商品的最新订单](./problemset_md/0001688.the-most-recent-orders-for-each-product.md) (Medium) (Plus)
 - [[0001689](https://leetcode-cn.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)] - [Detect Pattern of Length M Repeated K or More Times 重复至少 K 次且长度为 M 的模式](./problemset_md/0001689.detect-pattern-of-length-m-repeated-k-or-more-times.md) (Easy)
 - [[0001690](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/)] - [Maximum Length of Subarray With Positive Product 乘积为正数的最长子数组长度](./problemset_md/0001690.maximum-length-of-subarray-with-positive-product.md) (Medium)
 - [[0001691](https://leetcode-cn.com/problems/minimum-number-of-days-to-disconnect-island/)] - [Minimum Number of Days to Disconnect Island 使陆地分离的最少天数](./problemset_md/0001691.minimum-number-of-days-to-disconnect-island.md) (Hard)
@@ -1573,13 +1573,13 @@
 - [[0001694](https://leetcode-cn.com/problems/make-sum-divisible-by-p/)] - [Make Sum Divisible by P 使数组和能被 P 整除](./problemset_md/0001694.make-sum-divisible-by-p.md) (Medium)
 - [[0001695](https://leetcode-cn.com/problems/maximum-sum-obtained-of-any-permutation/)] - [Maximum Sum Obtained of Any Permutation 所有排列中的最大和](./problemset_md/0001695.maximum-sum-obtained-of-any-permutation.md) (Medium)
 - [[0001696](https://leetcode-cn.com/problems/strange-printer-ii/)] - [Strange Printer II 奇怪的打印机 II](./problemset_md/0001696.strange-printer-ii.md) (Hard)
-- [[0001697](https://leetcode-cn.com/problems/strings-differ-by-one-character/)] - [Strings Differ by One Character 只有一个不同字符的字符串](./problemset_md/0001697.strings-differ-by-one-character.md) (Medium) xxx
+- [[0001697](https://leetcode-cn.com/problems/strings-differ-by-one-character/)] - [Strings Differ by One Character 只有一个不同字符的字符串](./problemset_md/0001697.strings-differ-by-one-character.md) (Medium) (Plus)
 - [[0001698](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)] - [Replace All ?'s to Avoid Consecutive Repeating Characters 替换所有的问号](./problemset_md/0001698.replace-all-s-to-avoid-consecutive-repeating-characters.md) (Easy)
 - [[0001699](https://leetcode-cn.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)] - [Number of Ways Where Square of Number Is Equal to Product of Two Numbers 数的平方等于两数乘积的方法数](./problemset_md/0001699.number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers.md) (Medium)
 - [[0001700](https://leetcode-cn.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)] - [Minimum Deletion Cost to Avoid Repeating Letters 避免重复字母的最小删除成本](./problemset_md/0001700.minimum-deletion-cost-to-avoid-repeating-letters.md) (Medium)
 - [[0001701](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)] - [Remove Max Number of Edges to Keep Graph Fully Traversable 保证图可完全遍历](./problemset_md/0001701.remove-max-number-of-edges-to-keep-graph-fully-traversable.md) (Hard)
-- [[0001702](https://leetcode-cn.com/problems/bank-account-summary/)] - [Bank Account Summary 银行账户概要](./problemset_md/0001702.bank-account-summary.md) (Medium) xxx
-- [[0001703](https://leetcode-cn.com/problems/put-boxes-into-the-warehouse-i/)] - [Put Boxes Into the Warehouse I 把箱子放进仓库里 I](./problemset_md/0001703.put-boxes-into-the-warehouse-i.md) (Medium) xxx
+- [[0001702](https://leetcode-cn.com/problems/bank-account-summary/)] - [Bank Account Summary 银行账户概要](./problemset_md/0001702.bank-account-summary.md) (Medium) (Plus)
+- [[0001703](https://leetcode-cn.com/problems/put-boxes-into-the-warehouse-i/)] - [Put Boxes Into the Warehouse I 把箱子放进仓库里 I](./problemset_md/0001703.put-boxes-into-the-warehouse-i.md) (Medium) (Plus)
 - [[0001704](https://leetcode-cn.com/problems/special-positions-in-a-binary-matrix/)] - [Special Positions in a Binary Matrix 二进制矩阵中的特殊位置](./problemset_md/0001704.special-positions-in-a-binary-matrix.md) (Easy)
 - [[0001705](https://leetcode-cn.com/problems/count-unhappy-friends/)] - [Count Unhappy Friends 统计不开心的朋友](./problemset_md/0001705.count-unhappy-friends.md) (Medium)
 - [[0001706](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)] - [Min Cost to Connect All Points 连接所有点的最小费用](./problemset_md/0001706.min-cost-to-connect-all-points.md) (Medium)
@@ -1588,35 +1588,35 @@
 - [[0001709](https://leetcode-cn.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)] - [Alert Using Same Key-Card Three or More Times in a One Hour Period 警告一小时内使用相同员工卡大于等于三次的人](./problemset_md/0001709.alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.md) (Medium)
 - [[0001710](https://leetcode-cn.com/problems/find-servers-that-handled-most-number-of-requests/)] - [Find Servers That Handled Most Number of Requests 找到处理最多请求的服务器](./problemset_md/0001710.find-servers-that-handled-most-number-of-requests.md) (Hard)
 - [[0001711](https://leetcode-cn.com/problems/find-valid-matrix-given-row-and-column-sums/)] - [Find Valid Matrix Given Row and Column Sums 给定行和列的和求可行矩阵](./problemset_md/0001711.find-valid-matrix-given-row-and-column-sums.md) (Medium)
-- [[0001712](https://leetcode-cn.com/problems/unique-orders-and-customers-per-month/)] - [Unique Orders and Customers Per Month 按月统计订单数与顾客数](./problemset_md/0001712.unique-orders-and-customers-per-month.md) (Easy) xxx
-- [[0001713](https://leetcode-cn.com/problems/dot-product-of-two-sparse-vectors/)] - [Dot Product of Two Sparse Vectors 两个稀疏向量的点积](./problemset_md/0001713.dot-product-of-two-sparse-vectors.md) (Medium) xxx
+- [[0001712](https://leetcode-cn.com/problems/unique-orders-and-customers-per-month/)] - [Unique Orders and Customers Per Month 按月统计订单数与顾客数](./problemset_md/0001712.unique-orders-and-customers-per-month.md) (Easy) (Plus)
+- [[0001713](https://leetcode-cn.com/problems/dot-product-of-two-sparse-vectors/)] - [Dot Product of Two Sparse Vectors 两个稀疏向量的点积](./problemset_md/0001713.dot-product-of-two-sparse-vectors.md) (Medium) (Plus)
 - [[0001714](https://leetcode-cn.com/problems/rearrange-spaces-between-words/)] - [Rearrange Spaces Between Words 重新排列单词间的空格](./problemset_md/0001714.rearrange-spaces-between-words.md) (Easy)
 - [[0001715](https://leetcode-cn.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)] - [Split a String Into the Max Number of Unique Substrings 拆分字符串使唯一子字符串的数目最大](./problemset_md/0001715.split-a-string-into-the-max-number-of-unique-substrings.md) (Medium)
 - [[0001716](https://leetcode-cn.com/problems/maximum-non-negative-product-in-a-matrix/)] - [Maximum Non Negative Product in a Matrix 矩阵的最大非负积](./problemset_md/0001716.maximum-non-negative-product-in-a-matrix.md) (Medium)
 - [[0001717](https://leetcode-cn.com/problems/minimum-cost-to-connect-two-groups-of-points/)] - [Minimum Cost to Connect Two Groups of Points 连通两组点的最小成本](./problemset_md/0001717.minimum-cost-to-connect-two-groups-of-points.md) (Hard)
-- [[0001718](https://leetcode-cn.com/problems/warehouse-manager/)] - [Warehouse Manager 仓库经理](./problemset_md/0001718.warehouse-manager.md) (Easy) xxx
-- [[0001719](https://leetcode-cn.com/problems/put-boxes-into-the-warehouse-ii/)] - [Put Boxes Into the Warehouse II ](./problemset_md/0001719.put-boxes-into-the-warehouse-ii.md) (Medium) xxx
+- [[0001718](https://leetcode-cn.com/problems/warehouse-manager/)] - [Warehouse Manager 仓库经理](./problemset_md/0001718.warehouse-manager.md) (Easy) (Plus)
+- [[0001719](https://leetcode-cn.com/problems/put-boxes-into-the-warehouse-ii/)] - [Put Boxes Into the Warehouse II ](./problemset_md/0001719.put-boxes-into-the-warehouse-ii.md) (Medium) (Plus)
 - [[0001720](https://leetcode-cn.com/problems/crawler-log-folder/)] - [Crawler Log Folder 文件夹操作日志搜集器](./problemset_md/0001720.crawler-log-folder.md) (Easy)
 - [[0001721](https://leetcode-cn.com/problems/maximum-profit-of-operating-a-centennial-wheel/)] - [Maximum Profit of Operating a Centennial Wheel 经营摩天轮的最大利润](./problemset_md/0001721.maximum-profit-of-operating-a-centennial-wheel.md) (Medium)
 - [[0001722](https://leetcode-cn.com/problems/throne-inheritance/)] - [Throne Inheritance 皇位继承顺序](./problemset_md/0001722.throne-inheritance.md) (Medium)
 - [[0001723](https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/)] - [Maximum Number of Achievable Transfer Requests 最多可达成的换楼请求数目](./problemset_md/0001723.maximum-number-of-achievable-transfer-requests.md) (Hard)
-- [[0001724](https://leetcode-cn.com/problems/customer-who-visited-but-did-not-make-any-transactions/)] - [Customer Who Visited but Did Not Make Any Transactions 进店却未进行过交易的客户](./problemset_md/0001724.customer-who-visited-but-did-not-make-any-transactions.md) (Easy) xxx
-- [[0001729](https://leetcode-cn.com/problems/binary-search-tree-iterator-ii/)] - [Binary Search Tree Iterator II 二叉搜索树迭代器 II](./problemset_md/0001729.binary-search-tree-iterator-ii.md) (Medium) xxx
+- [[0001724](https://leetcode-cn.com/problems/customer-who-visited-but-did-not-make-any-transactions/)] - [Customer Who Visited but Did Not Make Any Transactions 进店却未进行过交易的客户](./problemset_md/0001724.customer-who-visited-but-did-not-make-any-transactions.md) (Easy) (Plus)
+- [[0001729](https://leetcode-cn.com/problems/binary-search-tree-iterator-ii/)] - [Binary Search Tree Iterator II 二叉搜索树迭代器 II](./problemset_md/0001729.binary-search-tree-iterator-ii.md) (Medium) (Plus)
 - [[0001730](https://leetcode-cn.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)] - [Special Array With X Elements Greater Than or Equal X 特殊数组的特征值](./problemset_md/0001730.special-array-with-x-elements-greater-than-or-equal-x.md) (Easy)
 - [[0001731](https://leetcode-cn.com/problems/even-odd-tree/)] - [Even Odd Tree 奇偶树](./problemset_md/0001731.even-odd-tree.md) (Medium)
 - [[0001732](https://leetcode-cn.com/problems/minimum-one-bit-operations-to-make-integers-zero/)] - [Minimum One Bit Operations to Make Integers Zero 使整数变为 0 的最少操作次数](./problemset_md/0001732.minimum-one-bit-operations-to-make-integers-zero.md) (Hard)
 - [[0001733](https://leetcode-cn.com/problems/maximum-number-of-visible-points/)] - [Maximum Number of Visible Points 可见点的最大数目](./problemset_md/0001733.maximum-number-of-visible-points.md) (Hard)
-- [[0001734](https://leetcode-cn.com/problems/bank-account-summary-ii/)] - [Bank Account Summary II ](./problemset_md/0001734.bank-account-summary-ii.md) (Easy) xxx
-- [[0001735](https://leetcode-cn.com/problems/the-most-frequently-ordered-products-for-each-customer/)] - [The Most Frequently Ordered Products for Each Customer 每位顾客最经常订购的商品](./problemset_md/0001735.the-most-frequently-ordered-products-for-each-customer.md) (Medium) xxx
+- [[0001734](https://leetcode-cn.com/problems/bank-account-summary-ii/)] - [Bank Account Summary II ](./problemset_md/0001734.bank-account-summary-ii.md) (Easy) (Plus)
+- [[0001735](https://leetcode-cn.com/problems/the-most-frequently-ordered-products-for-each-customer/)] - [The Most Frequently Ordered Products for Each Customer 每位顾客最经常订购的商品](./problemset_md/0001735.the-most-frequently-ordered-products-for-each-customer.md) (Medium) (Plus)
 - [[0001736](https://leetcode-cn.com/problems/build-binary-expression-tree-from-infix-expression/)] - [Build Binary Expression Tree From Infix Expression 根据中缀表达式构造二叉表达式树](./problemset_md/0001736.build-binary-expression-tree-from-infix-expression.md) (Hard)
 - [[0001737](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)] - [Maximum Nesting Depth of the Parentheses 括号的最大嵌套深度](./problemset_md/0001737.maximum-nesting-depth-of-the-parentheses.md) (Easy)
 - [[0001738](https://leetcode-cn.com/problems/maximal-network-rank/)] - [Maximal Network Rank 最大网络秩](./problemset_md/0001738.maximal-network-rank.md) (Medium)
 - [[0001739](https://leetcode-cn.com/problems/split-two-strings-to-make-palindrome/)] - [Split Two Strings to Make Palindrome 分割两个字符串得到回文串](./problemset_md/0001739.split-two-strings-to-make-palindrome.md) (Medium)
 - [[0001740](https://leetcode-cn.com/problems/count-subtrees-with-max-distance-between-cities/)] - [Count Subtrees With Max Distance Between Cities 统计子树中城市之间最大距离](./problemset_md/0001740.count-subtrees-with-max-distance-between-cities.md) (Hard)
-- [[0001745](https://leetcode-cn.com/problems/find-nearest-right-node-in-binary-tree/)] - [Find Nearest Right Node in Binary Tree ](./problemset_md/0001745.find-nearest-right-node-in-binary-tree.md) (Medium) xxx
-- [[0001749](https://leetcode-cn.com/problems/sellers-with-no-sales/)] - [Sellers With No Sales ](./problemset_md/0001749.sellers-with-no-sales.md) (Easy) xxx
-- [[0001750](https://leetcode-cn.com/problems/check-if-two-expression-trees-are-equivalent/)] - [Check If Two Expression Trees are Equivalent ](./problemset_md/0001750.check-if-two-expression-trees-are-equivalent.md) (Medium) xxx
-- [[0001759](https://leetcode-cn.com/problems/find-the-missing-ids/)] - [Find the Missing IDs ](./problemset_md/0001759.find-the-missing-ids.md) (Medium) xxx
+- [[0001745](https://leetcode-cn.com/problems/find-nearest-right-node-in-binary-tree/)] - [Find Nearest Right Node in Binary Tree ](./problemset_md/0001745.find-nearest-right-node-in-binary-tree.md) (Medium) (Plus)
+- [[0001749](https://leetcode-cn.com/problems/sellers-with-no-sales/)] - [Sellers With No Sales ](./problemset_md/0001749.sellers-with-no-sales.md) (Easy) (Plus)
+- [[0001750](https://leetcode-cn.com/problems/check-if-two-expression-trees-are-equivalent/)] - [Check If Two Expression Trees are Equivalent ](./problemset_md/0001750.check-if-two-expression-trees-are-equivalent.md) (Medium) (Plus)
+- [[0001759](https://leetcode-cn.com/problems/find-the-missing-ids/)] - [Find the Missing IDs ](./problemset_md/0001759.find-the-missing-ids.md) (Medium) (Plus)
 - [[0100092](https://leetcode-cn.com/problems/deep-dark-fraction/)] - [Deep Dark Fraction 分式化简](./problemset_md/0100092.deep-dark-fraction.md) (Easy)
 - [[0100093](https://leetcode-cn.com/problems/broken-board-dominoes/)] - [Broken Board Dominoes 覆盖](./problemset_md/0100093.broken-board-dominoes.md) (Hard)
 - [[0100094](https://leetcode-cn.com/problems/coin-bonus/)] - [Coin Bonus 发 LeetCoin](./problemset_md/0100094.coin-bonus.md) (Hard)
